@@ -1,9 +1,17 @@
-const axios = require('axios');
-const path = require('path');
-const fs = require('fs');
-const dotenv = require('dotenv');
-const { Artists } = require('../models/index.ts');
-const genreList:object[] = [
+import { Request, Response } from 'express';
+import db from '../models';
+import { Op, BulkCreateOptions } from 'sequelize';
+import bcrypt from 'bcrypt';
+import axios from 'axios';
+import dotenv from 'dotenv';
+import Artists from '../models/index';
+import fs from 'fs';
+import path from 'path';
+import { ArtistAttributes, GenreDetail } from '../modules/artists';
+
+
+// genre detail info
+const genreList:GenreDetail[] = [
     {name: 'Alternative', id: 'KnvZfZ7vAvv'},
     {name: 'Ballads-Romantic', id: 'KnvZfZ7vAve'},
     {name: 'Blues', id: 'KnvZfZ7vAvd'},
@@ -29,10 +37,34 @@ const genreList:object[] = [
     {name: 'World', id: 'KnvZfZ7vAeF'},
 ];
 
-exports.getArtistsInit = async (req: Request, res: Response) => {
+exports.getArtistsInit = async (req: Request, res: Response): Promise<void> => {
     try {
+        let bulkArtists:ArtistAttributes[] = [];
+        genreList.forEach((genre) => {
+            // read each json files
+            const readJsonFilePath = path.join(__dirname, `artists_${genre.name}.json`)
+            const jsonFile = fs.readFileSync(readJsonFilePath);
+            const jsonData = JSON.parse(jsonFile.toString());
 
+            // insert artists into bulkArtists
+            bulkArtists.push({
+                artist_id: jsonData.artist_id,
+                artist_name: jsonData.artist_name,
+                artist_profile: jsonData.artist_profile,
+                profile_click: 0
+            });
+        });
+
+        const artists = await Artists.bulkCreate(bulkArtists);
+        
+        if(artists) {
+            let text:string = "true";
+            // res.text(text);
+        }
+        
     } catch (err) {
-
+        // Handle any errors that occur
+        console.error(err);
+        // res.status(500).json({ success: "false", message: "An error occurred" });
     }
 }
