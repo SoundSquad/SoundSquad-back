@@ -1,5 +1,8 @@
 import express, { Express, Request, Response } from 'express';
+
 import userRouter from './routes/Ruser';
+import searchRouter from './routes/Rsearch';
+
 import dotenv from 'dotenv';
 import sequelize  from './models';
 import cors from 'cors';
@@ -14,6 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use('/user', userRouter);
+app.use('/search', searchRouter);
 
 app.get('*', (req: Request, res: Response) => {
     res.render('404');

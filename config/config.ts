@@ -13,7 +13,6 @@ interface DbConfig {
   database: string;
   host: string;
   dialect: 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql';
-  port?: string;
 }
 
 interface Config {
@@ -24,19 +23,18 @@ interface Config {
 
 const config: Config = {
   development: {
-    username: process.env.DB_USER || '',
+    username: process.env.DB_USERNAME || '',
     password: process.env.DB_PASSWORD || '',
     database: process.env.DB_DATABASE || '',
     host: process.env.DB_HOST || '',
     dialect: (process.env.DB_DIALECT as DbConfig['dialect']) || 'mysql',
   },
   server: {
-    username: process.env.DB_USER || '',
+    username: process.env.DB_USERNAME || '',
     password: process.env.DB_PASSWORD || '',
     database: process.env.DB_NAME || '',
     host: process.env.DB_HOST || '',
     dialect: (process.env.DB_DIALECT as DbConfig['dialect']) || 'mysql',
-    port: process.env.DB_PORT,
   },
 };
 
