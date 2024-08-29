@@ -25,7 +25,7 @@ router.post('/comment', controller.postCommunityComment);
 router.patch('/comment/edit', controller.patchCommunityComment);
 
 //댓글 삭제하기
-router.patch('/comment/delete', controller.deleteCommunityComment);
+router.delete('/comment/delete', controller.deleteCommunityComment);
 
 
 

@@ -3,8 +3,6 @@ import config from '../config/config';
 
 const env = process.env.NODE_ENV || 'development';
 const dbConfig = config[env as keyof typeof config];
-console.log("node_env >>>>", process.env.NODE_ENV);
-console.log("node_env >>>>", dbConfig.password);
 
 const sequelize = new Sequelize(
   dbConfig.database,

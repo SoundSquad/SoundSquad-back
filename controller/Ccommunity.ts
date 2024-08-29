@@ -48,13 +48,12 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
 
 export const getCommunityPost = async (req: Request, res: Response) => {
   try {    
-    const reqArticleNumStr = req.query.article_num as string | undefined;
 
-    if (!reqArticleNumStr) {
+    const articleNum = parseInt( req.query.article_num as string) || undefined;
+
+    if (!articleNum) {
       return res.status(400).json({ msg : '조회할 게시글의 식별번호를 입력해야 합니다.' });
     }
-
-    const articleNum = parseInt( reqArticleNumStr, 10);
 
     const result = await db.Community.findOne({
       where: { activate: true, article_num: articleNum },
@@ -89,8 +88,9 @@ export const getCommunityPost = async (req: Request, res: Response) => {
 // 커뮤니티 게시판에 게시글을 작성하는 경우
 export const postCommunityPost = async( req:Request, res:Response )=>{
   try{
-    const { user_num, category, article_title, article_content } = req.body;
-    
+    const { category, article_title, article_content } = req.body;
+    const user_num = parseInt(req.body.user_num)|| undefined;
+
     if(!user_num){
       return res.status(403).json({msg : '게시글 작성 권한이 없습니다.'});
     }
@@ -124,8 +124,12 @@ interface UpdateTargetCommunity { // 추후 분리 예정
 
 export const patchCommunityPost = async (req: Request, res: Response) => {
   try {
-    const { article_num, user_num, category, article_title, article_content } = req.body;
-    
+    const { category, article_title, article_content } = req.body;
+
+    const article_num = parseInt(req.body.article_num) || undefined;
+    const user_num = parseInt(req.body.user_num)|| undefined;
+
+
     if (!user_num || !article_num || !category || !article_title || !article_content) {
       return res.status(400).json({ msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.' });
     }
@@ -169,8 +173,10 @@ interface DeleteTarget { // 추후 분리 예정
 
 export const deleteCommunityPost = async( req : Request, res: Response )=>{
   try {
-    const {user_num, article_num} = req.body;
-    
+    const user_num = parseInt(req.body.user_num)|| undefined;
+    const article_num = parseInt(req.body.article_num)|| undefined;
+
+
     const target = await db.Community.findOne({ where: { article_num, activate: true } });
       
     if (!target) {
@@ -203,8 +209,10 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
 
 export const postCommunityComment = async( req:Request, res: Response )=>{
   try{
-    const { user_num, article_num, comment_content } = req.body;
-    
+    const { comment_content } = req.body;
+    const user_num = parseInt(req.body.user_num)|| undefined;
+    const article_num = parseInt(req.body.article_num)|| undefined;
+
     if(!user_num){
       return res.status(403).json({msg : '댓글 작성 권한이 없습니다.'});
     }
@@ -231,10 +239,9 @@ interface UpdateTargetComment { // 추후 분리 예정
 }
 export const patchCommunityComment = async( req:Request, res:Response )=>{
   try {
-    const{ comment_num, comment_content }=req?.body;
-    const user_num = parseInt(req.body?.user_num);
-
-    console.log( user_num, comment_num, comment_content);
+    const{ comment_content }=req?.body;
+    const user_num = parseInt(req.body?.user_num)|| undefined;
+    const comment_num = parseInt(req.body?.comment_num) || undefined;
     
     if (!user_num || !comment_num || !comment_content ) {
       return res.status(400).json({ msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.' });
@@ -273,15 +280,10 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
 }
 
 
-export const deleteCommunityComment = async( req : Request, res: Response )=>{
-  console.log('deleteCommunityComment 진입');
-  
+export const deleteCommunityComment = async( req : Request, res: Response )=>{  
   try {
-    const comment_num = parseInt(req.body?.comment_num);
-    const user_num = parseInt(req.body?.user_num);
-
-    console.log('1111', comment_num );
-    console.log('2222', user_num );
+    const comment_num = parseInt(req.body?.comment_num) || undefined;
+    const user_num = parseInt(req.body?.user_num) || undefined;
     
     
     const target = await db.Comment.findOne({ where: { comment_num, activate: true } });
