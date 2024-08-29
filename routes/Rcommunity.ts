@@ -10,24 +10,21 @@ router.get('/list', controller.getCommunityPosts);
 router.get('/detail',controller.getCommunityPost);
 
 //커뮤니티 게시글 등록하기
-router.post('/post', controller.postCommunityPost);
+router.post('/', controller.postCommunityPost);
 
 //커뮤니티 게시글 수정하기
-router.patch('/edit', controller.patchCommunityPost);
+router.patch('/', controller.patchCommunityPost);
 
 //커뮤니티 게시글 삭제하기
-router.delete('/delete',controller.deleteCommunityPost);
+router.delete('/',controller.deleteCommunityPost);
 
 //커뮤니디 게시글에 댓글을 등록하기
 router.post('/comment', controller.postCommunityComment);
 
 //댓글 수정하기
-router.patch('/comment/edit', controller.patchCommunityComment);
+router.patch('/comment', controller.patchCommunityComment);
 
 //댓글 삭제하기
-router.delete('/comment/delete', controller.deleteCommunityComment);
-
-
-
+router.delete('/comment', controller.deleteCommunityComment);
 
 export default router;
