@@ -1,12 +1,12 @@
 import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
 
 interface CommunityAttributes {
-  article_num: number;
+  article_num?: number;
   user_num: number;
   category: string;
   article_title: string;
   article_content: string;
-  activate: boolean;
+  activate?: boolean;
 }
 
 interface CommunityModel extends Model<CommunityAttributes>, CommunityAttributes {}
@@ -45,7 +45,7 @@ const Community = (sequelize: Sequelize): CommunityStatic => {
     },
     {
       freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      timestamps: true, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
     }
   );
 

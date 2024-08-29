@@ -1,16 +1,27 @@
-exports.pageOffset = ( page:number = 1, pageSize:number = 8 )=>{
-    const offset = (page - 1) * pageSize;
-    return offset;
+interface PaginationResult<T> {
+  [key: string]: T | number;
+  currentPage: number;
+  totalPages: number;
+  totalItems: number;
 }
 
-exports.resPagination = (data : object, count :number, page: number, pageSize:number, key: string = "data"  ) =>{
+export const offsetPagination = (page: number = 1, pageSize: number = 6): number => {
+  return (page - 1) * pageSize;
+};
+
+export const responsePagination = <T>(
+  data: T,
+  count: number,
+  page: number,
+  pageSize: number,
+  key: string = "data"
+): PaginationResult<T> => {
   const totalPages = Math.ceil(count / pageSize);
-  const offset = (page - 1) * pageSize;
   
   return {
-      [key]: data, // 동적 사용
+      [key]: data,
       currentPage: page,
       totalPages,
-      totalReviews: count,
+      totalItems: count,
   };
 };
