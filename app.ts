@@ -1,5 +1,9 @@
 import express, { Express, Request, Response } from 'express';
+
 import userRouter from './routes/Ruser';
+import searchRouter from './routes/Rsearch';
+import communityRouter from './routes/Rcommunity';
+
 import dotenv from 'dotenv';
 import sequelize  from './models';
 import cors from 'cors';
@@ -13,7 +17,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
+app.get('/',(req,res)=>{
+    res.send('hello');
+})
+
 app.use('/user', userRouter);
+app.use('/search', searchRouter);
+app.use('/community', communityRouter);
+
 
 app.get('*', (req: Request, res: Response) => {
     res.render('404');
