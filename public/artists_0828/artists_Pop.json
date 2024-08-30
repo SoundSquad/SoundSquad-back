@@ -1,0 +1,4647 @@
+[
+  {
+    "artist_id": "K8vZ9171xeV",
+    "artist_name": "Shakira",
+    "artist_profile": "https://s1.ticketm.net/dam/a/948/b2af9578-af9a-4d19-ba25-a8d2ef7f7948_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917o-w7",
+    "artist_name": "Becky G",
+    "artist_profile": "https://s1.ticketm.net/dam/a/19e/b04ad131-5637-4c57-bfe9-11edbc37119e_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174027",
+    "artist_name": "Maggie Rogers",
+    "artist_profile": "https://s1.ticketm.net/dam/a/097/a021a901-328e-4802-a78b-799dc5784097_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q4qf",
+    "artist_name": "Joshua Bassett",
+    "artist_profile": "https://s1.ticketm.net/dam/a/180/7512cd32-bd46-4228-adfa-f8a5519dd180_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9171KH0",
+    "artist_name": "Celine Dion",
+    "artist_profile": "https://s1.ticketm.net/dam/a/56f/cbe8846c-8903-4945-b81c-c50f27f9856f_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9175YN7",
+    "artist_name": "Gloria Trevi",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8c5/3f331923-39ea-4e9c-974d-7145e6d5e8c5_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b-ZV",
+    "artist_name": "Remi Wolf",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fb7/92a705ac-76b4-49c5-bf95-a2c384ddbfb7_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYD7",
+    "artist_name": "Artemas",
+    "artist_profile": "https://s1.ticketm.net/dam/a/70f/44afb8a1-45a9-4d4f-bffd-6a725de7e70f_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jlC0",
+    "artist_name": "I.M (Monsta X)",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c41/ad91ad39-30df-4f82-9291-bc3c0bec8c41_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q6Q7",
+    "artist_name": "Will Wood",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a4d/b8b08cc4-3ab5-4d62-9933-61f7893e9a4d_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174edf",
+    "artist_name": "Morat",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ed1/5f11ba40-f244-46b2-8f27-6ac9314e1ed1_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QQOf",
+    "artist_name": "Leanna Firestone",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2da/692c358d-d566-475d-a334-043b1b5222da_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdI0",
+    "artist_name": "d4vd",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b9f/bf302bd2-94d7-42d8-9bff-3de77bf7eb9f_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QcuV",
+    "artist_name": "eaJ",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5bd/f7a0f4bc-c789-48ed-ac38-23fb5e2bf5bd_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jDMf",
+    "artist_name": "Lee Jae Hoon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QpJV",
+    "artist_name": "Zach Hood",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f88/7c881d00-8172-461c-9d8c-ec17659d4f88_1662151_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bOzV",
+    "artist_name": "Tones And I",
+    "artist_profile": "https://s1.ticketm.net/dam/a/14a/4975d145-f322-45e1-9e54-be72d911514a_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917hAs7",
+    "artist_name": "Natalie Jane",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b40/b7b7ff29-9ab8-4e52-a89f-9aee78b69b40_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174sH0",
+    "artist_name": "Drugdealer",
+    "artist_profile": "https://s1.ticketm.net/dam/a/03a/505c1094-bc39-44eb-af4e-66a0a4b0003a_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917__-f",
+    "artist_name": "renforshort",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d70/2b2149fd-b4ed-4d41-9533-c4c7cbf97d70_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pkq7",
+    "artist_name": "Carminho",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a91/10da0b62-b364-4deb-afd9-2be60c9a4a91_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jbv0",
+    "artist_name": "Brenn!",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3df/b821d92d-9a9f-4514-99cb-1c58ed7ca3df_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qAs7",
+    "artist_name": "Shanin Blake",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q9y7",
+    "artist_name": "Carol Ades",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b00/3f2c434e-db94-412d-9e29-aa95ee2c4b00_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdQV",
+    "artist_name": "Olivia Barton",
+    "artist_profile": "https://s1.ticketm.net/dam/a/dd7/22662eb6-fa72-4309-94d0-31e5c930fdd7_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174vu7",
+    "artist_name": "India Martínez",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ee9/5d619e05-3f17-4ca6-bf02-a6c7ff874ee9_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7Ed1k",
+    "artist_name": "Sara Kays",
+    "artist_profile": "https://s1.ticketm.net/dam/a/450/27d3ae8d-8b00-4085-b84f-137722005450_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917b8NV",
+    "artist_name": "Daniel Emmet",
+    "artist_profile": "https://s1.ticketm.net/dam/a/032/4ac08183-48cd-4e91-b861-6f15b74d9032_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJD0",
+    "artist_name": "Piao",
+    "artist_profile": "https://s1.ticketm.net/dam/a/4f8/8a6e15a9-2602-49f1-bca4-ee3ad3e994f8_1734691_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QghV",
+    "artist_name": "Matt Hansen",
+    "artist_profile": "https://s1.ticketm.net/dam/a/466/258f0511-41c4-4f18-ac96-e80b5c3c5466_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h-YV",
+    "artist_name": "Lauren Mayberry",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a57/52daa7fb-e7be-4349-a197-e292964e2a57_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b-I0",
+    "artist_name": "Stephen Day",
+    "artist_profile": "https://s1.ticketm.net/dam/a/17c/cbc23199-5fa2-4dc3-9f0c-829f8e06017c_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYfV",
+    "artist_name": "Thomas Day",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b7b/c141412f-1b01-40ea-b9b9-cbe513fbdb7b_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917992V",
+    "artist_name": "Sebastian",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hLHf",
+    "artist_name": "Marz23",
+    "artist_profile": "https://s1.ticketm.net/dam/a/27a/22f6a9b0-dc39-42a9-a3f3-a20b28f9827a_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917uC4f",
+    "artist_name": "Carsie Blanton",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hAj0",
+    "artist_name": "Hayes Warner",
+    "artist_profile": "https://s1.ticketm.net/dam/a/820/9363e53a-41e8-4c48-a5d6-20aa00642820_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_zp0",
+    "artist_name": "Lisa Heller",
+    "artist_profile": "https://s1.ticketm.net/dam/a/393/4b9c9e1e-75ca-4158-ab0b-b5e24bde5393_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9178Te0",
+    "artist_name": "Philippe Katerine",
+    "artist_profile": "https://s1.ticketm.net/dam/a/935/e3773de4-92e7-4744-8982-fe63607b0935_1280681_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q0Hf",
+    "artist_name": "Endie",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hlkf",
+    "artist_name": "Ryan Nealon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91734Qf",
+    "artist_name": "Christian Marc Gendron",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b3f/55c7feac-f40f-405c-b327-154c776aab3f_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917414V",
+    "artist_name": "Elefantes",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91741f7",
+    "artist_name": "Luz Casal",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Qy7",
+    "artist_name": "Tribute to the Beatles",
+    "artist_profile": "https://s1.ticketm.net/dam/a/86d/dcde18b0-3212-48b2-84b7-12ca70d9e86d_452841_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174cZ0",
+    "artist_name": "Shary-An",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174eS0",
+    "artist_name": "Boyzlife",
+    "artist_profile": "https://s1.ticketm.net/dam/a/470/4b833776-ea08-40af-a124-53bde1042470_146111_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174h1V",
+    "artist_name": "Beyries",
+    "artist_profile": "https://s1.ticketm.net/dam/a/84e/6b95ba42-7cfa-44ed-abdb-a10daa78184e_1632821_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91798e7",
+    "artist_name": "Ben Zucker",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179FXV",
+    "artist_name": "Jan Bendig",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179L-f",
+    "artist_name": "Lina",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Lr0",
+    "artist_name": "Natalia Kukulska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179d87",
+    "artist_name": "Ondřej Ruml",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179dzV",
+    "artist_name": "Michal David",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179er7",
+    "artist_name": "Marlene Bakker",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179gP0",
+    "artist_name": "Emma Bale",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179uNV",
+    "artist_name": "Django Wagner",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179voV",
+    "artist_name": "Helena Vondráčková",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179wg7",
+    "artist_name": "Mela Koteluk",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917GuR0",
+    "artist_name": "Johnny Reid",
+    "artist_profile": "https://s1.ticketm.net/dam/a/69b/9b825d58-b0c1-42ac-bb08-16d5ce94569b_1565711_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QBYV",
+    "artist_name": "Ellur",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QBo0",
+    "artist_name": "Kai Bosch",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QI0V",
+    "artist_name": "Pablo Brooks",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QLb0",
+    "artist_name": "Flemming",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QQO7",
+    "artist_name": "Kasper Buch",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QRJV",
+    "artist_name": "Jamie Fine",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2e6/33bf0f71-c2de-43b2-891c-0eaea8a0e2e6_1793921_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYyV",
+    "artist_name": "Aine Deane",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QeF7",
+    "artist_name": "İlyas Yalçıntaş",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qi77",
+    "artist_name": "Aonair",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qmk7",
+    "artist_name": "Aime Simone",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QmnV",
+    "artist_name": "Kuba Badach",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QsaV",
+    "artist_name": "Tom Rasmussen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QxuV",
+    "artist_name": "Foliage",
+    "artist_profile": "https://s1.ticketm.net/dam/a/cc7/e280d471-90a2-4a1b-8a27-ecfbd494acc7_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_0yV",
+    "artist_name": "Brooke Combe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_FJV",
+    "artist_name": "Luna",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_SkV",
+    "artist_name": "Sebastian Zalo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Y87",
+    "artist_name": "Sabrina Song",
+    "artist_profile": "https://s1.ticketm.net/dam/a/66e/45496cd3-a10a-4ecf-9780-366ee378766e_1545391_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Yef",
+    "artist_name": "Bjørn Tomren",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_b0V",
+    "artist_name": "Kaleena Zanders",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_bSf",
+    "artist_name": "Vito Bambino",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_pEf",
+    "artist_name": "Marie Diot",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b4jV",
+    "artist_name": "Monika Absolonová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b_-0",
+    "artist_name": "Michal Szpak",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b_H7",
+    "artist_name": "Lukasz Zagrobelny",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917baQ0",
+    "artist_name": "Lori Lieberman",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bikf",
+    "artist_name": "Iwona Loranc",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bohf",
+    "artist_name": "Nico Santos",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917btH7",
+    "artist_name": "Wilhelmine",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h427",
+    "artist_name": "Ammar",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h7if",
+    "artist_name": "Katie Koss",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h8p7",
+    "artist_name": "Becca Hatch",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hEOV",
+    "artist_name": "Jon Muq",
+    "artist_profile": "https://s1.ticketm.net/dam/a/501/3714052c-dba7-48f4-9b1b-71f0c83cb501_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hEP7",
+    "artist_name": "Charley",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hGQV",
+    "artist_name": "Bebe Stockwell",
+    "artist_profile": "https://s1.ticketm.net/dam/a/04d/0e9b6f5a-992e-466e-ae07-dee962f3904d_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hNC0",
+    "artist_name": "Andrew Garden",
+    "artist_profile": "https://s1.ticketm.net/dam/a/998/2dec2e8c-801b-4cb9-a93c-b0e44e755998_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hRt0",
+    "artist_name": "Jacob Alon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTL0",
+    "artist_name": "MacKenzy MacKay",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hXsV",
+    "artist_name": "Monika Bagárová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYjf",
+    "artist_name": "MarynCharlie",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hZ_7",
+    "artist_name": "SERA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hbEV",
+    "artist_name": "Marco Schuitmaker",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hjDV",
+    "artist_name": "Kasia Mos",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hkmf",
+    "artist_name": "Memphis LK",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hsgf",
+    "artist_name": "Kire",
+    "artist_profile": "https://s1.ticketm.net/dam/a/533/c4842f8e-3eed-4c58-a5d0-8a68bbe6f533_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huCf",
+    "artist_name": "Taylor Bickett",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huEf",
+    "artist_name": "Tereza Mašková",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j9OV",
+    "artist_name": "Lilly Fitts",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7de/de41cba6-7ab0-4c2d-9c16-39f8d2a067de_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j9k0",
+    "artist_name": "Gabi Sklar",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j9s7",
+    "artist_name": "Sophia",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jBa7",
+    "artist_name": "Bizzy",
+    "artist_profile": "https://s1.ticketm.net/dam/a/594/3caea13c-57bf-4147-942d-d9d5f921e594_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jCJ7",
+    "artist_name": "Tomasz Zietek",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jClV",
+    "artist_name": "ADMT",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jDGf",
+    "artist_name": "LISA",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8ce/14eaf148-3fd2-4d01-842e-eb8c5d6968ce_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jDKV",
+    "artist_name": "moé",
+    "artist_profile": "https://s1.ticketm.net/dam/a/070/21cfcebc-0c33-4ccf-946e-162635a78070_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jHjV",
+    "artist_name": "Annie Moffitt",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a5e/274549c4-41c9-45a3-9ea4-beb996dfba5e_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jP50",
+    "artist_name": "Carolin Fortenbacher",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jROf",
+    "artist_name": "Pierre Garnier",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jRn0",
+    "artist_name": "Milena",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jRnV",
+    "artist_name": "Jiwoo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jUef",
+    "artist_name": "Haiden Henderson",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c83/dff854e9-4ef3-417b-aa7a-bec6d1019c83_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917jZ1f",
+    "artist_name": "Sofian Medjmedj",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jZ27",
+    "artist_name": "Nieve Ella",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jcvV",
+    "artist_name": "Standa Hložek",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jgQV",
+    "artist_name": "DPR CREAM",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jiof",
+    "artist_name": "Colm R. McGuinness",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jngf",
+    "artist_name": "Delilah",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jsyf",
+    "artist_name": "Mida",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917p6w7",
+    "artist_name": "Mikel Erentxun",
+    "artist_profile": "https://s1.ticketm.net/dam/a/96c/43b07fdf-1a59-4873-bb44-b6b731f0396c_1729541_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pHd7",
+    "artist_name": "Jamai",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pdA7",
+    "artist_name": "Al Mackay´s Earth wind & Fire Experience",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pwS0",
+    "artist_name": "Tino Martin",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pxW0",
+    "artist_name": "Kasia Kowalska",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1eb/910e3905-11be-40b0-bf9a-750d538d61eb_597641_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q6Z0",
+    "artist_name": "Igor Herbut",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q6ZV",
+    "artist_name": "Ewelina Flinta",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q7e7",
+    "artist_name": "Unflirt",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q7nV",
+    "artist_name": "Tom Vincent",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q7tV",
+    "artist_name": "Tash Blake",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qAK7",
+    "artist_name": "Jessie Ka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qd3f",
+    "artist_name": "Beeson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qd6V",
+    "artist_name": "Amaiwana",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qdQf",
+    "artist_name": "Katrin Freiburghaus",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qd_0",
+    "artist_name": "Caitlin Dalton",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qd_V",
+    "artist_name": "Elinborg",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qdh0",
+    "artist_name": "Point",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qdhf",
+    "artist_name": "Paula Engels",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qe-V",
+    "artist_name": "Shahyad",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7e0/b53b4514-15b5-4b72-adb7-78e8c5c547e0_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qe1f",
+    "artist_name": "Denise de Kalafe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qeY0",
+    "artist_name": "Julia \"Jules\" Fischer",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qeY7",
+    "artist_name": "Ben Rivera",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qeYV",
+    "artist_name": "LUANA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qkQ0",
+    "artist_name": "Zuza Jablonska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qkQV",
+    "artist_name": "Iga Posta",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qv8V",
+    "artist_name": "Bletka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvKf",
+    "artist_name": "Candice Lee",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvYV",
+    "artist_name": "Yuika",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ba4/81f79750-c2d1-4b2e-9735-d3b630331ba4_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvbV",
+    "artist_name": "Cara Rose",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvhV",
+    "artist_name": "Zach Paradis",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e78/f2a55a15-60bc-4cd3-b3df-277396e78e78_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvq7",
+    "artist_name": "Sage Thomas",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6ac/d2181a8e-fd3d-4f2c-91f2-8e7e0af2c6ac_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qvwV",
+    "artist_name": "Saundia",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917C3VV",
+    "artist_name": "Hugh Jackman",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b9b/95ac95d8-37fe-4f57-ac46-f4767179eb9b_918751_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hMyf",
+    "artist_name": "CHUU",
+    "artist_profile": "https://s1.ticketm.net/dam/a/656/d9debc3a-771f-4899-ac36-b9c0a144a656_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h5-0",
+    "artist_name": "Suga",
+    "artist_profile": "https://s1.ticketm.net/dam/a/77e/dc220fdc-27e4-4ffb-857a-6f5f9009c77e_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174N4V",
+    "artist_name": "Dodie",
+    "artist_profile": "https://s1.ticketm.net/dam/a/30a/7cce2286-f2af-455c-bd63-4f90f9bef30a_1469031_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_RLV",
+    "artist_name": "Morissette",
+    "artist_profile": "https://s1.ticketm.net/dam/a/593/13f5ff76-fdbd-43fd-b9a7-e89d0859c593_1557831_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jyp0",
+    "artist_name": "Sushant KC",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q9wV",
+    "artist_name": "Lauren Spencer Smith",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f88/ae945382-8f65-4603-adbb-5c965de00f88_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hZkV",
+    "artist_name": "TINI",
+    "artist_profile": "https://s1.ticketm.net/dam/a/37b/ee798db5-0353-4a37-90da-61975469c37b_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jrq7",
+    "artist_name": "Ruby",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2d4/0e47c4f3-90a1-421e-8110-47cb482de2d4_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jHK7",
+    "artist_name": "Rutshelle Guillaume",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2e1/6e5af66a-6dd2-43d1-9de6-50958a14d2e1_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jiAf",
+    "artist_name": "Superfan",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bef/0746e458-9887-4bf6-9061-eea1b6766bef_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qm57",
+    "artist_name": "Yerin Baek",
+    "artist_profile": "https://s1.ticketm.net/dam/a/922/469e91d6-698d-41c7-9b55-9891688ae922_1788931_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91741pf",
+    "artist_name": "Vanesa Martín",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d37/3cc96367-c418-4196-8b5c-b5d4cd044d37_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917Q1Y0",
+    "artist_name": "Em Beihold",
+    "artist_profile": "https://s1.ticketm.net/dam/a/eb5/88c6074a-f9b6-4bad-b086-7c1693946eb5_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTWf",
+    "artist_name": "Maya Kuriel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bN1f",
+    "artist_name": "Zoe Laverne",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9178jU7",
+    "artist_name": "Baek Z Young",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c59/20276323-eac6-4a69-8812-f0a1f4973c59_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jDY0",
+    "artist_name": "Naoma",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYo0",
+    "artist_name": "WOODZ",
+    "artist_profile": "https://s1.ticketm.net/dam/a/cd0/c7b9f04a-784e-4f5c-80d0-b1eb55b14cd0_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bARf",
+    "artist_name": "SUNMI",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ecb/9b2e0f63-9f86-4968-948a-9eb8d235decb_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhD7",
+    "artist_name": "Lee Seung Gi",
+    "artist_profile": "https://s1.ticketm.net/dam/a/245/729021ba-981a-400b-bcff-fb1196b01245_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jwkV",
+    "artist_name": "Della",
+    "artist_profile": "https://s1.ticketm.net/dam/a/eb5/ea30266c-1dcf-495b-9a5a-96413c5c2eb5_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jwpf",
+    "artist_name": "Dan Zimmerman",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e10/919408b1-c51e-4a9d-9afe-4d8fab038e10_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qlbf",
+    "artist_name": "JAMIE",
+    "artist_profile": "https://s1.ticketm.net/dam/a/738/d9b25275-840f-4cf0-9788-83d68ecd6738_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174CbV",
+    "artist_name": "Alex Cameron",
+    "artist_profile": "https://s1.ticketm.net/dam/a/48f/80bbb228-b26b-4f61-8bee-bf2714ed248f_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qik0",
+    "artist_name": "Na Tae Joo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jfLV",
+    "artist_name": "Valentina Perdido",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9aa/3cf7db9b-343a-42e6-86e5-c5086010a9aa_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j8A0",
+    "artist_name": "Jojomber",
+    "artist_profile": "https://s1.ticketm.net/dam/a/925/701a357f-08bd-47b3-9721-a6ffc1672925_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Ki4f",
+    "artist_name": "MyLifeAsEva",
+    "artist_profile": "https://s1.ticketm.net/dam/a/78e/c019aeab-38fc-4e4e-b833-78993212178e_10701_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTiV",
+    "artist_name": "Randi Driscoll",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7ttdk",
+    "artist_name": "Chlöe",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ab1/fec4412f-6363-442c-99e0-debe81a40ab1_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_bP7",
+    "artist_name": "Vincint",
+    "artist_profile": "https://s1.ticketm.net/dam/a/969/08f3040e-6ab3-43ee-90ad-285ca8f37969_1562461_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jsL7",
+    "artist_name": "Perfect Mark",
+    "artist_profile": "https://s1.ticketm.net/dam/a/304/ee591719-2b24-49ae-a11e-f550be504304_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qy77",
+    "artist_name": "Matias Damásio",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917KmB0",
+    "artist_name": "Ivy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q_OV",
+    "artist_name": "Evangelia",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c4c/134c5b72-d7cf-47d5-9f6b-72f628c9ac4c_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91745df",
+    "artist_name": "Dani Martín",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f4d/4743cc75-acc8-4160-be26-4cd462451f4d_746581_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bm-V",
+    "artist_name": "Iamnotshane",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6be/b9f7e067-808e-4fe8-adca-5e0b8bce96be_1636731_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_UK0",
+    "artist_name": "Jeremy Shada",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6ac/d20cc6fb-23a9-40ee-9cf7-c3a0a2e3a6ac_1577711_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hDJ7",
+    "artist_name": "Cande Rivers",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bea/11ba7169-fb8c-4ffb-8f9f-3081a8878bea_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QSff",
+    "artist_name": "Kizuna AI Original Singeroid #kzn",
+    "artist_profile": "https://s1.ticketm.net/dam/a/590/8740a4e7-3714-4c38-b0c4-608be24f0590_1822291_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_9c0",
+    "artist_name": "Madeline The Person",
+    "artist_profile": "https://s1.ticketm.net/dam/a/216/9cac9444-26e9-47a3-b4c9-bee93af03216_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_xf0",
+    "artist_name": "Jamie Miller",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8b7/0fdd31f6-3841-45a3-80fd-a247f46c48b7_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hoOf",
+    "artist_name": "YellaCatt",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9ef/7d14b839-613e-402a-8b7b-af4250c7a9ef_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bY50",
+    "artist_name": "Katie Kadan",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3a3/98b42279-761e-425d-bd1b-0cbf3e7963a3_1283211_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QnSf",
+    "artist_name": "EMELINE",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0cb/2f9808a6-6a8f-4067-bb55-57aa747490cb_1762091_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q0D7",
+    "artist_name": "Monica Martin",
+    "artist_profile": "https://s1.ticketm.net/dam/a/122/f2463cc6-7106-42e5-897f-6d6984983122_1804091_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917fszV",
+    "artist_name": "James Monroe Iglehart",
+    "artist_profile": "https://s1.ticketm.net/dam/a/053/9ff76b33-a44a-4a54-abbc-895810c07053_218581_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h_pV",
+    "artist_name": "Lauren Patten",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6f9/1ffb428f-9370-4904-aefb-acaa3cfdb6f9_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jCR7",
+    "artist_name": "RAEGAN",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIS7",
+    "artist_name": "Svetlana Loboda",
+    "artist_profile": "https://s1.ticketm.net/dam/a/51b/4b16c85f-e9f5-4c9d-af4a-631a54ab151b_1785501_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QsH0",
+    "artist_name": "Awfultune",
+    "artist_profile": "https://s1.ticketm.net/dam/a/441/1ce883ad-c5e0-4830-bd35-60c019f82441_1815081_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917juEV",
+    "artist_name": "Kings",
+    "artist_profile": "https://s1.ticketm.net/dam/a/026/dd833544-5acb-4209-91f1-a6b2bd5de026_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h7OV",
+    "artist_name": "Estevie",
+    "artist_profile": "https://s1.ticketm.net/dam/a/eb3/4c304648-4a33-4f73-a689-08bbc2758eb3_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hazV",
+    "artist_name": "quinnie",
+    "artist_profile": "https://s1.ticketm.net/dam/a/84f/3e79f97d-fb42-4770-af58-9f887e89684f_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917haw7",
+    "artist_name": "Nick Lutsko",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d9b/d9130226-d257-4a8e-9058-13567e80bd9b_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q__0",
+    "artist_name": "Emlyn",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6e8/f1f74978-bd7d-4f31-b99d-3bb32aecf6e8_1700621_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jlh0",
+    "artist_name": "Abhilasha Sinha",
+    "artist_profile": "https://s1.ticketm.net/dam/a/973/3d7ed5b3-cf3c-43b7-8c23-82c0ea7d2973_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917h1d7",
+    "artist_name": "Tony22",
+    "artist_profile": "https://s1.ticketm.net/dam/a/815/ceedb85f-08d1-471b-a06e-4d8d424ea815_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QzhV",
+    "artist_name": "Chri$tian Gate$",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d46/8ab43414-a473-4d04-814d-404b18775d46_1829371_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hBG7",
+    "artist_name": "Kal Schimmers",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7EEek",
+    "artist_name": "María Isabel",
+    "artist_profile": "https://s1.ticketm.net/dam/a/56e/b5b4f271-4175-4a6c-a9ed-606815a3356e_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917hcsV",
+    "artist_name": "METTE",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qhw7",
+    "artist_name": "Shuba",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2a4/c41030b1-fb44-457f-8819-70fd229532a4_1684951_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIvV",
+    "artist_name": "LEXXE",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5b5/17870e29-fe11-4e30-b0f8-1251a16d15b5_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bSU7",
+    "artist_name": "Thunder Jackson",
+    "artist_profile": "https://s1.ticketm.net/dam/a/37d/9f82556e-7c6e-4154-8825-f5b4153cd37d_1475001_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hsaV",
+    "artist_name": "Kenzie",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1d9/a97166c0-682b-4322-823c-b4bef9be81d9_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hKmf",
+    "artist_name": "Damian Lewis",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9a8/4752c534-653f-4a1b-a422-f246e5c1a9a8_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q1xV",
+    "artist_name": "Tobias Dray",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qy70",
+    "artist_name": "Peach Luffe",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1e0/dbf048f1-b163-44cd-8fd4-1428b24951e0_1840181_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qly7",
+    "artist_name": "JuliAnne Wright",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QME0",
+    "artist_name": "Mergui",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2c2/ed11b48b-46d5-47ab-9826-21ccc9c662c2_1830651_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_pC7",
+    "artist_name": "Bre Kennedy",
+    "artist_profile": "https://s1.ticketm.net/dam/a/78d/47645973-749a-42c7-b904-ce685fbb178d_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hyRV",
+    "artist_name": "Alexa Valentino",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1a8/f1b5299c-2ba1-4588-b0a3-04ed0813a1a8_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q5a7",
+    "artist_name": "KILLBOY",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f25/6cb7f3c3-0f91-4593-8e94-ae95d7b96f25_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h3UV",
+    "artist_name": "SuperKnova",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f0e/44453331-d086-4a38-9842-4e114bc4af0e_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QjVf",
+    "artist_name": "DYLVN",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1a4/26788f7c-016e-4e3e-97fd-621434c3e1a4_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_3Of",
+    "artist_name": "Jeremiah Lloyd Harmon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_W3f",
+    "artist_name": "Wyatt Pike",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5b9/97f3e7ec-1d43-4ffe-bcec-a8ea554505b9_1667591_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hlp0",
+    "artist_name": "Arya",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a14/df8ede38-2919-48ad-98ef-17ca93773a14_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pZFV",
+    "artist_name": "Los Nocheros",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QSw7",
+    "artist_name": "Eva Westphal",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0a3/795a83d9-d8b7-4e6a-a1d6-ff15ff22e0a3_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QVG0",
+    "artist_name": "Sky Katz",
+    "artist_profile": "https://s1.ticketm.net/dam/a/822/3af7f212-f1af-4502-ba11-86777c890822_1820301_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QfQV",
+    "artist_name": "Yavin",
+    "artist_profile": "https://s1.ticketm.net/dam/a/24f/8eeb66f2-e5e3-454f-8019-9c47a834f24f_1816471_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_yaf",
+    "artist_name": "Unknown Caller",
+    "artist_profile": "https://s1.ticketm.net/dam/a/caf/055671d5-579c-4898-a775-26ebb22f9caf_1580401_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h3P7",
+    "artist_name": "Julia Gargano",
+    "artist_profile": "https://s1.ticketm.net/dam/a/eba/039ad7bf-c49d-495a-9c2b-5fa6b1c92eba_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hlLf",
+    "artist_name": "Nicolas McCoppin",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ace/129e81c7-73df-4b8e-93d4-fce3418fface_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917juMV",
+    "artist_name": "Alexander James Rodriguez",
+    "artist_profile": "https://s1.ticketm.net/dam/a/243/532592c4-0baa-4a3e-a53e-49a982c15243_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYmf",
+    "artist_name": "Alice Kristiansen",
+    "artist_profile": "https://s1.ticketm.net/dam/a/478/3efa98a9-20e5-4a38-9cef-99282d7e8478_1797881_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QlyV",
+    "artist_name": "Sarah Cothran",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q4i7",
+    "artist_name": "Alex Mazzucchelli",
+    "artist_profile": "https://s1.ticketm.net/dam/a/159/b5eebc44-a24e-43fa-9f96-3325ad6fb159_1648911_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qf3f",
+    "artist_name": "Samantha Joy Pearlman",
+    "artist_profile": "https://s1.ticketm.net/dam/a/dda/a7333127-f591-4666-bf45-6c54039fbdda_1760031_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_mb0",
+    "artist_name": "Peter Saputo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hGvf",
+    "artist_name": "Eliza Elliott",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ec9/e584deda-d251-4ffb-aabd-a12237977ec9_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917haa7",
+    "artist_name": "Neemz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hap0",
+    "artist_name": "Tali Golergant",
+    "artist_profile": "https://s1.ticketm.net/dam/a/87a/b4b3299a-5e8a-44ee-aceb-914ed485187a_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hj20",
+    "artist_name": "Phuong Thanh",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8ea/8348a6ae-cb6b-45a3-8515-b66115c248ea_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jjR0",
+    "artist_name": "Isabella Dussias",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d29/566408fc-b4fa-4894-b29e-219028111d29_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hFT7",
+    "artist_name": "Rami Feinstein",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hKj0",
+    "artist_name": "Lost Terra",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a28/f7425af3-2184-4964-9246-c27173755a28_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hec0",
+    "artist_name": "Kelsey Blackstone",
+    "artist_profile": "https://s1.ticketm.net/dam/a/316/0760b8b6-d3b3-474f-be4f-b393f8f0c316_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jfu0",
+    "artist_name": "Ruthie Craft",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b20/d8fd9ccf-c9ed-449f-92e9-2e8894a71b20_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jjp0",
+    "artist_name": "JESSIKA",
+    "artist_profile": "https://s1.ticketm.net/dam/a/73c/09dfb4a6-e07c-4366-a7ef-c6b954f7973c_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q-ff",
+    "artist_name": "Kazi",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c1e/978d60f3-8463-4bef-a8ec-f3887ac95c1e_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QKW0",
+    "artist_name": "Keekai",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c21/e728cc36-2026-4f52-90fe-1a6a66523c21_1636781_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QSE0",
+    "artist_name": "Lauren Leigh",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qpsf",
+    "artist_name": "Alexis Arnold",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b1c/12d9a059-bc99-4307-aaac-1e3df7a32b1c_1665901_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QqAf",
+    "artist_name": "JayQ the Legend",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hlPV",
+    "artist_name": "BLACK ON",
+    "artist_profile": "https://s1.ticketm.net/dam/a/af5/84956869-b4f0-484d-9b3c-a4adfb840af5_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174-V0",
+    "artist_name": "Christina Rosenvinge-Anari",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174-q7",
+    "artist_name": "Tributo a Mana",
+    "artist_profile": "https://s1.ticketm.net/dam/a/32a/8de603be-8b4c-4dbe-9ec5-5abf4fefe32a_254581_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174-qV",
+    "artist_name": "Modelo de Respuesta Polar",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f45/9ce9f82a-a45d-4a34-a86d-755e26042f45_196011_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174-v0",
+    "artist_name": "Daniel Santacruz",
+    "artist_profile": "https://s1.ticketm.net/dam/a/88a/b0dafdc3-dbe3-4546-b8f1-238a9ea7488a_217781_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ91740af",
+    "artist_name": "Hija de la Luna",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917419f",
+    "artist_name": "Ana Belén Y Víctor Manuel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91741bf",
+    "artist_name": "Concierto Por Un Mundo Sin Ela",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917457f",
+    "artist_name": "Alejandro Sanz Y Pablo Alborán",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91745k7",
+    "artist_name": "Auryn",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91745v0",
+    "artist_name": "Luz Casal - Los Secretos",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91746H0",
+    "artist_name": "Perro",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91746N0",
+    "artist_name": "Avec",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1fb/675e8e72-1402-42c1-af36-e9403ab221fb_124481_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91746R0",
+    "artist_name": "Jamie Lee Kriewitz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91746sV",
+    "artist_name": "M Cano- Tributo a Mecano",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e77/91c1e070-d818-40bd-bbd9-72ce7c613e77_157981_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174B40",
+    "artist_name": "Nacha Pop",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8e8/04418d5f-800e-4fc1-aa3b-a5880a93b8e8_413551_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174C27",
+    "artist_name": "Neuman",
+    "artist_profile": "https://s1.ticketm.net/dam/a/705/f84a6460-e6e4-4ef1-b5f3-4ad4df05e705_247121_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174DY0",
+    "artist_name": "Gansos Rosas",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174E3f",
+    "artist_name": "Lenny Kuhr",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174ERV",
+    "artist_name": "Lisa Nora",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174GCV",
+    "artist_name": "Danny Dziuk",
+    "artist_profile": "https://s1.ticketm.net/dam/a/654/d70098d1-4588-46a5-9fcc-3010da848654_140391_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Io7",
+    "artist_name": "Teske",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d68/6167b367-a61f-43b4-8132-45b6f9da8d68_227531_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Iof",
+    "artist_name": "Jonas Monar",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e0a/feb62e62-982d-485c-9554-bd1467b30e0a_227641_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174L3V",
+    "artist_name": "Chucho",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174LT7",
+    "artist_name": "Calum",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Lb0",
+    "artist_name": "Anne Haigis",
+    "artist_profile": "https://s1.ticketm.net/dam/a/59a/d7a819a6-3a50-409c-8309-47ab39dc159a_181291_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174MDf",
+    "artist_name": "Els Amics De Les Arts",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0cd/4d171d0f-5960-4529-806a-0d98043460cd_370691_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174MdV",
+    "artist_name": "Sarah Close",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5bf/0bbca244-df93-4b0c-b0e6-44d1563925bf_358001_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174N2f",
+    "artist_name": "Alma",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e29/3774c259-dcc9-41cd-8bbc-200df8c1de29_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174NEV",
+    "artist_name": "Antílopez",
+    "artist_profile": "https://s1.ticketm.net/dam/a/44f/108eba88-dad3-48f0-ad08-c1f96237844f_207841_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174QIV",
+    "artist_name": "Lise Haavik",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f01/da8e5288-dfaf-49e8-835e-50e516777f01_148971_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174RR0",
+    "artist_name": "Pajaro",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c23/03a40a1c-ab08-4ac7-a6a0-1d2340b04c23_268031_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Re0",
+    "artist_name": "Oso Leone",
+    "artist_profile": "https://s1.ticketm.net/dam/a/59c/864d5b8f-6d7a-4686-a750-29a6f04f559c_268141_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Rx7",
+    "artist_name": "Fredi Leis",
+    "artist_profile": "https://s1.ticketm.net/dam/a/384/57837360-e48c-4003-af0e-ca76ed25b384_267261_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Rz7",
+    "artist_name": "Wyoming & Los Insolventes",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c48/b6d0b2f4-b05b-4793-808a-38cebba90c48_268701_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174SQf",
+    "artist_name": "Abba The New Experience",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8df/0b18451b-f3d6-48b6-88d5-ad7a835508df_290301_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Sb0",
+    "artist_name": "Homenaje a Mecano",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9ac/0fce8dd1-ef49-4a9c-887b-cd8b31f4a9ac_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174UJV",
+    "artist_name": "Dvicio",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b98/5aac7958-74de-4c7c-b086-b383a5b6cb98_354691_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174Uk0",
+    "artist_name": "Abel Pintos",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3b5/cf621964-9326-433f-bd72-2981aa61d3b5_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174Vq0",
+    "artist_name": "Bucéfalo en Mérida",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174WAV",
+    "artist_name": "Caroline Kiesewetter",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f09/197a6d7d-31ae-4575-abf1-88f1c753cf09_393491_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174cM7",
+    "artist_name": "Yasi Hofer",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174cfV",
+    "artist_name": "Premios Dial",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e0d/f69b0eef-9e2c-4751-ab0e-e6b033c76e0d_261431_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174ckf",
+    "artist_name": "Tiny Legs Tim",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ffb/188b7eb1-71c8-4c8f-9e16-a508642e3ffb_267961_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174cs7",
+    "artist_name": "La Noche de Cadena 100",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2ce/dfcbd17b-dd0e-4fda-8606-ff3666b832ce_265151_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174dZV",
+    "artist_name": "Hechizo - Tributo a Héroes del Silencio",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174dlV",
+    "artist_name": "Leiva",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174e6f",
+    "artist_name": "OQUES GRASSES",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174eI0",
+    "artist_name": "Un Pinguino en mi Ascensor",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174ec0",
+    "artist_name": "El Gran Tributo a Queen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174eh7",
+    "artist_name": "Canijo de Jerez",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174emf",
+    "artist_name": "Héctor Quintana y +dMANÁ",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174et0",
+    "artist_name": "Pedrá",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174etV",
+    "artist_name": "Platerock",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174hL0",
+    "artist_name": "Gwendal",
+    "artist_profile": "https://s1.ticketm.net/dam/a/603/05deef4e-cf53-446b-b67f-0d6797fe6603_597691_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174hvf",
+    "artist_name": "Canelita",
+    "artist_profile": "https://s1.ticketm.net/dam/a/738/4df8127d-530d-487b-8ea1-17ad160f1738_273111_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174iB7",
+    "artist_name": "Evelina",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174igV",
+    "artist_name": "Michael Legend (Homenaje Al Rey del Pop)",
+    "artist_profile": "https://s1.ticketm.net/dam/a/db1/1583a387-4cbf-4847-8d2b-06175843ddb1_610271_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174il7",
+    "artist_name": "Diego Vasallo",
+    "artist_profile": "https://s1.ticketm.net/dam/a/10b/236af27e-800b-4dbe-b053-04bc4aadd10b_277271_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174it0",
+    "artist_name": "Blaumut",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ca3/27c43f8c-6a73-49d5-b47a-f17fb1e56ca3_369931_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174jW7",
+    "artist_name": "Yo fui a BUP",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174jaV",
+    "artist_name": "The Very Best Of Dire Straits",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ad7/24dc4b19-fefa-43d8-a770-9d5686bd3ad7_160721_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174jhf",
+    "artist_name": "Maldito Cupido",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fe0/ce4fab30-8fa9-4592-b34f-dc26bbfc2fe0_165371_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174kVf",
+    "artist_name": "Diana Navarro",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fce/384338ed-3332-47e6-b34e-892f3b70efce_158061_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174lM7",
+    "artist_name": "Supercroma",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174lMf",
+    "artist_name": "Tachenko",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174lh7",
+    "artist_name": "Jeroen van der Boom",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174lnf",
+    "artist_name": "Arco",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f3e/3bd428cc-107a-4830-ae9c-67bda7a5af3e_253751_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174n17",
+    "artist_name": "Rinoseroce",
+    "artist_profile": "https://s1.ticketm.net/dam/a/287/4f2f4b0d-2aa3-45e6-a619-b12f1296d287_395061_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174ni0",
+    "artist_name": "Ruth Jacott",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174q20",
+    "artist_name": "The Risas",
+    "artist_profile": "https://s1.ticketm.net/dam/a/33f/5a071e58-4dde-457a-9a11-a1c593d4b33f_169451_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174q5V",
+    "artist_name": "We Love Cassette 80's",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8d1/a196ca0c-723e-4f31-a985-82ce8d38b8d1_171731_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174qQ0",
+    "artist_name": "The Dolan Twins",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2da/9b590cdb-d768-45a5-a7cc-420634e982da_179281_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174qV0",
+    "artist_name": "Mike Singer",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0c8/96337903-30f0-4b03-963c-6779b82cf0c8_175671_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174qqV",
+    "artist_name": "Chenoa",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e03/70513662-69fe-4502-bdd6-4e5ebae0ae03_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174reV",
+    "artist_name": "Dardem",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174spf",
+    "artist_name": "The Cool Trance",
+    "artist_profile": "https://s1.ticketm.net/dam/a/147/c375cbd5-d9c1-4410-a462-714ed91a6147_278081_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174t1V",
+    "artist_name": "Dmei",
+    "artist_profile": "https://s1.ticketm.net/dam/a/da1/e8bf9415-673b-4e37-8d95-9f7401976da1_231051_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174uLV",
+    "artist_name": "Corey Cott",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174upf",
+    "artist_name": "Cadena 100 - Por Ellas",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fe1/59a78614-8830-4ad5-bf59-35b017a54fe1_143631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174x50",
+    "artist_name": "Las Bistecs",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b7f/ec3b63b7-6ab7-49c0-830c-55ab7a172b7f_198351_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174x5V",
+    "artist_name": "Las Chillers",
+    "artist_profile": "https://s1.ticketm.net/dam/a/143/0f8fe832-b75b-4ea6-a777-76425bef8143_198341_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174xD0",
+    "artist_name": "Alvaro Soler",
+    "artist_profile": "https://s1.ticketm.net/dam/a/864/e5d879b1-b76c-43b7-9dc1-af7f2f6fc864_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ9174xM7",
+    "artist_name": "Jose Maria",
+    "artist_profile": "https://s1.ticketm.net/dam/a/daf/cfc3de80-e0a8-4aa3-ae59-88c608f52daf_205211_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174xef",
+    "artist_name": "Josele Santiago",
+    "artist_profile": "https://s1.ticketm.net/dam/a/314/d94b9d4d-04db-4d26-bbca-df6c2f992314_198371_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174xyV",
+    "artist_name": "The Logical Group",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bb6/315a3f79-3486-4e25-ac4f-07097931fbb6_205441_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174yrV",
+    "artist_name": "Concierto Unrisen Queen",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fb0/75f2f6b7-a79c-4ae9-9047-12fff672bfb0_372331_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9174zNV",
+    "artist_name": "Danza Invisible",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7ff/77e21fea-909f-4c6e-a540-c08f4a15a7ff_367221_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91793WV",
+    "artist_name": "Peter Nagy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91793Wf",
+    "artist_name": "Vincent Malin",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91793qV",
+    "artist_name": "Julia Zahra",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91794K7",
+    "artist_name": "Jim van der Zee",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91795JV",
+    "artist_name": "Litku Klementti",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91797Z7",
+    "artist_name": "Rozalén + Andrés Suárez",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ91798Y7",
+    "artist_name": "Natalia Nykiel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ91798gf",
+    "artist_name": "Uwe Jensen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ91799of",
+    "artist_name": "KasiaLins",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179B40",
+    "artist_name": "Ilona Csáková",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179DB0",
+    "artist_name": "Sylwia Grzeszczak",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179DY7",
+    "artist_name": "Renata Przemyk",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179DeV",
+    "artist_name": "Keala Settle",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179F70",
+    "artist_name": "David Deyl",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179F7V",
+    "artist_name": "David Stypka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179FAf",
+    "artist_name": "Markéta Konvičková",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Fg0",
+    "artist_name": "Daniel Hůlka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179LC7",
+    "artist_name": "Bart Herman",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Lq7",
+    "artist_name": "Tor Ludvig",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179MTf",
+    "artist_name": "Marta Kubištová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179N07",
+    "artist_name": "Jonathan Zelter",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Nf0",
+    "artist_name": "Eloy de Jong",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Puf",
+    "artist_name": "Aislin Evans",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179RNf",
+    "artist_name": "Rebeca",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179RUf",
+    "artist_name": "Jonas Schou",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Rsf",
+    "artist_name": "Hank (ATMO music)",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Rw7",
+    "artist_name": "Ewa Farna",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179RxV",
+    "artist_name": "Soraya",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179SPf",
+    "artist_name": "Hannelore Bedert",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179X-0",
+    "artist_name": "Anja Skybakmoen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179X47",
+    "artist_name": "Duncan Laurence",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179XlV",
+    "artist_name": "Ward",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Yr7",
+    "artist_name": "Selina Mour",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179Z70",
+    "artist_name": "Esmée Denters",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179bW0",
+    "artist_name": "Thom Artway",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179bXf",
+    "artist_name": "Tonya Graves",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179c50",
+    "artist_name": "Karel Gott",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179cGV",
+    "artist_name": "Filip Lato",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179cO0",
+    "artist_name": "Marcelina",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179cu7",
+    "artist_name": "Grzegorz Hyzy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179d47",
+    "artist_name": "Fais",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179eM7",
+    "artist_name": "Hana Zagorová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179eMf",
+    "artist_name": "Petr Rezek",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179fA7",
+    "artist_name": "Tomáš Savka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179fm0",
+    "artist_name": "Pavel Bobek",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179g57",
+    "artist_name": "Damien Echols",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179jD7",
+    "artist_name": "Pola Rise",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179jDV",
+    "artist_name": "Natalia Sikora",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179jDf",
+    "artist_name": "Monika Urlik",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179jZ7",
+    "artist_name": "Kinga Miśkiewicz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179mN7",
+    "artist_name": "Anna Loos",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179oKV",
+    "artist_name": "Ryszard Rynkowski",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179ob7",
+    "artist_name": "Petra Berger",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179rQ0",
+    "artist_name": "Yori",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179r_V",
+    "artist_name": "Jeroen Weerdenburg",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179v37",
+    "artist_name": "Helena DNES a hoste",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179vZ0",
+    "artist_name": "Hanna Banaszak",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179vz0",
+    "artist_name": "Lucie Bílá",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ9179wUf",
+    "artist_name": "Alfred García",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Kltf",
+    "artist_name": "Everyll",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Kmn7",
+    "artist_name": "Matt Schuler",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917KyZ7",
+    "artist_name": "Joris",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q-fV",
+    "artist_name": "KOLE",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q-xV",
+    "artist_name": "Babak Jahanbakhsh",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q02V",
+    "artist_name": "Carly Thomas",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q0Rf",
+    "artist_name": "Amber Ryann",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q0q7",
+    "artist_name": "Jack Price",
+    "artist_profile": "https://s1.ticketm.net/dam/a/4eb/96d4dfd4-5f93-4f36-a34e-16513fd864eb_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q1W0",
+    "artist_name": "Naima Joris",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q1Wf",
+    "artist_name": "Loupe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q457",
+    "artist_name": "Corey Ward",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q45f",
+    "artist_name": "Mercer",
+    "artist_profile": "https://s1.ticketm.net/dam/a/caf/8494d8b6-4862-46b9-86ed-796a21833caf_1645211_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q460",
+    "artist_name": "Michael Alexander",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q4G7",
+    "artist_name": "Nicoletta Spinelli",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q4Vf",
+    "artist_name": "Liv Gibson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q4Z7",
+    "artist_name": "Jackie Nese",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5da/7228e6e9-f327-4f8f-915a-d73afb5695da_1648951_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q6a0",
+    "artist_name": "Loren Berí",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bf3/751b0215-a584-4d11-975c-3aac9146fbf3_1612711_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q98V",
+    "artist_name": "Gina Dirawi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q9Sf",
+    "artist_name": "Super Plage",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e99/d5cbc52b-17eb-4860-a6af-5e9551177e99_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q9_V",
+    "artist_name": "Su Lee",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q9o7",
+    "artist_name": "David Ritschard",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QBTf",
+    "artist_name": "Aisha",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QDt7",
+    "artist_name": "Evan Mike.",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QE-7",
+    "artist_name": "Nimrat Khaira",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QE-f",
+    "artist_name": "Arjan Dhillon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QE47",
+    "artist_name": "Kate Dinsmore",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8f2/c5fd8485-e8bf-4ecd-8cf4-c42daae928f2_1739531_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QE8V",
+    "artist_name": "Grace Kinstler",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QEPV",
+    "artist_name": "Myylo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QEX0",
+    "artist_name": "Cate",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QF70",
+    "artist_name": "Ewa Bem",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QI0f",
+    "artist_name": "Skylet Gunner",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QI47",
+    "artist_name": "Liv Del Estal",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIVf",
+    "artist_name": "Carly Underwood",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIWf",
+    "artist_name": "Ruti",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIe7",
+    "artist_name": "Mia Mormino",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QIs7",
+    "artist_name": "kate the dreamer",
+    "artist_profile": "https://s1.ticketm.net/dam/a/cf7/37e00fa9-c10f-4ffe-ba40-c11764a0ccf7_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJ2f",
+    "artist_name": "Matteo Romano",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJIV",
+    "artist_name": "HighSchool Jacob",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJg0",
+    "artist_name": "ARON - Arón Piper",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJyV",
+    "artist_name": "Irene Grandi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QJzf",
+    "artist_name": "Ally Hills",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QKAV",
+    "artist_name": "Jake Brewer",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2e8/0721e335-aca2-4b07-a2cd-e9e0f587b2e8_1635021_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QKO0",
+    "artist_name": "Ya Levis",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QMYV",
+    "artist_name": "Halle Mone'",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QN1V",
+    "artist_name": "Malika Ayane",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QNbV",
+    "artist_name": "J-Hope",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QPbV",
+    "artist_name": "Chloe Gallardo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QPc0",
+    "artist_name": "ZADA",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e6c/72147267-7b9a-4a2c-b5da-34013a7c0e6c_1733531_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QPof",
+    "artist_name": "AntiHana",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QQKf",
+    "artist_name": "Ab",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QQv7",
+    "artist_name": "Louise Redknapp",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QR30",
+    "artist_name": "Zola Simone",
+    "artist_profile": "https://s1.ticketm.net/dam/a/985/8f6e2ca3-c489-4426-b406-ada5cb03d985_1788831_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QRa0",
+    "artist_name": "Gunn Kvaale",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QRf0",
+    "artist_name": "Elise Del Mar",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9f6/441b84bc-e1eb-4c25-941d-3082502439f6_1797931_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QRuV",
+    "artist_name": "Tsubi Club",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QS77",
+    "artist_name": "Oxlade",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3c4/e350cf1f-c79f-4603-bc29-6dd573cf33c4_1817881_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QSEV",
+    "artist_name": "Sophia Black",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QSfV",
+    "artist_name": "Gumi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QTg7",
+    "artist_name": "Lonely Choir",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QTnV",
+    "artist_name": "Princess Liv",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QTpf",
+    "artist_name": "Reed Gaines",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QV57",
+    "artist_name": "LAY",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QVV7",
+    "artist_name": "Carol Banawa",
+    "artist_profile": "https://s1.ticketm.net/dam/a/88d/de4eba9b-33d3-4bbd-b763-bd783fc8388d_1827161_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QY5f",
+    "artist_name": "Hamond",
+    "artist_profile": "https://s1.ticketm.net/dam/a/272/cf4d1fa6-1d57-40df-b849-484295c7b272_1791641_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYB0",
+    "artist_name": "Seraphina Simone",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYB7",
+    "artist_name": "AlienBlaze",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QYKf",
+    "artist_name": "Luna (Луна)",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Q_RV",
+    "artist_name": "Chloé Caroline",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qb9V",
+    "artist_name": "Dorée",
+    "artist_profile": "https://s1.ticketm.net/dam/a/71d/a46b2d92-cb8d-4836-8db5-9e351db7571d_1663581_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qb_f",
+    "artist_name": "Roan",
+    "artist_profile": "https://s1.ticketm.net/dam/a/915/8f890837-7b33-4c56-b7cd-78387ccdc915_1681681_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qbc0",
+    "artist_name": "Colyer",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qbof",
+    "artist_name": "Frankie Tillo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QcB7",
+    "artist_name": "Emma Bunton",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QeNf",
+    "artist_name": "Mayberg",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qey0",
+    "artist_name": "Rori",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qf-0",
+    "artist_name": "heartspace",
+    "artist_profile": "https://s1.ticketm.net/dam/a/231/6a6e09a4-0c8e-4760-9280-5b68b94eb231_1642811_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qf-7",
+    "artist_name": "Kristiane Alphson",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d9a/8775a3d1-b2f9-4243-b206-ff022930ad9a_1642711_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QfNV",
+    "artist_name": "Josephine Network",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qfbf",
+    "artist_name": "Lubiana",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qh07",
+    "artist_name": "Avamarie",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qi67",
+    "artist_name": "Noah Cunane",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QiX7",
+    "artist_name": "Shin Yu",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qief",
+    "artist_name": "Mitch James",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qitf",
+    "artist_name": "Vidya Vox",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QjUf",
+    "artist_name": "Caughy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qja0",
+    "artist_name": "ZØYA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Ql3V",
+    "artist_name": "Foxanne",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QlAf",
+    "artist_name": "JACY",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QlDf",
+    "artist_name": "Rudy Touzet",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QlKV",
+    "artist_name": "MOONZz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Ql_V",
+    "artist_name": "MaeThePirate",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qlb0",
+    "artist_name": "Contessa Stuto",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qlnf",
+    "artist_name": "Chiquita Magic",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8fd/16a23013-7bf1-479b-b17f-0d8239b6d8fd_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qm70",
+    "artist_name": "Ania Leon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QmYf",
+    "artist_name": "Pawel Tur",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qm_f",
+    "artist_name": "Magsy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qmn0",
+    "artist_name": "Sara James",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QnX0",
+    "artist_name": "Chandra DeSantis",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QpYV",
+    "artist_name": "Claudia Bouvette",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b0f/907cd16a-30ff-4165-86b3-06b31ec7eb0f_1652741_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qpq7",
+    "artist_name": "Silvia",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QqkV",
+    "artist_name": "Marlo the Barbarian",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QsR0",
+    "artist_name": "Daisy Anabelle",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c82/08ea2888-16f2-4b4b-b185-a8a086a9bc82_1802671_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qsuf",
+    "artist_name": "Cottontail",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qt2f",
+    "artist_name": "Cornelia Jakobs",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qt7V",
+    "artist_name": "Yeng Constantino",
+    "artist_profile": "https://s1.ticketm.net/dam/a/237/0c93c022-d617-4f7c-a752-387939297237_1759261_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QtIV",
+    "artist_name": "Robbie Wulfsohn",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QtWV",
+    "artist_name": "Emma Nicoline",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qtcf",
+    "artist_name": "Jack Kane",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qtof",
+    "artist_name": "Sofia Jasmine",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qw90",
+    "artist_name": "Sissi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QwRf",
+    "artist_name": "LiLYPSE",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qx2V",
+    "artist_name": "Aron Afshar",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QxY0",
+    "artist_name": "Jack Hess",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QxaV",
+    "artist_name": "Olivier Couture",
+    "artist_profile": "https://s1.ticketm.net/dam/a/754/79cdb396-dc98-4c0d-8a49-7f8adb355754_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qy3f",
+    "artist_name": "Feign Jima",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QyS7",
+    "artist_name": "Bloom",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QysV",
+    "artist_name": "Kyndal Inskeep",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917QywV",
+    "artist_name": "Annika Rose",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qyx7",
+    "artist_name": "Senta",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qyz0",
+    "artist_name": "TONES & I",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qz40",
+    "artist_name": "Megg Farrell",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fcd/4c186437-88f9-4054-b7bd-42ac26b36fcd_1828101_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917Qz4V",
+    "artist_name": "Dresage",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_-G7",
+    "artist_name": "Valley Palace",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_-pV",
+    "artist_name": "gigi",
+    "artist_profile": "https://s1.ticketm.net/dam/a/aea/0198c65b-7c63-4852-81ce-ebf2c3253aea_1540971_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_047",
+    "artist_name": "Lucee",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_0R0",
+    "artist_name": "Wolska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_0zV",
+    "artist_name": "Timea",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_3K0",
+    "artist_name": "Jonas David",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_3j0",
+    "artist_name": "Monte Mader",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f8a/abcc92bc-209d-42c9-841c-cd09efa82f8a_1419851_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_66V",
+    "artist_name": "Andreas Bieber",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_6F0",
+    "artist_name": "Alex Melcher",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_6lf",
+    "artist_name": "Adrian Jorgensen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_9FV",
+    "artist_name": "Lorelei Marcell",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_9j7",
+    "artist_name": "Bengio",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_E40",
+    "artist_name": "Helven",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_GPV",
+    "artist_name": "Katarzyna Piszek",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_IF7",
+    "artist_name": "Lisa Remar",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_JD0",
+    "artist_name": "Justin Magnaye",
+    "artist_profile": "https://s1.ticketm.net/dam/a/53b/155543b6-11c6-4ec3-8ed9-c0bd63c3d53b_1518061_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_PtV",
+    "artist_name": "Erika Nomena",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Q77",
+    "artist_name": "Julius Faehndrich",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_REV",
+    "artist_name": "penelope Q",
+    "artist_profile": "https://s1.ticketm.net/dam/a/50c/b789dd09-c0da-47fc-8e10-112b77a3550c_1550141_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_S1f",
+    "artist_name": "Mrozu",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Tp0",
+    "artist_name": "Cecile Believe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_UE7",
+    "artist_name": "Luke Wild",
+    "artist_profile": "https://s1.ticketm.net/dam/a/79f/040b0757-5056-45ff-9c6b-96343e9d679f_1622761_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_W-f",
+    "artist_name": "Nathanie",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3bf/cf19305a-be60-42c7-b705-33bf4e3193bf_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917_WC0",
+    "artist_name": "Chrrry",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7ca/12df95e9-16f3-4553-a70a-a079102847ca_1586781_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_WcV",
+    "artist_name": "Shekib Mosadeq",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_WiV",
+    "artist_name": "Sven Panne",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Wm7",
+    "artist_name": "Prado",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_XFV",
+    "artist_name": "Nathan Dies",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6ff/4f9e1051-0d9e-4a29-9ac7-c095f8a9f6ff_1802701_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Xh7",
+    "artist_name": "Edyta Gorniak",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Xuf",
+    "artist_name": "DAVE JY",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Ye0",
+    "artist_name": "Kuusamotalo: Litku Klemetti",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_Zy0",
+    "artist_name": "Pavel Callta",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917__yf",
+    "artist_name": "I Am Kawehi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_b4V",
+    "artist_name": "Marcella Rockefeller",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_c4f",
+    "artist_name": "Emma Edel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_cw0",
+    "artist_name": "Mads Christian",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_e0V",
+    "artist_name": "Tereza Balonová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_g17",
+    "artist_name": "Laura Cahen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_gEV",
+    "artist_name": "Mahoor",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_gaV",
+    "artist_name": "Lucas Uecker",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_gsV",
+    "artist_name": "Dirk Michaelis",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_hB7",
+    "artist_name": "Kaska Sochacka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_kQ0",
+    "artist_name": "Vera Bolten",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_kQ7",
+    "artist_name": "Máté Kamarás",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_kQf",
+    "artist_name": "Maya Hakvoort",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_ksf",
+    "artist_name": "Michaela Schober",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_lF7",
+    "artist_name": "Valy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_lyf",
+    "artist_name": "Rafal Brzozowski",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_mLV",
+    "artist_name": "HOLDN",
+    "artist_profile": "https://s1.ticketm.net/dam/a/49c/03fae204-e031-4c9e-91b5-ea6fa42db49c_1531611_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_oN0",
+    "artist_name": "Elena Steri",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_on0",
+    "artist_name": "Berry",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2d1/b72ea8d5-92e3-4729-ae44-d386a9ca62d1_1419911_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_onf",
+    "artist_name": "Catalina",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9e3/6edef602-8d47-4d1d-a443-6995aa3ae9e3_1419861_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_otf",
+    "artist_name": "Mary Jennings",
+    "artist_profile": "https://s1.ticketm.net/dam/a/70b/fbac33ac-f4d6-4acd-8f71-e8b0e5b4b70b_1419881_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_pW7",
+    "artist_name": "Samuel Rösch",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_rA0",
+    "artist_name": "Audriix",
+    "artist_profile": "https://s1.ticketm.net/dam/a/31c/d5abc22a-65f0-43ec-b31a-63c5e8b2f31c_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917_rc7",
+    "artist_name": "Nicky MacKenzie",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_s9V",
+    "artist_name": "Imen Es",
+    "artist_profile": "https://s1.ticketm.net/dam/a/772/1b862d03-8c7e-4177-85c0-327435f5a772_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_sK0",
+    "artist_name": "Rich Tuorto",
+    "artist_profile": "https://s1.ticketm.net/dam/a/19a/68382f5c-a619-4d62-b45c-d6fecc64719a_1550171_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_vAf",
+    "artist_name": "Annabelle",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_wKV",
+    "artist_name": "Marka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_wL7",
+    "artist_name": "Kaśka Sochacka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917_wQ0",
+    "artist_name": "Jack Curley & Nicklas Sahl",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b-C0",
+    "artist_name": "Spirit Houses",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b-w7",
+    "artist_name": "Rachel Beck",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a87/38b9c619-b813-43cd-9ba5-9ba4ac197a87_1210101_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b0yV",
+    "artist_name": "Angelina",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b5Nf",
+    "artist_name": "Lisa Who",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b5j0",
+    "artist_name": "Jürgen Tarrach",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b5kV",
+    "artist_name": "martin chodur",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b62V",
+    "artist_name": "Luisa Babarro",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b7G7",
+    "artist_name": "Karolina Artymowicz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b7I0",
+    "artist_name": "Kasia Lins",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b7XV",
+    "artist_name": "Danny van Ingen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b7t0",
+    "artist_name": "Buslav",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b7t7",
+    "artist_name": "Arek Klusowski",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b88V",
+    "artist_name": "Mike Peterson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b8aV",
+    "artist_name": "Jeanette Biedermann",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917b8o7",
+    "artist_name": "Quido van de Graaf",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bDlf",
+    "artist_name": "Antonina Krzyszton",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bDn7",
+    "artist_name": "Franzi Harmsen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bFcV",
+    "artist_name": "Lina Maly",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bGm0",
+    "artist_name": "Sioen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bJAV",
+    "artist_name": "Gaba Kulka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bJV7",
+    "artist_name": "June Cocó",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bN-f",
+    "artist_name": "Max Barskih",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bN9V",
+    "artist_name": "Evelinn Trouble",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bQ77",
+    "artist_name": "Andranik Andy Madadian",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bR27",
+    "artist_name": "Agnez Mo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bR47",
+    "artist_name": "Jitka Zelenková",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bUH0",
+    "artist_name": "Brunke",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bUb0",
+    "artist_name": "Sophia Messa",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bUb7",
+    "artist_name": "John K",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bWgf",
+    "artist_name": "Adam Mišík, Debbi, David Stypka",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bYH0",
+    "artist_name": "Emma Steinbakken",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bZ67",
+    "artist_name": "Andrzej Zaucha",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bZ9f",
+    "artist_name": "Misia Furtak",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bZQV",
+    "artist_name": "Taryll Jackson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917baY0",
+    "artist_name": "Pip the Pansy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bap7",
+    "artist_name": "Mathea",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bc-7",
+    "artist_name": "Carvel'",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bcd7",
+    "artist_name": "Grazyna Lobaszewska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bcdf",
+    "artist_name": "Alli Neumann",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bd-f",
+    "artist_name": "Kaiit",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bel0",
+    "artist_name": "Eline Mann",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bg-0",
+    "artist_name": "Beatrich",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bg17",
+    "artist_name": "Maxime Farago - Quando Show",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7bd/72a45099-4494-4f8b-8328-35886179d7bd_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917bhj0",
+    "artist_name": "Natalia Lubrano",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bkL0",
+    "artist_name": "Sured",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bkL7",
+    "artist_name": "Bene",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917blPf",
+    "artist_name": "Izabela Trojanowska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bnx0",
+    "artist_name": "Noir & Blanc",
+    "artist_profile": "https://s1.ticketm.net/dam/a/05e/5cc0723a-c982-407c-92cb-6c217c42f05e_1235261_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917boA7",
+    "artist_name": "Camilla Blue",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917boff",
+    "artist_name": "Guido Goh",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917brnV",
+    "artist_name": "Lo Lo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917brnf",
+    "artist_name": "BRDGS",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bty0",
+    "artist_name": "Nathalie Simard",
+    "artist_profile": "https://s1.ticketm.net/dam/a/798/5952fc16-fce3-46d4-8d78-bed57cc59798_1223381_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bvdV",
+    "artist_name": "Celeste Buckingham",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bwrV",
+    "artist_name": "Cieniu",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917byGV",
+    "artist_name": "Freddie Long",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917byb7",
+    "artist_name": "Dara Rolins",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bzEV",
+    "artist_name": "Justin Jesso",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917bzZV",
+    "artist_name": "Viola Schnittger",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h-3V",
+    "artist_name": "Ashley Woods",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h04V",
+    "artist_name": "Natalie Layne",
+    "artist_profile": "https://s1.ticketm.net/dam/a/637/2a1bd79c-f1d9-4475-b25d-1b92873a1637_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h13V",
+    "artist_name": "Allegra Kreiger",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3b3/3f798f5f-6805-4a60-950d-4db3274603b3_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h1gV",
+    "artist_name": "Paul Whitacre",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h2ef",
+    "artist_name": "Alex Andre",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h30V",
+    "artist_name": "Spencer Jordan",
+    "artist_profile": "https://s1.ticketm.net/dam/a/602/d06b7cc5-ed76-4bf1-af3e-e3993582a602_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h420",
+    "artist_name": "Frawley",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h4X7",
+    "artist_name": "Helena Mayer",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h4bV",
+    "artist_name": "Josyara",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h4o0",
+    "artist_name": "Isabella Coulstock",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h4q0",
+    "artist_name": "Marika Gombitová",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h4y0",
+    "artist_name": "Jane Hobson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h5IV",
+    "artist_name": "ShataQS",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h5k7",
+    "artist_name": "Lila Dubois",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h780",
+    "artist_name": "Senseless Optimism",
+    "artist_profile": "https://s1.ticketm.net/dam/a/717/587bb2c3-f08b-4c0d-bfb9-a436813b6717_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h7of",
+    "artist_name": "Cybertrash",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h897",
+    "artist_name": "Cassie Henderson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h8l0",
+    "artist_name": "Piri",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h8zV",
+    "artist_name": "Elijah Woods",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7bc/2e6d959b-7a64-4e05-8f27-98976290a7bc_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h9Pf",
+    "artist_name": "Fiona Lennon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h9qf",
+    "artist_name": "Isse",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917h9vV",
+    "artist_name": "Karen Hardy",
+    "artist_profile": "https://s1.ticketm.net/dam/a/26a/96fcc953-8c44-4404-8787-207ca47fc26a_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917hA0f",
+    "artist_name": "Dylan Brady",
+    "artist_profile": "https://s1.ticketm.net/dam/a/4d0/b36117ce-8195-436f-a120-aee4b48474d0_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hAG0",
+    "artist_name": "Nolan",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hAG7",
+    "artist_name": "Emmanuel Franco",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hAfV",
+    "artist_name": "Monica Aben",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hAtV",
+    "artist_name": "TOMGIRL504EVER",
+    "artist_profile": "https://s1.ticketm.net/dam/a/05a/4ff5792a-4da3-4431-95bc-adcf1bc5d05a_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hB-V",
+    "artist_name": "Taylor Sackson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hB1V",
+    "artist_name": "Evelyne Brohcu",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hBhV",
+    "artist_name": "Mica Javier",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hCff",
+    "artist_name": "Nora Fatehi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hEP0",
+    "artist_name": "Elly-May Barnes",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hERf",
+    "artist_name": "Robert van Hemert",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hEvV",
+    "artist_name": "Hank",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9e8/f94c6187-4a77-480d-84af-af2d64c3a9e8_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hEyV",
+    "artist_name": "Anna Bates",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6ad/84d6c6f1-dddf-4a13-aa85-2215b595e6ad_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hG3V",
+    "artist_name": "Olivia Junholm",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hGrV",
+    "artist_name": "Melissa Lamm",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hJQ7",
+    "artist_name": "Fran",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hJY7",
+    "artist_name": "BIRDEE",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hJYf",
+    "artist_name": "Syd Matisse",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c9f/8ecb3504-6e68-4a2f-9308-f1d501778c9f_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hJi0",
+    "artist_name": "Caroline Hale",
+    "artist_profile": "https://s1.ticketm.net/dam/a/382/3f12958c-044a-4fe6-be3e-81cdf30be382_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hK77",
+    "artist_name": "Madi Davis",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hKMf",
+    "artist_name": "ellie d.",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hKh7",
+    "artist_name": "Tommi Aura",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hL30",
+    "artist_name": "Nick Wagen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hLmf",
+    "artist_name": "Lola Cedès",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hMVV",
+    "artist_name": "Alex Togashii",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hMyV",
+    "artist_name": "Matt Farren",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hN37",
+    "artist_name": "Mary McAvoy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hN70",
+    "artist_name": "Isa Bruder",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a5c/27951104-a8fb-4277-9a27-b45e2c19ea5c_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hNF7",
+    "artist_name": "D'Lourdes",
+    "artist_profile": "https://s1.ticketm.net/dam/a/4a2/f620f2ef-e245-481e-b14c-8c46082754a2_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hN_7",
+    "artist_name": "Portraits Of Tracy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hNx0",
+    "artist_name": "Alicia Creti",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hOB0",
+    "artist_name": "Hannah Stow",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hONf",
+    "artist_name": "Geena Gangi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hQ1V",
+    "artist_name": "Ezu",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hQp0",
+    "artist_name": "Deni",
+    "artist_profile": "https://s1.ticketm.net/dam/a/23c/b2fc3ac3-e583-4526-86bb-2d00ddc4d23c_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hQr7",
+    "artist_name": "Ashish Kulkarni",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hQrf",
+    "artist_name": "Sachin K Valmiki",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hR67",
+    "artist_name": "Remeny",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hRZV",
+    "artist_name": "Evangeline Gentle",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hRb7",
+    "artist_name": "Staci McCrackin",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hRy7",
+    "artist_name": "Danz CM",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTH0",
+    "artist_name": "Gabrielle Sterbenz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTR7",
+    "artist_name": "Chris Fang",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b38/edd0fd7c-93ae-4bda-a075-7f293e96db38_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hTX0",
+    "artist_name": "festivyl",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYM7",
+    "artist_name": "Goblynne",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bbe/25e1b0a9-0d89-477b-a6f4-aee3c69ccbbe_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYg7",
+    "artist_name": "Lisa Hartman Black",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hYmf",
+    "artist_name": "Sammy Curcuru",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b2d/784ab26e-541f-49bc-8c44-457b1f36fb2d_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hZmV",
+    "artist_name": "Ana Cirré",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917ha27",
+    "artist_name": "Dakota Caden",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917ha47",
+    "artist_name": "THATGIRLTOBI",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f7f/bf5367a9-ebfa-49b0-be85-b5411f13af7f_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917haCV",
+    "artist_name": "Liddy Clark",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917haFV",
+    "artist_name": "Izzy Strigel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hanV",
+    "artist_name": "Julian Daniel",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hayV",
+    "artist_name": "Kami Kehoe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hbO0",
+    "artist_name": "Alessandra Mele",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hbQV",
+    "artist_name": "Alexia Rev",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hc5V",
+    "artist_name": "Jung Kook",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5cc/1d7b1028-ead4-4b21-9605-8708223495cc_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hcrf",
+    "artist_name": "LLORA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hcv0",
+    "artist_name": "patchymate",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdH7",
+    "artist_name": "Erez",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdRV",
+    "artist_name": "KTB",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdU7",
+    "artist_name": "Ben Parag",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdUf",
+    "artist_name": "Subhi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdgf",
+    "artist_name": "Ali Amran",
+    "artist_profile": "https://s1.ticketm.net/dam/a/85d/1c5d6173-03ab-45fe-b55a-095810fa785d_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdsf",
+    "artist_name": "Devon Cole",
+    "artist_profile": "https://s1.ticketm.net/dam/a/607/48874c26-0aec-449c-8dd6-e36b475de607_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hdvf",
+    "artist_name": "Anna Grace Beatty",
+    "artist_profile": "https://s1.ticketm.net/dam/a/7b2/7c02216e-7b1f-4d35-aaaa-4680af9307b2_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hf5V",
+    "artist_name": "MAITA",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fce/0ff4a13d-7a96-4c3a-846c-737cf9a54fce_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hfXf",
+    "artist_name": "aldrch",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hg4f",
+    "artist_name": "Annie Omalley",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c0c/a0fa4a9e-ffab-4d22-9317-e7e8d1078c0c_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhF7",
+    "artist_name": "crêpe girl",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhTf",
+    "artist_name": "Nicole Zignago",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a6c/8a507b66-9ae0-4909-860f-ee3b3b0fea6c_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhZf",
+    "artist_name": "Sophia DeMasi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhff",
+    "artist_name": "ZAC",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hhj7",
+    "artist_name": "Anabella Paige",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hi67",
+    "artist_name": "Tiberius b",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hiC7",
+    "artist_name": "Siena Streiber",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hiCf",
+    "artist_name": "Natalie Saint-Martin",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hiH7",
+    "artist_name": "Majeska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hia7",
+    "artist_name": "DXX",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917higV",
+    "artist_name": "Giovanni Zarrella",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hjTf",
+    "artist_name": "Abby Cates",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hjnV",
+    "artist_name": "Tami Hart",
+    "artist_profile": "https://s1.ticketm.net/dam/a/c2b/45cc39ee-1357-42aa-b385-02a6d1f71c2b_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hkQV",
+    "artist_name": "Brö",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hkjf",
+    "artist_name": "SOZI",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hkn7",
+    "artist_name": "Mimi O'Bonsawin",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hkxf",
+    "artist_name": "Jack Bobley",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0d4/1a0e5ad4-f962-4178-9a97-8302e91dc0d4_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hlP7",
+    "artist_name": "Rowan Drake",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hl_0",
+    "artist_name": "Majeeed",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hm17",
+    "artist_name": "KIIRA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hm4V",
+    "artist_name": "MAJA LU",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hm4f",
+    "artist_name": "Jasna",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hmb0",
+    "artist_name": "Yena",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hmfV",
+    "artist_name": "DAMONA",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hmmV",
+    "artist_name": "AnNa R.",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hp37",
+    "artist_name": "Damien Musto",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hp50",
+    "artist_name": "Emma Nicholas",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hpK7",
+    "artist_name": "Caleb Peters",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9d1/0bbc1918-fcca-4260-8967-80adbc9cc9d1_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hqFf",
+    "artist_name": "Brandon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hqa7",
+    "artist_name": "Levy Marella",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hqkV",
+    "artist_name": "alleycat",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hrI7",
+    "artist_name": "Mouh Milano",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hs17",
+    "artist_name": "Chloe George",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hsq7",
+    "artist_name": "Lotte Walda",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huXV",
+    "artist_name": "Eliza Spear",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5f0/2e8a574a-fe35-4087-89b9-55f926a195f0_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huY7",
+    "artist_name": "Miss Madeline",
+    "artist_profile": "https://s1.ticketm.net/dam/a/aad/1ccc12d3-4b01-491a-a118-28510f7ddaad_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huaf",
+    "artist_name": "Ella Wylde",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1ab/52d21be5-804c-4fab-97c1-e82cba9f81ab_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917hukV",
+    "artist_name": "Indigo Sparke",
+    "artist_profile": "https://s1.ticketm.net/dam/a/659/10bd747b-7e2b-4e40-b14e-5d882d7ec659_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917huy0",
+    "artist_name": "Ny Oh",
+    "artist_profile": "https://s1.ticketm.net/dam/a/453/d419c397-36b3-419d-9bac-67074678f453_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hvZf",
+    "artist_name": "Lulu Simon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hw-f",
+    "artist_name": "Nene",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hwZ7",
+    "artist_name": "gabby start",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hx7V",
+    "artist_name": "Chloe Dadd",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hxPf",
+    "artist_name": "Yorke",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hxU0",
+    "artist_name": "Caroline Culver",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e4a/eafe9964-94c5-4793-b8e1-4490bac99e4a_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917hxe0",
+    "artist_name": "Lucy Sugerman",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hxv0",
+    "artist_name": "Michael Medrano",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b08/4d8c6ae9-facd-4896-a124-608f0567cb08_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917hzwf",
+    "artist_name": "Abigail Barlow",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j-TV",
+    "artist_name": "Olly Alexander",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j030",
+    "artist_name": "Roxie Heart",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j0Of",
+    "artist_name": "Jennifer Stewart",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j0T7",
+    "artist_name": "Joey Newcomb",
+    "artist_profile": "https://s1.ticketm.net/dam/a/054/8303b197-8454-4fbe-9e51-7a5f2fdc0054_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j0XV",
+    "artist_name": "Eli Marcus",
+    "artist_profile": "https://s1.ticketm.net/dam/a/895/9e19d42b-8971-4ed8-bdc3-434c14028895_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j0g0",
+    "artist_name": "Nat Brennan",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8fb/f3b732b7-b2c1-4021-bf9c-856b5dafc8fb_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j0of",
+    "artist_name": "Shmuel",
+    "artist_profile": "https://s1.ticketm.net/dam/a/bcb/e077a6ad-e9ef-4d9d-840c-d8dfe527cbcb_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j29f",
+    "artist_name": "William Janz",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j2dV",
+    "artist_name": "Irina Rimes",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j2kf",
+    "artist_name": "Rev. Ray",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j430",
+    "artist_name": "Casey McQuillen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j450",
+    "artist_name": "Hunter Daily",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j4df",
+    "artist_name": "Danique",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j4gV",
+    "artist_name": "Flawless Issues",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j4xV",
+    "artist_name": "Lam Nhat Tien",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j6P7",
+    "artist_name": "Emily Gabriele",
+    "artist_profile": "https://s1.ticketm.net/dam/a/625/fe753423-4ec2-4d02-8350-e0eb5fa63625_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j7Hf",
+    "artist_name": "Oda Loves You",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j8F0",
+    "artist_name": "Caity Krone",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jCWf",
+    "artist_name": "Rylie Faith",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1b9/08733d61-ff84-40ac-abf8-bc0be9cee1b9_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jDd0",
+    "artist_name": "Kim Won Jun",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jFjf",
+    "artist_name": "Maryjo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jH3V",
+    "artist_name": "Ariana Molkara",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jH_0",
+    "artist_name": "Eve Christina",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jHj7",
+    "artist_name": "Morgan Reilly",
+    "artist_profile": "https://s1.ticketm.net/dam/a/3da/b8c2e865-dbc3-42ec-92b7-66716d1283da_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jIU0",
+    "artist_name": "Victor Wong",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jIU7",
+    "artist_name": "Jess Lee",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jK70",
+    "artist_name": "Becky Crosby",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2b9/fb101b11-13ba-4db0-828d-be2d4c9b02b9_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jLAf",
+    "artist_name": "Caylin Costello",
+    "artist_profile": "https://s1.ticketm.net/dam/a/67d/4bab48a8-851a-49c2-8c31-3f441b7db67d_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jLHV",
+    "artist_name": "Skylerr",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jM70",
+    "artist_name": "Aliyah's Interlude",
+    "artist_profile": "https://s1.ticketm.net/dam/a/fbb/faf90db4-5e0f-408b-b2ed-0a3a65642fbb_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jOOf",
+    "artist_name": "Genevieve Leclerc",
+    "artist_profile": "https://s1.ticketm.net/dam/a/790/bf9b9153-76f1-4f82-9922-18133697c790_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jP67",
+    "artist_name": "Holly Munro",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jUn7",
+    "artist_name": "FRRY",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jWhV",
+    "artist_name": "Justin Oliver",
+    "artist_profile": "https://s1.ticketm.net/dam/a/4fc/adfd472c-5c8e-4385-b3b3-1ee2e9fab4fc_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jY87",
+    "artist_name": "Giang Hong Ngoc",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jYJ0",
+    "artist_name": "Letón Pé",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jYL7",
+    "artist_name": "Bailey Drew",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jYof",
+    "artist_name": "Minji",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jYvf",
+    "artist_name": "Jaclyn Davies",
+    "artist_profile": "https://s1.ticketm.net/dam/a/354/cd8399a8-d740-4722-887a-cf0a22980354_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j_OV",
+    "artist_name": "1010benja",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j_P7",
+    "artist_name": "Holly Rolfe",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917j_j7",
+    "artist_name": "Joseph Jett",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jb57",
+    "artist_name": "Rebecca Brunner",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jb77",
+    "artist_name": "Andrea Lykke Oehlenschlæger",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jcAV",
+    "artist_name": "Michele Leigh",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jfW0",
+    "artist_name": "Emma Klein",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jgY7",
+    "artist_name": "Ana Sofi W",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jiJ7",
+    "artist_name": "Liya",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jiO7",
+    "artist_name": "Postino",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jlK0",
+    "artist_name": "Tyler Ballgame",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jlaf",
+    "artist_name": "Jules Liesl",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jle7",
+    "artist_name": "Haley Fishburger",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jmzV",
+    "artist_name": "Ben Rodrigues",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jn20",
+    "artist_name": "Zack Zaro",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5b8/c233a9d9-5dff-4f27-90ca-1d1adca7d5b8_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jnKf",
+    "artist_name": "Coline Blf",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jnLV",
+    "artist_name": "Daiela",
+    "artist_profile": "https://s1.ticketm.net/dam/a/6c4/e8f008e3-c96d-4159-8f50-5b328ae4b6c4_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jn_f",
+    "artist_name": "Zoé Joséphine",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jnlf",
+    "artist_name": "WALLIS",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e7b/7b4d52a4-1074-40d4-80f9-d047eb318e7b_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jp57",
+    "artist_name": "High on Chai",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jpcV",
+    "artist_name": "LIBERATI",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jpif",
+    "artist_name": "Morgana",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d7f/2a09a274-c3e9-47f0-9cb9-9461b1700d7f_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917jpjV",
+    "artist_name": "Katha Pauer",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jpnf",
+    "artist_name": "Kim Appleby",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jpq7",
+    "artist_name": "Beslik",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jpyV",
+    "artist_name": "Chinchilla",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jq77",
+    "artist_name": "Roziht",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jqO7",
+    "artist_name": "Hiba Tawaji",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e32/e5f24c81-1586-4a90-99d7-09ce9219de32_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917js77",
+    "artist_name": "Elandré",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jsEV",
+    "artist_name": "Joseph Junior Zenny",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jscV",
+    "artist_name": "Tina Dico",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jse0",
+    "artist_name": "Mackendy Talon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jslV",
+    "artist_name": "Ariane Roy",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jtI0",
+    "artist_name": "Shi Shi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jtP0",
+    "artist_name": "Nawal Zoghbi",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jti7",
+    "artist_name": "Ida Vermehren",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jvZV",
+    "artist_name": "Tender Misfit",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jwaf",
+    "artist_name": "MOZIAH",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jwc7",
+    "artist_name": "Lyncs",
+    "artist_profile": "https://s1.ticketm.net/dam/a/e68/53d19b30-5f5a-4be3-9cdb-e86761837e68_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jwfV",
+    "artist_name": "Katie Lynne Sharbaugh",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917jyb0",
+    "artist_name": "Le Coco",
+    "artist_profile": "https://s1.ticketm.net/dam/a/8c9/78ef534b-676c-47b0-96db-1a93452b18c9_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917p0If",
+    "artist_name": "Katarzyna Groniec",
+    "artist_profile": "https://s1.ticketm.net/dam/a/272/7ae266aa-8894-49fa-8292-74934e4e4272_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917p2g7",
+    "artist_name": "Fanny Andersen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917p45V",
+    "artist_name": "Magnhild Hadland",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f4d/25c6815b-6807-4fad-908f-42c2f3d91f4d_510271_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917p5e0",
+    "artist_name": "Matteau",
+    "artist_profile": "https://s1.ticketm.net/dam/a/b74/94c55b80-5bed-4c65-8ce6-166315034b74_466911_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pAHV",
+    "artist_name": "Benjamine Clementine",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pAYf",
+    "artist_name": "Sanjosex and Carles Belda",
+    "artist_profile": "https://s1.ticketm.net/dam/a/72f/59b62122-988e-4fed-a992-1a597d45c72f_442631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pDhf",
+    "artist_name": "Jennie Lena",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pDwV",
+    "artist_name": "Trapos Sucios",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pFU7",
+    "artist_name": "Go Rural Festival",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pG3V",
+    "artist_name": "Senna Gammour",
+    "artist_profile": "https://s1.ticketm.net/dam/a/0a1/f099dcfd-ef13-4943-8be8-6b62594fd0a1_478831_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pHI0",
+    "artist_name": "My Indigo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pK7f",
+    "artist_name": "Ania Wyszkoni",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a09/73775f22-9732-4ca0-9df6-169f98cf5a09_504401_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pKv0",
+    "artist_name": "Typh Barrow",
+    "artist_profile": "https://s1.ticketm.net/dam/a/491/087b8ca0-3000-4d8e-b63d-164791a16491_503941_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pLfV",
+    "artist_name": "Los Inhumanos",
+    "artist_profile": "https://s1.ticketm.net/dam/a/275/58f2f629-ea38-4537-81e2-54c652320275_570771_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pNY7",
+    "artist_name": "Paweł Domagała",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f59/814dd921-a698-4bca-8e52-135217960f59_597631_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pTQ7",
+    "artist_name": "Tim Douwsma",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pUU7",
+    "artist_name": "Los Roslis",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pWEf",
+    "artist_name": "Marie Napieralska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pYtf",
+    "artist_name": "Boni",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pZw7",
+    "artist_name": "Marama",
+    "artist_profile": "https://s1.ticketm.net/dam/a/84e/4d92ac84-395b-49c1-a4b8-09944420a84e_413621_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917p_f0",
+    "artist_name": "Shinova",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917p_q7",
+    "artist_name": "ÑU",
+    "artist_profile": "https://s1.ticketm.net/dam/a/9f3/ddf9603c-5af2-45da-871b-7537ce6a19f3_532421_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pa-7",
+    "artist_name": "Unrisen Queen",
+    "artist_profile": "https://s1.ticketm.net/dam/a/510/589f608e-8ddd-4f54-b6f3-6304e3be2510_459971_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917paOf",
+    "artist_name": "Shy'm",
+    "artist_profile": "https://s1.ticketm.net/dam/a/72d/7eae94e9-4e28-46ba-91c2-ae7cb33c372d_913251_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917peQ7",
+    "artist_name": "Thomas Ring",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pevf",
+    "artist_name": "Soy Luna",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5a0/fcd2960a-d7eb-43a8-a53c-4a8790e895a0_449921_RECOMENDATION_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pfKf",
+    "artist_name": "Carlos Marco",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pfV7",
+    "artist_name": "Iiris Viljanen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917piaf",
+    "artist_name": "Vinchenzo",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pkl0",
+    "artist_name": "Lisandro Cuxi",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f01/e2c3044f-16dd-4930-b006-cd59e0002f01_447651_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pklV",
+    "artist_name": "Javier de Pecos",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_PORTRAIT_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917plRf",
+    "artist_name": "Lagarto Amarillo",
+    "artist_profile": "https://s1.ticketm.net/dam/a/30f/5b7e8db1-9150-40fc-a9b4-181b6887230f_625041_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pldf",
+    "artist_name": "Eruca Sativa",
+    "artist_profile": "https://s1.ticketm.net/dam/a/ed5/71db1c59-3bf7-48ec-ab44-b0209fd1ded5_617321_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pnFV",
+    "artist_name": "White Pepper",
+    "artist_profile": "https://s1.ticketm.net/dam/a/926/fecb5b3b-68df-432f-8b24-a57d9ee70926_615281_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917prB0",
+    "artist_name": "Querencia Animal",
+    "artist_profile": "https://s1.ticketm.net/dam/a/1ba/82bf0ec6-c599-421c-8436-93b2a2bb31ba_565791_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917prgf",
+    "artist_name": "Teresa Werner",
+    "artist_profile": "https://s1.ticketm.net/dam/a/76e/c44f478a-7bdf-4440-9b6e-edd1309d876e_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917pscV",
+    "artist_name": "Jetbone",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pvP0",
+    "artist_name": "Bike",
+    "artist_profile": "https://s1.ticketm.net/dam/a/2e5/d2864221-a38f-4fb2-b6b6-4657b37e32e5_422291_RETINA_PORTRAIT_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pxB0",
+    "artist_name": "Emma Cook",
+    "artist_profile": "https://s1.ticketm.net/dam/a/f45/c8b537ee-5d98-4833-99a1-4f3751903f45_617631_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917pxi7",
+    "artist_name": "Inka",
+    "artist_profile": "https://s1.ticketm.net/dam/a/247/553807d0-f242-46f3-bd0d-f81f5c7ee247_SOURCE"
+  },
+  {
+    "artist_id": "K8vZ917pzy0",
+    "artist_name": "Roel van Velzen",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917q6A0",
+    "artist_name": "Ari Amun",
+    "artist_profile": "https://s1.ticketm.net/dam/a/5ae/42fb1935-81cd-4cc9-92dc-58e69ff1c5ae_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qAl7",
+    "artist_name": "Jared Benjamin",
+    "artist_profile": "https://s1.ticketm.net/dam/a/84b/b3729464-5157-4fde-b40b-3a0386ebd84b_CUSTOM.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qZKf",
+    "artist_name": "Ginger Winn",
+    "artist_profile": "https://s1.ticketm.net/dam/a/a39/5f992085-abea-43d7-b1a4-9e14986d9a39_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qe60",
+    "artist_name": "Lori J",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZ917qkCV",
+    "artist_name": "Lady Love",
+    "artist_profile": "https://s1.ticketm.net/dam/a/d5b/0c885390-2742-4ff3-9584-495e3d3aad5b_TABLET_LANDSCAPE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7evF6",
+    "artist_name": "Tragic Sasha",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_ARTIST_PAGE_3_2.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7nvEk",
+    "artist_name": "HARIZ",
+    "artist_profile": "https://s1.ticketm.net/dam/a/216/cd5b6e77-8657-40f6-a158-2664e9b11216_RETINA_LANDSCAPE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7t6kk",
+    "artist_name": "N'Gone Thiam",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7t77k",
+    "artist_name": "Sebó",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7tIEk",
+    "artist_name": "Desirée Dawson",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7tvkk",
+    "artist_name": "Meggie Lennon",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_EVENT_DETAIL_PAGE_16_9.jpg"
+  },
+  {
+    "artist_id": "K8vZfZ7vkn6",
+    "artist_name": "Krystyna Gizowska",
+    "artist_profile": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+  }
+]

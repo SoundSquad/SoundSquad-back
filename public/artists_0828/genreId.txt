@@ -1,0 +1,25 @@
+index || Genre Name || Genre ID || number
+0 || Alternative || KnvZfZ7vAvv || 257
+1 || Ballads-Romantic || KnvZfZ7vAve || 32
+2 || Blues || KnvZfZ7vAvd || 32
+3 || Chanson Francaise || KnvZfZ7vAvA || 28
+4 || Children's Music || KnvZfZ7vAvk || 11
+5 || Classical || KnvZfZ7vAeJ || 102
+6 || Country || KnvZfZ7vAv6 || 191
+7 || Dance-Electronic || KnvZfZ7vAvF || 58
+8 || Folk || KnvZfZ7vAva || 142
+9 || Hip-Hop-Rap || KnvZfZ7vAv1 || 803
+10 || Holiday || KnvZfZ7vAvJ || 3
+11 || Jazz || KnvZfZ7vAvE || 117
+12 || Latin || KnvZfZ7vAJ6 || 80
+13 || Medieval-Renaissance || KnvZfZ7vAvI || 0
+14 || Metal || KnvZfZ7vAvt || 37
+15 || New Age || KnvZfZ7vAvn || 1
+16 || Other || KnvZfZ7vAvl || 123
+17 || Pop || KnvZfZ7vAev || 929
+18 || R&B || KnvZfZ7vAee || 272
+19 || Reggae || KnvZfZ7vAed || 24
+20 || Religious || KnvZfZ7vAe7 || 24
+21 || Rock || KnvZfZ7vAeA || 458
+22 || Undefined || KnvZfZ7vAe6 || 47
+23 || World || KnvZfZ7vAeF || 125

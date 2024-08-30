@@ -1,12 +1,13 @@
 import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import {ArtistAttributes} from '../modules/artists';
 
-interface ArtistAttributes {
-  artist_num: number;
-  artist_id: string;
-  artist_name: string;
-  artist_profile: string;
-  profile_click: number;
-}
+// interface ArtistAttributes {
+//   artist_num: number;
+//   artist_id: string;
+//   artist_name: string;
+//   artist_profile: string;
+//   profile_click?: number;
+// }
 
 interface ArtistModel extends Model<ArtistAttributes>, ArtistAttributes {}
 
