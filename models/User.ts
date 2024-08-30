@@ -4,7 +4,6 @@ interface UserAttributes {
   user_num?: number; // Make this optional
   user_id: string;
   user_pw: string;
-  user_name: string;
   user_gender: number;
   user_bd: Date;
   profile_img?: string;
@@ -35,10 +34,6 @@ const User = (sequelize: Sequelize): UserStatic => {
       },
       user_pw: {
         type: DataTypes.STRING(255),
-        allowNull: false,
-      },
-      user_name: {
-        type: DataTypes.STRING(50),
         allowNull: false,
       },
       user_gender: {

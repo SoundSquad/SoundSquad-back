@@ -7,6 +7,7 @@ import communityRouter from './routes/Rcommunity';
 import dotenv from 'dotenv';
 import sequelize  from './models';
 import cors from 'cors';
+import session from 'express-session';
 
 dotenv.config();
 
@@ -20,6 +21,21 @@ app.use(cors());
 app.get('/',(req,res)=>{
     res.send('hello');
 })
+
+const today = new Date()
+const expireDate = new Date()
+expireDate.setDate(today.getDate() + 1)
+
+app.use(session({
+    secret : process.env.COOKIE_SECRET, 
+    resave : false, 
+    saveUninitialized : false, 
+    cookie : {
+      httpOnly :true,
+      secure : false,
+      expires : expireDate
+    }    
+}))
 
 app.use('/user', userRouter);
 app.use('/search', searchRouter);
