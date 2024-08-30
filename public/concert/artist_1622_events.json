@@ -1,0 +1,24 @@
+{
+  "artist_num": 1622,
+  "artist_id": "K8vZ9179edf",
+  "events": [
+    {
+      "title": "Festiwal Muzyka u Wnuka: Urszula Dudziak & Grzech Piotrowski",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/a/efb/e17ab758-7f2f-4e77-ac5e-7255e6a41efb_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Zakopane, Łódzkie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/festiwal-muzyka-u-wnuka-urszula-dudziak--grzech-piotrowski-tickets/37303?language=en-us"
+    },
+    {
+      "title": "29. Summer Jazz Festival Kraków: Urszula Dudziak - Grzech Piotrowski",
+      "start_date": "2024-08-30",
+      "end_date": "2024-08-30",
+      "image_url": "https://s1.ticketm.net/dam/a/a20/599001e7-5c64-42da-9615-419ea7814a20_1333661_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Krakow, Małopolskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/29-summer-jazz-festival-krakow-urszula-dudziak-grzech-piotrowski-tickets/35573?language=en-us"
+    }
+  ]
+}

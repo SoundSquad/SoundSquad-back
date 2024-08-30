@@ -1,0 +1,33 @@
+{
+  "artist_num": 849,
+  "artist_id": "K8vZ9179BhV",
+  "events": [
+    {
+      "title": "El Paso Trap Fest 2024",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/b99/9a117102-661f-48ad-ba64-dc857815db99_1546171_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "El Paso, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/el-paso-trap-fest-2024-el-paso-texas-11-15-2024/event/0C006116FDB855D6"
+    },
+    {
+      "title": "Masters of Ceremony",
+      "start_date": "2024-11-10",
+      "end_date": "2024-11-10",
+      "image_url": "https://s1.ticketm.net/dam/a/863/7148d6d7-2e93-4796-be5a-76c721d68863_1061841_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "Tickets are not available at the box office on the first day of the public on sale. Visit Barclays Center's A-Z Center Info Guide for venue information and frequently asked questions. SHOW: 8:00 PM ALL AGES EVENT BAG POLICY: Drawstring backpacks and any bags measuring 14\" X 14\" X 6\" or smaller are permitted.",
+      "ticket_link": "https://www.ticketmaster.com/masters-of-ceremony-brooklyn-new-york-11-10-2024/event/30006094235725A5"
+    },
+    {
+      "title": "ONE MusicFest",
+      "start_date": "2024-10-27",
+      "end_date": "2024-10-27",
+      "image_url": "https://s1.ticketm.net/dam/a/c1b/9c52fdfc-d509-44ba-ab47-29d0b875fc1b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Atlanta, Georgia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/Y3mh"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "artist_num": 1999,
+  "artist_id": "K8vZ9174Qy7",
+  "events": [
+    {
+      "title": "Tribute to the Beatles",
+      "start_date": "2024-12-06",
+      "end_date": "2024-12-06",
+      "image_url": "https://s1.ticketm.net/dam/a/86d/dcde18b0-3212-48b2-84b7-12ca70d9e86d_452841_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glenside, Pennsylvania, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uKAO"
+    },
+    {
+      "title": "Beatles vs. Stones Tribute - A Musical Showdown",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/86d/dcde18b0-3212-48b2-84b7-12ca70d9e86d_452841_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Monterey, California, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7u63e"
+    },
+    {
+      "title": "Liverpool Legends",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/947/a783eb42-6129-4985-8762-767aa9c4a947_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Ottumwa, Iowa, United States Of America",
+      "description": "Liverpool Legends are four incredibly talented musicians/actors put together by Louise Harrison, sister of the late George Harrison, to honor her brothers legacy, and re-create the band that changed the world forever. Experience the complete history of The Beatles, starting with the early mop-top hits, such as I Want To Hold Your Hand, She Loves You, and Twist and Shout. You will then take a Magical Mystery Tour down Penny Lane, through the psychedelic era of Sgt. Pepper. And in The End, Come Together and sing and dance to classics like Get Back, Here Comes the Sun, and Hey Jude. Liverpool Legends have headlined their own show in Branson, Missouri since 2005. They have been awarded Best Band, Best Show, Best Tribute Show, and received the Visitors Choice Award for Entertainer of the Year. With note perfect vocals, precise attention to every musical detail, along with costume changes, vintage instruments, and new state-of-the-art multi-media, you do not want to miss this show!",
+      "ticket_link": "https://www.ticketmaster.com/liverpool-legends-ottumwa-iowa-10-19-2024/event/060060F3E22978FA"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artist_num": 324,
+  "artist_id": "K8vZ917pM5f",
+  "events": [
+    {
+      "title": "Goldmen",
+      "start_date": "2024-12-15",
+      "end_date": "2024-12-15",
+      "image_url": "https://s1.ticketm.net/dam/a/87f/f924744c-74d7-4344-b654-8551cbf2187f_1749381_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brussels, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/goldmen-tickets/57273"
+    },
+    {
+      "title": "Goldmen",
+      "start_date": "2024-11-30",
+      "end_date": "2024-11-30",
+      "image_url": "https://s1.ticketm.net/dam/a/87f/f924744c-74d7-4344-b654-8551cbf2187f_1749381_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Liège, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/goldmen-tickets/57277"
+    }
+  ]
+}

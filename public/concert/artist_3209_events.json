@@ -1,0 +1,24 @@
+{
+  "artist_num": 3209,
+  "artist_id": "K8vZ917qehf",
+  "events": [
+    {
+      "title": "Marty Friedman",
+      "start_date": "2025-02-16",
+      "end_date": "2025-02-16",
+      "image_url": "https://s1.ticketm.net/dam/a/ee3/d1aafe86-0697-41e0-94c8-f11b77ac0ee3_872011_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Houston, Texas, United States Of America",
+      "description": "This is an all ages standing room only event. Doors open at 7PM",
+      "ticket_link": "https://concerts.livenation.com/marty-friedman-houston-texas-02-16-2025/event/3A0060F8954834B6"
+    },
+    {
+      "title": "Marty Friedman",
+      "start_date": "2025-02-11",
+      "end_date": "2025-02-11",
+      "image_url": "https://s1.ticketm.net/dam/e/629/b9892ef7-0f02-4f40-b0c6-54816ed2f629_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Leesburg, Virginia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/marty-friedman-leesburg-virginia-02-11-2025/event/010060FD900D1F66"
+    }
+  ]
+}

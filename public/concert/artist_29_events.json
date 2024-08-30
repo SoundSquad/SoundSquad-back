@@ -1,0 +1,51 @@
+{
+  "artist_num": 29,
+  "artist_id": "K8vZ917QF17",
+  "events": [
+    {
+      "title": "Nation Of Language - New Year's Eve Show",
+      "start_date": "2024-12-31",
+      "end_date": "2024-12-31",
+      "image_url": "https://s1.ticketm.net/dam/a/9a7/b69f96ae-3303-444a-a6c9-419b756899a7_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "Doors: 9:00pm All Ages",
+      "ticket_link": "https://concerts.livenation.com/nation-of-language-new-years-eve-brooklyn-new-york-12-31-2024/event/00006113AE041F61"
+    },
+    {
+      "title": "Chelsea Wolfe",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-01",
+      "image_url": "https://s1.ticketm.net/dam/a/891/796cdefd-3404-4a0e-b0c6-39800cedd891_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brighton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/chelsea-wolfe-chalk-tickets/13501853?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Chelsea Wolfe",
+      "start_date": "2024-10-31",
+      "end_date": "2024-10-31",
+      "image_url": "https://s1.ticketm.net/dam/a/891/796cdefd-3404-4a0e-b0c6-39800cedd891_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Leeds, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/chelsea-wolfe-leeds-irish-centre-tickets/13509433?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Chelsea Wolfe",
+      "start_date": "2024-10-29",
+      "end_date": "2024-10-29",
+      "image_url": "https://s1.ticketm.net/dam/a/891/796cdefd-3404-4a0e-b0c6-39800cedd891_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/chelsea-wolfe-koko-tickets/13738613?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Chelsea Wolfe",
+      "start_date": "2024-10-28",
+      "end_date": "2024-10-28",
+      "image_url": "https://s1.ticketm.net/dam/a/891/796cdefd-3404-4a0e-b0c6-39800cedd891_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/chelsea-wolfe-manchester-academy-2-tickets/13494733?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

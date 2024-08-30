@@ -1,0 +1,24 @@
+{
+  "artist_num": 52,
+  "artist_id": "K8vZ917jpC7",
+  "events": [
+    {
+      "title": "Drop Nineteens w/ Olivia O.",
+      "start_date": "2024-10-23",
+      "end_date": "2024-10-23",
+      "image_url": "https://s1.ticketm.net/dam/a/e5e/12610d96-a8d3-45a6-9461-4d7e042fde5e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7C44k"
+    },
+    {
+      "title": "Drop Nineteens",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/e/fc3/82642650-cc9a-4c38-92c6-9b6faa9c4fc3_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "*THIS SHOW IS 21+*",
+      "ticket_link": "https://www.ticketmaster.com/drop-nineteens-brooklyn-new-york-10-19-2024/event/000060FA8EBE3B23"
+    }
+  ]
+}

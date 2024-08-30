@@ -1,0 +1,51 @@
+{
+  "artist_num": 651,
+  "artist_id": "K8vZ917h-1V",
+  "events": [
+    {
+      "title": "Freestyle Free For All Tour 2024",
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-22",
+      "image_url": "https://s1.ticketm.net/dam/a/6f6/61d5c094-ca41-48f7-969a-ceec4c6556f6_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Hollywood, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/freestyle-free-for-all-tour-2024-hollywood-florida-11-22-2024/event/0D0060A9A0F32C5B"
+    },
+    {
+      "title": "Freestyle Free For All 2024 Tour",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/6f6/61d5c094-ca41-48f7-969a-ceec4c6556f6_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Atlantic City, New Jersey, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/freestyle-free-for-all-2024-tour-atlantic-city-new-jersey-11-16-2024/event/020060A2D23364E5"
+    },
+    {
+      "title": "Freestyle Free For All",
+      "start_date": "2024-11-08",
+      "end_date": "2024-11-08",
+      "image_url": "https://s1.ticketm.net/dam/a/6f6/61d5c094-ca41-48f7-969a-ceec4c6556f6_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Rosemont, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/freestyle-free-for-all-rosemont-illinois-11-08-2024/event/0400608992A10D62"
+    },
+    {
+      "title": "FREESTYLE FREE FOR ALL TOUR 2024",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/fe6/be5a1d97-8fd2-49fb-bf94-3a93a4259fe6_1590461_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Ledyard, Connecticut, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/freestyle-free-for-all-tour-2024-ledyard-connecticut-10-12-2024/event/1D0060B6B79F276B"
+    },
+    {
+      "title": "Freestyle Free For All Tour 2024",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/6f6/61d5c094-ca41-48f7-969a-ceec4c6556f6_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Orlando, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/freestyle-free-for-all-tour-2024-orlando-florida-10-05-2024/event/220060ADC33D181E"
+    }
+  ]
+}

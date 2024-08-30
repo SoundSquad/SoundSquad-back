@@ -1,0 +1,24 @@
+{
+  "artist_num": 322,
+  "artist_id": "K8vZ917bo-0",
+  "events": [
+    {
+      "title": "Formidable! Aznavour",
+      "start_date": "2025-03-29",
+      "end_date": "2025-03-29",
+      "image_url": "https://s1.ticketm.net/dam/a/45f/e3cba2de-9ddb-4e9b-a3a6-88beb420545f_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Wavre, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/formidable-aznavour-tickets/61427"
+    },
+    {
+      "title": "Formidable! Aznavour",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-10",
+      "image_url": "https://s1.ticketm.net/dam/a/45f/e3cba2de-9ddb-4e9b-a3a6-88beb420545f_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brussels, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/formidable-aznavour-tickets/60397"
+    }
+  ]
+}

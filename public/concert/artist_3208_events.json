@@ -1,0 +1,24 @@
+{
+  "artist_num": 3208,
+  "artist_id": "K8vZ917qAJf",
+  "events": [
+    {
+      "title": "Haley Heynderickx",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/639/5dae8e9a-726d-4c59-863f-e290655d2639_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Washington, District of Columbia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/haley-heynderickx-washington-district-of-columbia-11-16-2024/event/150060F0B6C13B97"
+    },
+    {
+      "title": "Arooj Aftab: Night Reign Tour (18+)",
+      "start_date": "2024-09-19",
+      "end_date": "2024-09-19",
+      "image_url": "https://s1.ticketm.net/dam/a/629/bad85041-378e-4583-be8e-22ef7ebbc629_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "18+ w/ a valid ID Door Time: 7:00pm Show Time: 8:00pm",
+      "ticket_link": "https://concerts.livenation.com/arooj-aftab-night-reign-tour-18-boston-massachusetts-09-19-2024/event/01006091C61A5E9D"
+    }
+  ]
+}

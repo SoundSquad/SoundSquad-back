@@ -1,0 +1,24 @@
+{
+  "artist_num": 34,
+  "artist_id": "K8vZ917Qyc0",
+  "events": [
+    {
+      "title": "BIG WETT",
+      "start_date": "2024-11-07",
+      "end_date": "2024-11-07",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Leeds, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/big-wett-headrow-house-tickets/13885203?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Big Wett",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Cardiff, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/big-wett-clwb-ifor-bach-tickets/13875483?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

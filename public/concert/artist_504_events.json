@@ -1,0 +1,42 @@
+{
+  "artist_num": 504,
+  "artist_id": "K8vZ917hd-0",
+  "events": [
+    {
+      "title": "ZZ Ward - The Dirty Sun Tour",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/cbd/f1146e64-7707-4342-abce-029166f6bcbd_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Boise, Idaho, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/zz-ward-the-dirty-sun-tour-boise-idaho-11-16-2024/event/1E0060F1C9014247"
+    },
+    {
+      "title": "ZZ Ward - The Dirty Sun Tour",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/cbd/f1146e64-7707-4342-abce-029166f6bcbd_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Spokane, Washington, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/zz-ward-the-dirty-sun-tour-spokane-washington-11-15-2024/event/1E0060F1C4472E7A"
+    },
+    {
+      "title": "Whiskey Myers w/ 49 Winchester",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/a/cee/e1d9c383-19ac-46c8-a8c5-277bca791cee_1680271_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dallas, Texas, United States Of America",
+      "description": "Rain or Shine All patrons require a ticket. No PDF's allowed. To reduce staff contact with guest belongings, we have implemented the following bag policy: we will allow clear plastic, vinyl or PVC tote bags no larger than 12\" x 6\" x 12\" and/or small clutch bags (6\"x 9\"). Personal lawn chairs are no longer permitted within the venue.",
+      "ticket_link": "https://concerts.livenation.com/whiskey-myers-w-49-winchester-dallas-texas-11-02-2024/event/0C00608B03D561DC"
+    },
+    {
+      "title": "Midland",
+      "start_date": "2024-09-07",
+      "end_date": "2024-09-07",
+      "image_url": "https://s1.ticketm.net/dam/a/918/7d0b209f-3b53-48ea-b112-2d41c3882918_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Prior Lake, Minnesota, United States Of America",
+      "description": "Must be 18+ to enter casino or attend shows without legal parent or guardian. No refunds or exchanges, including inclement weather. There is a strict 4 ticket limit for this event. Accounts found in violation of the posted ticket limit may be cancelled without notice.",
+      "ticket_link": "https://www.ticketmaster.com/midland-prior-lake-minnesota-09-07-2024/event/060060B5A027494D"
+    }
+  ]
+}

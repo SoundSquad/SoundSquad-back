@@ -1,0 +1,51 @@
+{
+  "artist_num": 2026,
+  "artist_id": "K8vZ917QsaV",
+  "events": [
+    {
+      "title": "Tom Rasmussen",
+      "start_date": "2024-10-25",
+      "end_date": "2024-10-25",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tom-rasmussen-koko-tickets/13548734?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tom Rasmussen",
+      "start_date": "2024-10-22",
+      "end_date": "2024-10-22",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Bristol, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tom-rasmussen-strange-brew-tickets/13549154?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tom Rasmussen",
+      "start_date": "2024-10-21",
+      "end_date": "2024-10-21",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Nottingham, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tom-rasmussen-the-bodega-tickets/13549184?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tom Rasmussen",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-18",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tom-rasmussen-king-tuts-wah-wah-hut-tickets/13549984?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tom Rasmussen",
+      "start_date": "2024-10-17",
+      "end_date": "2024-10-17",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tom-rasmussen-yes-pink-room-tickets/13552434?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

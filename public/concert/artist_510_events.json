@@ -1,0 +1,24 @@
+{
+  "artist_num": 510,
+  "artist_id": "K8vZ917j82f",
+  "events": [
+    {
+      "title": "Country Bay Music Festival",
+      "start_date": "2024-11-09",
+      "end_date": "2024-11-10",
+      "image_url": "https://s1.ticketm.net/dam/a/452/5ab99b54-e15a-4e6c-9167-4b0d15a65452_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Key Biscayne, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/ujw0"
+    },
+    {
+      "title": "GoldenSky",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-20",
+      "image_url": "https://s1.ticketm.net/dam/a/b90/d6f90ae4-09be-413e-8f70-7fc4ee2d1b90_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Sacramento, California, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/KcMqb"
+    }
+  ]
+}

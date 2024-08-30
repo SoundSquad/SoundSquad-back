@@ -1,0 +1,42 @@
+{
+  "artist_num": 2861,
+  "artist_id": "K8vZ917QoKf",
+  "events": [
+    {
+      "title": "Milan Ring",
+      "start_date": "2024-11-21",
+      "end_date": "2024-11-21",
+      "image_url": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/milan-ring-glasgow-21-11-2024/event/360060D489A61B27"
+    },
+    {
+      "title": "Milan Ring",
+      "start_date": "2024-11-19",
+      "end_date": "2024-11-19",
+      "image_url": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/milan-ring-folklore-tickets/13682663?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tora, Milan Ring",
+      "start_date": "2024-11-14",
+      "end_date": "2024-11-14",
+      "image_url": "https://s1.ticketm.net/dam/a/bd2/657ff991-1e1c-4719-b178-2b5933ebebd2_1748171_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Solana Beach, California, United States Of America",
+      "description": "Ticket Price: $22 advanced / $25 day of show / $39 reserved loft seating (available over the phone 858-481-8140 or in person at our box office) (seating chart / virtual venue tour)Not on the e-mail list for venue presales? Sign up to be a Belly Up VIP and you will never miss a chance to grab tickets before they go on sale to the general public again!There are no refunds or exchanges on tickets once purchased.All times and supporting acts are subject to change.",
+      "ticket_link": "https://www.ticketweb.com/event/tora-milan-ring-belly-up-tickets/13440154"
+    },
+    {
+      "title": "Tora",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-13",
+      "image_url": "https://s1.ticketm.net/dam/a/bd2/657ff991-1e1c-4719-b178-2b5933ebebd2_1748171_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Doors: 7pm Show: 8pm ALL AGES",
+      "ticket_link": "https://www.ticketmaster.com/tora-los-angeles-california-11-13-2024/event/0900609295DD23B3"
+    }
+  ]
+}

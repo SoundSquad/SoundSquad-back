@@ -1,0 +1,24 @@
+{
+  "artist_num": 2059,
+  "artist_id": "K8vZ917huCf",
+  "events": [
+    {
+      "title": "BLÜ EYES",
+      "start_date": "2024-09-04",
+      "end_date": "2024-09-04",
+      "image_url": "https://s1.ticketm.net/dam/a/ea8/efce9413-9891-4a63-8041-acf96fb00ea8_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Philadelphia, Pennsylvania, United States Of America",
+      "description": "This is an All Ages event. Doors open at 7:00PM.",
+      "ticket_link": "https://concerts.livenation.com/blu-eyes-philadelphia-pennsylvania-09-04-2024/event/020060D4B9025477"
+    },
+    {
+      "title": "Blu Eyes",
+      "start_date": "2024-09-03",
+      "end_date": "2024-09-03",
+      "image_url": "https://s1.ticketm.net/dam/a/ea8/efce9413-9891-4a63-8041-acf96fb00ea8_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Washington, District of Columbia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/blu-eyes-washington-district-of-columbia-09-03-2024/event/150060D4CEDBD1C7"
+    }
+  ]
+}

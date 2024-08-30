@@ -1,0 +1,33 @@
+{
+  "artist_num": 42,
+  "artist_id": "K8vZ917hraV",
+  "events": [
+    {
+      "title": "Warmduscher + More - Friday At Mutations 2024",
+      "start_date": "2024-11-08",
+      "end_date": "2024-11-08",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brighton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/warmduscher-more-various-venues-brighton-tickets/13871693?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Mutations Festival 2024 - Weekend Ticket",
+      "start_date": "2024-11-08",
+      "end_date": "2024-11-08",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brighton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/mutations-festival-2024-various-venues-brighton-tickets/13871783?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Mutations Festival 2024 - All Week Ticket",
+      "start_date": "2024-11-05",
+      "end_date": "2024-11-05",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brighton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/mutations-festival-2024-various-venues-brighton-tickets/13871793?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

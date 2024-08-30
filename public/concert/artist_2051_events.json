@@ -1,0 +1,60 @@
+{
+  "artist_num": 2051,
+  "artist_id": "K8vZ917hTL0",
+  "events": [
+    {
+      "title": "MacKenzy MacKay",
+      "start_date": "2024-10-21",
+      "end_date": "2024-10-21",
+      "image_url": "https://s1.ticketm.net/dam/e/f76/bdc55682-4347-409b-aeb2-53dccf1e5f76_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Mackenzy Mackay [Ages 16+ (Under 16 with parent or guardian), Doors Open 6pm, $18 Advance, $20 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/mackenzy-mackay-new-york-new-york-10-21-2024/event/00006116FB339201"
+    },
+    {
+      "title": "MacKenzy MacKay",
+      "start_date": "2024-10-20",
+      "end_date": "2024-10-20",
+      "image_url": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Toronto, Ontario, Canada",
+      "description": "This is an ALL AGES event. Doors: 7:00PM Show: 8:00PM",
+      "ticket_link": "https://www.ticketmaster.ca/mackenzy-mackay-toronto-ontario-10-20-2024/event/10006117BE0255E8"
+    },
+    {
+      "title": "MacKenzy MacKay",
+      "start_date": "2024-10-14",
+      "end_date": "2024-10-14",
+      "image_url": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Moroccan Lounge Presents: Mackenzy Mackay [October 14, 2024 / Doors 6:30pm / $18 Adv / $20 DOS / All Ages]",
+      "ticket_link": "https://www.ticketmaster.com/mackenzy-mackay-los-angeles-california-10-14-2024/event/09006116B0BD829E"
+    },
+    {
+      "title": "MACKENZY MACKAY",
+      "start_date": "2024-10-07",
+      "end_date": "2024-10-07",
+      "image_url": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Auckland, New Zealand, New Zealand",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.co.nz/v2/event/mackenzy-mackay/170255"
+    },
+    {
+      "title": "MACKENZY MACKAY",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Fitzroy, Victoria, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/mackenzy-mackay/170304"
+    },
+    {
+      "title": "MACKENZY MACKAY",
+      "start_date": "2024-10-02",
+      "end_date": "2024-10-02",
+      "image_url": "https://s1.ticketm.net/dam/a/d0a/bfabec0e-0ddc-4470-9238-79c176a6ad0a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Sydney, New South Wales, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/mackenzy-mackay/170216"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "artist_num": 3169,
+  "artist_id": "K8vZ917QRZ7",
+  "events": [
+    {
+      "title": "Los Angeles Folk Festival - Sunday Ticket",
+      "start_date": "2025-03-23",
+      "end_date": "2025-03-23",
+      "image_url": "https://s1.ticketm.net/dam/a/acb/fa854327-c5fd-4caa-b545-bcce99027acb_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "The Bellwether LA is a cashless venue. Please plan accordingly. There is a delivery delay in place on this event lifting 24 hours prior to show time.",
+      "ticket_link": "https://www.ticketmaster.com/los-angeles-folk-festival-sunday-ticket-los-angeles-california-03-23-2025/event/090060D4E3C33CF8"
+    },
+    {
+      "title": "Rodrigo y Gabriela",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/6c1/3fe60cb6-22bd-4763-acab-b1b2bb6d06c1_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Del Mar, California, United States Of America",
+      "description": "ALL AGES ADMITTED. This event is open to all ages and everyone will need a ticket to be admitted. All guests under the age of 18 must be accompanied by a parent, guardian, or responsible adult over the age of 25 with written authorization. We do not recommend bringing little ones to the venue and require those under the age of 7 to have appropriate hearing protection. We do not have infant changing facilities within the venue. There is a strict 4 ticket limit for this event. Accounts found in violation of the posted ticket limit may be cancelled without notice.",
+      "ticket_link": "https://www.ticketmaster.com/rodrigo-y-gabriela-del-mar-california-09-14-2024/event/0A00609AB9373F9F"
+    },
+    {
+      "title": "Los Angeles Folk Festival - 2 Day Ticket",
+      "start_date": "2024-03-22",
+      "end_date": "2024-03-23",
+      "image_url": "https://s1.ticketm.net/dam/a/acb/fa854327-c5fd-4caa-b545-bcce99027acb_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "This ticket is valid for entry to both days of the festival: Sat 9/7 - Sun 9/8",
+      "ticket_link": "https://www.ticketmaster.com/los-angeles-folk-festival-2-day-los-angeles-california-03-22-2024/event/090060D5B1DF61A1"
+    }
+  ]
+}

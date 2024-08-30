@@ -1,0 +1,51 @@
+{
+  "artist_num": 490,
+  "artist_id": "K8vZ9179bof",
+  "events": [
+    {
+      "title": "Matt Lang",
+      "start_date": "2025-04-24",
+      "end_date": "2025-04-24",
+      "image_url": "https://s1.ticketm.net/dam/a/077/af7767e7-0fea-4e3e-bd6d-c229519ce077_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brossard, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/matt-lang-brossard-quebec-04-24-2025/event/31006079DE953BEE"
+    },
+    {
+      "title": "Carly Pearce: hummingbird world tour presented by conundrum wines",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/d2c/90fd3f42-6a1a-45eb-8650-194162c14d2c_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Winnipeg, Manitoba, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/carly-pearce-hummingbird-world-tour-presented-winnipeg-manitoba-11-16-2024/event/110060FE69F20CED"
+    },
+    {
+      "title": "Carly Pearce: hummingbird world tour presented by conundrum wines",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-13",
+      "image_url": "https://s1.ticketm.net/dam/a/d2c/90fd3f42-6a1a-45eb-8650-194162c14d2c_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Edmonton, Alberta, Canada",
+      "description": "Doors: 7:00 PM Show: 8:00 PM",
+      "ticket_link": "https://www.ticketmaster.ca/carly-pearce-hummingbird-world-tour-presented-edmonton-alberta-11-13-2024/event/110060F995742B46"
+    },
+    {
+      "title": "Matt Lang",
+      "start_date": "2024-10-26",
+      "end_date": "2024-10-26",
+      "image_url": "https://s1.ticketm.net/dam/a/077/af7767e7-0fea-4e3e-bd6d-c229519ce077_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brossard, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/matt-lang-brossard-quebec-10-26-2024/event/31006049B24A3884"
+    },
+    {
+      "title": "11e Gala Country",
+      "start_date": "2024-10-24",
+      "end_date": "2024-10-24",
+      "image_url": "https://s1.ticketm.net/dam/a/074/63452466-bd3b-43b4-92ed-0eee0b0c8074_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "L'achat d'un billet au parterre donne accès au cocktail d'après-gala de l'industrie avec ambiance musicale jusqu'à minuit.",
+      "ticket_link": "https://www.ticketmaster.ca/11e-gala-country-montreal-quebec-10-24-2024/event/310060C7E70F55BC"
+    }
+  ]
+}

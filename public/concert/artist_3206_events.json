@@ -1,0 +1,51 @@
+{
+  "artist_num": 3206,
+  "artist_id": "K8vZ917p-1V",
+  "events": [
+    {
+      "title": "Aston Merrygold",
+      "start_date": "2024-10-20",
+      "end_date": "2024-10-20",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Belfast, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/aston-merrygold-belfast-20-10-2024/event/3800602CB51D0D87"
+    },
+    {
+      "title": "Aston Merrygold",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/8e0/7a67f502-767e-4358-af28-82664be038e0_1855731_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "With the support from Jamie Grey and Max Rae",
+      "ticket_link": "https://www.ticketmaster.co.uk/aston-merrygold-manchester-19-10-2024/event/3E005F5F96910BF6"
+    },
+    {
+      "title": "Aston Merrygold",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-18",
+      "image_url": "https://s1.ticketm.net/dam/a/8e0/7a67f502-767e-4358-af28-82664be038e0_1855731_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "With the support from Jamie Grey and Max Rae",
+      "ticket_link": "https://www.ticketmaster.co.uk/aston-merrygold-london-18-10-2024/event/3E005F5FC38C2262"
+    },
+    {
+      "title": "Aston Merrygold",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/a/8e0/7a67f502-767e-4358-af28-82664be038e0_1855731_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Birmingham, Unknown State, Great Britain",
+      "description": "With the support from Jamie Grey and Max Rae",
+      "ticket_link": "https://www.ticketmaster.co.uk/aston-merrygold-birmingham-11-10-2024/event/3E005F5FE2CF24F7"
+    },
+    {
+      "title": "Aston Merrygold",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-10",
+      "image_url": "https://s1.ticketm.net/dam/a/8e0/7a67f502-767e-4358-af28-82664be038e0_1855731_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/aston-merrygold-glasgow-10-10-2024/event/36005F62801409ED"
+    }
+  ]
+}

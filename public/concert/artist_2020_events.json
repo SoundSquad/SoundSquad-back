@@ -1,0 +1,15 @@
+{
+  "artist_num": 2020,
+  "artist_id": "K8vZ917QRJV",
+  "events": [
+    {
+      "title": "CityFolk Festival",
+      "start_date": "2024-09-11",
+      "end_date": "2024-09-15",
+      "image_url": "https://s1.ticketm.net/dam/a/1cf/438e3f44-d0bf-4c7c-8e5d-79fe7e3871cf_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Ottawa, Ontario, Canada",
+      "description": "No description available",
+      "ticket_link": "https://cityfolk.frontgatetickets.com/?utm_source=frontgate&utm_medium=fdp&utm_term=buytickets&utm_content=cityfolk&utm_campaign=fgt-website"
+    }
+  ]
+}

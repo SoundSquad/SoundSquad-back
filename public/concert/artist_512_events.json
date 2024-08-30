@@ -1,0 +1,24 @@
+{
+  "artist_num": 512,
+  "artist_id": "K8vZ917jPR7",
+  "events": [
+    {
+      "title": "Koe Wetzel",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/c5b/48adca5a-7d31-4951-9e65-39fdf2c29c5b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Camdenton, Missouri, United States Of America",
+      "description": "Doors 6pm / Show 7pm The first 5 rows (Section 101-105, Rows D-H) include both a reserved seat and GA Pit access. For ADA accommodation requests, please contact the venue at 573-346-0000 at least 2 weeks in advance of the show",
+      "ticket_link": "https://www.ticketmaster.com/koe-wetzel-camdenton-missouri-09-13-2024/event/0600607A99C72424"
+    },
+    {
+      "title": "Koe Wetzel",
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-12",
+      "image_url": "https://s1.ticketm.net/dam/a/c5b/48adca5a-7d31-4951-9e65-39fdf2c29c5b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Bonner Springs, Kansas, United States Of America",
+      "description": "GA Pit (SRO), Reserved Lower (Sections 1-6), Reserved Upper (Sections 7-14). Doors 5:30pm / Show 7:00pm",
+      "ticket_link": "https://www.ticketmaster.com/koe-wetzel-bonner-springs-kansas-09-12-2024/event/0600607AEEAC6C7F"
+    }
+  ]
+}

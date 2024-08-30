@@ -1,0 +1,24 @@
+{
+  "artist_num": 925,
+  "artist_id": "K8vZ917jFkf",
+  "events": [
+    {
+      "title": "RYTMUS",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/a6a/92a1f24b-6ca1-4f73-a656-0b9fd192ba6a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Praha 9, Unknown State, Czech Republic",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.cz/event/rytmus-tickets/49365?language=en-us"
+    },
+    {
+      "title": "Dinner with Rytmus",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/a6a/92a1f24b-6ca1-4f73-a656-0b9fd192ba6a_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Praha 9, Unknown State, Czech Republic",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.cz/event/dinner-with-rytmus-tickets/51319?language=en-us"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "artist_num": 724,
+  "artist_id": "K8vZ917hV-f",
+  "events": [
+    {
+      "title": "Tim Peters - KRASS! Die Tour 2024",
+      "start_date": "2024-11-23",
+      "end_date": "2024-11-23",
+      "image_url": "https://s1.ticketm.net/dam/a/060/dfe6afaa-b327-4b02-8c6f-ddaf7583b060_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Bochum, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/tim-peters-krass-die-tour-2024-tickets/545419?language=en-us"
+    },
+    {
+      "title": "Tim Peters - KRASS! Die Tour 2024 | Special Guest: Marie Reim",
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-22",
+      "image_url": "https://s1.ticketm.net/dam/a/060/dfe6afaa-b327-4b02-8c6f-ddaf7583b060_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Munich, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/tim-peters-krass-die-tour-2024-%7C-special-guest-marie-reim-tickets/545417?language=en-us"
+    },
+    {
+      "title": "Tim Peters - KRASS! Die Tour 2024",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/060/dfe6afaa-b327-4b02-8c6f-ddaf7583b060_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Berlin, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/tim-peters-krass-die-tour-2024-tickets/545379?language=en-us"
+    },
+    {
+      "title": "Tim Peters - KRASS! Die Tour 2024",
+      "start_date": "2024-11-14",
+      "end_date": "2024-11-14",
+      "image_url": "https://s1.ticketm.net/dam/a/060/dfe6afaa-b327-4b02-8c6f-ddaf7583b060_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Hamburg, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/tim-peters-krass-die-tour-2024-tickets/545377?language=en-us"
+    }
+  ]
+}

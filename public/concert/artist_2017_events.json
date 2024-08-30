@@ -1,0 +1,42 @@
+{
+  "artist_num": 2017,
+  "artist_id": "K8vZ917QI0V",
+  "events": [
+    {
+      "title": "Pablo Brooks",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-13",
+      "image_url": "https://s1.ticketm.net/dam/a/219/10c73f79-9e9d-46d2-88c1-ca9daa61b219_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Bristol, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/pablo-brooks-the-louisiana-tickets/13306038?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Pablo Brooks",
+      "start_date": "2024-11-12",
+      "end_date": "2024-11-12",
+      "image_url": "https://s1.ticketm.net/dam/a/219/10c73f79-9e9d-46d2-88c1-ca9daa61b219_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/pablo-brooks-glasgow-12-11-2024/event/36005EC7EFD36944"
+    },
+    {
+      "title": "Pablo Brooks",
+      "start_date": "2024-11-11",
+      "end_date": "2024-11-11",
+      "image_url": "https://s1.ticketm.net/dam/a/219/10c73f79-9e9d-46d2-88c1-ca9daa61b219_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/pablo-brooks-the-lodge-tickets/13306158?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Pablo Brooks",
+      "start_date": "2024-11-07",
+      "end_date": "2024-11-07",
+      "image_url": "https://s1.ticketm.net/dam/a/c43/490f9d33-09ea-4081-a912-9c01b43ecc43_1746201_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Amsterdam, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/pablo-brooks-tickets/292931?language=en-us"
+    }
+  ]
+}

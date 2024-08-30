@@ -1,0 +1,42 @@
+{
+  "artist_num": 2880,
+  "artist_id": "K8vZ917jmV0",
+  "events": [
+    {
+      "title": "Tems: Born In The Wild Tour",
+      "start_date": "2024-09-22",
+      "end_date": "2024-09-22",
+      "image_url": "https://s1.ticketm.net/dam/a/7f8/6166da69-cba3-43ad-9ce4-c567461157f8_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Vancouver, British Columbia, Canada",
+      "description": "Tems has partnered with PLUS1 so that $1 per ticket goes to supporting organizations working for equity, access, and dignity for all.",
+      "ticket_link": "https://www.ticketmaster.ca/tems-born-in-the-wild-tour-vancouver-british-columbia-09-22-2024/event/110060A8B64D5273"
+    },
+    {
+      "title": "Tems: Born In The Wild Tour",
+      "start_date": "2024-09-15",
+      "end_date": "2024-09-15",
+      "image_url": "https://s1.ticketm.net/dam/a/7f8/6166da69-cba3-43ad-9ce4-c567461157f8_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "This is an ALL AGES event. Aragon Ballroom is a standing room only venue, all tickets are General Admission unless otherwise stated. There is NO re-entry. Tems has partnered with PLUS1 so that $1 per ticket goes to supporting organizations working for equity, access, and dignity for all. www.plus1.org",
+      "ticket_link": "https://concerts.livenation.com/tems-born-in-the-wild-tour-chicago-illinois-09-15-2024/event/04006098B5AD2401"
+    },
+    {
+      "title": "Tems: Born In The Wild Tour",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/7f8/6166da69-cba3-43ad-9ce4-c567461157f8_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "5 ans et plus - 5 years old and up",
+      "ticket_link": "https://www.ticketmaster.ca/tems-born-in-the-wild-tour-montreal-quebec-09-13-2024/event/310060A8C94A2DBE"
+    },
+    {
+      "title": "Tems: Born In The Wild Tour",
+      "start_date": "2024-09-11",
+      "end_date": "2024-09-11",
+      "image_url": "https://s1.ticketm.net/dam/a/7f8/6166da69-cba3-43ad-9ce4-c567461157f8_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/tems-born-in-the-wild-tour-boston-massachusetts-09-11-2024/event/01006097D7386510"
+    }
+  ]
+}

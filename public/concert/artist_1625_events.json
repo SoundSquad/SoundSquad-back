@@ -1,0 +1,33 @@
+{
+  "artist_num": 1625,
+  "artist_id": "K8vZ917jqU0",
+  "events": [
+    {
+      "title": "Aaron Frazer - Into The Blue Tour",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-18",
+      "image_url": "https://s1.ticketm.net/dam/a/2c3/4a87ec95-f9dd-4a95-b251-83106ed5b2c3_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "Support: Olive Jones",
+      "ticket_link": "https://www.ticketmaster.co.uk/aaron-frazer-into-the-blue-tour-london-18-10-2024/event/350060A1AED82472"
+    },
+    {
+      "title": "Aaron Frazer - Into The Blue Tour",
+      "start_date": "2024-10-17",
+      "end_date": "2024-10-17",
+      "image_url": "https://s1.ticketm.net/dam/a/2c3/4a87ec95-f9dd-4a95-b251-83106ed5b2c3_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "Support: Olive Jones",
+      "ticket_link": "https://www.ticketmaster.co.uk/aaron-frazer-into-the-blue-tour-manchester-17-10-2024/event/1F0060A1C6D024D0"
+    },
+    {
+      "title": "Aaron Frazer - Into The Blue Tour",
+      "start_date": "2024-10-16",
+      "end_date": "2024-10-16",
+      "image_url": "https://s1.ticketm.net/dam/a/2c3/4a87ec95-f9dd-4a95-b251-83106ed5b2c3_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Bristol, Unknown State, Great Britain",
+      "description": "Support: Olive Jones",
+      "ticket_link": "https://www.ticketmaster.co.uk/aaron-frazer-into-the-blue-tour-bristol-16-10-2024/event/1F0060A1C45F2449"
+    }
+  ]
+}

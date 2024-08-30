@@ -1,0 +1,33 @@
+{
+  "artist_num": 517,
+  "artist_id": "K8vZ917jt6V",
+  "events": [
+    {
+      "title": "Ian Munsick - The Country & WESTern Tour",
+      "start_date": "2024-10-01",
+      "end_date": "2024-10-01",
+      "image_url": "https://s1.ticketm.net/dam/a/98c/970082db-8334-42e0-aa4a-2241ae05f98c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Idaho Falls, Idaho, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/ian-munsick-the-country-western-tour-idaho-falls-idaho-10-01-2024/event/1E0060859DA3443B"
+    },
+    {
+      "title": "Ian Munsick - The Country & WESTern Tour",
+      "start_date": "2024-09-28",
+      "end_date": "2024-09-28",
+      "image_url": "https://s1.ticketm.net/dam/a/98c/970082db-8334-42e0-aa4a-2241ae05f98c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Rio Rancho, New Mexico, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/ian-munsick-the-country-western-tour-rio-rancho-new-mexico-09-28-2024/event/1E00608526507510"
+    },
+    {
+      "title": "Ian Munsick - The Country & WESTern Tour",
+      "start_date": "2024-09-26",
+      "end_date": "2024-09-26",
+      "image_url": "https://s1.ticketm.net/dam/a/98c/970082db-8334-42e0-aa4a-2241ae05f98c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Grand Junction, Colorado, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/ian-munsick-the-country-western-tour-grand-junction-colorado-09-26-2024/event/1E006082AC6A32AD"
+    }
+  ]
+}

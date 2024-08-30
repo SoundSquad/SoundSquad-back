@@ -1,0 +1,24 @@
+{
+  "artist_num": 41,
+  "artist_id": "K8vZ917hqrf",
+  "events": [
+    {
+      "title": "Alas De Liona",
+      "start_date": "2024-09-26",
+      "end_date": "2024-09-26",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/alas-de-liona-glasgow-26-09-2024/event/360060EAAF7D2514"
+    },
+    {
+      "title": "Alas De Liona",
+      "start_date": "2024-09-19",
+      "end_date": "2024-09-19",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Edinburgh, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/alas-de-liona-edinburgh-19-09-2024/event/360060EAEC00382D"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artist_num": 3177,
+  "artist_id": "K8vZ917_FC7",
+  "events": [
+    {
+      "title": "Niamh Regan",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/b43/f9ab4005-51d1-4e23-bfcd-fea432272b43_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Dublin, Unknown State, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/niamh-regan-dublin-15-11-2024/event/1800605B8CA9106F"
+    },
+    {
+      "title": "Niamh Regan",
+      "start_date": "2024-11-14",
+      "end_date": "2024-11-14",
+      "image_url": "https://s1.ticketm.net/dam/a/b43/f9ab4005-51d1-4e23-bfcd-fea432272b43_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Cork, Co. Cork, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/niamh-regan-cork-14-11-2024/event/1800605D96A02D7E"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artist_num": 731,
+  "artist_id": "K8vZ917jirV",
+  "events": [
+    {
+      "title": "Briston Maroney Presents: Paradise (3rd Annual Festival)",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/936/c9ba962f-1994-4e0b-a49d-8ebd0c1a7936_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Nashville, Tennessee, United States Of America",
+      "description": "This event is open to all ages. A physical, valid government-issued photo ID is required to purchase and consume alcohol. Want to have the total VIP experience? Upgrade your ticket today by reserving a bowling lane or VIP Box by visiting the VIP Upgrade tab on our website.",
+      "ticket_link": "https://www.ticketmaster.com/briston-maroney-presents-paradise-3rd-annual-nashville-tennessee-11-15-2024/event/1B006099BE966286"
+    },
+    {
+      "title": "Hotel Fiction - Staring at the Sun Tour",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/931/a2a5e650-e199-4696-830d-f0bb42eda931_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Charlottesville, Virginia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/hotel-fiction-staring-at-the-sun-charlottesville-virginia-09-13-2024/event/010060C5CF148B7B"
+    }
+  ]
+}

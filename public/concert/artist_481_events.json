@@ -1,0 +1,24 @@
+{
+  "artist_num": 481,
+  "artist_id": "K8vZ917hBhf",
+  "events": [
+    {
+      "title": "Canaan Cox",
+      "start_date": "2025-05-25",
+      "end_date": "2025-05-25",
+      "image_url": "https://s1.ticketm.net/dam/a/c1c/52ca1ba9-7d93-4ba9-a84c-a8647391ac1c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Norwich, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/canaan-cox-the-waterfront-tickets/13830403?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Canaan Cox",
+      "start_date": "2025-05-22",
+      "end_date": "2025-05-22",
+      "image_url": "https://s1.ticketm.net/dam/a/c1c/52ca1ba9-7d93-4ba9-a84c-a8647391ac1c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Belfast, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/canaan-cox-belfast-22-05-2025/event/380060FFB55E11D9"
+    }
+  ]
+}

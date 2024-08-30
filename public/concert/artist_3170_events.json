@@ -1,0 +1,24 @@
+{
+  "artist_num": 3170,
+  "artist_id": "K8vZ917QSC0",
+  "events": [
+    {
+      "title": "Nessi Gomes",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/828/a121904d-7a3e-40db-9e7d-a1dbf7a91828_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/nessi-gomes-manchester-15-11-2024/event/1F006098C7D43A7C"
+    },
+    {
+      "title": "Nessi Gomes",
+      "start_date": "2024-11-09",
+      "end_date": "2024-11-09",
+      "image_url": "https://s1.ticketm.net/dam/a/828/a121904d-7a3e-40db-9e7d-a1dbf7a91828_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/nessi-gomes-london-09-11-2024/event/1F006098C29E33B8"
+    }
+  ]
+}

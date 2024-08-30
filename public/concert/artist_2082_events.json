@@ -1,0 +1,42 @@
+{
+  "artist_num": 2082,
+  "artist_id": "K8vZ917p6w7",
+  "events": [
+    {
+      "title": "Mikel Erentxun - El último Vuelo del Hombre Bala USA Tour 2020",
+      "start_date": "2025-03-17",
+      "end_date": "2025-03-17",
+      "image_url": "https://s1.ticketm.net/dam/a/dd8/72bffc34-8aa7-41af-a340-e3e1a8524dd8_451141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Anaheim, California, United States Of America",
+      "description": "General Admission Standing Room Only. This event is all ages. Lineup: Mikel Erentxun",
+      "ticket_link": "https://concerts.livenation.com/mikel-erentxun-el-ultimo-vuelo-del-anaheim-california-03-17-2025/event/090058301297AB34"
+    },
+    {
+      "title": "Mikel Erentxun ¨Septiembre¨",
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-22",
+      "image_url": "https://s1.ticketm.net/dam/a/f7a/29292145-ccd9-41ea-9d6b-16124eaf8f7a_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "México, Ciudad de México, Mexico",
+      "description": "Mikel Erentxun ¨Septiembre¨ en La Maraka",
+      "ticket_link": "https://www.ticketmaster.com.mx/mikel-erentxun-septiembre-mexico-22-11-2024/event/3D0060A9867307E6"
+    },
+    {
+      "title": "Mikel Erentxun   La voz de Duncan Dhu ",
+      "start_date": "2024-11-09",
+      "end_date": "2024-11-09",
+      "image_url": "https://s1.ticketm.net/dam/a/dd8/72bffc34-8aa7-41af-a340-e3e1a8524dd8_451141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "México, Ciudad de México, Mexico",
+      "description": "Mikel Erentxun \" La Voz De Duncan Dhu\" en La Maraka",
+      "ticket_link": "https://www.ticketmaster.com.mx/mikel-erentxun-la-voz-de-duncan-mexico-09-11-2024/event/3D00607B9E941AB4"
+    },
+    {
+      "title": "Mikel Erentxun   La voz de Duncan Dhu ",
+      "start_date": "2024-11-08",
+      "end_date": "2024-11-08",
+      "image_url": "https://s1.ticketm.net/dam/a/dd8/72bffc34-8aa7-41af-a340-e3e1a8524dd8_451141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "México, Ciudad de México, Mexico",
+      "description": "Mikel Erentxun \" La Voz De Duncan Dhu\" en La Maraka",
+      "ticket_link": "https://www.ticketmaster.com.mx/mikel-erentxun-la-voz-de-duncan-mexico-08-11-2024/event/3D00607B9D7519C4"
+    }
+  ]
+}

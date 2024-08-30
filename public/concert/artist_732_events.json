@@ -1,0 +1,33 @@
+{
+  "artist_num": 732,
+  "artist_id": "K8vZ917pHY7",
+  "events": [
+    {
+      "title": " Gizmo Varillas",
+      "start_date": "2024-11-17",
+      "end_date": "2024-11-17",
+      "image_url": "https://s1.ticketm.net/dam/a/643/f8d3be33-abb5-4588-aee6-e4e084b3c643_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Barcelona, Barcelona, Spain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.es/event/-gizmo-varillas-tickets/40879?language=en-us"
+    },
+    {
+      "title": " Gizmo Varillas",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/643/f8d3be33-abb5-4588-aee6-e4e084b3c643_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Madrid, Madrid, Spain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.es/event/-gizmo-varillas-tickets/40881?language=en-us"
+    },
+    {
+      "title": "Gizmo Varillas",
+      "start_date": "2024-10-23",
+      "end_date": "2024-10-23",
+      "image_url": "https://s1.ticketm.net/dam/a/ebf/688dd438-f613-4b2c-a4dc-cdc5a4178ebf_1091171_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/gizmo-varillas-glasgow-23-10-2024/event/360060ADE9674DE3"
+    }
+  ]
+}

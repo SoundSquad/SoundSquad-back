@@ -1,0 +1,33 @@
+{
+  "artist_num": 3191,
+  "artist_id": "K8vZ917hL6f",
+  "events": [
+    {
+      "title": "Tom Ball - Curtain Call",
+      "start_date": "2024-11-03",
+      "end_date": "2024-11-03",
+      "image_url": "https://s1.ticketm.net/dam/a/610/91c55077-61a5-4576-9c29-8c29ec2dd610_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/tom-ball-curtain-call-london-03-11-2024/event/370060C4D13F46D4"
+    },
+    {
+      "title": "Tom Ball - Curtain Call",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-01",
+      "image_url": "https://s1.ticketm.net/dam/a/610/91c55077-61a5-4576-9c29-8c29ec2dd610_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/tom-ball-curtain-call-manchester-01-11-2024/event/1F0060C4BA501313"
+    },
+    {
+      "title": "Tom Ball - Curtain Call",
+      "start_date": "2024-10-06",
+      "end_date": "2024-10-06",
+      "image_url": "https://s1.ticketm.net/dam/a/610/91c55077-61a5-4576-9c29-8c29ec2dd610_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Southend-On-Sea, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/tom-ball-curtain-call-southendonsea-06-10-2024/event/350060C493750D41"
+    }
+  ]
+}

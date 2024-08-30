@@ -1,0 +1,33 @@
+{
+  "artist_num": 3203,
+  "artist_id": "K8vZ917ji1V",
+  "events": [
+    {
+      "title": "GUN",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-10",
+      "image_url": "https://s1.ticketm.net/dam/a/72a/31f4647a-d37b-49f0-8d60-33fbcf33f72a_1315491_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Leeds, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/gun-brudenell-social-club-tickets/13386544?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Gun - the Hombres Tour",
+      "start_date": "2024-12-05",
+      "end_date": "2024-12-05",
+      "image_url": "https://s1.ticketm.net/dam/a/72a/31f4647a-d37b-49f0-8d60-33fbcf33f72a_1315491_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Wolverhampton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/gun-the-hombres-kks-steel-mill-tickets/13376604?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Gun - the Hombres Tour",
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-01",
+      "image_url": "https://s1.ticketm.net/dam/a/72a/31f4647a-d37b-49f0-8d60-33fbcf33f72a_1315491_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Southampton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/gun-the-hombres-the-brook-tickets/13373824?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

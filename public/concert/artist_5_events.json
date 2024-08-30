@@ -1,0 +1,24 @@
+{
+  "artist_num": 5,
+  "artist_id": "K8vZfZ7IE1k",
+  "events": [
+    {
+      "title": "Penelope Scott",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/e/209/14fc5712-1540-4313-b22a-746251e6e209_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Moroccan Lounge Presents: Penelope Scott with Shauna Dean Cokeland [October 11, 2024 / Doors 6:30pm / $20 Adv / $25 DOS / All Ages]",
+      "ticket_link": "https://www.ticketmaster.com/penelope-scott-los-angeles-california-10-11-2024/event/0900610CE0193518"
+    },
+    {
+      "title": "Penelope Scott",
+      "start_date": "2024-10-04",
+      "end_date": "2024-10-04",
+      "image_url": "https://s1.ticketm.net/dam/a/21f/90a3833a-05b5-4816-ad7f-88b9527ec21f_1520041_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Penelope Scott w/ Shauna Dean Cokeland [Ages 16+ (Under 16 with parent or guardian), Doors Open 6pm, $20 Advance, $25 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/penelope-scott-new-york-new-york-10-04-2024/event/00006108CD6A6836"
+    }
+  ]
+}

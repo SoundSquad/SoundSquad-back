@@ -1,0 +1,69 @@
+{
+  "artist_num": 13,
+  "artist_id": "K8vZ917jy00",
+  "events": [
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-10-25",
+      "end_date": "2024-10-25",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uvjb"
+    },
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Atlanta, Georgia, United States Of America",
+      "description": "We look forward to hosting you at The Masquerade! Doors are at 7:00 PM. The Masquerade is now proud to be serving food. Check our socials for the food window's schedule, pinned at the top of the feed. For more info and our FAQ, visit MASQ.com",
+      "ticket_link": "https://www.ticketmaster.com/fog-lake-atlanta-georgia-10-19-2024/event/0E0060D4B1AA4AA3"
+    },
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-10-16",
+      "end_date": "2024-10-16",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dallas, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7u608"
+    },
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-15",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Austin, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uerA"
+    },
+    {
+      "title": "Fog Lake w/ Foxes In Fiction",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Seattle, Washington, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7u6Jk"
+    },
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-09-26",
+      "end_date": "2024-09-26",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7ukOw"
+    },
+    {
+      "title": "Fog Lake",
+      "start_date": "2024-09-23",
+      "end_date": "2024-09-23",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "East Cleveland, Ohio, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uZGF"
+    }
+  ]
+}

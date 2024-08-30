@@ -1,0 +1,24 @@
+{
+  "artist_num": 3161,
+  "artist_id": "K8vZ9174HIf",
+  "events": [
+    {
+      "title": "Tyla's Dogs D'amour",
+      "start_date": "2024-12-21",
+      "end_date": "2024-12-21",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Nuneaton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tylas-dogs-damour-queens-hall-tickets/13567284?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Tyla's Dogs D'amour",
+      "start_date": "2024-12-20",
+      "end_date": "2024-12-20",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/tylas-dogs-damour-the-underworld-camden-tickets/13661753?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

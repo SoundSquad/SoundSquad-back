@@ -1,0 +1,51 @@
+{
+  "artist_num": 3601,
+  "artist_id": "K8vZ91714i7",
+  "events": [
+    {
+      "title": "Angelique Kidjo",
+      "start_date": "2025-02-28",
+      "end_date": "2025-02-28",
+      "image_url": "https://s1.ticketm.net/dam/e/60d/319f26b9-5736-4ead-a008-f6d853ab060d_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Somerville, Massachusetts, United States Of America",
+      "description": "GLOBAL ARTS LIVE PRESENTS: With pulsating rhythms, a captivating voice, and dazzling stage presence, Beninese star Angelique Kidjo is a riveting Afropop tour de force. Her blend of West African traditions with elements of American R&B, funk, and jazz has led to five Grammy wins and the title of 'Africa's greatest living diva' -NPR.",
+      "ticket_link": "https://www.ticketmaster.com/angelique-kidjo-somerville-massachusetts-02-28-2025/event/0100611BA7DC1900"
+    },
+    {
+      "title": "Angelique Kidjo",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-13",
+      "image_url": "https://s1.ticketm.net/dam/a/5d8/39046edd-93ac-474b-9751-c6f8f90c75d8_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Portland, Maine, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/angelique-kidjo-portland-maine-11-13-2024/event/010060B5BD51388C"
+    },
+    {
+      "title": "Angelique Kidjo",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/a/5d8/39046edd-93ac-474b-9751-c6f8f90c75d8_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uaj-"
+    },
+    {
+      "title": "Angélique Kidjo - Celebrating 40 Tour",
+      "start_date": "2024-10-20",
+      "end_date": "2024-10-20",
+      "image_url": "https://s1.ticketm.net/dam/a/0ef/c83ffa0a-3870-4e78-a679-28c968c600ef_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Katowice, Śląskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/angelique-kidjo-celebrating-40-tour-tickets/33367?language=en-us"
+    },
+    {
+      "title": "Angelique Kidjo",
+      "start_date": "2024-10-06",
+      "end_date": "2024-10-06",
+      "image_url": "https://s1.ticketm.net/dam/a/44c/5757af0c-c610-4f66-9e54-3b4b8290544c_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Esch-sur-Alzette, Unknown State, Luxembourg",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/angelique-kidjo-tickets/63005"
+    }
+  ]
+}

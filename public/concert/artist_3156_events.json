@@ -1,0 +1,33 @@
+{
+  "artist_num": 3156,
+  "artist_id": "K8vZ917pwl7",
+  "events": [
+    {
+      "title": "Mattiel",
+      "start_date": "2024-12-11",
+      "end_date": "2024-12-11",
+      "image_url": "https://s1.ticketm.net/dam/a/58d/c49245ac-e47b-4ab2-b7f8-f8d16e26f58d_751811_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Leeds, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/mattiel-brudenell-social-club-tickets/13667353?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "MATTIEL",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-10",
+      "image_url": "https://s1.ticketm.net/dam/a/58d/c49245ac-e47b-4ab2-b7f8-f8d16e26f58d_751811_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow , Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/mattiel-cca-tickets/13669203?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Mattiel",
+      "start_date": "2024-12-09",
+      "end_date": "2024-12-09",
+      "image_url": "https://s1.ticketm.net/dam/a/58d/c49245ac-e47b-4ab2-b7f8-f8d16e26f58d_751811_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/mattiel-yes-pink-room-tickets/13568244?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

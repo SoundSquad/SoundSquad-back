@@ -1,0 +1,69 @@
+{
+  "artist_num": 886,
+  "artist_id": "K8vZ91792L0",
+  "events": [
+    {
+      "title": "Wrocław Hip Hop Festival",
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-22",
+      "image_url": "https://s1.ticketm.net/dam/a/f36/acb4586d-b58f-4750-b175-e39a1e55bf36_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Wroclaw, Dolnośląskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/wrocaw-hip-hop-festival-tickets/36373?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Krakow, Małopolskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36523?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-10-26",
+      "end_date": "2024-10-26",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36521?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Gdansk, Pomorskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36519?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-18",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Poznan, Wielkopolskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36517?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Katowice, Śląskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36515?language=en-us"
+    },
+    {
+      "title": "Guzior \"G\" TOUR 2024",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/e77/6c9c4dd2-17d7-4678-ba29-cac9fc58ae77_914041_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Wroclaw, Dolnośląskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/guzior-g-tour-2024-tickets/36511?language=en-us"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "artist_num": 915,
+  "artist_id": "K8vZ917hp00",
+  "events": [
+    {
+      "title": "Delilah Bon",
+      "start_date": "2024-11-16",
+      "end_date": "2024-11-16",
+      "image_url": "https://s1.ticketm.net/dam/a/e25/7f980d3e-8d89-435c-9211-a7b861773e25_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/delilah-bon-glasgow-16-11-2024/event/360060B0909819FF"
+    },
+    {
+      "title": "Delilah Bon",
+      "start_date": "2024-11-14",
+      "end_date": "2024-11-14",
+      "image_url": "https://s1.ticketm.net/dam/a/e25/7f980d3e-8d89-435c-9211-a7b861773e25_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "Support: tiLLie",
+      "ticket_link": "https://www.ticketmaster.co.uk/delilah-bon-manchester-14-11-2024/event/1F00608A98DA0F0D"
+    },
+    {
+      "title": "Delilah Bon",
+      "start_date": "2024-11-09",
+      "end_date": "2024-11-09",
+      "image_url": "https://s1.ticketm.net/dam/a/e25/7f980d3e-8d89-435c-9211-a7b861773e25_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "Support: tiLLie",
+      "ticket_link": "https://www.ticketmaster.co.uk/delilah-bon-london-09-11-2024/event/1F006089AF901E38"
+    },
+    {
+      "title": "Delilah Bon",
+      "start_date": "2024-10-02",
+      "end_date": "2024-10-02",
+      "image_url": "https://s1.ticketm.net/dam/a/cd7/f3dc7a0a-1834-454a-b7a2-68242c2b7cd7_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Amsterdam, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/delilah-bon-tickets/305573?language=en-us"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artist_num": 2037,
+  "artist_id": "K8vZ917b_-0",
+  "events": [
+    {
+      "title": "Klub 27 Symfonicznie",
+      "start_date": "2024-09-15",
+      "end_date": "2024-09-15",
+      "image_url": "https://s1.ticketm.net/dam/a/a89/a95a42dc-4a1f-4bf2-8ce4-221aa6b56a89_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Gdansk, Pomorskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/klub-27-symfonicznie-tickets/35539?language=en-us"
+    },
+    {
+      "title": "Klub 27 Symfonicznie",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/a89/a95a42dc-4a1f-4bf2-8ce4-221aa6b56a89_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Częstochowa, Śląskie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/klub-27-symfonicznie-tickets/35531?language=en-us"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "artist_num": 20,
+  "artist_id": "K8vZ917QVQf",
+  "events": [
+    {
+      "title": "Bright Eyes",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/fdb/ad0f1711-23b0-4845-8f03-c2976a6cffdb_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "The Bellwether LA is a cashless venue. Please plan accordingly. There is a delivery delay in place on this event lifting 24 hours prior to show time.",
+      "ticket_link": "https://www.ticketmaster.com/bright-eyes-los-angeles-california-10-12-2024/event/090060CDC48A3F3C"
+    },
+    {
+      "title": "Bright Eyes",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/a/fdb/ad0f1711-23b0-4845-8f03-c2976a6cffdb_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Oakland, California, United States Of America",
+      "description": "Tickets to the Exclusive Telegraph Room Lounge are now available at check out. * Access to preferred viewing section on the Orchestra level with cocktail service (for general admission shows only). * Access to the exclusive Telegraph Room Lounge before, during and after the show. * Telegraph Room includes a separate private entrance to the theater, private bar with exclusive beers, liquors and specialty cocktails, complimentary hors d'oeuvres, complimentary coat check and private luxury bathrooms.",
+      "ticket_link": "https://www.ticketmaster.com/bright-eyes-oakland-california-10-11-2024/event/1C0060CF0B0D83E5"
+    },
+    {
+      "title": "All Things Go Music Festival - Sunday",
+      "start_date": "2024-09-29",
+      "end_date": "2024-09-29",
+      "image_url": "https://s1.ticketm.net/dam/a/1dc/59501fc2-570a-49d2-a28e-6d916e3211dc_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Columbia, Maryland, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/all-things-go-music-festival-sunday-columbia-maryland-09-29-2024/event/15006084B32E3822"
+    },
+    {
+      "title": "Human Musical Group Sensations GLASS ANIMALS: TOUR OF EARTH",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/583/b335fd0a-18c5-437f-8db6-169767415583_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Inglewood, California, United States Of America",
+      "description": "* DELIVERY DELAY UNTIL 72 HRS PRIOR TO SHOW DATE * Proceeds from each ticket will go to War Child UK/Children In Conflict, to help them continue their work protecting, educating and standing up for the rights of children living through conflict. There is a 6 ticket limit for Presales.",
+      "ticket_link": "https://www.ticketmaster.com/human-musical-group-sensations-glass-animals-inglewood-california-09-14-2024/event/0900608226085C2B"
+    },
+    {
+      "title": "Human Musical Group Sensations GLASS ANIMALS: TOUR OF EARTH",
+      "start_date": "2024-09-07",
+      "end_date": "2024-09-07",
+      "image_url": "https://s1.ticketm.net/dam/a/583/b335fd0a-18c5-437f-8db6-169767415583_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "George, Washington, United States Of America",
+      "description": "There is a delivery delay until 72 hours before event date. Proceeds from each ticket will go to War Child UK/Children In Conflict, to help them continue their work protecting, educating and standing up for the rights of children living through conflict.",
+      "ticket_link": "https://concerts.livenation.com/human-musical-group-sensations-glass-animals-george-washington-09-07-2024/event/0F006081EB3F408E"
+    },
+    {
+      "title": "Human Musical Group Sensations GLASS ANIMALS: TOUR OF EARTH",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/a/583/b335fd0a-18c5-437f-8db6-169767415583_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Bonner Springs, Kansas, United States Of America",
+      "description": "GA Pit (SRO), Reserved Lower (Sections 1-6), Reserved Upper (Sections 7-14). Doors 6:30pm / Show 7:30pm Proceeds from each ticket will go to War Child UK/Children In Conflict, to help them continue their work protecting, educating and standing up for the rights of children living through conflict.",
+      "ticket_link": "https://www.ticketmaster.com/human-musical-group-sensations-glass-animals-bonner-springs-kansas-08-31-2024/event/0600607BE3FC691A"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "artist_num": 24,
+  "artist_id": "K8vZfZ716nk",
+  "events": [
+    {
+      "title": "Genevieve Stokes",
+      "start_date": "2024-11-07",
+      "end_date": "2024-11-07",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "West Hollywood, California, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7utu3"
+    },
+    {
+      "title": "Genevieve Stokes w/ Lily Kershaw",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Seattle, Washington, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uo4F"
+    },
+    {
+      "title": "Genevieve Stokes",
+      "start_date": "2024-10-23",
+      "end_date": "2024-10-23",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uo43"
+    },
+    {
+      "title": "Genevieve Stokes",
+      "start_date": "2024-10-21",
+      "end_date": "2024-10-21",
+      "image_url": "https://s1.ticketm.net/dam/a/5c0/3c1d34b7-cb06-4f12-be31-b4c4f69655c0_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Toronto, Ontario, Canada",
+      "description": "SUPPORT: Lily Kershaw DOORS: 7:00 PM SHOW: 8:00 PM This is a LEGAL AGE 19+ show. American Express has set a two-order limit for this tour presale. This limit applies across all Cards associated with all of your American Express accounts. Prepaid cards are not eligible for this presale.",
+      "ticket_link": "https://www.ticketmaster.ca/genevieve-stokes-toronto-ontario-10-21-2024/event/100060E3CBC12FF0"
+    },
+    {
+      "title": "Genevieve Stokes",
+      "start_date": "2024-10-17",
+      "end_date": "2024-10-17",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uo4k"
+    }
+  ]
+}

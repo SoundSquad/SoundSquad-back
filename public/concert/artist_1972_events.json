@@ -1,0 +1,33 @@
+{
+  "artist_num": 1972,
+  "artist_id": "K8vZ917bOzV",
+  "events": [
+    {
+      "title": "Byron Bay Bluesfest 2025",
+      "start_date": "2025-04-17",
+      "end_date": "2025-04-20",
+      "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Tyagarah, New South Wales, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/byron-bay-bluesfest-2025/164106"
+    },
+    {
+      "title": "Tones And I",
+      "start_date": "2024-12-07",
+      "end_date": "2024-12-07",
+      "image_url": "https://s1.ticketm.net/dam/a/839/b2f00329-ea62-427a-bb13-c3d001452839_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glenorchy, Tasmania, Australia",
+      "description": "Running Times: Doors: 7:00pm Start: 8:00pm FInish: TBA All times are approximate and subject to change.",
+      "ticket_link": "https://www.ticketmaster.com.au/tones-and-i-glenorchy-07-12-2024/event/130060DBCD4C2F4D"
+    },
+    {
+      "title": "Tones And I",
+      "start_date": "2024-11-30",
+      "end_date": "2024-11-30",
+      "image_url": "https://s1.ticketm.net/dam/a/839/b2f00329-ea62-427a-bb13-c3d001452839_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Sydney, New South Wales, Australia",
+      "description": "VIP Package Inclusions Signing & Selfie VIP Experience Inclusions: - 1 x GA standing ticket - Early venue entry & onto floor before general public - Exclusive 'selfie' photo opportunity with Tones and I - Latest released vinyl album, signed in person by Tones and I - Commemorative VIP laminate - Early merchandise stand access (where available) - Designated VIP check-in & onsite host 'I Get High' Early Entry Experience Inclusions: - 1 x GA standing ticket - Early venue entry & onto floor before general public* - Latest released Tones and I vinyl album - Commemorative VIP Laminate - Early merchandise stand access (where available) - Designated VIP check-in & onsite staff *Early Entry after the Signing & Selfie VIP purchasers, but before the general public Please note: Both VIP Packages: there is no separate section for General Admission VIP package holders. After doors open, standard GA ticket purchasers will join in the same section on the floor.",
+      "ticket_link": "https://www.ticketmaster.com.au/tones-and-i-sydney-30-11-2024/event/130060CACFFC0CC3"
+    }
+  ]
+}

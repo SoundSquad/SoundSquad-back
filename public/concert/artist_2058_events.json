@@ -1,0 +1,42 @@
+{
+  "artist_num": 2058,
+  "artist_id": "K8vZ917hsgf",
+  "events": [
+    {
+      "title": "KIRE",
+      "start_date": "2024-12-11",
+      "end_date": "2024-12-11",
+      "image_url": "https://s1.ticketm.net/dam/a/533/c4842f8e-3eed-4c58-a5d0-8a68bbe6f533_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/kire-london-11-12-2024/event/1F006115D8F42FDE"
+    },
+    {
+      "title": "Kire",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-01",
+      "image_url": "https://s1.ticketm.net/dam/a/533/c4842f8e-3eed-4c58-a5d0-8a68bbe6f533_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Moroccan Lounge x KIRE present: The Kid Who Flew World Tour Ch.1 [November 01, 2024 / Doors 6:30pm / $25 Adv / $25 DOS / $65 VIP GOLD / All Ages] Get ready for an electrifying night with KIRE as he takes the stage to perform songs from his debut album \"IKARUS\" alongside tracks from his highly anticipated new album \"EROS.\" Known for his sleek style and captivating stage presence, KIRE promises an unforgettable experience filled with high-energy performances and intimate fan interactions. KIREs unique blend of music and his connection with the audience will make this a night to remember. Whether youre a long-time fan or new to his sound, this concert is your chance to witness the evolution of one of Taiwans rising stars. Dont miss out, secure your tickets now and be part of an extraordinary musical journey.",
+      "ticket_link": "https://www.ticketmaster.com/kire-los-angeles-california-11-01-2024/event/09006116AC718226"
+    },
+    {
+      "title": "Kire",
+      "start_date": "2024-10-27",
+      "end_date": "2024-10-27",
+      "image_url": "https://s1.ticketm.net/dam/a/533/c4842f8e-3eed-4c58-a5d0-8a68bbe6f533_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Toronto, Ontario, Canada",
+      "description": "This is an ALL AGES event. Doors: 7pm Show: 8pm",
+      "ticket_link": "https://www.ticketmaster.ca/kire-toronto-ontario-10-27-2024/event/10006115C3BD3398"
+    },
+    {
+      "title": "KIRE presents The Kid Who Flew World Tour Ch.1",
+      "start_date": "2024-10-26",
+      "end_date": "2024-10-26",
+      "image_url": "https://s1.ticketm.net/dam/e/563/86589fc3-3e0b-492d-9013-c16f36dd8563_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "KIRE presents The Kid Who Flew World Tour Ch.1 [Ages 16+ (Under 16 with parent or guardian), Doors Open 6pm, $25]",
+      "ticket_link": "https://www.ticketmaster.com/kire-presents-the-kid-who-flew-new-york-new-york-10-26-2024/event/00006115FCDD9307"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import db from '../models';
 import fs from 'fs';
 import path from 'path';
-import { ArtistAttributes, GenreDetail } from '../modules/artists';
+import { ArtistAttributes, GenreDetail } from '../modules/APIs';
 
 
 // genre detail info
@@ -40,14 +40,13 @@ const getArtistsInit = async (req: Request, res: Response): Promise<void> => {
             const jsonFile = fs.readFileSync(readJsonFilePath, 'utf-8');
             const jsonData = JSON.parse(jsonFile) as any[];
 
-            // 각 아티스트 데이터를 ArtistAttributes 형식에 맞게 변환
             const artistsWithGenre: ArtistAttributes[] = jsonData.map(artist => ({
                 artist_id: artist.artist_id,
                 artist_name: artist.artist_name,
                 artist_profile: artist.artist_profile,
                 profile_click: 0,
-                artist_desc: artist.artist_desc || '',  // 기본값 제공
-                artist_genre: genre.name,  // genre 정보 추가
+                artist_desc: artist.artist_desc || '',
+                artist_genre: genre.name,
             }));
 
             bulkArtists.push(...artistsWithGenre);

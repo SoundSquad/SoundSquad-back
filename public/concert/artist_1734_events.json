@@ -1,0 +1,24 @@
+{
+  "artist_num": 1734,
+  "artist_id": "K8vZ917hkx7",
+  "events": [
+    {
+      "title": "Alex Zurdo",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Elizabeth, New Jersey, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uP18"
+    },
+    {
+      "title": "Alex Zurdo",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Greeley, Colorado, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7FVbP"
+    }
+  ]
+}

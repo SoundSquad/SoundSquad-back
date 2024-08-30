@@ -1,0 +1,24 @@
+{
+  "artist_num": 2110,
+  "artist_id": "K8vZ917qvhV",
+  "events": [
+    {
+      "title": "Kevin Chung",
+      "start_date": "2024-10-26",
+      "end_date": "2024-10-26",
+      "image_url": "https://s1.ticketm.net/dam/e/bc4/c913d621-461d-4899-995d-8ac9caae1bc4_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Moroccan Lounge Presents: Kevin Chung with Zach Paradis [October 26, 2024 / Doors 6:30pm / $17 Adv / $20 DOS / All Ages]",
+      "ticket_link": "https://www.ticketmaster.com/kevin-chung-los-angeles-california-10-26-2024/event/090060F6F87AB2B4"
+    },
+    {
+      "title": "Kevin Chung",
+      "start_date": "2024-10-16",
+      "end_date": "2024-10-16",
+      "image_url": "https://s1.ticketm.net/dam/e/4b0/be79a086-00c9-44ec-b1b6-b18950c4e4b0_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Kevin Chung w/ Zach Paradis [Ages 18+, Doors Open 6pm, $16 Advance, $20 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/kevin-chung-new-york-new-york-10-16-2024/event/000060F7B2803A8E"
+    }
+  ]
+}

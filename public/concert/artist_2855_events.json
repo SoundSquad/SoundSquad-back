@@ -1,0 +1,24 @@
+{
+  "artist_num": 2855,
+  "artist_id": "K8vZ917QYhf",
+  "events": [
+    {
+      "title": "Rolling Loud",
+      "start_date": "2024-12-13",
+      "end_date": "2024-12-15",
+      "image_url": "https://s1.ticketm.net/dam/a/59e/087b4e88-a925-4f25-b0db-a63b94e3859e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Miami, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/MN3K"
+    },
+    {
+      "title": "Lil Tjay: TRUE 2 MYSELF - Five Year Anniversary Tour",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/1a4/ed96bdc4-b01e-44fc-9d67-41326a23c1a4_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "Standing: Over 16s only Seated: Under 15s must be accompanied by an adult aged 18+ years. A max of 6 tickets per person and per household applies. Tickets in excess of 6 will be cancelled.",
+      "ticket_link": "https://www.ticketmaster.co.uk/lil-tjay-true-2-myself-five-london-12-10-2024/event/350060CC010B5F1A"
+    }
+  ]
+}

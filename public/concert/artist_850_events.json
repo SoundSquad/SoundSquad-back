@@ -1,0 +1,42 @@
+{
+  "artist_num": 850,
+  "artist_id": "K8vZ9179g60",
+  "events": [
+    {
+      "title": "Dystinct",
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-12",
+      "image_url": "https://s1.ticketm.net/dam/a/f30/0b61724d-a40f-4f44-8a69-ce4d2f06af30_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Doors: 7pm Show: 8pm ALL AGES",
+      "ticket_link": "https://www.ticketmaster.com/dystinct-los-angeles-california-09-12-2024/event/09006045A8FC6108"
+    },
+    {
+      "title": "Dystinct",
+      "start_date": "2024-09-03",
+      "end_date": "2024-09-03",
+      "image_url": "https://s1.ticketm.net/dam/a/f30/0b61724d-a40f-4f44-8a69-ce4d2f06af30_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/dystinct-montreal-quebec-09-03-2024/event/31005F75D6BA34A7"
+    },
+    {
+      "title": "Dystinct",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-01",
+      "image_url": "https://s1.ticketm.net/dam/a/f30/0b61724d-a40f-4f44-8a69-ce4d2f06af30_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "This event is All Ages. Doors: 7 PM Show: 8 PM",
+      "ticket_link": "https://concerts.livenation.com/dystinct-boston-massachusetts-09-01-2024/event/01006045BE10310D"
+    },
+    {
+      "title": "Dystinct - ANNULÉ",
+      "start_date": "2024-01-28",
+      "end_date": "2024-01-28",
+      "image_url": "https://s1.ticketm.net/dam/a/f30/0b61724d-a40f-4f44-8a69-ce4d2f06af30_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Quebec, Quebec, Canada",
+      "description": "Veuillez noter que cet événement a été ANNULÉ. Les détenteurs de billets seront avisés et recevront le remboursement dans les 30 jours ouvrables sur le mode de paiement d'origine. Aucune action n'est requise de votre part. Parterre en Admission générale debout, balcon en Admission générale assis. Main floor in standing General admission, balcony in seated General admission. DYSTINCT a sorti son premier morceau officiel \"No Ring Ring\" en 2017. Et depuis, le chanteur belgo-marocain fait un énorme buzz, notamment en Afrique du Nord et en Europe. Ce succès est dû au fait qu'il mélange des langues comme le français, l'arabe, l'espagnol et l'anglais. C'est pourquoi DYSTINCT a séduit de nombreux fans depuis le début de sa carrière et que maintenant ils veulent le voir en concert!",
+      "ticket_link": "https://www.ticketmaster.ca/dystinct-annule-quebec-quebec-01-28-2024/event/31005F7940BA0C75"
+    }
+  ]
+}

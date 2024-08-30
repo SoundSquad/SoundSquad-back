@@ -1,0 +1,33 @@
+{
+  "artist_num": 487,
+  "artist_id": "K8vZ917hpSf",
+  "events": [
+    {
+      "title": "The Red Clay Strays",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/ef4/2263785f-6071-4eaa-8790-ac6f67718ef4_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Birmingham, Alabama, United States Of America",
+      "description": "Live Nation presents: THE RED CLAY STRAYS - These Moments Tour w/ Bella White September 14, 2024 | Standing General Admission | Rain or Shine | No Chairs | No Pets | Contact Venue for ADA Inquiries Delivery delay lifts 9/11/24 at 7pm",
+      "ticket_link": "https://www.ticketmaster.com/the-red-clay-strays-birmingham-alabama-09-14-2024/event/200060AECB001EE7"
+    },
+    {
+      "title": "The Red Clay Strays",
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-12",
+      "image_url": "https://s1.ticketm.net/dam/a/ef4/2263785f-6071-4eaa-8790-ac6f67718ef4_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Indianapolis, Indiana, United States Of America",
+      "description": "Murat Theatre at Old National Centre Doors: 6:30 PM Show: 7:30 PM All Ages",
+      "ticket_link": "https://concerts.livenation.com/the-red-clay-strays-indianapolis-indiana-09-12-2024/event/050060B1CF8A4D53"
+    },
+    {
+      "title": "Dierks Bentley: Gravel & Gold Presented by Jersey Mike's",
+      "start_date": "2024-09-07",
+      "end_date": "2024-09-07",
+      "image_url": "https://s1.ticketm.net/dam/a/7b0/1dca7b7f-dbd7-4eb9-8860-aee9fef717b0_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Nashville, Tennessee, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/dierks-bentley-gravel-gold-presented-by-nashville-tennessee-09-07-2024/event/1B0060489D553475"
+    }
+  ]
+}

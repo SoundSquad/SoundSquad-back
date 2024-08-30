@@ -1,0 +1,24 @@
+{
+  "artist_num": 3174,
+  "artist_id": "K8vZ917QyU7",
+  "events": [
+    {
+      "title": "A Night of Queen",
+      "start_date": "2025-01-12",
+      "end_date": "2025-01-12",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Mons, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/a-night-of-queen-tickets/59851"
+    },
+    {
+      "title": "A Night of Queen",
+      "start_date": "2025-01-10",
+      "end_date": "2025-01-10",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Liège, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/a-night-of-queen-tickets/63069"
+    }
+  ]
+}

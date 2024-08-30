@@ -1,0 +1,51 @@
+{
+  "artist_num": 2869,
+  "artist_id": "K8vZ917h0of",
+  "events": [
+    {
+      "title": "Leigh-Anne",
+      "start_date": "2024-10-29",
+      "end_date": "2024-10-29",
+      "image_url": "https://s1.ticketm.net/dam/a/42e/3ca14522-b1bf-4e87-8355-8d538461f42e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/leighanne-manchester-29-10-2024/event/370060D4D8634754"
+    },
+    {
+      "title": "Leigh-Anne",
+      "start_date": "2024-10-28",
+      "end_date": "2024-10-28",
+      "image_url": "https://s1.ticketm.net/dam/a/42e/3ca14522-b1bf-4e87-8355-8d538461f42e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/leighanne-london-28-10-2024/event/1F0060D3CCD04E0D"
+    },
+    {
+      "title": "Leigh-Anne",
+      "start_date": "2024-10-27",
+      "end_date": "2024-10-27",
+      "image_url": "https://s1.ticketm.net/dam/a/42e/3ca14522-b1bf-4e87-8355-8d538461f42e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Birmingham, Unknown State, Great Britain",
+      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
+      "ticket_link": "https://www.ticketmaster.co.uk/leighanne-birmingham-27-10-2024/event/3E0060CBD9FC23A0"
+    },
+    {
+      "title": "Leigh-Anne",
+      "start_date": "2024-10-25",
+      "end_date": "2024-10-25",
+      "image_url": "https://s1.ticketm.net/dam/a/42e/3ca14522-b1bf-4e87-8355-8d538461f42e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dublin, Unknown State, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/leighanne-dublin-25-10-2024/event/180060C6CC0E4FF1"
+    },
+    {
+      "title": "Leigh-Anne",
+      "start_date": "2024-10-24",
+      "end_date": "2024-10-24",
+      "image_url": "https://s1.ticketm.net/dam/a/42e/3ca14522-b1bf-4e87-8355-8d538461f42e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dublin, Unknown State, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/leighanne-dublin-24-10-2024/event/180060CAE98B7FE6"
+    }
+  ]
+}

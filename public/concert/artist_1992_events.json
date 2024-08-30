@@ -1,0 +1,33 @@
+{
+  "artist_num": 1992,
+  "artist_id": "K8vZ917_zp0",
+  "events": [
+    {
+      "title": "Echosmith -Cool Kids: The Decade Tour",
+      "start_date": "2024-11-21",
+      "end_date": "2024-11-21",
+      "image_url": "https://s1.ticketm.net/dam/a/ef1/a13d6041-f141-4214-8fba-aece890feef1_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Detroit, Michigan, United States Of America",
+      "description": "General Admission, standing room only. This is an all ages event. Doors are scheduled to open to the public at 7 PM. *VIP Meet & Greet Ticketless Upgrade Here *** CONCERT TICKET MUST BE PURCHASED SEPARATELY. *** Includes: Intimate acoustic performance with Echosmith M&G with Echosmith Personal Photo with Echosmith VIP Merch Item Early entry into the venue Early merchandise shopping Official VIP laminate, signed by Echosmith",
+      "ticket_link": "https://concerts.livenation.com/echosmith-cool-kids-the-decade-tour-detroit-michigan-11-21-2024/event/080060F79DFA236C"
+    },
+    {
+      "title": "Echosmith - Cool Kids: The Decade Tour",
+      "start_date": "2024-11-13",
+      "end_date": "2024-11-13",
+      "image_url": "https://s1.ticketm.net/dam/a/ef1/a13d6041-f141-4214-8fba-aece890feef1_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Echosmith - Cool Kids: The Decade Tour w/ Lisa Heller [Ages 21+, Doors Open 9pm, $29.99 Advance, $33 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/echosmith-cool-kids-the-decade-tour-new-york-new-york-11-13-2024/event/000060F8CFC8890F"
+    },
+    {
+      "title": "Echosmith - Cool Kids: The Decade Tour",
+      "start_date": "2024-11-10",
+      "end_date": "2024-11-10",
+      "image_url": "https://s1.ticketm.net/dam/a/ef1/a13d6041-f141-4214-8fba-aece890feef1_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Philadelphia, Pennsylvania, United States Of America",
+      "description": "This is an All Ages event. Doors open at 7:00PM.",
+      "ticket_link": "https://concerts.livenation.com/echosmith-cool-kids-the-decade-tour-philadelphia-pennsylvania-11-10-2024/event/020060F7EEF59032"
+    }
+  ]
+}

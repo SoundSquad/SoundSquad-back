@@ -1,0 +1,60 @@
+{
+  "artist_num": 12,
+  "artist_id": "K8vZ917QRT0",
+  "events": [
+    {
+      "title": "Searows",
+      "start_date": "2024-09-21",
+      "end_date": "2024-09-21",
+      "image_url": "https://s1.ticketm.net/dam/a/615/82ee9d54-b567-434f-b66b-8f1cde7c6615_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.pl/event/searows-tickets/36427?language=en-us"
+    },
+    {
+      "title": "Searows",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/b9b/a469c94c-ac8b-4b47-8461-96f802003b9b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brighton, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/searows-chalk-tickets/13504504?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Searows",
+      "start_date": "2024-09-10",
+      "end_date": "2024-09-10",
+      "image_url": "https://s1.ticketm.net/dam/a/b9b/a469c94c-ac8b-4b47-8461-96f802003b9b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Leeds, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/searows-brudenell-social-club-tickets/13538794?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Searows",
+      "start_date": "2024-09-09",
+      "end_date": "2024-09-09",
+      "image_url": "https://s1.ticketm.net/dam/a/b9b/a469c94c-ac8b-4b47-8461-96f802003b9b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/searows-oran-mor-tickets/13685683?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Searows",
+      "start_date": "2024-09-09",
+      "end_date": "2024-09-09",
+      "image_url": "https://s1.ticketm.net/dam/a/b9b/a469c94c-ac8b-4b47-8461-96f802003b9b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/searows-glasgow-09-09-2024/event/360060CE9EA6286D"
+    },
+    {
+      "title": "Searows",
+      "start_date": "2024-09-07",
+      "end_date": "2024-09-07",
+      "image_url": "https://s1.ticketm.net/dam/a/9ba/d320a016-9e62-46ca-94ca-ef5274e789ba_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Dublin, Dublin 2, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/searows-dublin-07-09-2024/event/180060A8B0573E14"
+    }
+  ]
+}

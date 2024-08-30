@@ -1,0 +1,24 @@
+{
+  "artist_num": 2028,
+  "artist_id": "K8vZ917_0yV",
+  "events": [
+    {
+      "title": "Brooke Combe",
+      "start_date": "2024-12-13",
+      "end_date": "2024-12-13",
+      "image_url": "https://s1.ticketm.net/dam/a/c55/f14e7984-936f-4dcc-b3ae-7bf76b352c55_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Liverpool, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/brooke-combe-arts-club-liverpool-tickets/13789353?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "BBC RADIO 2 PIANO ROOMS LIVE - Katie Melua",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/2d6/86428e80-b470-49ce-be67-5e760daf82d6_1845301_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/bbc-radio-2-piano-rooms-live-manchester-14-09-2024/event/36006055E2AF4983"
+    }
+  ]
+}
