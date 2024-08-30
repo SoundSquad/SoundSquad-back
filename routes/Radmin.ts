@@ -1,6 +1,7 @@
 import express, { Router } from 'express';
 import * as controller from '../controller/Cadmin';
-import initController from '../controller/CartistInit';
+import initArtist from '../controller/CartistInit';
+import initConcert from '../controller/CconcertInit';
 import * as auth from '../middleware/auth';
 
 const router: Router = express.Router();
@@ -24,8 +25,8 @@ router.delete('/community', controller.testApi);
 router.delete('/user', controller.testApi);
 
 
-//init 인증
-router.get('/initArtists', initController);
-
+//서버 init 요청
+router.get('/initArtists', initArtist);
+router.get('/initConcerts',initConcert);
 
 export default router;
