@@ -14,6 +14,7 @@ class User extends Model<UserAttributes, UserCreationAttributes> implements User
   public activate?: boolean;
   public user_rating?: number | null;
 
+
   // 타임스탬프 필드
   public readonly createdAt?: Date;
   public readonly updatedAt?: Date;
@@ -78,6 +79,7 @@ class User extends Model<UserAttributes, UserCreationAttributes> implements User
       foreignKey: 'member_num',
     });
   }
+
 }
 
 export default (sequelize: Sequelize) => {
