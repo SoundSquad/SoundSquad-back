@@ -2,13 +2,13 @@ import { Model, DataTypes, Sequelize } from 'sequelize';
 import { ConcertReviewAttributes, ConcertReviewCreationAttributes } from '../modules/MconcertReview';
 
 class ConcertReview extends Model<ConcertReviewAttributes, ConcertReviewCreationAttributes> implements ConcertReviewAttributes {
-  public creview_num?: number;
-  public user_num?: number;
-  public concert_num?: number;
-  public creview_content?: string;
-  public created_at?: Date;
-  public updated_at?: Date;
-  public activate?: boolean;
+  public creview_num!: number;
+  public user_num!: number;
+  public concert_num!: number;
+  public creview_content!: string;
+  public created_at!: Date;
+  public updated_at!: Date;
+  public activate!: boolean;
 
   static associate(models: any) {
     ConcertReview.belongsTo(models.User, {

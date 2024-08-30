@@ -1,23 +1,23 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { UserAttributes, UserCreationAttributes } from '../modules/Muser';
 class User extends Model<UserAttributes, UserCreationAttributes> implements UserAttributes {
-  public user_num?: number;
-  public user_id?: string;
-  public user_pw?: string;
-  public user_gender?: number;
-  public user_bd?: Date;
-  public introduce?: string | null;
-  public profile_img?: string | null;
-  public token?: string | null;
-  public prefer_genre?: string | null;
-  public mbti?: string | null;
-  public activate?: boolean;
-  public user_rating?: number | null;
+  public user_num!: number;
+  public user_id!: string;
+  public user_pw!: string;
+  public user_gender!: number;
+  public user_bd!: Date;
+  public introduce!: string | null;
+  public profile_img!: string | null;
+  public token!: string | null;
+  public prefer_genre!: string | null;
+  public mbti!: string | null;
+  public activate!: boolean;
+  public user_rating!: number | null;
 
 
   // 타임스탬프 필드
-  public readonly createdAt?: Date;
-  public readonly updatedAt?: Date;
+  public readonly createdAt!: Date;
+  public readonly updatedAt!: Date;
   static associate(models: any) {
     // ConcertReview와의 관계
     User.hasMany(models.ConcertReview, {

@@ -8,7 +8,7 @@
 
     /* Modules */
     "module": "commonjs",                                /* Specify what module code is generated. */
-
+    "typeRoots": ["./node_modules/@types", "./types/**/*.ts"],
     /* JavaScript Support */
 
     "allowSyntheticDefaultImports": true,

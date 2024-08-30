@@ -2,11 +2,11 @@ import { Model, DataTypes, Sequelize } from 'sequelize';
 import { CommentAttributes, CommentCreationAttributes } from '../modules/Mcomment';
 
 class Comment extends Model<CommentAttributes, CommentCreationAttributes> implements CommentAttributes {
-  public comment_num?: number;
-  public article_num?: number;
-  public user_num?: number;
-  public comment_content?: string;
-  public activate?: boolean;
+  public comment_num!: number;
+  public article_num!: number;
+  public user_num!: number;
+  public comment_content!: string;
+  public activate!: boolean;
 
   static associate(models: any) {
     Comment.belongsTo(models.Community, {

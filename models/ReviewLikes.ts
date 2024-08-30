@@ -1,9 +1,9 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { ReviewLikesAttributes, ReviewLikesCreationAttributes } from '../modules/MreviewLikes';
 class ReviewLikes extends Model<ReviewLikesAttributes, ReviewLikesCreationAttributes> implements ReviewLikesAttributes {
-  public like_num?: number;
-  public user_num?: number;
-  public creview_num?: number;
+  public like_num!: number;
+  public user_num!: number;
+  public creview_num!: number;
 
   static associate(models: any) {
     ReviewLikes.belongsTo(models.User, {
