@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import * as controller from '../controller/Csearch';
+import * as auth from '../middleware/auth';
 
 const router: Router = express.Router();
 
@@ -13,7 +14,7 @@ router.get('/detail/artist', controller.testApi);
 router.get('/concert', controller.testApi);
 
 //아티스트 검색 요청
-router.get('/artist', controller.testApi);
+router.get('/artist', controller.searchArtist);
 
 //카테고리별 검색기능
 router.get('/category', controller.testApi);
