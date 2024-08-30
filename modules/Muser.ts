@@ -18,6 +18,17 @@ export interface UserAttributes {
 export interface UserCreationAttributes extends Optional<UserAttributes, 'user_num' > {}
 
 
+
+export interface postUserFields{
+  user_id: string;
+  user_pw: string;
+  user_gender: number;
+  user_bd: Date;
+  introduce?: string | null;
+  profile_img?: string | 'default';
+  activate? : boolean;
+}
+
 export interface UpdatedFields {
   profile_img?: string;
   user_pw?: string;

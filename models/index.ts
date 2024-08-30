@@ -44,7 +44,7 @@ const db = {
 // Sync function
 async function syncModels() {
   try {
-    const force = true;
+    const force = false;
 
 // 1. 독립적인 테이블 먼저 생성
 await db.User.sync({ force });

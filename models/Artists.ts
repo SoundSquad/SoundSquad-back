@@ -62,6 +62,7 @@ export default (sequelize: Sequelize) => {
       modelName: 'ARTISTS',
       tableName: 'ARTISTS',
       timestamps: false,
+      underscored: true,
     }
   );
 

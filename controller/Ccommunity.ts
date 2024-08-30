@@ -26,7 +26,6 @@ export const testApi = async ( req : Request, res : Response ) => {
  */
 export const getCommunityPosts = async ( req: Request, res: Response ) => {
   try {
-    
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.page_size as string) || 10;
 
@@ -36,16 +35,21 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
       where: { activate: true},
       include: [{
         model: db.User,
-        through: { attributes: [] }
+        attributes: ['user_id'],
       }],
-      attributes: ['article_num', 'article_title', 'user_num', 'created_at', 'user_name'],
+      attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
       offset,
       limit: pageSize,
     });
 
+    const totalPages = Math.ceil(count / pageSize);
+    if(page>totalPages){
+      return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
+    };
+
     const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
 
-    return res.json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
+    return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
     console.error('Community 게시판 불러오는 중 오류 발생했습니다.', err);
@@ -66,18 +70,18 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
  */
 export const getCommunityPost = async (req: Request, res: Response) => {
   try {    
+    const articleNum = Number(req.query.article_num);
 
-    const articleNum = parseInt( req.query.article_num as string) || undefined;
-
-    if (!articleNum) {
-      return res.status(400).json({ msg : '조회할 게시글의 식별번호를 입력해야 합니다.' });
+    if (isNaN(articleNum)) {
+      return res.status(400).json({ msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.' });
     }
 
     const result = await db.Community.findOne({
       where: { activate: true, article_num: articleNum },
       include: [{
         model: db.Comment,
-        where : { activate :true },
+        where: { activate: true },
+        required: false,  // LEFT JOIN으로 변경
         attributes: ['comment_num', 'user_num', 'comment_content', 'created_at'],
         include: [{
           model: db.User,
@@ -88,19 +92,19 @@ export const getCommunityPost = async (req: Request, res: Response) => {
     });
 
     if (!result) {
-      return res.status(404).json({ msg : '게시글을 찾을 수 없습니다.' });
+      return res.status(404).json({ msg: '게시글을 찾을 수 없습니다.' });
     }
 
     res.status(200).json({
-      msg : '게시글을 성공적으로 불러왔습니다.',
+      msg: '게시글을 성공적으로 불러왔습니다.',
       data: result
     });
 
   } catch (err) {
     console.error('Community 게시글을 불러오는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg : 'Community 게시판에 게시글을 불러오는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ msg: 'Community 게시판에 게시글을 불러오는 중 오류가 발생했습니다.' });
   }
-}
+};
 
 /** 커뮤니티 게시판에 게시글을 작성하는 경우
  *  post : /community 의 도달점
@@ -111,6 +115,8 @@ export const getCommunityPost = async (req: Request, res: Response) => {
  * @returns // {msg}
  */
 export const postCommunityPost = async( req:Request, res:Response )=>{
+  console.log('post : /community 를 받았습니다.', req.body);
+  
   try{
     const { category, article_title, article_content } = req.body;
     const user_num = parseInt(req.body.user_num)|| undefined;
@@ -257,32 +263,43 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
  * @param res 
  * @returns //{msg} 
  */
-export const postCommunityComment = async( req:Request, res: Response )=>{
-  try{
+export const postCommunityComment = async (req: Request, res: Response) => {
+  try {
     const { comment_content } = req.body;
-    const user_num = parseInt(req.body.user_num)|| undefined;
-    const article_num = parseInt(req.body.article_num)|| undefined;
+    const user_num = parseInt(req.body.user_num) || undefined;
+    const article_num = parseInt(req.body.article_num) || undefined;
 
-    if(!user_num){
-      return res.status(403).json({msg : '댓글 작성 권한이 없습니다.'});
+    if (!user_num) {
+      return res.status(403).json({ msg: '댓글 작성 권한이 없습니다.' });
     }
 
-    if (!article_num || !comment_content ) {
+    if (!article_num || !comment_content) {
       return res.status(400).json({ msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.' });
+    }
+
+    // 사용자 존재 여부 확인
+    const user = await db.User.findByPk(user_num);
+    if (!user) {
+      return res.status(404).json({ msg: '해당 사용자가 존재하지 않습니다.' });
+    }
+
+    // 게시글 존재 여부 확인
+    const article = await db.Community.findByPk(article_num);
+    if (!article) {
+      return res.status(404).json({ msg: '해당 게시글이 존재하지 않습니다.' });
     }
 
     await db.Comment.create({
       user_num,
       article_num,
       comment_content,
-      activate : true,
+      activate: true,
     });
 
-    return res.status(200).json({msg : '댓글을 성공적으로 작성했습니다.'});    
-  
-  }catch(err){
+    return res.status(200).json({ msg: '댓글을 성공적으로 작성했습니다.' });
+  } catch (err) {
     console.error('Community 댓글 작성 중 오류가 발생했습니다. :', err);
-    return res.status(500).json({ msg : 'Community 댓글 작성 중 오류가 발생했습니다.' });
+    return res.status(500).json({ msg: 'Community 댓글 작성 중 오류가 발생했습니다.' });
   }
 };
 
