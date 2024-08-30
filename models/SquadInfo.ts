@@ -1,24 +1,32 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { SquadInfoAttributes, SquadInfoCreationAttributes } from '../modules/MsquadInfo';
 
-interface SquadInfoAttributes {
-  squad_num: number;
-  concert_num: number;
-  opener_num: number;
-  member_num: number;
+class SquadInfo extends Model<SquadInfoAttributes, SquadInfoCreationAttributes> implements SquadInfoAttributes {
+  public squad_num?: number;
+  public concert_num?: number;
+  public opener_num?: number;
+  public member_num?: number;
+
+  static associate(models: any) {
+    SquadInfo.belongsTo(models.ConcertInfo, {
+        foreignKey: 'concert_num'
+    });
+    SquadInfo.belongsTo(models.User, {
+      foreignKey: 'opener_num'
+    });
+    SquadInfo.belongsTo(models.User, {
+      foreignKey: 'member_num'
+    });
+  }
 }
 
-interface SquadInfoModel extends Model<SquadInfoAttributes>, SquadInfoAttributes {}
-
-type SquadInfoStatic = ModelStatic<SquadInfoModel>;
-
-const SquadInfo = (sequelize: Sequelize): SquadInfoStatic => {
-  const model = sequelize.define<SquadInfoModel>(
-    'SQUAD_INFO',
+export default (sequelize: Sequelize) => {
+  SquadInfo.init(
     {
       squad_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       concert_num: {
         type: DataTypes.INTEGER,
@@ -34,12 +42,12 @@ const SquadInfo = (sequelize: Sequelize): SquadInfoStatic => {
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'SQUAD_INFO',
+      tableName: 'SQUAD_INFO',
+      timestamps: false,
     }
   );
 
-  return model;
+  return SquadInfo;
 };
-
-export default SquadInfo;

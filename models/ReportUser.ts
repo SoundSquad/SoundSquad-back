@@ -1,23 +1,27 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { ReportUserAttributes, ReportUserCreationAttributes } from '../modules/MreportUser';
+class ReportUser extends Model<ReportUserAttributes, ReportUserCreationAttributes> implements ReportUserAttributes {
+  public report_num?: number;
+  public user_num?: number;
+  public writer_num?: number;
 
-interface ReportUserAttributes {
-  report_num: number;
-  user_num: number;
-  writer_num: number;
+  static associate(models: any) {
+    ReportUser.belongsTo(models.User, {
+      foreignKey: 'user_num'
+    });
+    ReportUser.belongsTo(models.User, {
+      foreignKey: 'writer_num'
+    });
+  }
 }
 
-interface ReportUserModel extends Model<ReportUserAttributes>, ReportUserAttributes {}
-
-type ReportUserStatic = ModelStatic<ReportUserModel>;
-
-const ReportUser = (sequelize: Sequelize): ReportUserStatic => {
-  const model = sequelize.define<ReportUserModel>(
-    'REPORT_USER',
+export default (sequelize: Sequelize) => {
+  ReportUser.init(
     {
       report_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       user_num: {
         type: DataTypes.INTEGER,
@@ -29,12 +33,12 @@ const ReportUser = (sequelize: Sequelize): ReportUserStatic => {
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'REPORT_USER',
+      tableName: 'REPORT_USER',
+      timestamps: false,
     }
   );
 
-  return model;
+  return ReportUser;
 };
-
-export default ReportUser;
