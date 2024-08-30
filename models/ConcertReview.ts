@@ -1,25 +1,35 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { ConcertReviewAttributes, ConcertReviewCreationAttributes } from '../modules/MconcertReview';
 
-interface ConcertReviewAttributes {
-  creview_num: number;
-  user_num: number;
-  concert_num: number;
-  creview_content: string;
-  activate: boolean;
+class ConcertReview extends Model<ConcertReviewAttributes, ConcertReviewCreationAttributes> implements ConcertReviewAttributes {
+  public creview_num?: number;
+  public user_num?: number;
+  public concert_num?: number;
+  public creview_content?: string;
+  public created_at?: Date;
+  public updated_at?: Date;
+  public activate?: boolean;
+
+  static associate(models: any) {
+    ConcertReview.belongsTo(models.User, {
+      foreignKey: 'user_num'
+    });
+    ConcertReview.belongsTo(models.ConcertInfo, {
+      foreignKey: 'concert_num'
+    });
+    // ConcertReview.hasMany(models.ReviewLikes, {
+    //   foreignKey: 'creview_num'
+    // });
+  }
 }
 
-interface ConcertReviewModel extends Model<ConcertReviewAttributes>, ConcertReviewAttributes {}
-
-type ConcertReviewStatic = ModelStatic<ConcertReviewModel>;
-
-const ConcertReview = (sequelize: Sequelize): ConcertReviewStatic => {
-  const model = sequelize.define<ConcertReviewModel>(
-    'CONCERT_REVIEW',
+export default (sequelize: Sequelize) => {
+  ConcertReview.init(
     {
       creview_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       user_num: {
         type: DataTypes.INTEGER,
@@ -33,18 +43,30 @@ const ConcertReview = (sequelize: Sequelize): ConcertReviewStatic => {
         type: DataTypes.TEXT,
         allowNull: false,
       },
+      created_at: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
+      updated_at: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
       activate: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
+        defaultValue: true,
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'CONCERT_REVIEW',
+      tableName: 'CONCERT_REVIEW',
+      timestamps: true,
+      underscored: true,
     }
   );
 
-  return model;
+  return ConcertReview;
 };
-
-export default ConcertReview;

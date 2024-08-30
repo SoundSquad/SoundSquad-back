@@ -1,26 +1,35 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { CommunityAttributes, CommunityCreationAttributes } from '../modules/Mcommunity';
+class Community extends Model<CommunityAttributes, CommunityCreationAttributes> implements CommunityAttributes {
+  public article_num?: number;
+  public user_num?: number;
+  public category?: string;
+  public article_title?: string;
+  public article_content?: string;
+  public created_at?: Date;
+  public update_at?: Date;
+  public activate?: boolean;
 
-interface CommunityAttributes {
-  article_num?: number;
-  user_num: number;
-  category: string;
-  article_title: string;
-  article_content: string;
-  activate?: boolean;
+  static associate(models: any) {
+    Community.belongsTo(models.User, {
+      foreignKey: 'user_num'
+    });
+    Community.hasMany(models.Comment, {
+      foreignKey: 'article_num'
+    });
+    Community.hasMany(models.CommunityReport, {
+      foreignKey: 'article_num'
+    });
+  }
 }
 
-interface CommunityModel extends Model<CommunityAttributes>, CommunityAttributes {}
-
-type CommunityStatic = ModelStatic<CommunityModel>;
-
-const Community = (sequelize: Sequelize): CommunityStatic => {
-  const model = sequelize.define<CommunityModel>(
-    'COMMUNITY',
+export default (sequelize: Sequelize) => {
+  Community.init(
     {
       article_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       user_num: {
         type: DataTypes.INTEGER,
@@ -38,18 +47,30 @@ const Community = (sequelize: Sequelize): CommunityStatic => {
         type: DataTypes.TEXT,
         allowNull: false,
       },
+      created_at: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
+      update_at: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
       activate: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
+        defaultValue: true,
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: true, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'COMMUNITY',
+      tableName: 'COMMUNITY',
+      timestamps: true,
+      underscored: true,
     }
   );
 
-  return model;
+  return Community;
 };
-
-export default Community;

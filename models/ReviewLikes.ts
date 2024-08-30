@@ -1,23 +1,27 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { ReviewLikesAttributes, ReviewLikesCreationAttributes } from '../modules/MreviewLikes';
+class ReviewLikes extends Model<ReviewLikesAttributes, ReviewLikesCreationAttributes> implements ReviewLikesAttributes {
+  public like_num?: number;
+  public user_num?: number;
+  public creview_num?: number;
 
-interface ReviewLikesAttributes {
-  like_num: number;
-  user_num: number;
-  creview_num: number;
+  static associate(models: any) {
+    ReviewLikes.belongsTo(models.User, {
+      foreignKey: 'user_num'
+    });
+    ReviewLikes.belongsTo(models.ConcertReview, {
+      foreignKey: 'creview_num'
+    });
+  }
 }
 
-interface ReviewLikesModel extends Model<ReviewLikesAttributes>, ReviewLikesAttributes {}
-
-type ReviewLikesStatic = ModelStatic<ReviewLikesModel>;
-
-const ReviewLikes = (sequelize: Sequelize): ReviewLikesStatic => {
-  const model = sequelize.define<ReviewLikesModel>(
-    'REVIEW_LIKES',
+export default (sequelize: Sequelize) => {
+  ReviewLikes.init(
     {
       like_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       user_num: {
         type: DataTypes.INTEGER,
@@ -29,12 +33,12 @@ const ReviewLikes = (sequelize: Sequelize): ReviewLikesStatic => {
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'REVIEW_LIKES',
+      tableName: 'REVIEW_LIKES',
+      timestamps: false,
     }
   );
 
-  return model;
+  return ReviewLikes;
 };
-
-export default ReviewLikes;

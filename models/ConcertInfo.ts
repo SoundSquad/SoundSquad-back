@@ -1,38 +1,46 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
 
-interface ConcertInfoAttributes {
-  concert_num: number;
-  artist_num: number;
-  concert_title: string;
-  start_date: Date;
-  end_date: Date;
-  concert_image?: string;
-  concert_location?: string;
-  concert_genre?: string;
-  concert_detail?: string;
-  ticket_link?: string;
-  info_click: number;
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { ConcertInfoAttributes, ConcertInfoCreationAttributes } from '../modules/MconcertInfo';
+class ConcertInfo extends Model<ConcertInfoAttributes, ConcertInfoCreationAttributes> implements ConcertInfoAttributes {
+  public concert_num?: number;
+  public artist_num?: number;
+  public concert_title?: string;
+  public start_date?: Date;
+  public end_date?: Date;
+  public concert_image?: string;
+  public concert_location?: string;
+  public concert_genre?: string;
+  public concert_detail?: string;
+  public ticket_link?: string;
+  public info_click?: number;
+
+    associate(models: any) {
+    ConcertInfo.belongsTo(models.Artist, {
+      foreignKey: 'artist_num'
+    });
+    ConcertInfo.hasMany(models.ConcertReview, {
+      foreignKey: 'concert_num'
+    });
+    ConcertInfo.hasMany(models.SquadInfo, {
+      foreignKey: 'concert_num'
+    });
+  }
 }
 
-interface ConcertInfoModel extends Model<ConcertInfoAttributes>, ConcertInfoAttributes {}
-
-type ConcertInfoStatic = ModelStatic<ConcertInfoModel>;
-
-const ConcertInfo = (sequelize: Sequelize): ConcertInfoStatic => {
-  const model = sequelize.define<ConcertInfoModel>(
-    'CONCERT_INFO',
+export default (sequelize: Sequelize) => {
+  ConcertInfo.init(
     {
       concert_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       artist_num: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
       concert_title: {
-        type: DataTypes.TEXT,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       start_date: {
@@ -49,7 +57,7 @@ const ConcertInfo = (sequelize: Sequelize): ConcertInfoStatic => {
       },
       concert_location: {
         type: DataTypes.STRING(20),
-        allowNull: true,
+        allowNull: false,
       },
       concert_genre: {
         type: DataTypes.STRING(10),
@@ -60,7 +68,7 @@ const ConcertInfo = (sequelize: Sequelize): ConcertInfoStatic => {
         allowNull: true,
       },
       ticket_link: {
-        type: DataTypes.STRING(500),
+        type: DataTypes.STRING(300),
         allowNull: true,
       },
       info_click: {
@@ -70,12 +78,12 @@ const ConcertInfo = (sequelize: Sequelize): ConcertInfoStatic => {
       },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'CONCERT_INFO',
+      tableName: 'CONCERT_INFO',
+      timestamps: false,
     }
   );
 
-  return model;
+  return ConcertInfo;
 };
-
-export default ConcertInfo;

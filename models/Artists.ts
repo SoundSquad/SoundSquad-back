@@ -1,30 +1,39 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
-import {ArtistAttributes} from '../modules/artists';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { ArtistAttributes, ArtistCreationAttributes } from '../modules/Martists';
+class Artist extends Model<ArtistAttributes, ArtistCreationAttributes> implements ArtistAttributes {
+  public artist_num?: number;
+  public updated_at?: Date;
+  public artist_id?: string;
+  public artist_name?: string;
+  public artist_profile?: string;
+  public profile_click?: number;
+  public artist_desc?: string;
+  public artist_genre?: string;
 
-// interface ArtistAttributes {
-//   artist_num: number;
-//   artist_id: string;
-//   artist_name: string;
-//   artist_profile: string;
-//   profile_click?: number;
-// }
+  static associate(models: any) {
+    Artist.hasMany(models.ConcertInfo, {
+      foreignKey: 'artist_num'
+    });
+  }
+}
 
-interface ArtistModel extends Model<ArtistAttributes>, ArtistAttributes {}
-
-type ArtistStatic = ModelStatic<ArtistModel>;
-
-const Artists = (sequelize: Sequelize): ArtistStatic => {
-  const model = sequelize.define<ArtistModel>(
-    'ARTISTS',
+export default (sequelize: Sequelize) => {
+  Artist.init(
     {
       artist_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
+      },
+      updated_at: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
       },
       artist_id: {
         type: DataTypes.STRING(30),
         allowNull: false,
+        unique: true,
       },
       artist_name: {
         type: DataTypes.STRING(200),
@@ -32,21 +41,29 @@ const Artists = (sequelize: Sequelize): ArtistStatic => {
       },
       artist_profile: {
         type: DataTypes.STRING(500),
-        allowNull: false,
+        allowNull: true,
       },
       profile_click: {
         type: DataTypes.INTEGER,
         allowNull: false,
         defaultValue: 0,
       },
+      artist_desc: {
+        type: DataTypes.TEXT,
+        allowNull: true,
+      },
+      artist_genre: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: false, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'ARTISTS',
+      tableName: 'ARTISTS',
+      timestamps: false,
     }
   );
 
-  return model;
+  return Artist;
 };
-
-export default Artists;

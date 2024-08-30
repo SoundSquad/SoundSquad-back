@@ -1,25 +1,33 @@
-import { Sequelize, DataTypes, Model, ModelStatic } from 'sequelize';
+import { Model, DataTypes, Sequelize } from 'sequelize';
+import { CommentAttributes, CommentCreationAttributes } from '../modules/Mcomment';
 
-interface CommentAttributes {
-  comment_num?: number;
-  article_num: number;
-  user_num: number;
-  comment_content: string;
-  activate?:boolean;
+class Comment extends Model<CommentAttributes, CommentCreationAttributes> implements CommentAttributes {
+  public comment_num?: number;
+  public article_num?: number;
+  public user_num?: number;
+  public comment_content?: string;
+  public activate?: boolean;
+
+  static associate(models: any) {
+    Comment.belongsTo(models.Community, {
+      foreignKey: 'article_num'
+    });
+    Comment.belongsTo(models.User, {
+      foreignKey: 'user_num'
+    });
+    Comment.hasMany(models.CommentReport, {
+      foreignKey: 'comment_num'
+    });
+  }
 }
 
-interface CommentModel extends Model<CommentAttributes>, CommentAttributes {}
-
-type CommentStatic = ModelStatic<CommentModel>;
-
-const Comment = (sequelize: Sequelize): CommentStatic => {
-  const model = sequelize.define<CommentModel>(
-    'COMMENT',
+export default (sequelize: Sequelize) => {
+  Comment.init(
     {
       comment_num: {
         type: DataTypes.INTEGER,
-        primaryKey: true,
         autoIncrement: true,
+        primaryKey: true,
       },
       article_num: {
         type: DataTypes.INTEGER,
@@ -34,17 +42,17 @@ const Comment = (sequelize: Sequelize): CommentStatic => {
         allowNull: false,
       },
       activate:{
-        type:DataTypes.BOOLEAN,
-        allowNull: true,
+        type: DataTypes.BOOLEAN,
+        allowNull :true,
       }
     },
     {
-      freezeTableName: true, // 테이블 명 고정
-      timestamps: true, // 데이터가 추가되고 수정된 시간을 자동으로 컬럼을 만들어서 기록
+      sequelize,
+      modelName: 'COMMENT',
+      tableName: 'COMMENT',
+      timestamps: false,
     }
   );
 
-  return model;
+  return Comment;
 };
-
-export default Comment;
