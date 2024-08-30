@@ -10,7 +10,7 @@ import { UpdatedFields, findSquadInfoReturn, userReviewObj , postUserFields } fr
 
 dotenv.config();
 
-const saltRounds = 10; // salt for Bcrypt
+const saltRounds = process.env.SALT_ROUNDS || 10 ; // salt for Bcrypt
 
 // 회원가입
 export const postUser = async (req: Request, res: Response) => {
@@ -95,7 +95,8 @@ export const postLogin = async (req: Request, res: Response) => {
             (req.session as any).loggedin = true;  // boolean
 
             const squadReviewInfo = findSqaudInfo(user.user_num); // 해당 유저의 squad review 정보
-            return res.json({ 
+            return res.json({
+                session :req.session, 
                 flag: true,
                 msg: "success",
                 squadReviewInfo
@@ -152,8 +153,8 @@ const findSqaudInfo = async (user_num:number) => {
             let writer:boolean;
             let other_user:number;
             if (review.writer_num == user_num) { // 해당 리뷰의 작성자(평가자)일때
-               writer = true; 
-               other_user = review.reviewed_user;
+                writer = true; 
+                other_user = review.reviewed_user;
             } else {
                 writer = false;
                 other_user = review.writer_num;

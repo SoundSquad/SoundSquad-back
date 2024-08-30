@@ -1,9 +1,5 @@
 import { Request, Response } from 'express';
 import db from '../models';
-import { Op, BulkCreateOptions } from 'sequelize';
-import bcrypt from 'bcrypt';
-import axios from 'axios';
-import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { ArtistAttributes, GenreDetail } from '../modules/artists';
@@ -38,35 +34,34 @@ const genreList:GenreDetail[] = [
 
 const getArtistsInit = async (req: Request, res: Response): Promise<void> => {
     try {
-        let bulkArtists:ArtistAttributes[] = [];
-        genreList.forEach((genre) => {
-            // read each json files
-            const readJsonFilePath = path.join(`../SOUNDSQUAD-BACK/public/artists_0828/artists_${genre.name}.json`);
-            const jsonFile = fs.readFileSync(readJsonFilePath);
-            const jsonData = JSON.parse(jsonFile.toString());
+        let bulkArtists: ArtistAttributes[] = [];
+        for (const genre of genreList) {
+            const readJsonFilePath = path.join(__dirname, `../public/artists_0828/artists_${genre.name}.json`);
+            const jsonFile = fs.readFileSync(readJsonFilePath, 'utf-8');
+            const jsonData = JSON.parse(jsonFile) as any[];
 
-            // insert artists into bulkArtists
-            bulkArtists.push({
-                artist_id: jsonData.artist_id,
-                artist_name: jsonData.artist_name,
-                artist_profile: jsonData.artist_profile,
+            // 각 아티스트 데이터를 ArtistAttributes 형식에 맞게 변환
+            const artistsWithGenre: ArtistAttributes[] = jsonData.map(artist => ({
+                artist_id: artist.artist_id,
+                artist_name: artist.artist_name,
+                artist_profile: artist.artist_profile,
                 profile_click: 0,
-                artist_desc: jsonData.artist_desc,
-                artist_genre:jsonData.artist_genre
-            });
-        });
+                artist_desc: artist.artist_desc || '',  // 기본값 제공
+                artist_genre: genre.name,  // genre 정보 추가
+            }));
 
-        const artists = await db.Artists.bulkCreate(bulkArtists);
-        
-        if(artists) {
-            let text:string = "true";
-            // res.text(text);
+            bulkArtists.push(...artistsWithGenre);
         }
+
+        const artists = await db.Artists.bulkCreate(bulkArtists, {
+            updateOnDuplicate: ['artist_name', 'artist_profile', 'artist_desc', 'artist_genre'],
+        });
+        
+        res.status(200).json({ success: true, message: "Artists initialized successfully", count: artists.length });
         
     } catch (err) {
-        // Handle any errors that occur
-        console.error(err);
-        res.status(500).json({ success: "false", message: "An error occurred" });
+        console.error('Error initializing artists:', err);
+        res.status(500).json({ success: false, message: "An error occurred while initializing artists" });
     }
 }
 

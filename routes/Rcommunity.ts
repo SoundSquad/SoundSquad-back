@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import * as controller from '../controller/Ccommunity';
+import * as auth from '../middleware/auth';
 
 const router: Router = express.Router();
 
@@ -10,21 +11,21 @@ router.get('/list', controller.getCommunityPosts);
 router.get('/detail',controller.getCommunityPost);
 
 //커뮤니티 게시글 등록하기
-router.post('/', controller.postCommunityPost);
+router.post('/', auth.authenticateUser, controller.postCommunityPost);
 
 //커뮤니티 게시글 수정하기
-router.patch('/', controller.patchCommunityPost);
+router.patch('/', auth.authenticateUser, controller.patchCommunityPost);
 
 //커뮤니티 게시글 삭제하기
-router.delete('/',controller.deleteCommunityPost);
+router.delete('/', auth.authenticateUser, controller.deleteCommunityPost);
 
 //커뮤니디 게시글에 댓글을 등록하기
-router.post('/comment', controller.postCommunityComment);
+router.post('/comment', auth.authenticateUser, controller.postCommunityComment);
 
 //댓글 수정하기
-router.patch('/comment', controller.patchCommunityComment);
+router.patch('/comment', auth.authenticateUser, controller.patchCommunityComment);
 
 //댓글 삭제하기
-router.delete('/comment', controller.deleteCommunityComment);
+router.delete('/comment', auth.authenticateUser, controller.deleteCommunityComment);
 
 export default router;

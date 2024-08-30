@@ -1,8 +1,9 @@
 import express, { Router } from 'express';
 import * as controller from '../controller/Cadmin';
+import initController from '../controller/CartistInit';
+import * as auth from '../middleware/auth';
 
 const router: Router = express.Router();
-
 
 //관리자 페이지 진입
 router.get('/', controller.testApi);
@@ -20,6 +21,11 @@ router.get('/community', controller.testApi);
 router.delete('/community', controller.testApi);
 
 //관리자 권한 - 유저 삭제
-router.delete('user', controller.testApi);
+router.delete('/user', controller.testApi);
+
+
+//init 인증
+router.get('/initArtists', initController);
+
 
 export default router;
