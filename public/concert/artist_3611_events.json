@@ -1,0 +1,24 @@
+{
+  "artist_num": 3611,
+  "artist_id": "K8vZ917j0mV",
+  "events": [
+    {
+      "title": "Rewind: Queens of the 90's",
+      "start_date": "2025-01-26",
+      "end_date": "2025-01-26",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "Doors 18:00 Start 19:00",
+      "ticket_link": "https://www.ticketmaster.co.uk/rewind-queens-of-the-90s-london-26-01-2025/event/37006083947D0F5C"
+    },
+    {
+      "title": "Rewind: Queens of the 90's",
+      "start_date": "2025-01-25",
+      "end_date": "2025-01-25",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Birmingham, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/rewind-queens-of-the-90s-birmingham-25-01-2025/event/2300608200510ACB"
+    }
+  ]
+}

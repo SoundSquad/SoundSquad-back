@@ -1,0 +1,42 @@
+{
+  "artist_num": 948,
+  "artist_id": "K8vZ917qkEf",
+  "events": [
+    {
+      "title": "Juvenile w/ The 400 Degreez Band",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Miami Beach, Florida, United States Of America",
+      "description": "Door Time: 7:00 PM Show Time: 8:00 PM",
+      "ticket_link": "https://concerts.livenation.com/juvenile-w-the-400-degreez-band-miami-beach-florida-11-15-2024/event/0D0060C8F2503CF5"
+    },
+    {
+      "title": "Juvenile",
+      "start_date": "2024-10-25",
+      "end_date": "2024-10-25",
+      "image_url": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "St Augustine, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/juvenile-st-augustine-florida-10-25-2024/event/220060E99DB614B9"
+    },
+    {
+      "title": "Juvenile + Mannie Fresh + Hot Boy Turk w/ The 400 Degreez Band",
+      "start_date": "2024-09-27",
+      "end_date": "2024-09-27",
+      "image_url": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Louisville, Kentucky, United States Of America",
+      "description": "Doors open at 7:00 pm. All sales are final. No refunds or exchanges. Everyone, regardless of age including babes in arms, must purchase a ticket. Dates, times, prices and Artist are subject to change without notice. Be sure to check the venue website closer to your event date for the latest information. No cameras, Audio or Video Recording of any kind is permitted.",
+      "ticket_link": "https://concerts.livenation.com/juvenile-mannie-fresh-hot-boy-turk-louisville-kentucky-09-27-2024/event/160060C7EC4C7928"
+    },
+    {
+      "title": "Juvenile w/ The 400 Degreez Band",
+      "start_date": "2024-09-06",
+      "end_date": "2024-09-06",
+      "image_url": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Indianapolis, Indiana, United States Of America",
+      "description": "Murat Theatre at Old National Centre Doors: 6:30 pm Show: 7:30 pm",
+      "ticket_link": "https://concerts.livenation.com/juvenile-w-the-400-degreez-band-indianapolis-indiana-09-06-2024/event/050060C795383230"
+    }
+  ]
+}

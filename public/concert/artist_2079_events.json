@@ -1,0 +1,33 @@
+{
+  "artist_num": 2079,
+  "artist_id": "K8vZ917jiof",
+  "events": [
+    {
+      "title": "Miracle Of Sound",
+      "start_date": "2025-03-14",
+      "end_date": "2025-03-14",
+      "image_url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Birmingham, Unknown State, Great Britain",
+      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+      "ticket_link": "https://www.ticketmaster.co.uk/miracle-of-sound-birmingham-14-03-2025/event/3E0060E49E3C0BAA"
+    },
+    {
+      "title": "Miracle of Sound - Tour 2025",
+      "start_date": "2025-03-07",
+      "end_date": "2025-03-07",
+      "image_url": "https://s1.ticketm.net/dam/a/c7f/30b79d4c-909e-48ea-85c4-48dc12bc9c7f_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Belfast, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/miracle-of-sound-tour-2025-belfast-07-03-2025/event/380060E58E3808FC"
+    },
+    {
+      "title": "The Longest Johns",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/20e/d57ee9bc-08c1-4b4c-a6e9-42b6d31b020e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "San Diego, California, United States Of America",
+      "description": "All ages welcome. All persons under the age of 18 must be accompanied by a parent, guardian, or by a responsible adult 25 years of age or older who has written authorization from a parent or guardian. Doors: 7PM Show: 8PM *All times and supporting acts are subject to change",
+      "ticket_link": "https://concerts.livenation.com/the-longest-johns-san-diego-california-10-05-2024/event/0A006061B6F8507B"
+    }
+  ]
+}

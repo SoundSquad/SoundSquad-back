@@ -1,0 +1,51 @@
+{
+  "artist_num": 362,
+  "artist_id": "K8vZ917pF77",
+  "events": [
+    {
+      "title": "Symphony NH w/ Rhapsody in Blue",
+      "start_date": "2025-05-10",
+      "end_date": "2025-05-10",
+      "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Concord, New Hampshire, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7u8F7"
+    },
+    {
+      "title": "Rhode Island Philharmonic Orchestra w/ Rhapsody in Blue",
+      "start_date": "2025-03-15",
+      "end_date": "2025-03-15",
+      "image_url": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Providence, Rhode Island, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7u-oU"
+    },
+    {
+      "title": "Detroit Symphony Orchestra w/ Rhapsody in Blue",
+      "start_date": "2024-10-13",
+      "end_date": "2024-10-13",
+      "image_url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Detroit, Michigan, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7GY0_"
+    },
+    {
+      "title": "Detroit Symphony Orchestra w/ Rhapsody in Blue",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Detroit, Michigan, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7GY0b"
+    },
+    {
+      "title": "Detroit Symphony Orchestra w/ Rhapsody in Blue",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Detroit, Michigan, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7GY09"
+    }
+  ]
+}

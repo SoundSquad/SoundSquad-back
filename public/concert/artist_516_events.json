@@ -1,0 +1,33 @@
+{
+  "artist_num": 516,
+  "artist_id": "K8vZ917jmBf",
+  "events": [
+    {
+      "title": "Conner Smith",
+      "start_date": "2024-12-07",
+      "end_date": "2024-12-07",
+      "image_url": "https://s1.ticketm.net/dam/a/044/c25b5e23-0db1-4d01-b238-12ae43ff1044_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/conner-smith-montreal-quebec-12-07-2024/event/310060AACA264049"
+    },
+    {
+      "title": "Conner Smith",
+      "start_date": "2024-12-06",
+      "end_date": "2024-12-06",
+      "image_url": "https://s1.ticketm.net/dam/a/044/c25b5e23-0db1-4d01-b238-12ae43ff1044_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "London, Ontario, Canada",
+      "description": "No backpacks/large bags allowed inside For COVID-19 Venue Policy Please visit: https://londonmusichall.com/faq/ Tickets may be purchased in advance online, at our Box Office (Debit/Credit only. No Cash) or tickets will be sold at the door, while quantities last. Please Note: London Music Hall Mezzanine & Balcony section are not wheelchair accessible. (No passenger elevator available) ** We Are Now Cashless **",
+      "ticket_link": "https://www.ticketmaster.ca/conner-smith-london-ontario-12-06-2024/event/100060AA100B581E"
+    },
+    {
+      "title": "Conner Smith - The Storyteller Tour",
+      "start_date": "2024-12-05",
+      "end_date": "2024-12-05",
+      "image_url": "https://s1.ticketm.net/dam/a/044/c25b5e23-0db1-4d01-b238-12ae43ff1044_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Toronto, Ontario, Canada",
+      "description": "Doors - 7:00pm, All Ages Event",
+      "ticket_link": "https://www.ticketmaster.ca/conner-smith-the-storyteller-tour-toronto-ontario-12-05-2024/event/100060AB038C4FF6"
+    }
+  ]
+}

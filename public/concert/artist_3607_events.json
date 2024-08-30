@@ -1,0 +1,69 @@
+{
+  "artist_num": 3607,
+  "artist_id": "K8vZ917_yWV",
+  "events": [
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "İstanbul, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3DS82/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-10",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Gaziantep, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3DT18/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-10-09",
+      "end_date": "2024-10-09",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Adana, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3DT17/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-09-30",
+      "end_date": "2024-09-30",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "İzmir, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3RG2T/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-20",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "İstanbul, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/35AC1/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-09-09",
+      "end_date": "2024-09-09",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "İstanbul, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3DS81/001/TURKIYE/tr"
+    },
+    {
+      "title": "Melike Şahin",
+      "start_date": "2024-09-08",
+      "end_date": "2024-09-08",
+      "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "İstanbul, Unknown State, Turkey",
+      "description": "No description available",
+      "ticket_link": "https://www.biletix.com/performance/3DS80/001/TURKIYE/tr"
+    }
+  ]
+}

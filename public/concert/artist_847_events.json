@@ -1,0 +1,24 @@
+{
+  "artist_num": 847,
+  "artist_id": "K8vZ917QBcf",
+  "events": [
+    {
+      "title": "Austin City Limits Music Festival - Weekend One",
+      "start_date": "2024-10-04",
+      "end_date": "2024-10-06",
+      "image_url": "https://s1.ticketm.net/dam/a/bba/433f1adc-0464-4435-91fd-e27d242bbbba_1848191_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Austin, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/v8SK"
+    },
+    {
+      "title": "Official 2024 ACL Fest Nights: Connor Price with GRAHAM",
+      "start_date": "2024-10-03",
+      "end_date": "2024-10-03",
+      "image_url": "https://s1.ticketm.net/dam/a/fe1/d1cc5e5e-6745-4ab3-9c89-a9d01ccd9fe1_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Austin, Texas, United States Of America",
+      "description": "Ticket delivery is delayed until 2 weeks before event date and time.",
+      "ticket_link": "https://www.ticketmaster.com/official-2024-acl-fest-nights-connor-austin-texas-10-03-2024/event/3A0060FE3A5386D9"
+    }
+  ]
+}

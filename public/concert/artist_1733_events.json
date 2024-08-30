@@ -1,0 +1,24 @@
+{
+  "artist_num": 1733,
+  "artist_id": "K8vZ917QQc0",
+  "events": [
+    {
+      "title": "Mauricio Ochmann: Actuando En Vida",
+      "start_date": "2024-09-06",
+      "end_date": "2024-09-06",
+      "image_url": "https://s1.ticketm.net/dam/a/554/4ba8fc8c-1324-48e2-aca5-0fd73c2ae554_1694761_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Denver, Colorado, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/mauricio-ochmann-actuando-en-vida-denver-colorado-09-06-2024/event/1E005CB4A08B54A7"
+    },
+    {
+      "title": "Mauricio Ochmann - Actuando En Vida",
+      "start_date": "2024-09-04",
+      "end_date": "2024-09-04",
+      "image_url": "https://s1.ticketm.net/dam/a/554/4ba8fc8c-1324-48e2-aca5-0fd73c2ae554_1694761_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Fresno, California, United States Of America",
+      "description": "DOORS: 7PM SHOW: 8PM NO REFUNDS OR EXCHANGES",
+      "ticket_link": "https://www.ticketmaster.com/mauricio-ochmann-actuando-en-vida-fresno-california-09-04-2024/event/1C005CA3AFA4511E"
+    }
+  ]
+}

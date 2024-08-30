@@ -1,0 +1,33 @@
+{
+  "artist_num": 2049,
+  "artist_id": "K8vZ917hNC0",
+  "events": [
+    {
+      "title": "Landon Conrath",
+      "start_date": "2024-10-31",
+      "end_date": "2024-10-31",
+      "image_url": "https://s1.ticketm.net/dam/a/fcc/e9922762-bb31-458e-a281-f006224d0fcc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "San Diego, California, United States Of America",
+      "description": "All ages welcome. All persons under the age of 18 must be accompanied by a parent, guardian, or by a responsible adult 25 years of age or older who has written authorization from a parent or guardian. This performance will be in the Voodoo Room at House of Blues San Diego. Doors: 7PM Show: 8PM *All times and supporting acts are subject to change without notice.",
+      "ticket_link": "https://concerts.livenation.com/landon-conrath-san-diego-california-10-31-2024/event/0A0060A1D1144846"
+    },
+    {
+      "title": "Landon Conrath with Andrew Garden",
+      "start_date": "2024-10-30",
+      "end_date": "2024-10-30",
+      "image_url": "https://s1.ticketm.net/dam/a/fcc/e9922762-bb31-458e-a281-f006224d0fcc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Keep up to date with all our upcoming events by visiting The Echo's social media and website. @theechola theecho.com",
+      "ticket_link": "https://concerts.livenation.com/landon-conrath-with-andrew-garden-los-angeles-california-10-30-2024/event/090060A21C3A7CF3"
+    },
+    {
+      "title": "Landon Conrath",
+      "start_date": "2024-10-23",
+      "end_date": "2024-10-23",
+      "image_url": "https://s1.ticketm.net/dam/a/fcc/e9922762-bb31-458e-a281-f006224d0fcc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Saint Louis, Missouri, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/landon-conrath-saint-louis-missouri-10-23-2024/event/06006096A97D30AB"
+    }
+  ]
+}

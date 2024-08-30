@@ -1,0 +1,51 @@
+{
+  "artist_num": 2074,
+  "artist_id": "K8vZ917jUef",
+  "events": [
+    {
+      "title": "Emei",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-10",
+      "image_url": "https://s1.ticketm.net/dam/a/54d/e40fbecf-f182-4a50-88b2-0f64c90df54d_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Tuscaloosa, Alabama, United States Of America",
+      "description": "BOX OFFICE SALES AND VENUE DOORS OPEN ONE HOUR PRIOR TO TICKET TIME. NO WILL CALL. MUST BE 16 AND UNDER WITH PARENT/GAURDIAN OR 18+ TO ENTER. TICKET HOLDERS MUST HAVE VALID PHOTO ID. BOX OFFICE IS CREDIT CARD ONLY.",
+      "ticket_link": "https://www.ticketmaster.com/emei-tuscaloosa-alabama-10-10-2024/event/200060D1988A0F3D"
+    },
+    {
+      "title": "MICO",
+      "start_date": "2024-09-26",
+      "end_date": "2024-09-26",
+      "image_url": "https://s1.ticketm.net/dam/a/035/35cc7909-8bb2-4d07-baf9-185f107c4035_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Atlanta, Georgia, United States Of America",
+      "description": "We look forward to hosting you at The Masquerade! Doors are at 7:00 PM. The Masquerade is now proud to be serving food. Check our socials for the food window?s schedule, pinned at the top of the feed. For more info and our FAQ, visit MASQ.com Mobile Tickets will be available beginning September 19th 2024 at 7:00pm",
+      "ticket_link": "https://www.ticketmaster.com/mico-atlanta-georgia-09-26-2024/event/0E0060D2DFB354FF"
+    },
+    {
+      "title": "MICO",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-20",
+      "image_url": "https://s1.ticketm.net/dam/a/035/35cc7909-8bb2-4d07-baf9-185f107c4035_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Houston, Texas, United States Of America",
+      "description": "Doors: 7pm This show is ALL AGES All General Admission Tickets are Standing Room only IMPORTANT: WHITE OAK MUSIC HALL IS A CASHLESS VENUE. Please be sure to bring a debit or credit card.",
+      "ticket_link": "https://www.ticketmaster.com/mico-houston-texas-09-20-2024/event/3A0060D419297B02"
+    },
+    {
+      "title": "MICO",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/035/35cc7909-8bb2-4d07-baf9-185f107c4035_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Las Vegas, Nevada, United States Of America",
+      "description": "Door Time: 7:00 PM Room- B-SIDE Ages: All ages Support: Haiden Henderson All support acts are subject to change without notice. Delivery is delayed for this event, tickets will be released 7 days prior to the show. Special Offers: Complimentary admission to Foundation Room before or after the show with your show tickets. Valid on show day only. Must be 21+. Dress code enforced. Parking: Details and pricing available at: MandalayBay.com Join us for dinner and drinks before the show at our House of Blues Restaurant & Bar, make a reservation at HouseofBlues.com/LasVegas House of Blues Bag Policy Only bags measuring 12'' x 6'' x 12'' (or clutches measuring 4.5'' x 6.5'' ) will be allowed into the venue. All other bags will not be allowed into the venue and will need to be checked.",
+      "ticket_link": "https://www.ticketmaster.com/mico-las-vegas-nevada-09-13-2024/event/170060D39ED91EAA"
+    },
+    {
+      "title": "MICO with Haiden Henderson",
+      "start_date": "2024-09-11",
+      "end_date": "2024-09-11",
+      "image_url": "https://s1.ticketm.net/dam/a/035/35cc7909-8bb2-4d07-baf9-185f107c4035_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Keep up to date with all our upcoming events by visiting The Echo's social media and website. @theechola theecho.com Entry for the Echoplex will be located at: 1154 Glendale Blvd, Los Angeles, CA 90026",
+      "ticket_link": "https://concerts.livenation.com/mico-with-haiden-henderson-los-angeles-california-09-11-2024/event/090060D5F87E739D"
+    }
+  ]
+}

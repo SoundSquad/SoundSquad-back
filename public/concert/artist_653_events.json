@@ -1,0 +1,33 @@
+{
+  "artist_num": 653,
+  "artist_id": "K8vZ917Q9F0",
+  "events": [
+    {
+      "title": "Brooke Candy",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/258/b318305c-f3ba-4597-9b9c-a9b514ef0258_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Cleveland Heights, Ohio, United States Of America",
+      "description": "Saturday, October 19Brooke Candy with Namasenda and Tash Blake LIVE at Grog ShopDoors 7:30 p.m. | Show 8:30 p.m.All Ages$20 advance / $25 day of show;+ $3 at the door if under 21VIP upgrades are available through Grog Shop! + $50 VIP/Meet and Greet comes with SIGNED poster (only 25 available per city)GA tickets are not included with a VIP upgrade; you must purchase one GA ticket for each individual adding on VIP upgrades.",
+      "ticket_link": "https://www.ticketweb.com/event/brooke-candy-grog-shop-tickets/13731993"
+    },
+    {
+      "title": "Brooke Candy (18+)",
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-15",
+      "image_url": "https://s1.ticketm.net/dam/a/258/b318305c-f3ba-4597-9b9c-a9b514ef0258_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "THIS EVENT IS 18+ WITH A VALID I.D. DOORS: 7:00 PM SHOW: 8:00 PM",
+      "ticket_link": "https://concerts.livenation.com/brooke-candy-18-boston-massachusetts-10-15-2024/event/010060E1DEB77DF6"
+    },
+    {
+      "title": "Brooke Candy",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/258/b318305c-f3ba-4597-9b9c-a9b514ef0258_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Toronto, Ontario, Canada",
+      "description": "This is a LEGAL AGE 19+ event Doors: 8pm Show: 9pm",
+      "ticket_link": "https://www.ticketmaster.ca/brooke-candy-toronto-ontario-10-12-2024/event/100060E3E4CB3F93"
+    }
+  ]
+}

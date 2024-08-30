@@ -1,0 +1,33 @@
+{
+  "artist_num": 478,
+  "artist_id": "K8vZ917hhO7",
+  "events": [
+    {
+      "title": "Adeem the Artist",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-10",
+      "image_url": "https://s1.ticketm.net/dam/a/cd4/d3460fd5-7217-4f11-ae45-a1ba0fb37cd4_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Saint Louis, Missouri, United States Of America",
+      "description": "ADEEM THE ARTISTw/ HARLEY CHAPEAUTHU. October 10, 2024Doors 7PM | Show 8PM$17 ADV | $20 DOSAll Ages (21+ with valid ID to drink, $3 minor surcharge under 21)",
+      "ticket_link": "https://www.ticketweb.com/event/adeem-the-artist-off-broadway-tickets/13772663"
+    },
+    {
+      "title": "Adeem the Artist",
+      "start_date": "2024-09-24",
+      "end_date": "2024-09-24",
+      "image_url": "https://s1.ticketm.net/dam/a/cd4/d3460fd5-7217-4f11-ae45-a1ba0fb37cd4_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Adeem the Artist w/ Bettysoo [Ages 21+, Doors Open 6pm, $17 Advance, $20 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/adeem-the-artist-new-york-new-york-09-24-2024/event/000060A3C6FD641C"
+    },
+    {
+      "title": "Adeem The Artist, BettySoo",
+      "start_date": "2024-09-21",
+      "end_date": "2024-09-21",
+      "image_url": "https://s1.ticketm.net/dam/a/cd4/d3460fd5-7217-4f11-ae45-a1ba0fb37cd4_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Cambridge, Massachusetts, United States Of America",
+      "description": "All Ages -- Valid I.D. Required To Drink The Middle East presents: Adeem The Artist, BettySoo - All Ages, $20, 8:00 PM DoorsNO VAPING OR SMOKING IN THE BUILDING",
+      "ticket_link": "https://www.ticketweb.com/event/adeem-the-artist-bettysoo-middle-east-upstairs-tickets/13486564"
+    }
+  ]
+}

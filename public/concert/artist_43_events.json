@@ -1,0 +1,24 @@
+{
+  "artist_num": 43,
+  "artist_id": "K8vZ917hrgV",
+  "events": [
+    {
+      "title": "Little Stranger",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/c0c/d3a920b9-40ef-4408-a9f3-8271d1542c0c_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Washington, District of Columbia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/little-stranger-washington-district-of-columbia-10-19-2024/event/1500609A972E2B22"
+    },
+    {
+      "title": "Little Stranger",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-18",
+      "image_url": "https://s1.ticketm.net/dam/a/c0c/d3a920b9-40ef-4408-a9f3-8271d1542c0c_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Charlotte, North Carolina, United States Of America",
+      "description": "The Fillmore Is A General Admission Standing Room Only Venue Unless Otherwise Noted. All Ages Welcome Doors: 7:00PM Show: 8:00PM Ticket prices will increase the day of the show. All dates, acts, and ticket prices subject to change without notice. All tickets are subject to applicable service fees via all points of purchase.",
+      "ticket_link": "https://concerts.livenation.com/little-stranger-charlotte-north-carolina-10-18-2024/event/2D00609DAF63420C"
+    }
+  ]
+}

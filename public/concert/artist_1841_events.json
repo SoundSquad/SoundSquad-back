@@ -1,0 +1,33 @@
+{
+  "artist_num": 1841,
+  "artist_id": "K8vZ9179NwV",
+  "events": [
+    {
+      "title": "Tino, Mart & André – LIVE on the BEACH | Arrangement Strandclub FONK",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-01",
+      "image_url": "https://s1.ticketm.net/dam/a/8ac/4e6c6e4b-643a-4692-b618-54ed91c878ac_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/tino-mart--andre--live-on-the-beach-%7C-arrangement-strandclub-fonk-tickets/303947?language=en-us"
+    },
+    {
+      "title": "Tino, Mart & André – LIVE on the BEACH",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-01",
+      "image_url": "https://s1.ticketm.net/dam/a/8ac/4e6c6e4b-643a-4692-b618-54ed91c878ac_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/tino-mart--andre--live-on-the-beach-tickets/303945?language=en-us"
+    },
+    {
+      "title": "Tino, Mart & André – LIVE on the BEACH | Arrangement Strandclub Aloha",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-01",
+      "image_url": "https://s1.ticketm.net/dam/a/8ac/4e6c6e4b-643a-4692-b618-54ed91c878ac_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/tino-mart--andre--live-on-the-beach-%7C-arrangement-strandclub-aloha-tickets/303951?language=en-us"
+    }
+  ]
+}

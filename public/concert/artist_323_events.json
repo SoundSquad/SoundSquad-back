@@ -1,0 +1,24 @@
+{
+  "artist_num": 323,
+  "artist_id": "K8vZ917jry0",
+  "events": [
+    {
+      "title": "Brel ! Le Spectacle",
+      "start_date": "2025-03-04",
+      "end_date": "2025-03-04",
+      "image_url": "https://s1.ticketm.net/dam/a/211/de10f55a-5276-4156-bfed-b085a4e07211_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Mons, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/brel--le-spectacle-tickets/61267"
+    },
+    {
+      "title": "Brel ! Le Spectacle",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-01",
+      "image_url": "https://s1.ticketm.net/dam/a/211/de10f55a-5276-4156-bfed-b085a4e07211_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Wavre, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/brel--le-spectacle-tickets/61035"
+    }
+  ]
+}

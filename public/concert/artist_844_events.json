@@ -1,0 +1,69 @@
+{
+  "artist_num": 844,
+  "artist_id": "K8vZ917Q5r7",
+  "events": [
+    {
+      "title": "Rolling Loud",
+      "start_date": "2024-12-13",
+      "end_date": "2024-12-15",
+      "image_url": "https://s1.ticketm.net/dam/a/59e/087b4e88-a925-4f25-b0db-a63b94e3859e_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Miami, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/MN3K"
+    },
+    {
+      "title": "Rob49 and Skilla Baby",
+      "start_date": "2024-10-25",
+      "end_date": "2024-10-25",
+      "image_url": "https://s1.ticketm.net/dam/a/94e/b659bb33-c006-4da8-a6ff-b0d7a077194e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Savannah, Georgia, United States Of America",
+      "description": "Doors open at 6:30pm",
+      "ticket_link": "https://www.ticketmaster.com/rob49-and-skilla-baby-savannah-georgia-10-25-2024/event/0E0060D9B5DD2189"
+    },
+    {
+      "title": "NCA&T Homecoming Concert",
+      "start_date": "2024-10-19",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/a/9c0/d5008408-f678-4c1f-8410-943a2c9c49c0_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Greensboro, North Carolina, United States Of America",
+      "description": "Artist subject to change. No refunds, no exchange.",
+      "ticket_link": "https://www.ticketmaster.com/ncat-homecoming-concert-greensboro-north-carolina-10-19-2024/event/2D0060EFD91458DA"
+    },
+    {
+      "title": "Nick Cannon Presents Wild 'N Out Live Tour 2024: The Final Lap",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/a/d03/0e910820-a598-4fdb-9f4d-ec70f74fdd03_1580131_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "Tickets are not available at the box office on the first day of the public on sale. Visit Barclays Center's A-Z Center Info Guide for venue information and frequently asked questions. SHOW: 8:00 PM ALL AGES EVENT BAG POLICY: Drawstring backpacks and any bags measuring 14\" X 14\" X 6\" or smaller are permitted. Nick Cannon Presents Wild 'N Out Live Tour 2024: The Final Lap Celebrate 20 incredible years of Wild 'N Out with Nick Cannon and your favorite cast members in this special live tour! Experience the hilarious and unpredictable comedy that has made Wild 'N Out a fan favorite for two decades. This high-energy show features a blend of improvisational comedy, musical performances, and special guest appearances that will keep you entertained from start to finish.",
+      "ticket_link": "https://www.ticketmaster.com/nick-cannon-presents-wild-n-out-brooklyn-new-york-10-11-2024/event/300060E384BA0C60"
+    },
+    {
+      "title": "Nick Cannon Presents Wild 'N Out Live!",
+      "start_date": "2024-10-09",
+      "end_date": "2024-10-09",
+      "image_url": "https://s1.ticketm.net/dam/a/d1e/fbc4c15c-e8b5-46ce-a3dc-b3fadf9b8d1e_1865931_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "Nick Cannon Presents Wild 'N Out Live Tour 2024: The Final Lap Celebrate 20 incredible years of Wild 'N Out with Nick Cannon and your favorite cast members in this special live tour! Experience the hilarious and unpredictable comedy that has made Wild 'N Out a fan favorite for two decades. This high-energy show features a blend of improvisational comedy, musical performances, and special guest appearances that will keep you entertained from start to finish. Artist lineup subject to change without notice.",
+      "ticket_link": "https://www.ticketmaster.com/nick-cannon-presents-wild-n-out-chicago-illinois-10-09-2024/event/040060DEA1211D26"
+    },
+    {
+      "title": "DOPE SHOWS PRESENTS ROB49 & SKILLA BABY LIVE IN CONCERT",
+      "start_date": "2024-09-23",
+      "end_date": "2024-09-23",
+      "image_url": "https://s1.ticketm.net/dam/a/94e/b659bb33-c006-4da8-a6ff-b0d7a077194e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Philadelphia, Pennsylvania, United States Of America",
+      "description": "This is an All Ages event. Doors open at 7:00PM.",
+      "ticket_link": "https://concerts.livenation.com/dope-shows-presents-rob49-skilla-baby-philadelphia-pennsylvania-09-23-2024/event/020060B1A5B56FAB"
+    },
+    {
+      "title": "BACK 2 DA STREETZ TOUR",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-20",
+      "image_url": "https://s1.ticketm.net/dam/e/a67/80d4477f-a81d-48d5-823b-fd713670ea67_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Tampa, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/back-2-da-streetz-tour-tampa-florida-09-20-2024/event/0D0060A6D4F12A99"
+    }
+  ]
+}

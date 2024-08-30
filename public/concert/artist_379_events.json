@@ -1,0 +1,33 @@
+{
+  "artist_num": 379,
+  "artist_id": "K8vZ9174MQV",
+  "events": [
+    {
+      "title": "Sondra Radvanovsky",
+      "start_date": "2025-02-16",
+      "end_date": "2025-02-16",
+      "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7ugjo"
+    },
+    {
+      "title": "Sondra Radvanovsky",
+      "start_date": "2025-02-13",
+      "end_date": "2025-02-13",
+      "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7ugj8"
+    },
+    {
+      "title": "Sondra Radvanovsky",
+      "start_date": "2025-02-08",
+      "end_date": "2025-02-08",
+      "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Chicago, Illinois, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7ugja"
+    }
+  ]
+}

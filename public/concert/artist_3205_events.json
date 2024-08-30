@@ -1,0 +1,24 @@
+{
+  "artist_num": 3205,
+  "artist_id": "K8vZ917jre0",
+  "events": [
+    {
+      "title": "Fred Roberts",
+      "start_date": "2024-11-29",
+      "end_date": "2024-11-29",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.co.uk/fred-roberts-london-29-11-2024/event/1F006089FB333D1D"
+    },
+    {
+      "title": "Fred Roberts",
+      "start_date": "2024-11-27",
+      "end_date": "2024-11-27",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/fred-roberts-king-tuts-wah-wah-hut-tickets/13411134?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

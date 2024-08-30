@@ -1,0 +1,42 @@
+{
+  "artist_num": 3200,
+  "artist_id": "K8vZ917jRkf",
+  "events": [
+    {
+      "title": "John Moreland",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-10",
+      "image_url": "https://s1.ticketm.net/dam/a/6cc/145bf708-08ec-459e-91ab-f8d65b9e16cc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Knoxville, Tennessee, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/john-moreland-knoxville-tennessee-10-10-2024/event/1B0060A3DC148806"
+    },
+    {
+      "title": "John Moreland",
+      "start_date": "2024-10-08",
+      "end_date": "2024-10-08",
+      "image_url": "https://s1.ticketm.net/dam/a/6cc/145bf708-08ec-459e-91ab-f8d65b9e16cc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Nashville, Tennessee, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.com/event/john-moreland-w-joelton-mayfield-the-basement-east-tickets/13482244?pl=basementeast"
+    },
+    {
+      "title": "Fruition: How To Make Mistakes Tour",
+      "start_date": "2024-09-27",
+      "end_date": "2024-09-27",
+      "image_url": "https://s1.ticketm.net/dam/a/903/53905ebf-ef7e-4b29-9889-a66ffe155903_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "THIS EVENT IS ALL AGES. DOORS: 7:00 PM SHOW: 8:00 PM",
+      "ticket_link": "https://concerts.livenation.com/fruition-how-to-make-mistakes-tour-boston-massachusetts-09-27-2024/event/010060D8D95A6671"
+    },
+    {
+      "title": "Fruition: How To Make Mistakes Tour",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-20",
+      "image_url": "https://s1.ticketm.net/dam/e/171/ebc42895-2f23-4182-ad12-df8d920bf171_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brooklyn, New York, United States Of America",
+      "description": "*THIS SHOW IS 21+*",
+      "ticket_link": "https://www.ticketmaster.com/fruition-how-to-make-mistakes-tour-brooklyn-new-york-09-20-2024/event/000060D3EF698003"
+    }
+  ]
+}

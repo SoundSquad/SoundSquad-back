@@ -1,0 +1,24 @@
+{
+  "artist_num": 2860,
+  "artist_id": "K8vZ917Qnvf",
+  "events": [
+    {
+      "title": "Ruby Waters",
+      "start_date": "2024-11-21",
+      "end_date": "2024-11-21",
+      "image_url": "https://s1.ticketm.net/dam/a/ccd/52305597-7ebe-4867-9747-dcfdd2768ccd_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/ruby-waters-montreal-quebec-11-21-2024/event/31006084D91B4036"
+    },
+    {
+      "title": "Jazmin Bean - The Traumatic Livelihood Tour",
+      "start_date": "2024-09-30",
+      "end_date": "2024-09-30",
+      "image_url": "https://s1.ticketm.net/dam/a/af0/cb1c8999-85e6-497b-a58f-b0ef65987af0_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Montreal, Quebec, Canada",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ca/jazmin-bean-the-traumatic-livelihood-tour-montreal-quebec-09-30-2024/event/31006064D8B03D65"
+    }
+  ]
+}

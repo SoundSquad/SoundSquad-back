@@ -1,0 +1,33 @@
+{
+  "artist_num": 935,
+  "artist_id": "K8vZ917jwT7",
+  "events": [
+    {
+      "title": "Nasty C",
+      "start_date": "2024-11-05",
+      "end_date": "2024-11-05",
+      "image_url": "https://s1.ticketm.net/dam/a/ab3/7c3cc402-1046-4074-9cef-be69118efab3_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Berlin, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/nasty-c-tickets/548233?language=en-us"
+    },
+    {
+      "title": "TIF",
+      "start_date": "2024-10-30",
+      "end_date": "2024-10-30",
+      "image_url": "https://s1.ticketm.net/dam/a/04e/0b61ad53-ac79-4cca-ad6b-22736bd2f04e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Amsterdam, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/tif-tickets/307617?language=en-us"
+    },
+    {
+      "title": "Tif",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/ab3/7c3cc402-1046-4074-9cef-be69118efab3_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Esch-sur-Alzette, Unknown State, Luxembourg",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/tif-tickets/62457"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "artist_num": 906,
+  "artist_id": "K8vZ917hC6V",
+  "events": [
+    {
+      "title": "Rojuu en Ciudad de México",
+      "start_date": "2024-10-13",
+      "end_date": "2024-10-13",
+      "image_url": "https://s1.ticketm.net/dam/a/279/b4ef712d-cddb-4473-b128-7f49b2ef2279_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Cdmx, Ciudad de México, Mexico",
+      "description": "Rojuu en Ciudad de México",
+      "ticket_link": "https://www.ticketmaster.com.mx/rojuu-en-ciudad-de-mexico-cdmx-13-10-2024/event/3D0060C3B16F12A8"
+    },
+    {
+      "title": "Heineken Silver Live Out 2024 VIP",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/687/8441ddf2-348d-4b8d-9d5b-1146bbacd687_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "description": "Heineken Silver Live Out 2024",
+      "ticket_link": "https://www.ticketmaster.com.mx/heineken-silver-live-out-2024-vip-monterrey-12-10-2024/event/140060A2E5EF2978"
+    },
+    {
+      "title": "Heineken Silver Live Out 2024 Comfort Pass Presentado Por CitiBanamex",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/687/8441ddf2-348d-4b8d-9d5b-1146bbacd687_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "description": "Heineken Silver Live Out 2024",
+      "ticket_link": "https://www.ticketmaster.com.mx/heineken-silver-live-out-2024-comfort-monterrey-12-10-2024/event/140060A2E570295A"
+    },
+    {
+      "title": "Heineken Silver Live Out 2024 General",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/a/687/8441ddf2-348d-4b8d-9d5b-1146bbacd687_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Monterrey, Nuevo León, Mexico",
+      "description": "Heineken Silver Live Out 2024",
+      "ticket_link": "https://www.ticketmaster.com.mx/heineken-silver-live-out-2024-general-monterrey-12-10-2024/event/140060A2C9A92303"
+    }
+  ]
+}

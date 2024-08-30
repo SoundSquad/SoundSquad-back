@@ -1,0 +1,60 @@
+{
+  "artist_num": 465,
+  "artist_id": "K8vZ917_9z0",
+  "events": [
+    {
+      "title": "Redferrin",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/e/221/1a867534-adac-4cca-b132-f34602972221_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "New York, New York, United States Of America",
+      "description": "Redferrin [Ages 18+, Doors Open 8pm, $20 Advance, $25 Day of Show]",
+      "ticket_link": "https://www.ticketmaster.com/redferrin-new-york-new-york-11-15-2024/event/00006106DDE65E11"
+    },
+    {
+      "title": "Country Bay Music Festival",
+      "start_date": "2024-11-09",
+      "end_date": "2024-11-10",
+      "image_url": "https://s1.ticketm.net/dam/a/452/5ab99b54-e15a-4e6c-9167-4b0d15a65452_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Key Biscayne, Florida, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/ujw0"
+    },
+    {
+      "title": "Redferrin",
+      "start_date": "2024-11-06",
+      "end_date": "2024-11-06",
+      "image_url": "https://s1.ticketm.net/dam/e/382/04180f44-dc4c-42d1-91de-d28806804382_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Atlanta, Georgia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/redferrin-atlanta-georgia-11-06-2024/event/0E006108B8E25254"
+    },
+    {
+      "title": "Redferrin",
+      "start_date": "2024-10-20",
+      "end_date": "2024-10-20",
+      "image_url": "https://s1.ticketm.net/dam/a/fc1/59f9a0c0-5ad5-4cfc-bbd7-2f389699afc1_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Kansas City, Missouri, United States Of America",
+      "description": "Redferrin. General admission floor with reserved cabaret and high top table seating. There will be a $2 minor fee at the door for patrons under 21 years of age. Doors 7pm / Show 8pm",
+      "ticket_link": "https://www.ticketmaster.com/redferrin-kansas-city-missouri-10-20-2024/event/0600610ACBA079EE"
+    },
+    {
+      "title": "Redferrin",
+      "start_date": "2024-10-09",
+      "end_date": "2024-10-09",
+      "image_url": "https://s1.ticketm.net/dam/a/fc1/59f9a0c0-5ad5-4cfc-bbd7-2f389699afc1_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Tuscaloosa, Alabama, United States Of America",
+      "description": "BOX OFFICE SALES AND VENUE DOORS OPEN ONE HOUR PRIOR TO TICKET TIME. NO WILL CALL. MUST BE 16 AND UNDER WITH PARENT/GAURDIAN OR 18+ TO ENTER. TICKET HOLDERS MUST HAVE VALID PHOTO ID. BOX OFFICE IS CREDIT CARD ONLY.",
+      "ticket_link": "https://www.ticketmaster.com/redferrin-tuscaloosa-alabama-10-09-2024/event/200060D1987D0F36"
+    },
+    {
+      "title": "Russell Dickerson - Good Day To Have A Great Tour",
+      "start_date": "2024-08-30",
+      "end_date": "2024-08-30",
+      "image_url": "https://s1.ticketm.net/dam/a/790/0f2e2f0e-e5d1-4fce-bb98-11d373900790_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "Live Nation & C2C Present Russell Dickerson Good Day To Have A Great Tour Special guest: Redferrin",
+      "ticket_link": "https://www.ticketmaster.co.uk/russell-dickerson-good-day-to-have-london-30-08-2024/event/3E00608C97F609C2"
+    }
+  ]
+}

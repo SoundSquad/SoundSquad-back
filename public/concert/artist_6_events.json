@@ -1,0 +1,33 @@
+{
+  "artist_num": 6,
+  "artist_id": "K8vZ917Q4f7",
+  "events": [
+    {
+      "title": "All Things Go Music Festival - Saturday",
+      "start_date": "2024-09-28",
+      "end_date": "2024-09-28",
+      "image_url": "https://s1.ticketm.net/dam/a/1dc/59501fc2-570a-49d2-a28e-6d916e3211dc_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Columbia, Maryland, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/all-things-go-music-festival-saturday-columbia-maryland-09-28-2024/event/15006084B301380A"
+    },
+    {
+      "title": "Mitski w/ Ethel Cain",
+      "start_date": "2024-09-18",
+      "end_date": "2024-09-18",
+      "image_url": "https://s1.ticketm.net/dam/a/f2b/c8b9f676-2f5b-4da7-b7c7-e9a15d0ecf2b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Englewood, Colorado, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7Aab7"
+    },
+    {
+      "title": "Mitski",
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-12",
+      "image_url": "https://s1.ticketm.net/dam/a/f2b/c8b9f676-2f5b-4da7-b7c7-e9a15d0ecf2b_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Austin, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/mitski-austin-texas-09-12-2024/event/3A006029E83D3C36"
+    }
+  ]
+}

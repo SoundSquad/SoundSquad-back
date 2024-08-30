@@ -1,0 +1,15 @@
+{
+  "artist_num": 3555,
+  "artist_id": "K8vZ917qkGf",
+  "events": [
+    {
+      "title": "Lucy Thomas",
+      "start_date": "2024-10-22",
+      "end_date": "2024-10-22",
+      "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://theatre.ticketmaster.co.uk/book/1GP9G-lucy-thomas/#perf=1GP9G-2&date=2024-10-22&time=7.30PM"
+    }
+  ]
+}

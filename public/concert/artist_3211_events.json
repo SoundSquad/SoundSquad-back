@@ -1,0 +1,33 @@
+{
+  "artist_num": 3211,
+  "artist_id": "K8vZfZ7ItIk",
+  "events": [
+    {
+      "title": "Allegra Krieger w/ Greg Mendez",
+      "start_date": "2024-10-24",
+      "end_date": "2024-10-24",
+      "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Minneapolis, Minnesota, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7uF8E"
+    },
+    {
+      "title": "Angel Olsen (Solo): Songs From The Archive",
+      "start_date": "2024-09-25",
+      "end_date": "2024-09-25",
+      "image_url": "https://s1.ticketm.net/dam/a/8af/a422c20c-816f-41f5-9eaa-c320640808af_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Portland, Maine, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/angel-olsen-solo-songs-from-the-portland-maine-09-25-2024/event/0100608ACC876B3B"
+    },
+    {
+      "title": "WXPN Welcomes: Waxahatchee",
+      "start_date": "2024-09-08",
+      "end_date": "2024-09-08",
+      "image_url": "https://s1.ticketm.net/dam/a/43a/4e6b035b-49b8-4da3-99da-9b9e044b343a_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Philadelphia, Pennsylvania, United States Of America",
+      "description": "This is an All Ages event. Doors open at 6:00PM.",
+      "ticket_link": "https://concerts.livenation.com/wxpn-welcomes-waxahatchee-philadelphia-pennsylvania-09-08-2024/event/02005F8FBA80570E"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "artist_num": 2845,
+  "artist_id": "K8vZ917ba-f",
+  "events": [
+    {
+      "title": "ASTN - What A Night To Be On Tour with Mulherin",
+      "start_date": "2024-09-17",
+      "end_date": "2024-09-17",
+      "image_url": "https://s1.ticketm.net/dam/a/6dd/e6cadfcc-465c-4182-b2f5-f742ad0d66dd_1631881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Keep up to date with all our upcoming events by visiting The Echo's social media and website. @theechola theecho.com",
+      "ticket_link": "https://concerts.livenation.com/astn-what-a-night-to-be-los-angeles-california-09-17-2024/event/090060BFB9ED2E99"
+    },
+    {
+      "title": "ASTN - What A Night To Be On Tour",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/6dd/e6cadfcc-465c-4182-b2f5-f742ad0d66dd_1631881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Houston, Texas, United States Of America",
+      "description": "This is an all ages standing room only event. Doors open at 7PM",
+      "ticket_link": "https://concerts.livenation.com/astn-what-a-night-to-be-houston-texas-09-13-2024/event/3A0060AFB208342D"
+    },
+    {
+      "title": "ASTN",
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-12",
+      "image_url": "https://s1.ticketm.net/dam/a/6dd/e6cadfcc-465c-4182-b2f5-f742ad0d66dd_1631881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dallas, Texas, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7GoOd"
+    },
+    {
+      "title": "ASTN",
+      "start_date": "2024-09-10",
+      "end_date": "2024-09-10",
+      "image_url": "https://s1.ticketm.net/dam/a/6dd/e6cadfcc-465c-4182-b2f5-f742ad0d66dd_1631881_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Atlanta, Georgia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/event/Z7r9jZ1A7GoOe"
+    }
+  ]
+}

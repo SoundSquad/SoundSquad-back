@@ -1,0 +1,42 @@
+{
+  "artist_num": 2071,
+  "artist_id": "K8vZ917jROf",
+  "events": [
+    {
+      "title": "Pierre Garnier, Chaque seconde Tour",
+      "start_date": "2025-06-24",
+      "end_date": "2025-06-24",
+      "image_url": "https://s1.ticketm.net/dam/a/9e9/7f76c4b4-deab-4d19-a4bc-ba363fd509e9_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Vorst, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/pierre-garnier-chaque-seconde-tour-tickets/63351"
+    },
+    {
+      "title": "Pierre Garnier, Chaque seconde Tour",
+      "start_date": "2025-04-04",
+      "end_date": "2025-04-04",
+      "image_url": "https://s1.ticketm.net/dam/a/9e9/7f76c4b4-deab-4d19-a4bc-ba363fd509e9_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Vorst, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/pierre-garnier-chaque-seconde-tour-tickets/63011"
+    },
+    {
+      "title": "Pierre Garnier, Chaque seconde Tour",
+      "start_date": "2025-04-03",
+      "end_date": "2025-04-03",
+      "image_url": "https://s1.ticketm.net/dam/a/9e9/7f76c4b4-deab-4d19-a4bc-ba363fd509e9_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Vorst, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/pierre-garnier-chaque-seconde-tour-tickets/62935"
+    },
+    {
+      "title": "Pierre Garnier",
+      "start_date": "2025-01-15",
+      "end_date": "2025-01-15",
+      "image_url": "https://s1.ticketm.net/dam/a/9e9/7f76c4b4-deab-4d19-a4bc-ba363fd509e9_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brussels, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/pierre-garnier-tickets/62347"
+    }
+  ]
+}

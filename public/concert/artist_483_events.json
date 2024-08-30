@@ -1,0 +1,42 @@
+{
+  "artist_num": 483,
+  "artist_id": "K8vZ917QQK0",
+  "events": [
+    {
+      "title": "Turnpike Troubadours",
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-22",
+      "image_url": "https://s1.ticketm.net/dam/a/c4e/e8142d8f-78d4-48d3-8817-42f396b2dc4e_738341_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Fishers, Indiana, United States Of America",
+      "description": "All individuals entering the venue require a ticket, regardless of age. Support acts are subject to change without notice. There is a ticket delivery delay for this event. After you purchase, your tickets will not be in your account until 11/8/24.",
+      "ticket_link": "https://www.ticketmaster.com/turnpike-troubadours-fishers-indiana-11-22-2024/event/050060EA9B7B20B5"
+    },
+    {
+      "title": "Muscadine Bloodline: The Coastal Plain Tour",
+      "start_date": "2024-09-28",
+      "end_date": "2024-09-28",
+      "image_url": "https://s1.ticketm.net/dam/a/6b3/30575247-9fba-41ad-b082-15d4ad6ac6b3_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Wilmington, North Carolina, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://concerts.livenation.com/muscadine-bloodline-the-coastal-plain-tour-wilmington-north-carolina-09-28-2024/event/2D0060C681612211"
+    },
+    {
+      "title": "Muscadine Bloodline: The Coastal Plain Tour",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-20",
+      "image_url": "https://s1.ticketm.net/dam/a/6b3/30575247-9fba-41ad-b082-15d4ad6ac6b3_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Cincinnati, Ohio, United States Of America",
+      "description": "This is an all ages show - everyone is welcome. DOORS: 7PM SHOW: 8PM All schedules and support bands are subject to change without notice or refund Entry requirements are subject to change. By purchasing tickets to this event you agree to abide by entry requirements in effect at the time of the event. Check the venue website leading up to your event for the latest protocols.",
+      "ticket_link": "https://concerts.livenation.com/muscadine-bloodline-the-coastal-plain-tour-cincinnati-ohio-09-20-2024/event/160060B71F857735"
+    },
+    {
+      "title": "Born & Raised Music Festival",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-15",
+      "image_url": "https://s1.ticketm.net/dam/a/20f/34c64c33-e1cd-4da2-91a6-5b410520c20f_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Pryor, Oklahoma, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://on.fgtix.com/trk/AWoHb"
+    }
+  ]
+}

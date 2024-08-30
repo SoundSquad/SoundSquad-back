@@ -1,0 +1,33 @@
+{
+  "artist_num": 2018,
+  "artist_id": "K8vZ917QLb0",
+  "events": [
+    {
+      "title": "Het Grootste Zomerfeest van Nederland – LIVE on the BEACH",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/a/248/bd5946ab-1c40-4aa2-92d9-df85ec1f9248_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/het-grootste-zomerfeest-van-nederland--live-on-the-beach-tickets/302857?language=en-us"
+    },
+    {
+      "title": "Het Grootste Zomerfeest van Nederland | Arrangement Strandclub Aloha",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/a/248/bd5946ab-1c40-4aa2-92d9-df85ec1f9248_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/het-grootste-zomerfeest-van-nederland-%7C-arrangement-strandclub-aloha-tickets/302863?language=en-us"
+    },
+    {
+      "title": "Het Grootste Zomerfeest van Nederland | Arrangement Strandclub FONK",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/a/248/bd5946ab-1c40-4aa2-92d9-df85ec1f9248_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Den Haag, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/het-grootste-zomerfeest-van-nederland-%7C-arrangement-strandclub-fonk-tickets/302865?language=en-us"
+    }
+  ]
+}

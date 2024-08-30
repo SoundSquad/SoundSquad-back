@@ -1,0 +1,33 @@
+{
+  "artist_num": 2057,
+  "artist_id": "K8vZ917hkmf",
+  "events": [
+    {
+      "title": "MEMPHIS LK | TRUE LOVE RAVE II",
+      "start_date": "2024-10-18",
+      "end_date": "2024-10-19",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "East Perth, Western Australia, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/memphis-lk-true-love-rave-ii/170965"
+    },
+    {
+      "title": "MEMPHIS LK | TRUE LOVE RAVE II",
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Sydney, New South Wales, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/memphis-lk-true-love-rave-ii/170872"
+    },
+    {
+      "title": "MEMPHIS LK | TRUE LOVE RAVE II",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-11",
+      "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Melbourne, Victoria, Australia",
+      "description": "No description available",
+      "ticket_link": "https://www.moshtix.com.au/v2/event/memphis-lk-true-love-rave-ii/170983"
+    }
+  ]
+}

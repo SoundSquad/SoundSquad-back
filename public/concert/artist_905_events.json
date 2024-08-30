@@ -1,0 +1,60 @@
+{
+  "artist_num": 905,
+  "artist_id": "K8vZ917h9gf",
+  "events": [
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-16",
+      "end_date": "2024-12-16",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Glasgow, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/antslive-the-garage-tickets/13742413?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-14",
+      "end_date": "2024-12-14",
+      "image_url": "https://s1.ticketm.net/dam/a/7aa/4de602e1-a11b-4032-8a18-9d46317da7aa_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Dublin, Unknown State, Ireland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ie/antslive-dublin-14-12-2024/event/180060EAB2CB2A2F"
+    },
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-11",
+      "end_date": "2024-12-11",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Manchester, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/antslive-the-deaf-institute-tickets/13742383?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-10",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Birmingham, Unknown State, Great Britain",
+      "description": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+      "ticket_link": "https://www.ticketmaster.co.uk/antslive-birmingham-10-12-2024/event/3E0060E22DA11A95"
+    },
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-09",
+      "end_date": "2024-12-09",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/antslive-village-underground-tickets/13742373?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "AntsLive",
+      "start_date": "2024-12-03",
+      "end_date": "2024-12-03",
+      "image_url": "https://s1.ticketm.net/dam/a/7aa/4de602e1-a11b-4032-8a18-9d46317da7aa_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Berlin, Unknown State, Germany",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.de/event/antslive-tickets/547903?language=en-us"
+    }
+  ]
+}

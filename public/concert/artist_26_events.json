@@ -1,0 +1,24 @@
+{
+  "artist_num": 26,
+  "artist_id": "K8vZ917hx9V",
+  "events": [
+    {
+      "title": "The Lemonheads: It's a Shame About C'mon Feel Tour (18+)",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/d27/e32b4d34-d780-437a-a3bd-447fe078fd27_964601_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Boston, Massachusetts, United States Of America",
+      "description": "18+ w/ a valid ID Door Time: 7:00pm Show Time: 8:00pm",
+      "ticket_link": "https://concerts.livenation.com/the-lemonheads-its-a-shame-about-boston-massachusetts-09-13-2024/event/010060D716A39705"
+    },
+    {
+      "title": "The Lemonheads: It's a Shame About C'mon Feel Tour",
+      "start_date": "2024-09-08",
+      "end_date": "2024-09-08",
+      "image_url": "https://s1.ticketm.net/dam/a/d27/e32b4d34-d780-437a-a3bd-447fe078fd27_964601_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Washington, District of Columbia, United States Of America",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.com/the-lemonheads-its-a-shame-about-washington-district-of-columbia-09-08-2024/event/150060D4B92BCEA2"
+    }
+  ]
+}

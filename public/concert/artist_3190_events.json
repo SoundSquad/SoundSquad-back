@@ -1,0 +1,24 @@
+{
+  "artist_num": 3190,
+  "artist_id": "K8vZ917hCXf",
+  "events": [
+    {
+      "title": "Leah Weller",
+      "start_date": "2024-11-29",
+      "end_date": "2024-11-29",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/leah-weller-the-half-moon-tickets/13661333?REFERRAL_ID=tmfeed"
+    },
+    {
+      "title": "Dee C Lee",
+      "start_date": "2024-10-08",
+      "end_date": "2024-10-08",
+      "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "London, Unknown State, Great Britain",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketweb.uk/event/dee-c-lee-koko-tickets/13538614?REFERRAL_ID=tmfeed"
+    }
+  ]
+}

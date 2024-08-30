@@ -1,0 +1,24 @@
+{
+  "artist_num": 507,
+  "artist_id": "K8vZ917hyEV",
+  "events": [
+    {
+      "title": "Lee Brice",
+      "start_date": "2024-11-15",
+      "end_date": "2024-11-15",
+      "image_url": "https://s1.ticketm.net/dam/a/0c4/6faf27af-918b-429e-afe6-41a0ac2a30c4_1649011_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Houston, Texas, United States Of America",
+      "description": "Doors: 6pm This show is ALL AGES All General Admission Tickets are Standing Room only IMPORTANT: WHITE OAK MUSIC HALL IS A CASHLESS VENUE. Please be sure to bring a debit or credit card.",
+      "ticket_link": "https://www.ticketmaster.com/lee-brice-houston-texas-11-15-2024/event/3A006066F315592F"
+    },
+    {
+      "title": "Shane Smith & the Saints",
+      "start_date": "2024-10-09",
+      "end_date": "2024-10-09",
+      "image_url": "https://s1.ticketm.net/dam/a/708/f7c8d91b-1b41-4db8-9bce-0cb20526d708_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Wichita, Kansas, United States Of America",
+      "description": "Balcony sections are only accessible by stairs. All ages.",
+      "ticket_link": "https://www.ticketmaster.com/shane-smith-the-saints-wichita-kansas-10-09-2024/event/060060CB9D9C38FA"
+    }
+  ]
+}

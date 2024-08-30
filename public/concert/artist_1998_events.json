@@ -1,0 +1,33 @@
+{
+  "artist_num": 1998,
+  "artist_id": "K8vZ91741f7",
+  "events": [
+    {
+      "title": "Luz Casal En Concierto",
+      "start_date": "2024-10-22",
+      "end_date": "2024-10-22",
+      "image_url": "https://s1.ticketm.net/dam/a/d9d/cbcd38c8-a166-4d72-9c17-e4d01fae6d9d_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "México, Ciudad de México, Mexico",
+      "description": "Coronada como una de las artistas españolas con mayor éxito internacional, basta una nota para reconocer la voz poderosa y honda de Luz Casal. Dueña de una carrera sólida y honesta, acumula decena de premios que destacan su condición de pionera del rock en español, y la fortaleza y libertad sobre las que ha construido su trayectoria. Ha cultivado el respeto de la crítica, la admiración de sus colegas y el cariño del público, sin renunciar a sus principios y modas pasajeras. Regresa a México con toda su fuerza.",
+      "ticket_link": "https://www.ticketmaster.com.mx/luz-casal-en-concierto-mexico-22-10-2024/event/140060CD873F09FA"
+    },
+    {
+      "title": "Luz Casal",
+      "start_date": "2024-09-14",
+      "end_date": "2024-09-14",
+      "image_url": "https://s1.ticketm.net/dam/a/8ac/9569acbd-61eb-4430-9812-82c035fe68ac_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Esch-sur-Alzette, Unknown State, Luxembourg",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/luz-casal-tickets/63047"
+    },
+    {
+      "title": "Luz Casal",
+      "start_date": "2024-09-13",
+      "end_date": "2024-09-13",
+      "image_url": "https://s1.ticketm.net/dam/a/8ac/9569acbd-61eb-4430-9812-82c035fe68ac_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Brussels, Unknown State, Belgium",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.be/event/luz-casal-tickets/61209"
+    }
+  ]
+}

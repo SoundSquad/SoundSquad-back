@@ -1,0 +1,24 @@
+{
+  "artist_num": 939,
+  "artist_id": "K8vZ917piBV",
+  "events": [
+    {
+      "title": "Ezhel",
+      "start_date": "2025-01-27",
+      "end_date": "2025-01-27",
+      "image_url": "https://s1.ticketm.net/dam/a/7dc/42ddf2c4-f166-4d90-b453-30b820b8f7dc_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "København V, Unknown State, Denmark",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.dk/event/ezhel-tickets/550401?language=en-us"
+    },
+    {
+      "title": "Ezhel",
+      "start_date": "2024-12-13",
+      "end_date": "2024-12-13",
+      "image_url": "https://s1.ticketm.net/dam/a/d4e/e0d3360f-1ab2-4c2e-bfc5-c03230ea5d4e_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Amsterdam, Unknown State, Netherlands",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.nl/event/ezhel-tickets/305927?language=en-us"
+    }
+  ]
+}

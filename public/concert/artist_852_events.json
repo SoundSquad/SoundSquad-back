@@ -1,0 +1,24 @@
+{
+  "artist_num": 852,
+  "artist_id": "K8vZ917jBW7",
+  "events": [
+    {
+      "title": "Redwood Christian Ministries Presents: Beyond the Walls",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-02",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Cleveland, Ohio, United States Of America",
+      "description": "Doors open at 6:00pm. Show starts at 6:30pm. This is an All Ages event. This event is taking place in The Cambridge Room at House of Blues Cleveland. All tickets are general admission (GA) for standing room only. Lineup: Miles Minnick Brenno* K Diamond* Eli Williams* Eric Stephens* Richard Williams* *All support acts are subject to change without notice.",
+      "ticket_link": "https://concerts.livenation.com/redwood-christian-ministries-presents-beyond-the-cleveland-ohio-11-02-2024/event/0500610222E2C9FF"
+    },
+    {
+      "title": "Miles Minnick",
+      "start_date": "2024-08-31",
+      "end_date": "2024-08-31",
+      "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Santa Ana, California, United States Of America",
+      "description": "All Ages Welcome Doors: 7pm Show: 8pm *All times and supporting acts are subject to change",
+      "ticket_link": "https://concerts.livenation.com/miles-minnick-santa-ana-california-08-31-2024/event/090060D9F2795AC2"
+    }
+  ]
+}

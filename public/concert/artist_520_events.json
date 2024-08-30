@@ -1,0 +1,24 @@
+{
+  "artist_num": 520,
+  "artist_id": "K8vZ917q7GV",
+  "events": [
+    {
+      "title": "Micah Edwards",
+      "start_date": "2024-10-29",
+      "end_date": "2024-10-29",
+      "image_url": "https://s1.ticketm.net/dam/e/ad5/7ab0b7dd-847b-4546-9712-b167ac066ad5_TABLET_LANDSCAPE_3_2.jpg",
+      "location": "Los Angeles, California, United States Of America",
+      "description": "Moroccan Lounge Presents: Micah Edwards w/ Jackson Lundy [October 29, 2024 / Doors 6:30pm / $20 Adv / $25 DOS / 21+]",
+      "ticket_link": "https://www.ticketmaster.com/micah-edwards-los-angeles-california-10-29-2024/event/09006110A90D4B29"
+    },
+    {
+      "title": "Austin Williams + Hayden Coffman",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/8f8/7efe630c-7004-41c9-bbc8-37c752b4d8f8_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Houston, Texas, United States Of America",
+      "description": "This is an all ages standing room only event. Doors open at 7PM",
+      "ticket_link": "https://concerts.livenation.com/austin-williams-hayden-coffman-houston-texas-10-05-2024/event/3A0060D9C69032E3"
+    }
+  ]
+}

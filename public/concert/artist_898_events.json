@@ -1,0 +1,24 @@
+{
+  "artist_num": 898,
+  "artist_id": "K8vZ917Qmw7",
+  "events": [
+    {
+      "title": "Moritz",
+      "start_date": "2024-10-05",
+      "end_date": "2024-10-05",
+      "image_url": "https://s1.ticketm.net/dam/a/ca7/5945b68b-d571-4f72-b085-1e6f681beca7_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Zürich, Unknown State, Switzerland",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.ch/event/moritz-tickets/18863?language=en-us"
+    },
+    {
+      "title": "Moritz",
+      "start_date": "2024-10-03",
+      "end_date": "2024-10-03",
+      "image_url": "https://s1.ticketm.net/dam/a/ca7/5945b68b-d571-4f72-b085-1e6f681beca7_TABLET_LANDSCAPE_16_9.jpg",
+      "location": "Vienna, Unknown State, Austria",
+      "description": "No description available",
+      "ticket_link": "https://www.ticketmaster.at/event/moritz-tickets/21577?language=en-us"
+    }
+  ]
+}
