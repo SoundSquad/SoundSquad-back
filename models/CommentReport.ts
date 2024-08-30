@@ -38,6 +38,7 @@ export default (sequelize: Sequelize) => {
       modelName: 'COMMENT_REPORT',
       tableName: 'COMMENT_REPORT',
       timestamps: false,
+      underscored: true,
     }
   );
 

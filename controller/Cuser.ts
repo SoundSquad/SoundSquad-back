@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 import axios from 'axios';
 import dotenv from 'dotenv';
 import url from 'url';
-import { UpdatedFields, findSquadInfoReturn, userReviewObj } from '../modules/Muser';
+import { UpdatedFields, findSquadInfoReturn, userReviewObj , postUserFields } from '../modules/Muser';
 
 
 dotenv.config();
@@ -22,6 +22,7 @@ export const postUser = async (req: Request, res: Response) => {
         const userInfo = await db.User.findOne({
             where: { user_id }
         });
+        
         if (userInfo) {
             return res.status(400).json({ 
                 flag: false, 

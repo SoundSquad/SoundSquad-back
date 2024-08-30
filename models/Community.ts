@@ -6,8 +6,6 @@ class Community extends Model<CommunityAttributes, CommunityCreationAttributes> 
   public category!: string;
   public article_title!: string;
   public article_content!: string;
-  public created_at!: Date;
-  public update_at!: Date;
   public activate!: boolean;
 
   static associate(models: any) {
@@ -46,16 +44,6 @@ export default (sequelize: Sequelize) => {
       article_content: {
         type: DataTypes.TEXT,
         allowNull: false,
-      },
-      created_at: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
-      },
-      update_at: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
       },
       activate: {
         type: DataTypes.BOOLEAN,
