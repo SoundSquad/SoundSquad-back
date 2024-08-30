@@ -1,6 +1,6 @@
 import express, { Router } from 'express';
 import * as controller from '../controller/Cuser';
-import * as initController from '../controller/CartistInit';
+import initController from '../controller/CartistInit';
 
 const router: Router = express.Router();
 
@@ -17,7 +17,7 @@ router.patch('/mypage', controller.patchUser);
 // 회원탈퇴
 router.delete('/ban', controller.deleteUser);
 
-
+router.get('/initArtists', initController);
 
 
 

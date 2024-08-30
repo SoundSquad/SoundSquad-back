@@ -20,6 +20,6 @@ router.get('/community', controller.testApi);
 router.delete('/community', controller.testApi);
 
 //관리자 권한 - 유저 삭제
-router.delete('user', controller.testApi);
+router.delete('/user', controller.testApi);
 
 export default router;
