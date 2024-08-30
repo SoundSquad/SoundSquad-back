@@ -2,17 +2,17 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { ConcertInfoAttributes, ConcertInfoCreationAttributes } from '../modules/MconcertInfo';
 class ConcertInfo extends Model<ConcertInfoAttributes, ConcertInfoCreationAttributes> implements ConcertInfoAttributes {
-  public concert_num?: number;
-  public artist_num?: number;
-  public concert_title?: string;
-  public start_date?: Date;
-  public end_date?: Date;
-  public concert_image?: string;
-  public concert_location?: string;
-  public concert_genre?: string;
-  public concert_detail?: string;
-  public ticket_link?: string;
-  public info_click?: number;
+  public concert_num!: number;
+  public artist_num!: number;
+  public concert_title!: string;
+  public start_date!: Date;
+  public end_date!: Date;
+  public concert_image!: string;
+  public concert_location!: string;
+  public concert_genre!: string;
+  public concert_detail!: string;
+  public ticket_link!: string;
+  public info_click!: number;
 
     associate(models: any) {
     ConcertInfo.belongsTo(models.Artist, {

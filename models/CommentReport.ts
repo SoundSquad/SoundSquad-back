@@ -2,9 +2,9 @@ import { Model, DataTypes, Sequelize } from 'sequelize';
 import { CommentReportAttributes, CommentReportCreationAttributes } from '../modules/McommentReport';
 
 class CommentReport extends Model<CommentReportAttributes, CommentReportCreationAttributes> implements CommentReportAttributes {
-  public comment_report_num?: number;
-  public comment_num?: number;
-  public writer_num?: number;
+  public comment_report_num!: number;
+  public comment_num!: number;
+  public writer_num!: number;
 
   static associate(models: any) {
     CommentReport.belongsTo(models.Comment, {

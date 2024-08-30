@@ -4,6 +4,8 @@ export interface ArtistAttributes {
   artist_name: string;
   artist_profile: string;
   profile_click: number;
+  artist_desc: string;
+  artist_genre:string;
 }
 
 

@@ -2,10 +2,10 @@ import { Model, DataTypes, Sequelize } from 'sequelize';
 import { SquadInfoAttributes, SquadInfoCreationAttributes } from '../modules/MsquadInfo';
 
 class SquadInfo extends Model<SquadInfoAttributes, SquadInfoCreationAttributes> implements SquadInfoAttributes {
-  public squad_num?: number;
-  public concert_num?: number;
-  public opener_num?: number;
-  public member_num?: number;
+  public squad_num!: number;
+  public concert_num!: number;
+  public opener_num!: number;
+  public member_num!: number;
 
   static associate(models: any) {
     SquadInfo.belongsTo(models.ConcertInfo, {

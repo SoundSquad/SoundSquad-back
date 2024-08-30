@@ -1,14 +1,14 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { ArtistAttributes, ArtistCreationAttributes } from '../modules/Martists';
 class Artist extends Model<ArtistAttributes, ArtistCreationAttributes> implements ArtistAttributes {
-  public artist_num?: number;
-  public updated_at?: Date;
-  public artist_id?: string;
-  public artist_name?: string;
-  public artist_profile?: string;
-  public profile_click?: number;
-  public artist_desc?: string;
-  public artist_genre?: string;
+  public artist_num!: number;
+  public updated_at!: Date;
+  public artist_id!: string;
+  public artist_name!: string;
+  public artist_profile!: string;
+  public profile_click!: number;
+  public artist_desc!: string;
+  public artist_genre!: string;
 
   static associate(models: any) {
     Artist.hasMany(models.ConcertInfo, {

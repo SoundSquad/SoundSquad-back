@@ -2,9 +2,9 @@ import { Model, DataTypes, Sequelize, Optional } from 'sequelize';
 import { CommunityReportAttributes, CommunityReportCreationAttributes } from '../modules/McommunityReport';
 
 class CommunityReport extends Model<CommunityReportAttributes, CommunityReportCreationAttributes> implements CommunityReportAttributes {
-  public community_report_num?: number;
-  public article_num?: number;
-  public writer_num?: number;
+  public community_report_num!: number;
+  public article_num!: number;
+  public writer_num!: number;
 
   static associate(models: any) {
     CommunityReport.belongsTo(models.Community, {

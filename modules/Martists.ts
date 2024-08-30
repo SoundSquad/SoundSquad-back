@@ -13,3 +13,10 @@ export interface ArtistAttributes {
 }
 
 export interface ArtistCreationAttributes extends Optional<ArtistAttributes, 'artist_num' | 'updated_at' | 'profile_click'> {}
+
+export interface initArtist{
+  artist_id : string;
+  artist_profile : string;
+  artist_name : string;
+  profile_click : number | 0 ;
+}

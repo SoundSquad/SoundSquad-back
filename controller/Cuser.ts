@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 import axios from 'axios';
 import dotenv from 'dotenv';
 import url from 'url';
-import { updatedFields, findSquadInfoReturn, userReviewObj } from '../modules/user';
+import { UpdatedFields, findSquadInfoReturn, userReviewObj } from '../modules/Muser';
 
 
 dotenv.config();
@@ -17,7 +17,7 @@ export const postUser = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw, user_gender, user_bd } = req.body;
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
-        let profile_img = '';
+        let profile_img : string = '';
 
         const userInfo = await db.User.findOne({
             where: { user_id }
@@ -48,10 +48,8 @@ export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
         const user = await db.User.findOne({
-            where: {
-                user_id
-            }, 
-            attributes: ['user_pw', 'user_name', 'activate']
+            where: { user_id },
+            attributes: ['user_pw', 'user_id', 'activate', 'user_num']
         });
         if (!user) {
             return res.status(401).json({
@@ -77,23 +75,23 @@ export const postLogin = async (req: Request, res: Response) => {
 
         // 일반/admin 계정인지 확인 --> if 문 조건 수정 필요!! (현재는 admin의 아이디가 1이라고 가정)
         if (user_id === "1") {  // admin 계정일때 
-            req.session.user = {
+            (req.session as any).user = {
                 user_id: user.user_id,  // string
                 user_num: user.user_num,  // number
                 admin: true  // boolean
             };
-            req.session.loggedin = true;  // boolean
+            (req.session as any).loggedin = true;  // boolean
             return res.json({ 
                 flag: true,
                 msg: "success"
             });
         } else {  // 일반 user일때
-            req.session.user = {
+            (req.session as any).user = {
                 user_id: user.user_id,  // string
                 user_num: user.user_num,  // number
                 admin: false  // boolean
             };
-            req.session.loggedin = true;  // boolean
+            (req.session as any).loggedin = true;  // boolean
 
             const squadReviewInfo = findSqaudInfo(user.user_num); // 해당 유저의 squad review 정보
             return res.json({ 
@@ -248,72 +246,69 @@ export const deleteUser = async (req: Request, res: Response) => {
     }
 };
 
+
 export const patchUser = async (req: Request, res: Response) => {
     try {
-        const isLogin = req.session.loggedin;
-        if(isLogin) {
-            const { user_id, old_pw, new_pw, prefer_genre, mbti } = req.body;
-        
-            const user = await db.User.findOne({
-                where:{
-                    user_id
-                },
-                attributes:['user_pw', 'profile_img']
-            });
+        const isLogin = (req.session as any).loggedin;
+        if (!isLogin) {
+            return res.status(401).json({ msg: "Not logged in" });
+        }
 
-            // 프로필 이미지 초기화
-            let profile_img;
-            // 파일이 업로드 된 경우에만 경로 설정
-            if(req.file){
-                profile_img = req.file.path;
+        const { user_id, old_pw, new_pw, prefer_genre, mbti } = req.body;
+    
+        const user = await db.User.findOne({
+            where: { user_id },
+            attributes: ['user_pw', 'profile_img']
+        });
+
+        if (!user) {
+            return res.status(404).json({ msg: "User not found" });
+        }
+
+        let updatedFields: UpdatedFields = {};
+
+        // Handle profile image
+        if (req.file) {
+            updatedFields.profile_img = req.file.path;
+        }
+
+        // Handle password change
+        if (new_pw && old_pw) {
+            const isPwCorrect = bcrypt.compareSync(old_pw, user.user_pw);
+            if (isPwCorrect) {
+                const hashedPw = bcrypt.hashSync(new_pw, 10);
+                updatedFields.user_pw = hashedPw;
             } else {
-                profile_img = user.profile_img
-            }
-            
-            let updatedFields:updatedFields = {
-                profile_img
-            };
-
-            // 비밀번호 변경 여부 확인
-            if (new_pw && old_pw) { // 새 비밀번호와 기존 비밀번호가 모두 존재하는 경우에만 비밀번호 업데이트
-                const isPwCorrect = bcrypt.compareSync(old_pw, user.user_pw);
-
-                if (isPwCorrect) {
-                    const hashedPw = bcrypt.hashSync(new_pw, saltRounds);
-                    updatedFields.user_pw = hashedPw;
-                } else {
-                    return res.json({
-                        flag: false,
-                        msg: "wrong password"
-                    }); // 비밀번호가 일치하지 않을 경우 처리
-                }
-            }
-
-            // prefer_genre가 수정된다면
-            if (prefer_genre) {
-                updatedFields.prefer_genre = prefer_genre;
-            }
-
-            // mbti가 수정된다면
-            if (mbti) {
-                updatedFields.mbti = mbti;
-            }
-
-            const isUpdated = await db.User.update(updatedFields, {
-                where: { user_id }
-            });
-
-            if (isUpdated) {
-                return res.json({ msg: "success" }); // 성공적으로 업데이트된 경우 처리
-            } else {
-                return res.json({ msg: "fail" }); // 성공적으로 업데이트된 경우 처리
+                return res.status(400).json({
+                    flag: false,
+                    msg: "Incorrect password"
+                });
             }
         }
-            
+
+        // Handle prefer_genre update
+        if (prefer_genre) {
+            updatedFields.prefer_genre = prefer_genre;
+        }
+
+        // Handle mbti update
+        if (mbti) {
+            updatedFields.mbti = mbti;
+        }
+
+        const [updateCount] = await db.User.update(updatedFields, {
+            where: { user_id }
+        });
+
+        if (updateCount > 0) {
+            return res.json({ msg: "success" });
+        } else {
+            return res.status(400).json({ msg: "No changes made" });
+        }
             
     } catch (err) {
         console.error(err);
-        res.status(500).json({ msg: "fail" });
+        res.status(500).json({ msg: "Internal server error" });
     }
 };
 

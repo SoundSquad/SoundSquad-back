@@ -1,14 +1,14 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { CommunityAttributes, CommunityCreationAttributes } from '../modules/Mcommunity';
 class Community extends Model<CommunityAttributes, CommunityCreationAttributes> implements CommunityAttributes {
-  public article_num?: number;
-  public user_num?: number;
-  public category?: string;
-  public article_title?: string;
-  public article_content?: string;
-  public created_at?: Date;
-  public update_at?: Date;
-  public activate?: boolean;
+  public article_num!: number;
+  public user_num!: number;
+  public category!: string;
+  public article_title!: string;
+  public article_content!: string;
+  public created_at!: Date;
+  public update_at!: Date;
+  public activate!: boolean;
 
   static associate(models: any) {
     Community.belongsTo(models.User, {

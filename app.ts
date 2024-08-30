@@ -27,7 +27,7 @@ const expireDate = new Date()
 expireDate.setDate(today.getDate() + 1)
 
 app.use(session({
-    secret : process.env.COOKIE_SECRET, 
+    secret : process.env.COOKIE_SECRET || 'default_secret_session_key ' , 
     resave : false, 
     saveUninitialized : false, 
     cookie : {
@@ -35,7 +35,7 @@ app.use(session({
       secure : false,
       expires : expireDate
     }    
-}))
+}));
 
 app.use('/user', userRouter);
 app.use('/search', searchRouter);

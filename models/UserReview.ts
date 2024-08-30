@@ -30,6 +30,7 @@ export default (sequelize: Sequelize) => {
     {
       ureview_num: {
         type: DataTypes.INTEGER,
+        primaryKey : true,
         autoIncrement: true,
       },
       

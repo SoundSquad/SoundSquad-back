@@ -1,13 +1,13 @@
 import { Optional } from "sequelize";
 
 export interface UserAttributes {
-  user_num?: number;
-  user_id?: string;
-  user_pw?: string;
-  user_gender?: number;
-  user_bd?: Date;
+  user_num: number;
+  user_id: string;
+  user_pw: string;
+  user_gender: number;
+  user_bd: Date;
   introduce?: string | null;
-  profile_img?: string | null;
+  profile_img: string | null;
   token?: string | null;
   prefer_genre?: string | null;
   mbti?: string | null;
@@ -16,3 +16,24 @@ export interface UserAttributes {
 }
 
 export interface UserCreationAttributes extends Optional<UserAttributes, 'user_num' > {}
+
+
+export interface UpdatedFields {
+  profile_img?: string;
+  user_pw?: string;
+  prefer_genre?: string;
+  mbti?: string;
+}
+
+export interface userReviewObj {
+  concert_num: number,
+  writer: boolean,
+  other_user: number,
+  rating: number,
+  created_at?: string
+}
+
+export interface findSquadInfoReturn {
+  msg: string,
+  userReviewList: Array<userReviewObj>
+}

@@ -1,9 +1,9 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
 import { ReportUserAttributes, ReportUserCreationAttributes } from '../modules/MreportUser';
 class ReportUser extends Model<ReportUserAttributes, ReportUserCreationAttributes> implements ReportUserAttributes {
-  public report_num?: number;
-  public user_num?: number;
-  public writer_num?: number;
+  public report_num!: number;
+  public user_num!: number;
+  public writer_num!: number;
 
   static associate(models: any) {
     ReportUser.belongsTo(models.User, {
