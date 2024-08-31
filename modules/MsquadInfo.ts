@@ -1,3 +1,4 @@
+import { join } from "path";
 import { Optional } from "sequelize";
 
 export interface SquadInfoAttributes {
@@ -8,3 +9,7 @@ export interface SquadInfoAttributes {
 }
 
 export interface SquadInfoCreationAttributes extends Optional<SquadInfoAttributes, 'squad_num'> {}
+
+export interface exSquadAttributes{
+  member_num : number ;
+}

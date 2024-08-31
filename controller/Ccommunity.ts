@@ -3,6 +3,8 @@ import db from '../models';
 import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
+import { UpdateTargetCommunity, DeleteTarget, UpdateTargetComment} from '../modules/Mcommunity';
+import { getUserNum } from '../utils/typeCheck';
 
 dotenv.config();
 
@@ -70,7 +72,7 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
  */
 export const getCommunityPost = async (req: Request, res: Response) => {
   try {    
-    const articleNum = Number(req.query.article_num);
+    const articleNum = parseInt(req.query.article_num as string);
 
     if (isNaN(articleNum)) {
       return res.status(400).json({ msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.' });
@@ -115,11 +117,9 @@ export const getCommunityPost = async (req: Request, res: Response) => {
  * @returns // {msg}
  */
 export const postCommunityPost = async( req:Request, res:Response )=>{
-  console.log('post : /community 를 받았습니다.', req.body);
-  
   try{
     const { category, article_title, article_content } = req.body;
-    const user_num = parseInt(req.body.user_num)|| undefined;
+    const user_num = getUserNum(req);
 
     if(!user_num){
       return res.status(403).json({msg : '게시글 작성 권한이 없습니다.'});
@@ -137,18 +137,13 @@ export const postCommunityPost = async( req:Request, res:Response )=>{
       activate : true,
     })
 
-    return res.status(200).json({msg : '게시글을 성공적으로 작성했습니다.'});
+    return res.status(201).json({msg : '게시글을 성공적으로 작성했습니다.'});
   }catch(err){
     console.error('Community 게시글 작성중 오류 발생',err);
     return res.status(500).json({ msg: 'Community 게시판에 게시글을 작성하는 중 오류가 발생했습니다.' });
   }
 };
 
-interface UpdateTargetCommunity { // 추후 분리 예정
-  category: string;
-  article_title: string;
-  article_content: string;
-}
 
 /** 커뮤니티 게시판에 작성된 게시글을 수정하는 경우
  * patch : /community 요청의 도달점
@@ -161,9 +156,8 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
   try {
     const { category, article_title, article_content } = req.body;
 
-    const article_num = parseInt(req.body.article_num) || undefined;
-    const user_num = parseInt(req.body.user_num)|| undefined;
-
+    const article_num = req.body.article_num || undefined;
+    const user_num = getUserNum(req);
 
     if (!user_num || !article_num || !category || !article_title || !article_content) {
       return res.status(400).json({ msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.' });
@@ -196,7 +190,7 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
       return res.status(404).json({ msg : '수정할 게시글을 찾을 수 없습니다.' });
     }
 
-    return res.status(200).json({ msg : '게시글이 성공적으로 수정되었습니다.' });
+    return res.status(201).json({ msg : '게시글이 성공적으로 수정되었습니다.' });
 
   } catch (err) {
     console.error('Community 게시글 수정 중 오류가 발생했습니다. :', err);
@@ -205,9 +199,6 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
 };
 
 
-interface DeleteTarget { // 추후 분리 예정
-  activate:boolean;
-}
 
 /** 커뮤니티 게시글을 삭제하는 경우
  * delete : /community 의 도달점
@@ -219,8 +210,8 @@ interface DeleteTarget { // 추후 분리 예정
  */
 export const deleteCommunityPost = async( req : Request, res: Response )=>{
   try {
-    const user_num = parseInt(req.body.user_num)|| undefined;
-    const article_num = parseInt(req.body.article_num)|| undefined;
+    const user_num = getUserNum(req);
+    const article_num = req.body.article_num|| undefined;
 
     const target = await db.Community.findOne({ 
       where: { article_num, activate: true },
@@ -247,7 +238,7 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
       return res.status(404).json({ msg : '삭제할 게시글을 찾을 수 없습니다.' });
     }
 
-    return res.status(200).json({ msg : '게시글이 성공적으로 삭제되었습니다.' });
+    return res.status(201).json({ msg : '게시글이 성공적으로 삭제되었습니다.' });
 
   } catch (err) {
     console.error('Community 게시글 삭제 중 오류가 발생했습니다. :', err);
@@ -266,8 +257,8 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
 export const postCommunityComment = async (req: Request, res: Response) => {
   try {
     const { comment_content } = req.body;
-    const user_num = parseInt(req.body.user_num) || undefined;
-    const article_num = parseInt(req.body.article_num) || undefined;
+    const user_num = getUserNum(req);
+    const article_num = req.body.article_num || undefined;
 
     if (!user_num) {
       return res.status(403).json({ msg: '댓글 작성 권한이 없습니다.' });
@@ -296,16 +287,13 @@ export const postCommunityComment = async (req: Request, res: Response) => {
       activate: true,
     });
 
-    return res.status(200).json({ msg: '댓글을 성공적으로 작성했습니다.' });
+    return res.status(201).json({ msg: '댓글을 성공적으로 작성했습니다.' });
   } catch (err) {
     console.error('Community 댓글 작성 중 오류가 발생했습니다. :', err);
     return res.status(500).json({ msg: 'Community 댓글 작성 중 오류가 발생했습니다.' });
   }
 };
 
-interface UpdateTargetComment { // 추후 분리 예정
-  comment_content : string;
-}
 
 /** 작성한 댓글을 수정하는 경우
  * patch : /community/comment 의 도달점
@@ -318,8 +306,8 @@ interface UpdateTargetComment { // 추후 분리 예정
 export const patchCommunityComment = async( req:Request, res:Response )=>{
   try {
     const{ comment_content }=req?.body;
-    const user_num = parseInt(req.body?.user_num)|| undefined;
-    const comment_num = parseInt(req.body?.comment_num) || undefined;
+    const user_num = getUserNum(req);
+    const comment_num = req.body?.comment_num || undefined;
     
     if (!user_num || !comment_num || !comment_content ) {
       return res.status(400).json({ msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.' });
@@ -351,7 +339,7 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
       return res.status(404).json({ msg : '수정할 게시글을 찾을 수 없습니다.' });
     }
 
-    return res.status(200).json({ msg : '게시글이 성공적으로 수정되었습니다.' });
+    return res.status(201).json({ msg : '게시글이 성공적으로 수정되었습니다.' });
 
 
   } catch (err) {
@@ -370,9 +358,12 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
  */
 export const deleteCommunityComment = async( req : Request, res: Response )=>{  
   try {
-    const comment_num = parseInt(req.body?.comment_num) || undefined;
-    const user_num = parseInt(req.body?.user_num) || undefined;
-    
+    const comment_num = req.body?.comment_num || undefined;
+    const user_num = getUserNum(req);
+
+    if(!comment_num || user_num){
+      return res.status(400).json({ msg : '필수 정보가 누락되었습니다. ' });  
+    }
     
     const target = await db.Comment.findOne({
       where: { comment_num, activate: true },
@@ -399,7 +390,7 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
       return res.status(404).json({ msg : '삭제할 댓글을 찾을 수 없습니다.' });
     }
 
-    return res.status(200).json({ msg : '댓글이 성공적으로 삭제되었습니다.' });
+    return res.status(201).json({ msg : '댓글이 성공적으로 삭제되었습니다.' });
 
   } catch (err) {
     console.error('Community 댓글 삭제 중 오류가 발생했습니다. :', err);

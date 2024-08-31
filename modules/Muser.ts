@@ -48,3 +48,5 @@ export interface findSquadInfoReturn {
   msg: string,
   userReviewList: Array<userReviewObj>
 }
+
+

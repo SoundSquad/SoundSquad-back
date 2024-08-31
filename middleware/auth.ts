@@ -1,9 +1,13 @@
 import { Request, Response, NextFunction } from 'express';
+import { getUserNum } from '../utils/typeCheck';
 
 export const authenticateUser = ( req: Request, res: Response, next: NextFunction ) => {
   const sessionUserNum = ( req.session as any ).user?.user_num;
-  const requestUserNum = req.body.user_num;
+  const requestUserNum = getUserNum(req);
 
+  console.log('/auth/authenticateUser requestUserNum',requestUserNum);
+  console.log('/auth/authenticateUser sessionUserNum',sessionUserNum);
+  
   if (sessionUserNum === undefined) {
     return res.status(401).json({ message: "접속 상태가 아닙니다." });
   }
@@ -17,8 +21,8 @@ export const authenticateUser = ( req: Request, res: Response, next: NextFunctio
 
 export const authenticateAdmin = ( req: Request, res: Response, next: NextFunction )=>{
   const sessionUserNum = ( req.session as any ).user?.user_num;
-  const requestUserNum = req.body.user_num;
-
+  const requestUserNum = getUserNum(req);
+  
   if ( sessionUserNum === undefined ) {
     return res.status(401).json({ message: "접속 상태가 아닙니다." });
   }
