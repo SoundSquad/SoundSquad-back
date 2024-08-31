@@ -3,6 +3,7 @@ import express, { Express, Request, Response } from 'express';
 import userRouter from './routes/Ruser';
 import searchRouter from './routes/Rsearch';
 import communityRouter from './routes/Rcommunity';
+import adminRouter from './routes/Radmin';
 
 import dotenv from 'dotenv';
 import sequelize  from './models';
@@ -40,7 +41,7 @@ app.use(session({
 app.use('/user', userRouter);
 app.use('/search', searchRouter);
 app.use('/community', communityRouter);
-
+app.use('/admin', adminRouter);
 
 app.get('*', (req: Request, res: Response) => {
     res.render('404');
