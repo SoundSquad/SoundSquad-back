@@ -6,6 +6,8 @@ export interface SquadInfoAttributes {
   concert_num: number;
   opener_num: number;
   member_num: number;
+  created_at?: Date;
+  updated_at?: Date;
 }
 
 export interface SquadInfoCreationAttributes extends Optional<SquadInfoAttributes, 'squad_num'> {}

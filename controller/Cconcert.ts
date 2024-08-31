@@ -30,7 +30,9 @@ export const postConcertReview = async (req: Request, res: Response) => {
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
     }
     
-    const user = await db.User.findByPk(user_num);
+    const user = await db.User.findOne({
+      where:{ user_num, activate : true }
+    });
     const concert = await db.ConcertInfo.findByPk(concert_num);
 
     if (!user || !concert) {
