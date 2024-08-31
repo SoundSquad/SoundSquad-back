@@ -20,7 +20,7 @@ export const postUser = async (req: Request, res: Response) => {
         let profile_img : string = '';
 
         const userInfo = await db.User.findOne({
-            where: { user_id }
+            where: { user_id }  
         });
         
         if (userInfo) {
@@ -75,7 +75,7 @@ export const postLogin = async (req: Request, res: Response) => {
         }
 
         // 일반/admin 계정인지 확인 --> if 문 조건 수정 필요!! (현재는 admin의 아이디가 1이라고 가정)
-        if (user_id === "1") {  // admin 계정일때 
+        if (user_id === process.env.ADMIN_ID) {  // admin 계정일때 
             (req.session as any).user = {
                 user_id: user.user_id,  // string
                 user_num: user.user_num,  // number
@@ -221,30 +221,33 @@ export const postLogout = async (req: Request, res: Response) => {
 // delete user
 export const deleteUser = async (req: Request, res: Response) => {
     try {
-        const { user_id } = req.body;
-        const isDeleted = await db.User.update({
-            activate: false
-        }, {
-            where: {
-                user_id
-            }
-        });
-        if (isDeleted) {
-            // session destroy
-            req.session.destroy(err => {
-                if (err) {
-                    console.error(err);
-                    return res.status(500).json({ msg: 'fail' });
-                } else {
-                    res.json({ msg: 'success' });
-                }
-                res.clearCookie('connect.sid'); 
-            });
+        const { user_num } = req.body;
+        
+        if (user_num !== (req.session as any).user?.user_id) {
+            return res.status(403).json({ msg: 'Unauthorized' });
         }
-        res.json({ msg: 'fail' });
+
+        const [updatedRows] = await db.User.update(
+            { activate: false },
+            { where: { user_num } }
+        );
+
+        if (!updatedRows) {
+            return res.status(404).json({ msg: 'User not found' });
+        }
+
+        req.session.destroy((err) => {
+            if (err) {
+                console.error('Session destruction error:', err);
+                return res.status(500).json({ msg: 'Internal server error' });
+            }
+            res.clearCookie('connect.sid');
+            res.json({ msg: 'User deactivated successfully' });
+        });
+
     } catch (err) {
-        console.error(err);
-        res.status(500).send('Internal Server Error');
+        console.error('User deletion error:', err);
+        res.status(500).json({ msg: 'Internal server error' });
     }
 };
 

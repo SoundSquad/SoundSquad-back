@@ -5,7 +5,9 @@ import * as auth from '../middleware/auth';
 const router: Router = express.Router();
 
 router.post('/register', controller.postUser);
+
 router.post('/login', controller.postLogin);
+
 router.post('/logout', auth.authenticateUser, controller.postLogout);
 
 // router.post('/login/google', controller.postGoogleLogin);
@@ -14,6 +16,7 @@ router.get('/oauth2/redirect', controller.getRedirect);
 
 // 회원정보 수정
 router.patch('/mypage', auth.authenticateUser, controller.patchUser);
+
 // 회원탈퇴
 router.delete('/ban', auth.authenticateUser, controller.deleteUser);
 
