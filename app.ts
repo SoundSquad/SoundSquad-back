@@ -4,6 +4,12 @@ import userRouter from './routes/Ruser';
 import searchRouter from './routes/Rsearch';
 import communityRouter from './routes/Rcommunity';
 import adminRouter from './routes/Radmin';
+import myPageRouter from './routes/Rmypage';
+import concertRouter from './routes/Rconcert';
+import profileRouter from './routes/Rprofile';
+import squadRouter from './routes/Rsquad';
+import reportRouter from './routes/Rreport';
+
 
 import dotenv from 'dotenv';
 import sequelize  from './models';
@@ -42,9 +48,14 @@ app.use('/user', userRouter);
 app.use('/search', searchRouter);
 app.use('/community', communityRouter);
 app.use('/admin', adminRouter);
+app.use('/concert',concertRouter);
+app.use('/profile', profileRouter);
+app.use('/squad', squadRouter);
+app.use('/report', reportRouter);
+app.use('/mypage', myPageRouter);
 
 app.get('*', (req: Request, res: Response) => {
-    res.render('404');
+    res.status(404).json({ msg : ' how can you get here ? '});
 });
 
 const startServer = async () => {
