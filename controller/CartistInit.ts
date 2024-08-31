@@ -32,8 +32,15 @@ const genreList:GenreDetail[] = [
     {name: 'World', id: 'KnvZfZ7vAeF'},
 ];
 
-const getArtistsInit = async (req: Request, res: Response): Promise<void> => {
+const getArtistsInit = async (req: Request, res: Response) => {
     try {
+        console.log('서버 기동요청');
+        
+        let initStatus:any = await db.Artists.findOne({ where : { artist_num : 1},attributes:['artist_num']});
+        if(initStatus){
+            return res.status(400).json({ msg : '기동이 이미 완료되었습니다.' });
+        }
+
         let bulkArtists: ArtistAttributes[] = [];
         for (const genre of genreList) {
             const readJsonFilePath = path.join(__dirname, `../public/artists_0828/artists_${genre.name}.json`);
@@ -56,11 +63,11 @@ const getArtistsInit = async (req: Request, res: Response): Promise<void> => {
             updateOnDuplicate: ['artist_name', 'artist_profile', 'artist_desc', 'artist_genre'],
         });
         
-        res.status(200).json({ success: true, message: "Artists initialized successfully", count: artists.length });
+        return res.status(200).json({ success: true, message: "Artists initialized successfully", count: artists.length });
         
     } catch (err) {
         console.error('Error initializing artists:', err);
-        res.status(500).json({ success: false, message: "An error occurred while initializing artists" });
+        return res.status(500).json({ success: false, message: "An error occurred while initializing artists" });
     }
 }
 

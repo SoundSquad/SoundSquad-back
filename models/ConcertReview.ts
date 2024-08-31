@@ -6,8 +6,6 @@ class ConcertReview extends Model<ConcertReviewAttributes, ConcertReviewCreation
   public user_num!: number;
   public concert_num!: number;
   public creview_content!: string;
-  public created_at!: Date;
-  public updated_at!: Date;
   public activate!: boolean;
 
   static associate(models: any) {
@@ -42,16 +40,6 @@ export default (sequelize: Sequelize) => {
       creview_content: {
         type: DataTypes.TEXT,
         allowNull: false,
-      },
-      created_at: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
-      },
-      updated_at: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
       },
       activate: {
         type: DataTypes.BOOLEAN,
