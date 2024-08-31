@@ -34,5 +34,6 @@ router.get('/category/artist', controller.searchCategoryArtist);
 //카테고리별 검색기능 - 공연
 router.get('/category/concert', controller.searchCategoryConcert);
 
+router.get('/main',controller.getSearchMain);
 
 export default router;

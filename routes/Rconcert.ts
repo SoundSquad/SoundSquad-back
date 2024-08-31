@@ -5,6 +5,6 @@ import * as auth from '../middleware/auth';
 const router: Router = express.Router();
 
 //공연에 대한 리뷰 작성 가능 /concert/review
-router.post('/review', controller.postConcertReview);
+router.post('/review', auth.authenticateUser ,controller.postConcertReview);
 
 export default router;
