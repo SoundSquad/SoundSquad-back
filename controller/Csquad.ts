@@ -59,6 +59,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
       concert_num,
       opener_num : user_num,
       member_num : 0,
+      show_time: checkConcert.start_date
     },{transaction});
     
     const tempData = await db.User.findOne({

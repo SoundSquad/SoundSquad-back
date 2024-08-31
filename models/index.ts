@@ -31,7 +31,6 @@ const db = {
   ConcertInfo: concertInfoModel(sequelize),
   User: userModel(sequelize),
   ConcertReview: concertReviewModel(sequelize),
-  // ReviewLikes: reviewLikesModel(sequelize),
   Community: communityModel(sequelize),
   Comment: commentModel(sequelize),
   ReportUser: reportUserModel(sequelize),
@@ -87,9 +86,6 @@ console.log("*** Comment Report table created");
 await db.ConcertReview.sync({ force });
 console.log("*** Concert Review table created");
 
-// ReviewLikes는 주석 처리되어 있으므로 그대로 둡니다
-// await db.ReviewLikes.sync({ force });
-// console.log("*** Review Likes Report table created");    console.log("All tables created successfully");
   } catch (error) {
     console.error("Error creating tables:", error);
   }

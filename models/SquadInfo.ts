@@ -6,6 +6,7 @@ class SquadInfo extends Model<SquadInfoAttributes, SquadInfoCreationAttributes> 
   public concert_num!: number;
   public opener_num!: number;
   public member_num!: number;
+  public show_time!: Date;
 
   static associate(models: any) {
     SquadInfo.belongsTo(models.ConcertInfo, {
@@ -40,6 +41,10 @@ export default (sequelize: Sequelize) => {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
+      show_time:{
+        type :DataTypes.DATE,
+        allowNull: false,
+      }
     },
     {
       sequelize,

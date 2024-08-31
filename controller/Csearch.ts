@@ -49,8 +49,13 @@ export const searchArtist = async (req: Request, res: Response) => {
           [Op.like]: `%${artist_name}%`
         }
       },
+      include: [{
+        model: db.ConcertInfo,
+        attributes: ['concert_num','concert_title','start_date'],
+      }],
       attributes: ['artist_name', 'artist_num', 'artist_profile', 'artist_genre'],
       offset,
+      order: [['start_date', 'DESC']],
       limit: pageSize,
     });
 
@@ -311,7 +316,7 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
         model: db.User,
         attributes: ['user_id', 'activate'],
       }],
-      attributes: ['squad_num', 'concert_num', 'opener_num', 'member_num'],
+      attributes: ['squad_num', 'concert_num', 'opener_num', 'show_time', 'member_num'],
       offset,
       limit: pageSize,
     });
@@ -549,5 +554,37 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
   } catch (err) {
     console.error('Community 게시글 목록 검색 중 오류 발생:', err);
     return res.status(500).json({ msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.' });
+  }
+};
+
+
+/** 메인페이지 진입시 보내는 요청
+ *  
+ * @param req 
+ * @param res 
+ */
+export const getSearchMain = async (req: Request, res: Response) => {
+  try {
+    const artistResult = await db.Artists.findAll({
+      order: [['profile_click', 'DESC']],
+      limit: 10
+    });
+    
+    const currentDate = new Date();
+    
+    const squadResult = await db.SquadInfo.findAll({
+      where: {
+        show_time: {
+          [Op.gt]: currentDate
+        }
+      },
+      order: db.sequelize.random(),
+      limit: 10
+    });
+
+    return res.status(200).json({ msg: 'Sound_Squad 에 어서오세요!', artistResult, squadResult, currentDate });
+  } catch (err) {
+    console.error('목록을 불러오는 중 오류 발생:', err);
+    return res.status(500).json({ msg: '목록을 불러오는 중 오류가 발생했습니다.' });
   }
 };

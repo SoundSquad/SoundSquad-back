@@ -15,9 +15,6 @@ class ConcertReview extends Model<ConcertReviewAttributes, ConcertReviewCreation
     ConcertReview.belongsTo(models.ConcertInfo, {
       foreignKey: 'concert_num'
     });
-    // ConcertReview.hasMany(models.ReviewLikes, {
-    //   foreignKey: 'creview_num'
-    // });
   }
 }
 
