@@ -14,3 +14,12 @@ export const testApi = async (req: Request, res: Response) => {
     console.error(err);
   }
 };
+
+export const testApi = async (req: Request, res: Response) => {
+  try {
+    console.log('req >>>> ', req);
+    
+  } catch (err) {
+    console.error(err);
+  }
+};
