@@ -7,7 +7,7 @@ import * as auth from '../middleware/auth';
 const router: Router = express.Router();
 
 //관리자 페이지 진입
-router.get('/', auth.authenticateAdmin, controller.testApi);
+// router.get('/', auth.authenticateAdmin, controller.testApi);
 
 //관리자 검색 -유저
 router.get('/user', auth.authenticateAdmin, controller.testApi);
