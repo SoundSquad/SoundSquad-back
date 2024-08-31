@@ -5,7 +5,7 @@ import * as auth from '../middleware/auth';
 const router: Router = express.Router();
 
 //스쿼드를 리뷰하는 요청
-router.post('/review', auth.authenticateUser, controller.testApi);
+router.post('/review', auth.authenticateUser, controller.postSquadReview);
 
 //스쿼드를 여는 요청
 router.post('/', auth.authenticateUser, controller.postOpenSquad);
