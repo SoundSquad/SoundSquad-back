@@ -64,6 +64,7 @@ export default (sequelize: Sequelize) => {
       modelName: 'USER_REVIEW',
       tableName: 'USER_REVIEW',
       timestamps: true,
+      underscored: true,
     }
   );
 

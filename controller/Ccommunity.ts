@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import db from '../models';
-import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
 import { UpdateTargetCommunity, DeleteTarget, UpdateTargetComment} from '../modules/Mcommunity';
@@ -34,10 +33,10 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
     const offset = pagination.offsetPagination(page, pageSize);
 
     const { count, rows } = await db.Community.findAndCountAll({
-      where: { activate: true},
+      where: { activate: true },
       include: [{
         model: db.User,
-        attributes: ['user_id'],
+        attributes: ['user_id', 'activate'],
       }],
       attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
       offset,
@@ -83,11 +82,11 @@ export const getCommunityPost = async (req: Request, res: Response) => {
       include: [{
         model: db.Comment,
         where: { activate: true },
-        required: false,  // LEFT JOIN으로 변경
+        required: false,
         attributes: ['comment_num', 'user_num', 'comment_content', 'created_at'],
         include: [{
           model: db.User,
-          attributes: ['user_id', 'profile_img'],
+          attributes: ['user_id', 'profile_img','activate'],
         }],  
       }],
       attributes: ['article_num', 'user_num', 'category', 'article_title', 'article_content', 'created_at', 'updated_at'],
@@ -269,13 +268,18 @@ export const postCommunityComment = async (req: Request, res: Response) => {
     }
 
     // 사용자 존재 여부 확인
-    const user = await db.User.findByPk(user_num);
+    const user = await db.User.findOne({
+      where:{ user_num , activate : true }
+    });
+
     if (!user) {
       return res.status(404).json({ msg: '해당 사용자가 존재하지 않습니다.' });
     }
 
     // 게시글 존재 여부 확인
-    const article = await db.Community.findByPk(article_num);
+    const article = await db.Community.findOne({
+      where:{ article_num, activate : true },
+    });
     if (!article) {
       return res.status(404).json({ msg: '해당 게시글이 존재하지 않습니다.' });
     }

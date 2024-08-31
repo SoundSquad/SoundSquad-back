@@ -62,7 +62,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     },{transaction});
     
     const tempData = await db.User.findOne({
-      where:{ user_num : user_num },
+      where:{ user_num : user_num, activate : true },
       lock: Transaction.LOCK.UPDATE,
       transaction
     })
@@ -343,7 +343,7 @@ export const postSquadReview = async (req: Request, res: Response) => {
     const avgRating = reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length;
 
     const user = await db.User.findOne({
-      where: { user_num: targetUser },
+      where: { user_num: targetUser, activate : true },
       lock: Transaction.LOCK.UPDATE,
       transaction
     });

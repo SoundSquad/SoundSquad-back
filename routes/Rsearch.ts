@@ -22,10 +22,17 @@ router.get('/concert', controller.searchConcert);
 //아티스트 검색 요청
 router.get('/artist', controller.searchArtist);
 
+//커뮤니티 게시글 검색 - 제목
+router.get('/community/titlelist', controller.getSearchCommunityList);
+
+//커뮤니티 게시글 카테고리
+router.get('/community/categorylist', controller.getCategoryCommunityList);
+
 //카테고리별 검색기능 - 아티스트
 router.get('/category/artist', controller.searchCategoryArtist);
 
 //카테고리별 검색기능 - 공연
 router.get('/category/concert', controller.searchCategoryConcert);
+
 
 export default router;

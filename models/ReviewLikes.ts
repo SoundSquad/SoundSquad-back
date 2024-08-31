@@ -36,7 +36,8 @@ export default (sequelize: Sequelize) => {
       sequelize,
       modelName: 'REVIEW_LIKES',
       tableName: 'REVIEW_LIKES',
-      timestamps: false,
+      timestamps: true,
+      underscored: true,
     }
   );
 

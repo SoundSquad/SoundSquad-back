@@ -12,7 +12,7 @@ router.get('/user', auth.authenticateUser, controller.getMypageUserInfo);
 router.get('/review', auth.authenticateUser, controller.getMyPageReview);
 
 // 마이페이지에서 참여한 스쿼드 정보를 보여주기 /mypage/squad?user_num=&page=
-router.get('/squad', auth.authenticateUser, controller.testApi);
+router.get('/squad', auth.authenticateUser, controller.getMypageSquad);
 
 // 마이페이지에서 작성한 커뮤니티 게시글을 보여주기 /mypage/community?user_num=&page=
 router.get('/community', auth.authenticateUser, controller.getMypagePost);

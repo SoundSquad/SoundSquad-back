@@ -31,8 +31,15 @@ export const searchArtist = async (req: Request, res: Response) => {
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
-    if (!artist_name) {
-      return res.status(400).json({ msg: '검색어를 입력해주세요' });
+    if (!artist_name || typeof artist_name !== 'string' || artist_name.trim() === '') {
+      return res.status(400).json({ msg: '유효한 아티스트 이름을 입력해주세요' });
+    }
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -75,8 +82,16 @@ export const searchConcert = async (req: Request, res: Response) => {
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
-    if (!concert_title) {
-      return res.status(400).json({ msg: '검색어를 입력해주세요' });
+    if (!concert_title || typeof concert_title !== 'string' || concert_title.trim() === '') {
+      return res.status(400).json({ msg: '유효한 공연 제목을 입력해주세요' });
+    }
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -122,15 +137,26 @@ export const searchCategoryArtist = async( req : Request, res : Response )=>{
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
-    if (!category_name) {
-      return res.status(400).json({ msg: '검색어를 입력해주세요' });
+    if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
+      return res.status(400).json({ msg: '유효한 카테고리 이름을 입력해주세요' });
+    }
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
+
+    const vCategory = category_name.replace(/[%_\\]/g, '\\$&');
+
     const { count, rows } = await db.Artists.findAndCountAll({
       where: {
         artist_genre: {
-          [Op.like]: `%${category_name}%`
+          [Op.like]: `%${vCategory}%`
         }
       },
       attributes: ['artist_name', 'artist_num', 'artist_profile', 'artist_genre'],
@@ -165,15 +191,25 @@ export const searchCategoryConcert = async( req : Request, res : Response )=>{
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
-    if (!category_name) {
-      return res.status(400).json({ msg: '검색어를 입력해주세요' });
+    if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
+      return res.status(400).json({ msg: '유효한 카테고리 이름을 입력해주세요' });
     }
+
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+    }
+
+    const vCategory = category_name.replace(/[%_\\]/g, '\\$&');
 
     const offset = pagination.offsetPagination(page, pageSize);
     const { count, rows } = await db.ConcertInfo.findAndCountAll({
       where: {
         concert_genre: {
-          [Op.like]: `%${category_name}%`
+          [Op.like]: `%${vCategory}%`
         }
       },
       include: [{
@@ -251,20 +287,29 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
  */
 export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
   try {
-    const concert_num = parseInt(req.query.concert_num as string) || undefined;
+    const concert_num = parseInt(req.query.concert_num as string);
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
     
-    if(!concert_num){
-      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+    if (isNaN(concert_num) || concert_num <= 0) {
+      return res.status(400).json({ msg: '유효한 공연 번호를 입력해주세요' });
     }
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+    }
+    
 
     const offset = pagination.offsetPagination(page, pageSize);
     const { count, rows } = await db.SquadInfo.findAndCountAll({
       where: { concert_num },
       include: [{
         model: db.User,
-        attributes: ['user_id'],
+        attributes: ['user_id', 'activate'],
       }],
       attributes: ['squad_num', 'concert_num', 'opener_num', 'member_num'],
       offset,
@@ -294,12 +339,15 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
  */
 export const getDetailArtist = async ( req : Request, res : Response )=>{
   try {    
-    const artist_num = parseInt(req.query.artist_num as string) || undefined;
-    
-    if(!artist_num){
-      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
-    }
+    const artist_num = parseInt(req.query.artist_num as string);
 
+    if (isNaN(artist_num) || artist_num <= 0) {
+      return res.status(400).json({ msg: '유효한 아티스트 번호를 입력해주세요' });
+    }
+    
+    if (!Number.isInteger(artist_num)) {
+      return res.status(400).json({ msg: '아티스트 번호는 정수여야 합니다' });
+    }
     const result = await db.Artists.findOne({
       where:{ artist_num },
     });
@@ -332,39 +380,51 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
  */
 export const getDetailArtistReview = async (req: Request, res: Response) => {
   try {
-    const artist_num = parseInt(req.query.artist_num as string) || undefined;
+    const artist_num = parseInt(req.query.artist_num as string);
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
     
-    if (!artist_num) {
-      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+    if (isNaN(artist_num) || artist_num <= 0) {
+      return res.status(400).json({ msg: '유효한 아티스트 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+    }
+    
+    if (!Number.isInteger(artist_num)) {
+      return res.status(400).json({ msg: '아티스트 번호는 정수여야 합니다' });
     }
 
     const totalCount = await db.ConcertReview.count({
+      where: { activate: true },
       include: [{
         model: db.ConcertInfo,
         where: { artist_num },
         attributes: []
       }],
-      where: { activate: true }
     });
 
     const offset = pagination.offsetPagination(page, pageSize);
 
     const reviews = await db.ConcertReview.findAll({
+      where: { activate: true },
       include: [{
         model: db.ConcertInfo,
         where: { artist_num },
         attributes: ['concert_title']
       }, {
         model: db.User,
-        attributes: ['user_id']
+        attributes: ['user_id', 'activate']
       }],
-      where: { activate: true },
-      attributes: ['creview_num', 'user_num', 'concert_num', 'creview_content'],
+      attributes: ['creview_num', 'user_num', 'concert_num', 'creview_content', 'created_at'],
       offset,
       limit: pageSize,
-      order: [['creview_num', 'DESC']]
+      order: [['created_at', 'DESC']]
     });
 
     const totalPages = Math.ceil(totalCount / pageSize);
@@ -379,5 +439,115 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
   } catch (err) {
     console.error('아티스트 공연 리뷰 목록 검색 중 오류 발생:', err);
     return res.status(500).json({ msg: '아티스트 공연 리뷰 목록 검색 중 오류가 발생했습니다.' });
+  }
+};
+
+/** 커뮤니티 게시판 검색
+ * get : /search/community/list?category=&page=&search= 도달점
+ * @param req 
+ * @param res 
+ */
+export const getSearchCommunityList= async (req: Request, res: Response) => {
+  try {
+    const page = parseInt(req.query.page as string);
+    const pageSize = parseInt(req.query.limit as string) || 6;
+    const search = req.query.search as string;
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+    }
+    
+    if (!search || typeof search !== 'string' || search.trim() === '') {
+      return res.status(400).json({ msg: '유효한 검색어를 입력해주세요' });
+    }
+    
+    // SQL 인젝션 방지를 위한 검색어 sanitize
+    const vSearch = search.replace(/[%_\\]/g, '\\$&');
+    
+    const offset = pagination.offsetPagination(page, pageSize);
+
+    const { count, rows } = await db.Community.findAndCountAll({
+      where: { 
+        activate: true,
+        article_title: {
+          [Op.like]: `%${vSearch}%`
+        }  
+      },
+      include: [{
+        model: db.User,
+        attributes: ['user_id', 'activate'],
+      }],
+      attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
+      offset,
+      limit: pageSize,
+    });
+
+    const totalPages = Math.ceil(count / pageSize);
+    if(page>totalPages){
+      return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
+    };
+
+    const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
+
+    return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
+  } catch (err) {
+    console.error('Community 게시글 목록 검색 중 오류 발생:', err);
+    return res.status(500).json({ msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.' });
+  }
+};
+
+export const getCategoryCommunityList = async (req: Request, res: Response) => {
+  try {
+    const category = req.query.category as string;
+    const page = parseInt(req.query.page as string);
+    const pageSize = parseInt(req.query.limit as string) || 6;
+    
+    if (isNaN(page) || page < 1) {
+      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+    }
+    
+    if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
+      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+    }
+    
+    if (!category || typeof category !== 'string' || category.trim() === '') {
+      return res.status(400).json({ msg: '유효한 카테고리를 입력해주세요' });
+    }
+    
+    const offset = pagination.offsetPagination(page, pageSize);
+    const vCategory = category.replace(/[%_\\]/g, '\\$&');
+
+    const { count, rows } = await db.Community.findAndCountAll({
+      where: { 
+        activate: true,
+        category: {
+          [Op.like]: `%${vCategory}%`
+        } 
+      },
+      include: [{
+        model: db.User,
+        attributes: ['user_id', 'activate'],
+      }],
+      attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
+      offset,
+      limit: pageSize,
+    });
+
+    const totalPages = Math.ceil(count / pageSize);
+    if(page>totalPages){
+      return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
+    };
+
+    const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
+
+    return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
+
+  } catch (err) {
+    console.error('Community 게시글 목록 검색 중 오류 발생:', err);
+    return res.status(500).json({ msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.' });
   }
 };

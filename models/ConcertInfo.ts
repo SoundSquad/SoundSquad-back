@@ -82,6 +82,7 @@ export default (sequelize: Sequelize) => {
       modelName: 'CONCERT_INFO',
       tableName: 'CONCERT_INFO',
       timestamps: false,
+      underscored: true,
     }
   );
 

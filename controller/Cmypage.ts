@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import db from '../models';
-import { Op } from 'sequelize';
+import { Op, Transaction } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
 
@@ -76,7 +76,7 @@ export const getMypagePost = async (req: Request, res: Response) => {
       where: { user_num: targetUserNum , activate: true },
       include: [{
         model: db.User,
-        attributes: ['user_id'],
+        attributes: ['user_id', 'activate'],
       }],
       attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
       offset,
@@ -125,7 +125,7 @@ export const getMypageComment = async (req: Request, res: Response) => {
       where: { user_num: targetUserNum , activate: true },
       include: [{
         model: db.User,
-        attributes: ['user_id'],
+        attributes: ['user_id', 'activate'],
       }],
       attributes: ['comment_num', 'comment_content', 'user_num', 'created_at'],
       offset,
@@ -174,7 +174,7 @@ export const getMyPageReview = async (req: Request, res: Response) => {
       include: [
         {
           model: db.User,
-          attributes: ['user_id'],
+          attributes: ['user_id', 'activate'],
         },
         {
           model: db.ConcertInfo,
@@ -199,5 +199,115 @@ export const getMyPageReview = async (req: Request, res: Response) => {
   } catch (err) {
     console.error('Mypage 리뷰 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 리뷰 목록을 불러오는 중 오류가 발생했습니다.' });
+  }
+};
+
+
+/** 마이페이지에서 참여한 스쿼드 정보를 보여주기
+ * get : /mypage/squad
+ * @param req 
+ * @param res 
+ */
+export const getMypageSquad = async (req: Request, res: Response) => {
+  let transaction: Transaction | null = null;
+  try {
+    
+    const targetUserNum = parseInt(req.query.user_num as string);
+    const nowUser = parseInt((req.session as any).user_num);
+    const page = parseInt(req.query.page as string);
+    const pageSize = parseInt(req.query.limit as string) || 6;
+    const currentDate = new Date();
+
+    // 입력 유효성 검사
+    if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
+      return res.status(400).json({ msg: '유효하지 않은 입력값입니다.' });
+    }
+
+    if (targetUserNum !== nowUser) {
+      return res.status(403).json({ msg: '접근 권한이 없습니다.' });
+    }
+
+    if (pageSize > 100) {
+      return res.status(400).json({ msg: '페이지 크기는 100을 초과할 수 없습니다.' });
+    }
+
+    const offset = pagination.offsetPagination(page, pageSize);
+    
+    transaction = await db.sequelize.transaction();
+
+    // 개설한 스쿼드와 참여한 스쿼드를 한 번에 조회
+    const [resultOpen, resultJoin] = await Promise.all([
+      db.SquadInfo.findAndCountAll({
+        where: { opener_num: targetUserNum },
+        include: [
+          { 
+            model: db.ConcertInfo, 
+            attributes: ['concert_title', 'start_date']
+          }
+        ],
+        attributes: ['squad_num', 'concert_num', 'opener_num', 'member_num', 'created_at'],
+        offset,
+        limit: pageSize,
+        lock: Transaction.LOCK.SHARE,
+        transaction
+      }),
+      db.SquadInfo.findAndCountAll({
+        where: { member_num: targetUserNum },
+        include: [
+          { 
+            model: db.ConcertInfo, 
+            attributes: ['concert_title', 'start_date']
+          }
+        ],
+        attributes: ['squad_num', 'concert_num', 'opener_num', 'member_num', 'created_at'],
+        offset,
+        limit: pageSize,
+        lock: Transaction.LOCK.SHARE,
+        transaction
+      })
+    ]);
+
+    const totalCount = resultOpen.count + resultJoin.count;
+    const totalPages = Math.ceil(totalCount / pageSize);
+    
+    if (page > totalPages) {
+      return res.status(404).json({ msg: '목록이 존재하지 않는 페이지입니다.' });
+    }
+
+    const allSquads = [...resultOpen.rows, ...resultJoin.rows]
+      .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+
+    // 스쿼드 상태 정보 추가
+    const squadWithStatus = await Promise.all(allSquads.map(async (squad) => {
+      const concertDate = new Date(squad.ConcertInfo.start_date);
+      const isPast = concertDate < currentDate; 
+
+      // 리뷰 존재 여부 확인
+      const review = await db.UserReview.findOne({
+        where: { squad_num: squad.squad_num },
+        transaction
+      });
+
+      return {
+        ...squad.toJSON(),
+        status: {
+          isPast,
+          hasReview: !!review
+        }
+      };
+    }));
+
+    const paginatedSquads = squadWithStatus.slice(offset, offset + pageSize);
+
+    const result = pagination.responsePagination(paginatedSquads, totalCount, page, pageSize, 'squads');
+
+    await transaction.commit();
+
+    return res.status(200).json({ msg: '목록을 성공적으로 불러왔습니다.', data: result });
+
+  } catch (err) {
+    if (transaction) await transaction.rollback();
+    console.error('Mypage 스쿼드 목록을 불러오는 중 오류 발생했습니다.', err);
+    return res.status(500).json({ msg: 'Mypage 스쿼드 목록을 불러오는 중 오류가 발생했습니다.' });
   }
 };
