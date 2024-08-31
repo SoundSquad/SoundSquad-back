@@ -56,11 +56,11 @@ export default (sequelize: Sequelize) => {
         allowNull: true,
       },
       concert_location: {
-        type: DataTypes.STRING(20),
+        type: DataTypes.STRING(150),
         allowNull: false,
       },
       concert_genre: {
-        type: DataTypes.STRING(10),
+        type: DataTypes.STRING(30),
         allowNull: true,
       },
       concert_detail: {

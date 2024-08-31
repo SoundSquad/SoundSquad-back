@@ -14,3 +14,41 @@ export const testApi = async (req: Request, res: Response) => {
     console.error(err);
   }
 };
+
+/** 공연에 대해서 리뷰를 작성할 수 있게 하는 요청
+ * post : /concert/review 의 도달점
+ * 
+ * @param req 
+ * @param res 
+ * @returns 
+ */
+export const postConcertReview = async (req: Request, res: Response) => {
+  try {
+    const {user_num, concert_num, creview_content } = req.body;
+    
+    if(!user_num || !concert_num || !creview_content ){
+      return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+    }
+    
+    const user = await db.User.findByPk(user_num);
+    const concert = await db.ConcertInfo.findByPk(concert_num);
+
+    if (!user || !concert) {
+      res.status(404).json({ msg: '존재하지 않는 대상에 대한 접근입니다.' });
+      return;
+    }
+
+    const result = await db.ConcertReview.create({
+      user_num,
+      concert_num,
+      creview_content,
+      activate: true
+    });
+
+    return res.status(201).json({ msg : '리뷰를 성공적으로 작성했습니다.', data : result });
+  } catch (err) {    
+    console.error('Concert 리뷰 작성중 오류 발생했습니다.', err);
+    return res.status(500).json({ msg: 'Concert 리뷰 작성중 오류가 발생했습니다.' });
+  }
+};
+
