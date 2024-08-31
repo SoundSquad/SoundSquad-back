@@ -36,7 +36,8 @@ export default (sequelize: Sequelize) => {
       sequelize,
       modelName: 'REPORT_USER',
       tableName: 'REPORT_USER',
-      timestamps: false,
+      timestamps: true,
+      underscored: true,
     }
   );
 

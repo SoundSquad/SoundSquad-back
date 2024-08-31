@@ -45,7 +45,8 @@ export default (sequelize: Sequelize) => {
       sequelize,
       modelName: 'SQUAD_INFO',
       tableName: 'SQUAD_INFO',
-      timestamps: false,
+      timestamps: true,
+      underscored: true,
     }
   );
 
