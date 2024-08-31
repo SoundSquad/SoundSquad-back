@@ -15,3 +15,7 @@ export interface ConcertInfoAttributes {
 }
 
 export interface ConcertInfoCreationAttributes extends Optional<ConcertInfoAttributes, 'concert_num' | 'info_click'> {}
+
+export interface updateCountC{
+  info_click : number;
+}

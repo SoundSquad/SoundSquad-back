@@ -3,6 +3,8 @@ import db from '../models';
 import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
+import { updateCountA } from '../modules/Martists'
+import { updateCountC } from '../modules/MconcertInfo';
 
 dotenv.config();
 
@@ -215,7 +217,23 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
 
     const result = await db.ConcertInfo.findOne({
       where:{ concert_num },
-      attributes:[]
+      include: [{
+        model: db.Artists,
+        attributes: ['artist_name'],
+      }],
+    });
+
+    res.status(201).json({ msg : '데이터를 성공적으로 불러왔습니다.', data: result});
+    
+    // 응답 이후 조회수 증가
+    const newCount = (result?.info_click ?? 0) + 1;
+
+    const updateCountObj : updateCountC = {
+      info_click : newCount
+    }
+
+    return await db.ConcertInfo.update( updateCountObj,{
+      where:{ concert_num },
     });
 
   }catch (err) {
@@ -224,7 +242,7 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
   }
 }
 
-/** 공연 상세정포 페이지의 스쿼드
+/** 공연 상세정포 페이지의 스쿼드 목록
  * get : /search/datail/concert/squad
  * 
  * @param req 
@@ -233,10 +251,37 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
  */
 export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
   try {
+    const concert_num = parseInt(req.query.concert_num as string) || undefined;
+    const page = parseInt(req.query.page as string) || 1;
+    const pageSize = parseInt(req.query.limit as string) || 6;
     
+    if(!concert_num){
+      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+    }
+
+    const offset = pagination.offsetPagination(page, pageSize);
+    const { count, rows } = await db.SquadInfo.findAndCountAll({
+      where: { concert_num },
+      include: [{
+        model: db.User,
+        attributes: ['user_id'],
+      }],
+      attributes: ['squad_num', 'concert_num', 'opener_num', 'member_num'],
+      offset,
+      limit: pageSize,
+    });
+
+    const totalPages = Math.ceil(count / pageSize);
+    if (page > totalPages) {
+      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+    }
+
+    const result = pagination.responsePagination(rows, count, page, pageSize, 'squads');
+
+    return res.status(200).json({ msg: 'squad 목록을 성공적으로 불러왔습니다.', data: result });
   }catch (err) {
-    console.error('concert 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
+    console.error('squad 목록 검색 중 오류 발생했습니다.', err);
+    return res.status(500).json({ msg: 'squad 목록 검색 중 오류가 발생했습니다.' });
   }
 }
 
@@ -248,8 +293,30 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
  * @returns 
  */
 export const getDetailArtist = async ( req : Request, res : Response )=>{
-  try {
+  try {    
+    const artist_num = parseInt(req.query.artist_num as string) || undefined;
     
+    if(!artist_num){
+      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+    }
+
+    const result = await db.Artists.findOne({
+      where:{ artist_num },
+    });
+
+    res.status(201).json({ msg : '데이터를 성공적으로 불러왔습니다.', data: result});
+    
+    // 응답 이후 조회수 증가
+    const newCount = (result?.profile_click ?? 0) + 1;
+
+    const updateCountObj : updateCountA = {
+      profile_click : newCount
+    }
+
+    return await db.Artists.update( updateCountObj,{
+      where:{ artist_num },
+    });
+
   }catch (err) {
     console.error('concert 목록 검색 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
@@ -263,11 +330,54 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
  * @param res 
  * @returns 
  */
-export const getDetailArtistReview = async ( req : Request, res : Response )=>{
+export const getDetailArtistReview = async (req: Request, res: Response) => {
   try {
+    const artist_num = parseInt(req.query.artist_num as string) || undefined;
+    const page = parseInt(req.query.page as string) || 1;
+    const pageSize = parseInt(req.query.limit as string) || 6;
     
-  }catch (err) {
-    console.error('concert 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
+    if (!artist_num) {
+      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+    }
+
+    const totalCount = await db.ConcertReview.count({
+      include: [{
+        model: db.ConcertInfo,
+        where: { artist_num },
+        attributes: []
+      }],
+      where: { activate: true }
+    });
+
+    const offset = pagination.offsetPagination(page, pageSize);
+
+    const reviews = await db.ConcertReview.findAll({
+      include: [{
+        model: db.ConcertInfo,
+        where: { artist_num },
+        attributes: ['concert_title']
+      }, {
+        model: db.User,
+        attributes: ['user_id']
+      }],
+      where: { activate: true },
+      attributes: ['creview_num', 'user_num', 'concert_num', 'creview_content'],
+      offset,
+      limit: pageSize,
+      order: [['creview_num', 'DESC']]
+    });
+
+    const totalPages = Math.ceil(totalCount / pageSize);
+    if (page > totalPages) {
+      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+    }
+
+    const result = pagination.responsePagination(reviews, totalCount, page, pageSize, 'reviews');
+
+    return res.status(200).json({ msg: '리뷰 목록을 성공적으로 불러왔습니다.', data: result });
+    
+  } catch (err) {
+    console.error('아티스트 공연 리뷰 목록 검색 중 오류 발생:', err);
+    return res.status(500).json({ msg: '아티스트 공연 리뷰 목록 검색 중 오류가 발생했습니다.' });
   }
-}
+};

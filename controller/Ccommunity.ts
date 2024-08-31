@@ -29,7 +29,7 @@ export const testApi = async ( req : Request, res : Response ) => {
 export const getCommunityPosts = async ( req: Request, res: Response ) => {
   try {
     const page = parseInt(req.query.page as string) || 1;
-    const pageSize = parseInt(req.query.limit as string) || 10;
+    const pageSize = parseInt(req.query.limit as string) || 6;
 
     const offset = pagination.offsetPagination(page, pageSize);
 

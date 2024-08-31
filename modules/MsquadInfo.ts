@@ -13,3 +13,7 @@ export interface SquadInfoCreationAttributes extends Optional<SquadInfoAttribute
 export interface exSquadAttributes{
   member_num : number ;
 }
+
+export interface avgRatingUpdateObj{
+  user_rating : number;
+}

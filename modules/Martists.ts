@@ -20,3 +20,7 @@ export interface initArtist{
   artist_name : string;
   profile_click : number | 0 ;
 }
+
+export interface updateCountA{
+  profile_click : number;
+}
