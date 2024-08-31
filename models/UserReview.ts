@@ -33,12 +33,10 @@ export default (sequelize: Sequelize) => {
         primaryKey : true,
         autoIncrement: true,
       },
-      
       writer_num: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
-
       reviewed_user: {
         type: DataTypes.INTEGER,
         allowNull: false,

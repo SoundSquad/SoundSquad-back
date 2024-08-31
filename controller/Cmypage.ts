@@ -4,6 +4,8 @@ import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
 
+
+
 dotenv.config();
 
 //testapi 아직 개발되지 않은 api의 endpoint, 요청이 제대로 도달하는지 확인 가능
@@ -58,7 +60,11 @@ export const getMypagePost = async (req: Request, res: Response) => {
     const targetUserNum = parseInt(req.query.user_num as string);
     const nowUser = parseInt((req.session as any).user_num);
     const page = parseInt(req.query.page as string) || 1;
-    const pageSize = parseInt(req.query.limit as string) || 10;
+    const pageSize = parseInt(req.query.limit as string) || 6;
+
+    if(!targetUserNum || !page || !pageSize ){
+      return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
+    }
     
     if(targetUserNum !== nowUser){
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
@@ -104,8 +110,11 @@ export const getMypageComment = async (req: Request, res: Response) => {
     const targetUserNum = parseInt(req.query.user_num as string);
     const nowUser = parseInt((req.session as any).user_num);
     const page = parseInt(req.query.page as string) || 1;
-    const pageSize = parseInt(req.query.limit as string) || 10;
+    const pageSize = parseInt(req.query.limit as string) || 6;
 
+    if(!targetUserNum || !page || !pageSize ){
+      return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
+    }
     if(targetUserNum !== nowUser){
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
     }
@@ -135,5 +144,60 @@ export const getMypageComment = async (req: Request, res: Response) => {
   } catch (err) {
     console.error('Mypage 댓글 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 댓글 목록을 불러오는 중 오류가 발생했습니다.' });
+  }
+};
+
+/** 마이페이지에서 작성한 공연 리뷰 목록을 조회하는 기능
+ * get : mypage/review?user_num=&page=
+ * 
+ * @param req 
+ * @param res 
+ */
+export const getMyPageReview = async (req: Request, res: Response) => {
+  try {
+    const targetUserNum = parseInt(req.query.user_num as string);
+    const nowUser = parseInt((req.session as any).user_num);
+    const page = parseInt(req.query.page as string) || undefined;
+    const pageSize = parseInt(req.query.limit as string) || 6;
+
+    if(!targetUserNum || !page || !pageSize ){
+      return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
+    }
+    if(targetUserNum !== nowUser){
+      return res.status(403).json({ msg : '접근 권한이 없습니다.' });
+    }
+
+    const offset = pagination.offsetPagination(page, pageSize);
+
+    const { count, rows } = await db.ConcertReview.findAndCountAll({
+      where: { user_num: targetUserNum, activate: true },
+      include: [
+        {
+          model: db.User,
+          attributes: ['user_id'],
+        },
+        {
+          model: db.ConcertInfo,
+          attributes: ['concert_title'],
+        }
+      ],
+      attributes: ['creview_num', 'creview_content', 'user_num', 'concert_num', 'createdAt'],
+      offset,
+      limit: pageSize,
+      order: [['createdAt', 'DESC']]
+    });
+
+    const totalPages = Math.ceil(count / pageSize);
+    if( page > totalPages ){
+      return res.status(404).json({msg : '리뷰가 존재하지 않는 페이지 입니다.'});
+    };
+
+    const result = pagination.responsePagination( rows, count, page, pageSize, 'reviews');
+    
+    return res.status(200).json({msg : '리뷰 목록을 성공적으로 불러왔습니다.', data : result });
+
+  } catch (err) {
+    console.error('Mypage 리뷰 목록을 불러오는 중 오류 발생했습니다.', err);
+    return res.status(500).json({ msg: 'Mypage 리뷰 목록을 불러오는 중 오류가 발생했습니다.' });
   }
 };

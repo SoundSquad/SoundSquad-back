@@ -1,4 +1,4 @@
-import { Optional } from "sequelize";
+import { Model, Optional } from "sequelize";
 
 export interface ConcertReviewAttributes {
   creview_num: number;
