@@ -53,7 +53,12 @@ export const searchArtist = async (req: Request, res: Response) => {
         model: db.ConcertInfo,
         attributes: ['concert_num','concert_title','start_date'],
       }],
-      attributes: ['artist_name', 'artist_num', 'artist_profile', 'artist_genre'],
+      attributes: [
+        'artist_name',
+        'artist_num', 
+        'artist_profile', 
+        'artist_genre'
+      ],
       offset,
       order: [['start_date', 'DESC']],
       limit: pageSize,
