@@ -3,6 +3,7 @@ import db from '../models';
 import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
+import logger from '../config/loggerConfig';
 
 dotenv.config();
 
@@ -24,6 +25,7 @@ export const getAdminUser = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
+      logger.error('getAdminUser - 400 ', req.query);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
@@ -40,15 +42,18 @@ export const getAdminUser = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if(page>totalPages){
+      logger.error('getAdminUser - 404 ',totalPages, page );
       return res.status(404).json({msg : '결과가 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'users');
 
+    logger.info('getAdminUser - 200 ');
     return res.status(200).json({msg : ' 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
     console.error('유저 정보를 불러오는 중 오류 발생했습니다.', err);
+    logger.error('getAdminUser - 500 ');
     return res.status(500).json({ msg: '유저 정보를 불러오는 중 오류가 발생했습니다.' });
   }
 };
@@ -61,6 +66,7 @@ export const getAdminCommunity = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
+      logger.error('getAdminCommunity - 400 ', req.query);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
@@ -77,14 +83,17 @@ export const getAdminCommunity = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if(page>totalPages){
+      logger.error('getAdminCommunity - 404 ');
       return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
 
+    logger.info('getAdminCommunity - 200 ');
     return res.status(200).json({msg : ' 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
+    logger.error('getAdminCommunity - 500 ');
     console.error('게시글 정보를 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: '게시글 정보를 불러오는 중 오류가 발생했습니다.' });
   }
@@ -98,6 +107,7 @@ export const getAdminComment = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
+      logger.error('getAdminComment - 400 ', req.query);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
@@ -114,14 +124,17 @@ export const getAdminComment = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if(page>totalPages){
+      logger.error('getAdminComment - 404 ');
       return res.status(404).json({msg : '결과가 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'comments');
 
+    logger.info('getAdminComment - 200 ');
     return res.status(200).json({msg : ' 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
+    logger.error('getAdminComment - 500 ');
     console.error('댓글 정보를 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: '댓글 정보를 불러오는 중 오류가 발생했습니다.' });
   }
@@ -132,22 +145,26 @@ export const deleteAdminUser = async (req: Request, res: Response) => {
     const target = req.body.user_num;
     
     if(!target){
+      logger.error('deleteAdminUser - 400 ', req.body);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
     const checkUser = await db.User.findOne({where:{user_num: target, activate : true}});
     
     if(!checkUser){
-      return res.status(400).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
+      logger.error('deleteAdminUser - 404 ');
+      return res.status(404).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
     }
 
     const result = await db.User.update({ activate : false },{
       where:{ user_num : target }
     })
 
-    return res.status(201).json({ msg : '대상을 비활성화 했습니다.', result });
+    logger.info('deleteAdminUser - 200 ');
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
     
   } catch (err) {
+    logger.error('deleteAdminUser - 500 ');
     console.error('유저 정보를 비활성화 하는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: '유저 정보를 비활성화 하는 중 오류가 발생했습니다.' });
   }
@@ -158,22 +175,26 @@ export const deleteAdminCommunity = async (req: Request, res: Response) => {
     const target = req.body.article_num;
     
     if(!target){
+      logger.error('deleteAdminCommunity - 400', req.body);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
     
     const checkCommunity = await db.Community.findOne({where:{article_num: target, activate : true}});
     
     if(!checkCommunity){
-      return res.status(400).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
+      logger.error('deleteAdminCommunity - 404 ');
+      return res.status(404).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
     }
 
     const result = await db.Community.update({ activate : false },{
       where:{ article_num : target }
     })
 
-    return res.status(201).json({ msg : '대상을 비활성화 했습니다.', result });
+    logger.info('deleteAdminCommunity - 200 ');
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
       
   } catch (err) {
+    logger.error('deleteAdminCommunity - 500 ');
     console.error('게시글 정보를 비활성화 하는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: '게시글 정보를 비활성화 하는 중 오류가 발생했습니다.' });
   }
@@ -184,22 +205,26 @@ export const deleteAdminComment = async (req: Request, res: Response) => {
     const target = req.body.comment_num;
     
     if(!target){
+      logger.error('deleteAdminComment - 400 ', req.body);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
     
     const checkComment = await db.Comment.findOne({where:{comment_num: target, activate : true}});
     
     if(!checkComment){
-      return res.status(400).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
+      logger.error('deleteAdminComment - 404 ');
+      return res.status(404).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
     }
 
     const result = await db.Comment.update({ activate : false },{
       where:{ comment_num : target }
     })
 
-    return res.status(201).json({ msg : '대상을 비활성화 했습니다.', result });
+    logger.info('deleteAdminComment - 200 ');
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
     
   } catch (err) {
+    logger.error('deleteAdminComment - 500 ');
     console.error('댓글 정보를 비활성화 하는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: '댓글 정보를 비활성화 하는 중 오류가 발생했습니다.' });
   }
@@ -213,6 +238,7 @@ export const getAdminReport = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
 
     if (!type || !page) {
+      logger.error('getAdminReport - 400 ');
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
@@ -242,19 +268,23 @@ export const getAdminReport = async (req: Request, res: Response) => {
         }));
         break;
       default:
+        logger.error('getAdminReport - 400 ');
         return res.status(400).json({ msg: '입력 형식에 오류가 있습니다.' });
     }
 
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
+      logger.error('getAdminReport - 404 ');
       return res.status(404).json({ msg: '결과가 존재하지 않는 페이지 입니다.' });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, type);
 
+    logger.info('getAdminReport - 200 ');
     return res.status(200).json({ msg: '목록을 성공적으로 불러왔습니다.', data: result });
 
   } catch (err) {
+    logger.error('getAdminReport - 500 ');
     console.error('관리자 리포트를 가져오는 중 오류가 발생했습니다.', err);
     return res.status(500).json({ msg: '관리자 리포트를 가져오는 중 오류가 발생했습니다.' });
   }

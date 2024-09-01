@@ -10,9 +10,9 @@ router.post('/login', controller.postLogin);
 
 router.post('/logout', auth.authenticateUser, controller.postLogout);
 
-// router.post('/login/google', controller.postGoogleLogin);
-router.get('/auth/google', controller.getCode);
-router.get('/oauth2/redirect', controller.getRedirect);
+// // router.post('/login/google', controller.postGoogleLogin);
+// router.get('/auth/google', controller.getCode);
+// router.get('/oauth2/redirect', controller.getRedirect);
 
 // 회원정보 수정
 router.patch('/mypage', auth.authenticateUser, controller.patchUser);

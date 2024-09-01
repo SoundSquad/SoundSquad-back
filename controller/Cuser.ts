@@ -6,6 +6,7 @@ import axios from 'axios';
 import dotenv from 'dotenv';
 import url from 'url';
 import { UpdatedFields, findSquadInfoReturn, userReviewObj , postUserFields } from '../modules/Muser';
+import logger from '../config/loggerConfig';
 
 
 dotenv.config();
@@ -19,11 +20,17 @@ export const postUser = async (req: Request, res: Response) => {
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
         let profile_img : string = '';
 
+        if(!user_id||!user_pw||!user_gender||!user_bd){
+            logger.error(' postUser - 400 ', req.body );
+            return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+        }
+
         const userInfo = await db.User.findOne({
             where: { user_id }  
         });
         
         if (userInfo) {
+            logger.error(' postUser - 400');
             return res.status(400).json({ 
                 flag: false, 
                 msg: 'ID already exists' 
@@ -37,10 +44,14 @@ export const postUser = async (req: Request, res: Response) => {
             user_bd,
             profile_img
         });
-        res.json({ flag: true, newUser });
+
+        logger.info(' postUser - 201');
+        return res.status(201).json({ flag: true, newUser });
+    
     } catch (err) {
+        logger.error(' postUser - 500');
         console.error(err);
-        res.status(500).send('Internal Server Error');
+        return res.status(500).send('Internal Server Error');
     }
 };
 
@@ -48,11 +59,18 @@ export const postUser = async (req: Request, res: Response) => {
 export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
+        
+        if( !user_id || !user_pw ){
+            logger.info(' postLogin - 400', req.body);
+            return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+        }
+        
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
         });
         if (!user) {
+            logger.error(' postUser - 401');
             return res.status(401).json({
                 flag: false, 
                 msg: "ID does not exists"
@@ -61,6 +79,7 @@ export const postLogin = async (req: Request, res: Response) => {
 
         const isPwCorrect = bcrypt.compareSync(user_pw, user.user_pw);
         if (!isPwCorrect) {
+            logger.error(' postUser - 401');
             return res.status(401).json({
                 flag: false,
                 msg: "PW is not correct"
@@ -68,6 +87,7 @@ export const postLogin = async (req: Request, res: Response) => {
         } 
         
         if (!user.activate) {
+            logger.error(' postUser - 401');
             return res.status(401).json({
                 flag: false,
                 msg: "Deactivated User"
@@ -82,7 +102,8 @@ export const postLogin = async (req: Request, res: Response) => {
                 admin: true  // boolean
             };
             (req.session as any).loggedin = true;  // boolean
-            return res.json({ 
+            logger.info(' postUser - 200');
+            return res.status(200).json({ 
                 flag: true,
                 msg: "success"
             });
@@ -95,6 +116,7 @@ export const postLogin = async (req: Request, res: Response) => {
             (req.session as any).loggedin = true;  // boolean
 
             const squadReviewInfo = findSqaudInfo(user.user_num); // 해당 유저의 squad review 정보
+            logger.info(' postUser - 200');
             return res.json({
                 session :req.session, 
                 flag: true,
@@ -104,6 +126,7 @@ export const postLogin = async (req: Request, res: Response) => {
         }
         
     } catch (err) {
+        logger.error(' postUser - 500');
         console.error(err);
         res.status(500).send('Internal Server Error');
     }
@@ -169,6 +192,7 @@ const findSqaudInfo = async (user_num:number) => {
 
             result.userReviewList.push(userReview);
         })
+        logger.error(' findSqaudInfo - 404');
         return result;
 
         // ===== result 구조 =====
@@ -205,13 +229,17 @@ export const postLogout = async (req: Request, res: Response) => {
         req.session.destroy(err => {
             if (err) {
                 console.error(err);
+                logger.error(' postLogout - 500');
                 return res.status(500).json({ msg: 'fail' });
             } else {
                 res.json({ msg: 'success' });
             }
             res.clearCookie('connect.sid'); 
         });
+        
+        logger.info(' postLogout - 204');
     } catch (err) {
+        logger.error(' postLogout - 500');
         console.error(err);
         res.status(500).json({ msg: 'fail' });
     }
@@ -222,8 +250,14 @@ export const postLogout = async (req: Request, res: Response) => {
 export const deleteUser = async (req: Request, res: Response) => {
     try {
         const { user_num } = req.body;
+
+        if(!user_num){
+            logger.error(' deleteUser - 204', req.body );
+            return res.status(400).json({ msg : ' 필수 정보가 누락되었습니다. ' });
+        }
         
         if (user_num !== (req.session as any).user?.user_id) {
+            logger.error(' deleteUser - 403');
             return res.status(403).json({ msg: 'Unauthorized' });
         }
 
@@ -233,29 +267,35 @@ export const deleteUser = async (req: Request, res: Response) => {
         );
 
         if (!updatedRows) {
+            logger.error(' deleteUser - 404');
             return res.status(404).json({ msg: 'User not found' });
         }
 
         req.session.destroy((err) => {
             if (err) {
                 console.error('Session destruction error:', err);
+                logger.error(' deleteUser - 500');
                 return res.status(500).json({ msg: 'Internal server error' });
             }
             res.clearCookie('connect.sid');
+            logger.info(' deleteUser - 204');
             res.json({ msg: 'User deactivated successfully' });
         });
 
     } catch (err) {
+        logger.error(' deleteUser - 500');
         console.error('User deletion error:', err);
-        res.status(500).json({ msg: 'Internal server error' });
+        return res.status(500).json({ msg: 'Internal server error' });
     }
 };
 
 
 export const patchUser = async (req: Request, res: Response) => {
     try {
-        const isLogin = (req.session as any).loggedin;
+        const isLogin = (req.session.user as any ).loggedin || 0 ;
+        
         if (!isLogin) {
+            logger.error(' patchUser - 401 ', req.session.user );
             return res.status(401).json({ msg: "Not logged in" });
         }
 
@@ -267,6 +307,7 @@ export const patchUser = async (req: Request, res: Response) => {
         });
 
         if (!user) {
+            logger.error(' patchUser - 404');
             return res.status(404).json({ msg: "User not found" });
         }
 
@@ -284,6 +325,7 @@ export const patchUser = async (req: Request, res: Response) => {
                 const hashedPw = bcrypt.hashSync(new_pw, 10);
                 updatedFields.user_pw = hashedPw;
             } else {
+                logger.error(' patchUser - 400');
                 return res.status(400).json({
                     flag: false,
                     msg: "Incorrect password"
@@ -306,12 +348,15 @@ export const patchUser = async (req: Request, res: Response) => {
         });
 
         if (updateCount > 0) {
+            logger.info(' patchUser - 201');
             return res.json({ msg: "success" });
         } else {
+            logger.error(' patchUser - 400');
             return res.status(400).json({ msg: "No changes made" });
         }
             
     } catch (err) {
+        logger.error(' patchUser - 500');
         console.error(err);
         res.status(500).json({ msg: "Internal server error" });
     }
@@ -326,57 +371,57 @@ export const patchSquadinfo = async (req: Request, res: Response) => {
 }
 
 
-// -------------------
-// Google Oauth
+// // -------------------
+// // Google Oauth
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const AUTHORIZE_URI = "https://accounts.google.com/o/oauth2/v2/auth";
-const REDIRECT_URL = "http://localhost:8080/api/oauth2/redirect";
-const RESPONSE_TYPE = "code";
-const SCOPE = "openid%20profile%20email";
-const ACCESS_TYPE = "offline";
-const OAUTH_URL = `${AUTHORIZE_URI}?client_id=${CLIENT_ID}
-            &response_type=${RESPONSE_TYPE}
-            &redirect_uri=${REDIRECT_URL}
-            &scope=${SCOPE}
-            &access_type=${ACCESS_TYPE}`;
+// const CLIENT_ID = process.env.CLIENT_ID;
+// const CLIENT_SECRET = process.env.CLIENT_SECRET;
+// const AUTHORIZE_URI = "https://accounts.google.com/o/oauth2/v2/auth";
+// const REDIRECT_URL = "http://localhost:8080/api/oauth2/redirect";
+// const RESPONSE_TYPE = "code";
+// const SCOPE = "openid%20profile%20email";
+// const ACCESS_TYPE = "offline";
+// const OAUTH_URL = `${AUTHORIZE_URI}?client_id=${CLIENT_ID}
+//             &response_type=${RESPONSE_TYPE}
+//             &redirect_uri=${REDIRECT_URL}
+//             &scope=${SCOPE}
+//             &access_type=${ACCESS_TYPE}`;
 
-export const getCode = async (req: Request, res: Response) => {
-    try {
-        res.redirect(OAUTH_URL);
-    } catch (err) {
-        res.status(500).send('Internal Server Error');
-    }
-};
+// export const getCode = async (req: Request, res: Response) => {
+//     try {
+//         res.redirect(OAUTH_URL);
+//     } catch (err) {
+//         res.status(500).send('Internal Server Error');
+//     }
+// };
 
-const getToken = async (code: string): Promise<string> => {
-    try {
-      const tokenApi = await axios.post(`https://oauth2.googleapis.com/token
-        ?code=${code}
-        &client_id=${CLIENT_ID}
-        &client_secret=${CLIENT_SECRET}
-        &redirect_uri=${REDIRECT_URL}
-        &grant_type=authorization_code`);
-      const accessToken = tokenApi.data.access_token;
-      console.log(accessToken);
-      return accessToken;
-    } catch (err) {
-      throw err;
-    }
-};
+// const getToken = async (code: string): Promise<string> => {
+//     try {
+//       const tokenApi = await axios.post(`https://oauth2.googleapis.com/token
+//         ?code=${code}
+//         &client_id=${CLIENT_ID}
+//         &client_secret=${CLIENT_SECRET}
+//         &redirect_uri=${REDIRECT_URL}
+//         &grant_type=authorization_code`);
+//       const accessToken = tokenApi.data.access_token;
+//       console.log(accessToken);
+//       return accessToken;
+//     } catch (err) {
+//       throw err;
+//     }
+// };
 
-const oauth2Api = async (code: string) => {
-    const accessToken = await getToken(code);
-    // NOTE 사용자 정보를 콘솔로 확인
-    // const userInfo = await getUserInfo(accessToken);
-    // console.log(userInfo);      
-}; 
+// const oauth2Api = async (code: string) => {
+//     const accessToken = await getToken(code);
+//     // NOTE 사용자 정보를 콘솔로 확인
+//     // const userInfo = await getUserInfo(accessToken);
+//     // console.log(userInfo);      
+// }; 
 
-export const getRedirect = (req: Request, res: Response) => {
-    const query = url.parse(req.url, true).query;
-    if (query && query.code) {
-        oauth2Api(query.code as string);
-    }
-    res.send("");
-};
+// export const getRedirect = (req: Request, res: Response) => {
+//     const query = url.parse(req.url, true).query;
+//     if (query && query.code) {
+//         oauth2Api(query.code as string);
+//     }
+//     res.send("");
+// };

@@ -3,6 +3,7 @@ import db from '../models';
 import { Op, Transaction } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
+import logger from '../config/loggerConfig';
 
 
 
@@ -28,7 +29,13 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
     const targetUserNum = parseInt(req.query.user_num as string);
     const nowUser = parseInt((req.session as any).user_num);
     
+    if(!targetUserNum || !nowUser){
+      logger.error(' getMypageUserInfo - 400 ', req.query, nowUser );
+      return res.status(400).json({ msg : '필수 정보가 누락되었습니다. ' });
+    }
+
     if(targetUserNum !== nowUser){
+      logger.error(' getMypageUserInfo - 403 ');
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
     }
 
@@ -38,11 +45,14 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
     });
 
     if(!result){
+      logger.error(' getMypageUserInfo - 404 ');
       return res.status(404).json({ msg : '정보를 조회하던 중 오류가 발생했습니다. ' });
     }
 
+    logger.info(' getMypageUserInfo - 200 ');
     return res.status(200).json({ msg : '정보를 성공적으로 조회했습니다.', data : result });
   } catch (err) {
+    logger.error(' getMypageUserInfo - 500 ');
     console.error('Mypage 유저 정보를 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 유저 정보를 불러오는 중 오류가 발생했습니다.' });
   }
@@ -63,10 +73,12 @@ export const getMypagePost = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
+      logger.error(' getMypagePost - 400 ', req.query);
       return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
     }
     
     if(targetUserNum !== nowUser){
+      logger.error(' getMypagePost - 403 ');
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
     }
 
@@ -85,14 +97,17 @@ export const getMypagePost = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if( page > totalPages ){
+      logger.error(' getMypagePost - 404 ');
       return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
 
+    logger.info(' getMypagePost - 200 ');
     return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
+    logger.error(' getMypagePost - 500 ');
     console.error('Mypage 게시글 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 게시글 목록을  불러오는 중 오류가 발생했습니다.' });
   }
@@ -113,9 +128,11 @@ export const getMypageComment = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
+      logger.error(' getMypageComment - 400 ', req.query);
       return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
     }
     if(targetUserNum !== nowUser){
+      logger.error(' getMypageComment - 403 ');
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
     }
 
@@ -134,14 +151,17 @@ export const getMypageComment = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if( page > totalPages ){
+      logger.error(' getMypageComment - 404 ');
       return res.status(404).json({msg : '댓글이 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'comments');
 
+    logger.info(' getMypageComment - 200 ');
     return res.status(200).json({msg : '댓글 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
+    logger.error(' getMypageComment - 500 ');
     console.error('Mypage 댓글 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 댓글 목록을 불러오는 중 오류가 발생했습니다.' });
   }
@@ -161,9 +181,11 @@ export const getMyPageReview = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
+      logger.error(' getMypageReview - 400 ', req.query);
       return res.status(400).json({ msg : '누락된 필수 항목이 있습니다.' });
     }
     if(targetUserNum !== nowUser){
+      logger.error(' getMypageReview - 403 ');
       return res.status(403).json({ msg : '접근 권한이 없습니다.' });
     }
 
@@ -189,14 +211,17 @@ export const getMyPageReview = async (req: Request, res: Response) => {
 
     const totalPages = Math.ceil(count / pageSize);
     if( page > totalPages ){
+      logger.error(' getMypageReview - 404 ');
       return res.status(404).json({msg : '리뷰가 존재하지 않는 페이지 입니다.'});
     };
 
     const result = pagination.responsePagination( rows, count, page, pageSize, 'reviews');
     
+    logger.info(' getMypageReview - 200 ');
     return res.status(200).json({msg : '리뷰 목록을 성공적으로 불러왔습니다.', data : result });
 
   } catch (err) {
+    logger.error(' getMypageReview - 500 ');
     console.error('Mypage 리뷰 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 리뷰 목록을 불러오는 중 오류가 발생했습니다.' });
   }
@@ -218,15 +243,13 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
     const currentDate = new Date();
 
     if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
+      logger.error(' getMypageOpenSquad - 400 ', req.query);
       return res.status(400).json({ msg: '유효하지 않은 입력값입니다.' });
     }
 
     if (targetUserNum !== nowUser) {
+      logger.error(' getMypageOpenSquad - 403 ');
       return res.status(403).json({ msg: '접근 권한이 없습니다.' });
-    }
-
-    if (pageSize > 100) {
-      return res.status(400).json({ msg: '페이지 크기는 100을 초과할 수 없습니다.' });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -271,9 +294,11 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
 
     await transaction.commit();
 
+    logger.info(' getMypageOpenSquad - 200 ');
     return res.status(200).json({ msg: '목록을 성공적으로 불러왔습니다.', data: result });
 
   } catch (err) {
+    logger.error(' getMypageOpenSquad - 500 ');
     if (transaction) await transaction.rollback();
     console.error('Mypage 개설 스쿼드 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 개설 스쿼드 목록을 불러오는 중 오류가 발생했습니다.' });
@@ -295,15 +320,13 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
     const currentDate = new Date();
 
     if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
+      logger.error(' getMypageJoinSquad - 400 ', req.query);
       return res.status(400).json({ msg: '유효하지 않은 입력값입니다.' });
     }
 
     if (targetUserNum !== nowUser) {
+      logger.error(' getMypageJoinSquad - 403 ');
       return res.status(403).json({ msg: '접근 권한이 없습니다.' });
-    }
-
-    if (pageSize > 100) {
-      return res.status(400).json({ msg: '페이지 크기는 100을 초과할 수 없습니다.' });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -348,9 +371,11 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
 
     await transaction.commit();
 
+    logger.info(' getMypageJoinSquad - 200 ');
     return res.status(200).json({ msg: '목록을 성공적으로 불러왔습니다.', data: result });
 
   } catch (err) {
+    logger.error(' getMypageJoinSquad - 500 ');
     if (transaction) await transaction.rollback();
     console.error('Mypage 개설 스쿼드 목록을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Mypage 개설 스쿼드 목록을 불러오는 중 오류가 발생했습니다.' });
