@@ -11,11 +11,13 @@ import logger from '../config/loggerConfig';
 
 dotenv.config();
 
-const saltRounds = process.env.SALT_ROUNDS || 10 ; // salt for Bcrypt
+const saltRounds = parseInt(process.env.SALT_ROUNDS as string) || 10 ; // salt for Bcrypt
 
 // 회원가입
 export const postUser = async (req: Request, res: Response) => {
     try {
+        console.log(saltRounds);
+        
         const { user_id, user_pw, user_gender, user_bd } = req.body;
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
         let profile_img : string = '';
@@ -36,6 +38,7 @@ export const postUser = async (req: Request, res: Response) => {
                 msg: 'ID already exists' 
             });
         }      
+        console.log('1');
         
         const newUser = await db.User.create({
             user_id,
@@ -59,12 +62,17 @@ export const postUser = async (req: Request, res: Response) => {
 export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
+        console.log( user_id);
+        console.log( user_pw );
+        
+        console.log(1);
         
         if( !user_id || !user_pw ){
             logger.info(' postLogin - 400', req.body);
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
         
+        console.log(2);
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
@@ -77,6 +85,7 @@ export const postLogin = async (req: Request, res: Response) => {
             });
         }
 
+        console.log(3);
         const isPwCorrect = bcrypt.compareSync(user_pw, user.user_pw);
         if (!isPwCorrect) {
             logger.error(' postUser - 401');
@@ -94,6 +103,7 @@ export const postLogin = async (req: Request, res: Response) => {
             });
         }
 
+        console.log(4);
         // 일반/admin 계정인지 확인 --> if 문 조건 수정 필요!! (현재는 admin의 아이디가 1이라고 가정)
         if (user_id === process.env.ADMIN_ID) {  // admin 계정일때 
             (req.session as any).user = {
@@ -292,10 +302,10 @@ export const deleteUser = async (req: Request, res: Response) => {
 
 export const patchUser = async (req: Request, res: Response) => {
     try {
-        const isLogin = (req.session.user as any ).loggedin || 0 ;
+        const isLogin = (req.session as any ).loggedin || 0 ;
         
         if (!isLogin) {
-            logger.error(' patchUser - 401 ', req.session.user );
+            logger.error(' patchUser - 401 ', req.session );
             return res.status(401).json({ msg: "Not logged in" });
         }
 
