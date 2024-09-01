@@ -3,14 +3,15 @@ import fs from 'fs/promises';
 import path from 'path';
 import db from '../models';
 import { ArtistEventData } from '../modules/APIs';
+import logger from '../config/loggerConfig';
 
 export const getConcertInit = async (req: Request, res: Response) => {
   try {
-    console.log('서버 기동요청');
+    logger.info('서버 기동요청 - db2 ');
     let initStatus:any = await db.ConcertInfo.findOne({ where : { concert_num : 1}, attributes:['concert_num']});
-    console.log(initStatus);
     
     if(initStatus){
+      logger.error('기동이 이미 완료되었습니다.');
       return res.status(400).json({ msg : '기동이 이미 완료되었습니다.' });
     }
 
@@ -48,9 +49,10 @@ export const getConcertInit = async (req: Request, res: Response) => {
         console.log(`Imported concerts for artist_id: ${artistId}`);
       }
     }
-
-    res.status(200).json({ message: "Concert data import completed successfully" });
+    logger.info('서버 기동 완료 - db2 ')
+    res.status(201).json({ message: "Concert data import completed successfully" });
   } catch (error) {
+    logger.error('서버 기동중 오류가 발생했습니다. - 500')
     console.error('Error importing concert data:', error);
     res.status(500).json({ message: "An error occurred while importing concert data", error: (error as Error).message });
   }

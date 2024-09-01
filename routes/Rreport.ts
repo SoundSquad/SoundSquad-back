@@ -10,7 +10,7 @@ const router: Router = express.Router();
 router.post('/community', controller.postReportCommunity);
 
 // comment 신고
-router.post('/comment', controller.postUserComment);
+router.post('/comment', controller.postReportComment);
 
 // user 신고 at profile page
 router.post('/profile', controller.postReportUser);

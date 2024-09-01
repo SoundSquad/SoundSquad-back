@@ -13,15 +13,19 @@ import commentReportModel from './CommentReport';
 import squadInfoModel from './SquadInfo';
 import userReviewModel from './UserReview';
 
-import config from '../config/config';
+import * as envConfog from '../config/envConfig';
 
 const env = process.env.NODE_ENV || 'development';
-const dbConfig = config[env as keyof typeof config];
 
-const sequelize = new Sequelize(dbConfig.database, dbConfig.username, dbConfig.password, {
-  host: dbConfig.host,
-  dialect: dbConfig.dialect,
-  timezone: '+09:00', // for writing to database
+const dbConfig = envConfog.dbConfig[env];
+
+const sequelize = new Sequelize(
+  dbConfig.database, 
+  dbConfig.username, 
+  dbConfig.password, {
+    host: dbConfig.host,
+    dialect: dbConfig.dialect,
+    timezone: '+09:00', // for writing to database
 });
 
 const db = {

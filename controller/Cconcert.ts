@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import db from '../models';
 import { Op } from 'sequelize';
 import dotenv from 'dotenv';
+import logger from '../config/loggerConfig';
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ export const postConcertReview = async (req: Request, res: Response) => {
     const {user_num, concert_num, creview_content } = req.body;
     
     if(!user_num || !concert_num || !creview_content ){
+      logger.error(' postConcertReview - 400 ', req.body );
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
     }
     
@@ -36,6 +38,7 @@ export const postConcertReview = async (req: Request, res: Response) => {
     const concert = await db.ConcertInfo.findByPk(concert_num);
 
     if (!user || !concert) {
+      logger.error(' postConcertReview - 404 ');
       res.status(404).json({ msg: '존재하지 않는 대상에 대한 접근입니다.' });
       return;
     }
@@ -47,8 +50,10 @@ export const postConcertReview = async (req: Request, res: Response) => {
       activate: true
     });
 
+    logger.info(' postConcertReview - 201 ');
     return res.status(201).json({ msg : '리뷰를 성공적으로 작성했습니다.', data : result });
-  } catch (err) {    
+  } catch (err) {
+    logger.error(' postConcertReview - 500 ');    
     console.error('Concert 리뷰 작성중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Concert 리뷰 작성중 오류가 발생했습니다.' });
   }

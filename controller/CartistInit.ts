@@ -3,6 +3,7 @@ import db from '../models';
 import fs from 'fs';
 import path from 'path';
 import { ArtistAttributes, GenreDetail } from '../modules/APIs';
+import logger from '../config/loggerConfig';
 
 
 // genre detail info
@@ -34,10 +35,12 @@ const genreList:GenreDetail[] = [
 
 const getArtistsInit = async (req: Request, res: Response) => {
     try {
-        console.log('서버 기동요청');
+        
+        logger.info('서버 기동 요청 - db1 ');
         
         let initStatus:any = await db.Artists.findOne({ where : { artist_num : 1},attributes:['artist_num']});
         if(initStatus){
+            logger.error('getArtistsInit - 400 ');
             return res.status(400).json({ msg : '기동이 이미 완료되었습니다.' });
         }
 
@@ -63,9 +66,11 @@ const getArtistsInit = async (req: Request, res: Response) => {
             updateOnDuplicate: ['artist_name', 'artist_profile', 'artist_desc', 'artist_genre'],
         });
         
-        return res.status(200).json({ success: true, message: "Artists initialized successfully", count: artists.length });
+        logger.info('getArtistsInit - 201 ');
+        return res.status(201).json({ success: true, message: "Artists initialized successfully", count: artists.length });
         
     } catch (err) {
+        logger.error('getArtistsInit - 500 ');
         console.error('Error initializing artists:', err);
         return res.status(500).json({ success: false, message: "An error occurred while initializing artists" });
     }

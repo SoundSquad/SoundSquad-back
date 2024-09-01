@@ -1,11 +1,14 @@
 import dotenv from 'dotenv';
 import path from 'path';
 
-const envFile = process.env.NODE_ENV === 'server' ? '../.env.server' : '../.env';
+const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.env.development';
 
 dotenv.config({
-  path: path.resolve(__dirname, envFile),
+  path: path.resolve(__dirname, '..' ,envFile),
 });
+
+export const PORT: string | number = process.env.PORT || 3000;
+export const COOKIE_SECRET: string = process.env.COOKIE_SECRET || 'default_secret_session_key';
 
 interface DbConfig {
   username: string;
@@ -17,11 +20,11 @@ interface DbConfig {
 
 interface Config {
   development: DbConfig;
-  server: DbConfig;
-  [key: string]: DbConfig;  // 인덱스 시그니처 추가
+  production: DbConfig;
+  [key: string]: DbConfig;  
 }
 
-const config: Config = {
+export const dbConfig: Config = {
   development: {
     username: process.env.DB_USERNAME || '',
     password: process.env.DB_PASSWORD || '',
@@ -29,7 +32,7 @@ const config: Config = {
     host: process.env.DB_HOST || '',
     dialect: (process.env.DB_DIALECT as DbConfig['dialect']) || 'mysql',
   },
-  server: {
+  production: {
     username: process.env.DB_USERNAME || '',
     password: process.env.DB_PASSWORD || '',
     database: process.env.DB_DATABASE || '',
@@ -37,5 +40,3 @@ const config: Config = {
     dialect: (process.env.DB_DIALECT as DbConfig['dialect']) || 'mysql',
   },
 };
-
-export default config;
