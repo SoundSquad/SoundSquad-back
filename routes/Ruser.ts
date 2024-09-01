@@ -15,10 +15,10 @@ router.post('/logout', auth.authenticateUser, controller.postLogout);
 // router.get('/oauth2/redirect', controller.getRedirect);
 
 // 회원정보 수정
-router.patch('/mypage', auth.authenticateUser, controller.patchUser);
+router.patch('/mypage', controller.patchUser);
 
 // 회원탈퇴
-router.delete('/ban', auth.authenticateUser, controller.deleteUser);
+router.delete('/ban', controller.deleteUser);
 
 export default router;
 
