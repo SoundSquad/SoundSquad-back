@@ -29,11 +29,14 @@ export interface postUserFields{
   activate? : boolean;
 }
 
-export interface UpdatedFields {
+export interface UpdatedUserFields {
   profile_img?: string;
-  user_pw?: string;
   prefer_genre?: string;
   mbti?: string;
+}
+
+export interface UpdatedPasswordFields{
+  user_pw?: string;
 }
 
 export interface userReviewObj {

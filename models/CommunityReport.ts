@@ -35,8 +35,7 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'COMMUNITY_REPORT',
-      tableName: 'COMMUNITY_REPORT',
+      tableName: 'community_report',
       timestamps: true,
       underscored: true,
     }

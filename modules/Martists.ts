@@ -1,6 +1,6 @@
 import { Optional } from 'sequelize';
 
-export interface ArtistAttributes {
+export interface ArtistsAttributes {
   artist_num: number;
   updated_at: Date;
   artist_id: string;
@@ -12,7 +12,7 @@ export interface ArtistAttributes {
   
 }
 
-export interface ArtistCreationAttributes extends Optional<ArtistAttributes, 'artist_num' | 'updated_at' | 'profile_click'> {}
+export interface ArtistsCreationAttributes extends Optional<ArtistsAttributes, 'artist_num' | 'updated_at' | 'profile_click'> {}
 
 export interface initArtist{
   artist_id : string;

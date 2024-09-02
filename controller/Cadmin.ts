@@ -149,6 +149,11 @@ export const deleteAdminUser = async (req: Request, res: Response) => {
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
     }
 
+    if(target === parseInt(process.env.ADMIN_ID as string)){
+      logger.error('deleteAdminUser - 403 ', req.body);
+      return res.status(403).json({ msg: '삭제할 수 없는 대상입니다.' });
+    }
+
     const checkUser = await db.User.findOne({where:{user_num: target, activate : true}});
     
     if(!checkUser){

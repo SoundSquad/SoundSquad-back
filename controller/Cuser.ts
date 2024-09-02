@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 import axios from 'axios';
 import dotenv from 'dotenv';
 import url from 'url';
-import { UpdatedFields, findSquadInfoReturn, userReviewObj , postUserFields } from '../modules/Muser';
+import { UpdatedUserFields, UpdatedPasswordFields ,findSquadInfoReturn, userReviewObj , postUserFields } from '../modules/Muser';
 import logger from '../config/loggerConfig';
 
 
@@ -62,17 +62,11 @@ export const postUser = async (req: Request, res: Response) => {
 export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
-        console.log( user_id);
-        console.log( user_pw );
-        
-        console.log(1);
-        
         if( !user_id || !user_pw ){
             logger.info(' postLogin - 400', req.body);
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
         
-        console.log(2);
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
@@ -85,7 +79,8 @@ export const postLogin = async (req: Request, res: Response) => {
             });
         }
 
-        console.log(3);
+        const user_num = user.user_num;
+
         const isPwCorrect = bcrypt.compareSync(user_pw, user.user_pw);
         if (!isPwCorrect) {
             logger.error(' postUser - 401');
@@ -103,9 +98,8 @@ export const postLogin = async (req: Request, res: Response) => {
             });
         }
 
-        console.log(4);
         // 일반/admin 계정인지 확인 --> if 문 조건 수정 필요!! (현재는 admin의 아이디가 1이라고 가정)
-        if (user_id === process.env.ADMIN_ID) {  // admin 계정일때 
+        if (user_num === parseInt( process.env.ADMIN_ID as string )) {  // admin 계정일때 
             (req.session as any).user = {
                 user_id: user.user_id,  // string
                 user_num: user.user_num,  // number
@@ -128,7 +122,6 @@ export const postLogin = async (req: Request, res: Response) => {
             const squadReviewInfo = findSqaudInfo(user.user_num); // 해당 유저의 squad review 정보
             logger.info(' postUser - 200');
             return res.json({
-                session :req.session, 
                 flag: true,
                 msg: "success",
                 squadReviewInfo
@@ -175,7 +168,7 @@ const findSqaudInfo = async (user_num:number) => {
                 squad_num: { [Op.in]: squadNumList }
             }
         });
-
+        
         // squad에 참여했지만 review를 하나도 작성하지 않았을 때
         if (!userReview) {
             result.msg = "no reviews";
@@ -204,28 +197,6 @@ const findSqaudInfo = async (user_num:number) => {
         })
         logger.error(' findSqaudInfo - 404');
         return result;
-
-        // ===== result 구조 =====
-        // result = {
-        //     msg: string,
-        //     userReviewList: {
-        //         [
-        //             {
-        //                 concert_num: number,
-        //                 writer: boolean,
-        //                 other_user: number,
-        //                 rating: number,
-        //                 created_at: string
-        //             }, ...
-        //         ]
-        //     }
-        // }
-        // --------
-        // msg = "no squad" or "no review" or "success"
-        // writer = review의 작성자면 true 
-        // other_user = 나 말고 squad에 참여한 다른 사람
-        // =====================
-
 
     } catch (err) {
         console.error(err);
@@ -265,7 +236,12 @@ export const deleteUser = async (req: Request, res: Response) => {
             logger.error(' deleteUser - 204', req.body );
             return res.status(400).json({ msg : ' 필수 정보가 누락되었습니다. ' });
         }
-        
+
+        if(user_num === parseInt(process.env.ADMIN_ID as string)){
+            logger.error(' deleteUser - 403');
+            return res.status(403).json({ msg: 'can not delete user' });    
+        }
+
         if (user_num !== (req.session as any).user?.user_id) {
             logger.error(' deleteUser - 403');
             return res.status(403).json({ msg: 'Unauthorized' });
@@ -309,7 +285,7 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(401).json({ msg: "Not logged in" });
         }
 
-        const { user_id, old_pw, new_pw, prefer_genre, mbti } = req.body;
+        const { user_id, prefer_genre, mbti } = req.body;
     
         const user = await db.User.findOne({
             where: { user_id },
@@ -321,26 +297,11 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(404).json({ msg: "User not found" });
         }
 
-        let updatedFields: UpdatedFields = {};
+        let updatedFields: UpdatedUserFields = {};
 
         // Handle profile image
         if (req.file) {
             updatedFields.profile_img = req.file.path;
-        }
-
-        // Handle password change
-        if (new_pw && old_pw) {
-            const isPwCorrect = bcrypt.compareSync(old_pw, user.user_pw);
-            if (isPwCorrect) {
-                const hashedPw = bcrypt.hashSync(new_pw, 10);
-                updatedFields.user_pw = hashedPw;
-            } else {
-                logger.error(' patchUser - 400');
-                return res.status(400).json({
-                    flag: false,
-                    msg: "Incorrect password"
-                });
-            }
         }
 
         // Handle prefer_genre update
@@ -372,11 +333,57 @@ export const patchUser = async (req: Request, res: Response) => {
     }
 };
 
-export const patchSquadinfo = async (req: Request, res: Response) => {
+export const patchPassword= async (req: Request, res: Response) => {
     try {
+        const { user_num, old_pw, new_pw } = req.body;
+
+        const user = await db.User.findOne({
+            where: { user_num },
+        });
+
+        if(!user){
+            logger.info('patchPassword - 404' );
+            return res.status(404).json({ msg : '대상을 찾을 수 없습니다.' });    
+        }
+
+        if(!old_pw || !new_pw ){
+            logger.info('patchPassword - 400', req.body );
+            return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+        }
+
+        let updatedFields: UpdatedPasswordFields = {};
+
+        // Handle profile image
+        if (req.file) {
+            updatedFields.user_pw = new_pw;
+        }
+
+        // Handle password change
+        if (new_pw && old_pw) {
+            const isPwCorrect = bcrypt.compareSync(old_pw, user.user_pw);
+            if (isPwCorrect) {
+                const hashedPw = bcrypt.hashSync(new_pw, 10);
+                updatedFields.user_pw = hashedPw;
+            } else {
+                logger.error(' patchUser - 400');
+                return res.status(400).json({
+                    flag: false,
+                    msg: "Incorrect password"
+                });
+            }
+        }
+        
+        await db.User.update(updatedFields, {
+            where: { user_num }
+        });
+        
+        logger.info(' patchUser - 201');
+        return res.status(201).json({ msg: "success" });
 
     } catch (err) {
-
+        logger.error(' patchPassword - 500');
+        console.error(err);
+        res.status(500).json({ msg: "Internal server error" });
     }
 }
 

@@ -138,8 +138,7 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'USER',
-      tableName: 'USER',
+      tableName: 'user',
       timestamps: true,
       underscored: true,
     }

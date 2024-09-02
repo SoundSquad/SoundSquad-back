@@ -13,6 +13,6 @@ router.post('/community', controller.postReportCommunity);
 router.post('/comment', controller.postReportComment);
 
 // user 신고 at profile page
-router.post('/profile', controller.postReportUser);
+router.post('/user', controller.postReportUser);
 
 export default router;

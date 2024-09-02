@@ -1,6 +1,6 @@
 import { Model, DataTypes, Sequelize } from 'sequelize';
-import { ArtistAttributes, ArtistCreationAttributes } from '../modules/Martists';
-class Artist extends Model<ArtistAttributes, ArtistCreationAttributes> implements ArtistAttributes {
+import { ArtistsAttributes, ArtistsCreationAttributes } from '../modules/Martists';
+class Artists extends Model<ArtistsAttributes, ArtistsCreationAttributes> implements ArtistsAttributes {
   public artist_num!: number;
   public updated_at!: Date;
   public artist_id!: string;
@@ -11,14 +11,14 @@ class Artist extends Model<ArtistAttributes, ArtistCreationAttributes> implement
   public artist_genre!: string;
 
   static associate(models: any) {
-    Artist.hasMany(models.ConcertInfo, {
+    Artists.hasMany(models.ConcertInfo, {
       foreignKey: 'artist_num'
     });
   }
 }
 
 export default (sequelize: Sequelize) => {
-  Artist.init(
+  Artists.init(
     {
       artist_num: {
         type: DataTypes.INTEGER,
@@ -59,12 +59,11 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'ARTISTS',
-      tableName: 'ARTISTS',
+      tableName: 'artists',
       timestamps: false,
       underscored: true,
     }
   );
 
-  return Artist;
+  return Artists;
 };

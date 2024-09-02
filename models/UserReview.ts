@@ -61,8 +61,7 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'USER_REVIEW',
-      tableName: 'USER_REVIEW',
+      tableName: 'user_review',
       timestamps: true,
       underscored: true,
     }
