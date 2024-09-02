@@ -5,7 +5,7 @@ export interface SquadInfoAttributes {
   squad_num: number;
   concert_num: number;
   opener_num: number;
-  member_num: number;
+  member_num?: number | null;
   show_time: Date;
   created_at?: Date;
   updated_at?: Date;

@@ -5,8 +5,6 @@ import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
 import logger from '../config/loggerConfig';
 
-
-
 dotenv.config();
 
 //testapi 아직 개발되지 않은 api의 endpoint, 요청이 제대로 도달하는지 확인 가능
@@ -27,9 +25,14 @@ export const testApi = async (req: Request, res: Response) => {
 export const getMypageUserInfo = async (req: Request, res: Response) => {
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
+    const nowUser = parseInt((req.session as any).user.user_num);
     
-    if(!targetUserNum || !nowUser){
+    console.log(targetUserNum);
+    console.log(nowUser)
+    
+    
+
+    if(!targetUserNum){
       logger.error(' getMypageUserInfo - 400 ', req.query, nowUser );
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다. ' });
     }
@@ -68,7 +71,7 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
 export const getMypagePost = async (req: Request, res: Response) => {
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
+    const nowUser = parseInt((req.session as any).user.user_num);
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
 
@@ -123,7 +126,7 @@ export const getMypagePost = async (req: Request, res: Response) => {
 export const getMypageComment = async (req: Request, res: Response) => {
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
+    const nowUser = parseInt((req.session as any).user.user_num);
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
 
@@ -176,7 +179,7 @@ export const getMypageComment = async (req: Request, res: Response) => {
 export const getMyPageReview = async (req: Request, res: Response) => {
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
+    const nowUser = parseInt((req.session as any).user.user_num);
     const page = parseInt(req.query.page as string) || undefined;
     const pageSize = parseInt(req.query.limit as string) || 6;
 
@@ -237,8 +240,8 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
   let transaction: Transaction | null = null;
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
-    const page = parseInt(req.query.page as string);
+    const nowUser = parseInt((req.session as any).user.user_num);
+    const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
     const currentDate = new Date();
 
@@ -314,7 +317,7 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
   let transaction: Transaction | null = null;
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
-    const nowUser = parseInt((req.session as any).user_num);
+    const nowUser = parseInt((req.session as any).user.user_num);
     const page = parseInt(req.query.page as string);
     const pageSize = parseInt(req.query.limit as string) || 6;
     const currentDate = new Date();

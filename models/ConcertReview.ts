@@ -46,8 +46,7 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'CONCERT_REVIEW',
-      tableName: 'CONCERT_REVIEW',
+      tableName: 'concert_review',
       timestamps: true,
       underscored: true,
     }

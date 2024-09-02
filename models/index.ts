@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 
-import artistModel from './Artists';
+import artistsModel from './Artists';
 import concertInfoModel from './ConcertInfo';
 import userModel from './User';
 import concertReviewModel from './ConcertReview';
@@ -25,13 +25,14 @@ const sequelize = new Sequelize(
   dbConfig.password, {
     host: dbConfig.host,
     dialect: dbConfig.dialect,
-    timezone: '+09:00', // for writing to database
+    timezone: '+09:00',
+    logging: console.log
 });
 
 const db = {
   sequelize,
   Sequelize,
-  Artists: artistModel(sequelize),
+  Artists: artistsModel(sequelize),
   ConcertInfo: concertInfoModel(sequelize),
   User: userModel(sequelize),
   ConcertReview: concertReviewModel(sequelize),
@@ -95,6 +96,17 @@ console.log("*** Concert Review table created");
   }
 }
 
+async function checkAssociations() {
+  // console.log(db.Comment.associations);
+  // console.log(db.Artists.associations);
+  // console.log(db.ConcertInfo.associations);
+  // console.log(db.User.associations);
+  // console.log(db.Community.associations);
+  // console.log(db.ReportUser.associations);
+  // console.log(db.ConcertReview.associations);
+}
+
+
 Object.values(db).forEach((model: any) => {
   if (model.associate) {
     model.associate(db);
@@ -102,6 +114,7 @@ Object.values(db).forEach((model: any) => {
 });
 
 
-syncModels();
+
+syncModels().then(checkAssociations);
 
 export default db;

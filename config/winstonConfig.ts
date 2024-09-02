@@ -6,7 +6,6 @@ import path from 'path';
 const app = express();
 const logDir = path.join(__dirname, '..', 'logs');
 
-// KST 시간으로 포맷팅하는 함수
 const formatTimestamp = () => {
   return new Date().toLocaleString('ko-KR', {
     timeZone: 'Asia/Seoul',

@@ -5,7 +5,7 @@ class SquadInfo extends Model<SquadInfoAttributes, SquadInfoCreationAttributes> 
   public squad_num!: number;
   public concert_num!: number;
   public opener_num!: number;
-  public member_num!: number;
+  public member_num!: number | null;
   public show_time!: Date;
 
   static associate(models: any) {
@@ -39,7 +39,8 @@ export default (sequelize: Sequelize) => {
       },
       member_num: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
+        defaultValue : null,
       },
       show_time:{
         type :DataTypes.DATE,
@@ -48,8 +49,7 @@ export default (sequelize: Sequelize) => {
     },
     {
       sequelize,
-      modelName: 'SQUAD_INFO',
-      tableName: 'SQUAD_INFO',
+      tableName: 'squad_info',
       timestamps: true,
       underscored: true,
     }

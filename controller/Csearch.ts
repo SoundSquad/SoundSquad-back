@@ -50,7 +50,8 @@ export const searchArtist = async (req: Request, res: Response) => {
       },
       include: [{
         model: db.ConcertInfo,
-        attributes: ['concert_num','concert_title','start_date'],
+        attributes: ['concert_num', 'concert_title', 'start_date'],
+        required: false,  // LEFT OUTER JOIN
       }],
       attributes: [
         'artist_name',
@@ -58,9 +59,11 @@ export const searchArtist = async (req: Request, res: Response) => {
         'artist_profile', 
         'artist_genre'
       ],
+      order: [[db.ConcertInfo, 'start_date', 'DESC']],
       offset,
-      order: [['start_date', 'DESC']],
       limit: pageSize,
+      subQuery: false,
+      distinct: true,
     });
 
     const totalPages = Math.ceil(count / pageSize);
@@ -93,7 +96,7 @@ export const searchConcert = async (req: Request, res: Response) => {
     const concert_title = req.query.concert_title as string | undefined;
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
-        
+
     if (!concert_title || typeof concert_title !== 'string' || concert_title.trim() === '') {
       logger.error(' searchConcert - 400 ', req.query);
       return res.status(400).json({ msg: '유효한 공연 제목을 입력해주세요' });
@@ -103,7 +106,7 @@ export const searchConcert = async (req: Request, res: Response) => {
       logger.error(' searchConcert - 400 ');
       return res.status(400).json({ msg: '유효한 페이지 정보를 입력해주세요' });
     }
-
+    
     const offset = pagination.offsetPagination(page, pageSize);
     const { count, rows } = await db.ConcertInfo.findAndCountAll({
       where: {
@@ -111,13 +114,16 @@ export const searchConcert = async (req: Request, res: Response) => {
           [Op.like]: `%${concert_title}%`
         }
       },
-      attributes: ['concert_title', 'concert_num', 'concert_image', 'artist_id', 'start_date', 'concert_location', 'concert_genre' ],
       include: [{
         model: db.Artists,
         attributes: ['artist_name'],
+        required: false,
       }],
+      attributes: ['concert_title', 'concert_num', 'concert_image', 'artist_num', 'start_date', 'concert_location', 'concert_genre' ],
+      order: [['start_date', 'DESC']],
       offset,
       limit: pageSize,
+      distinct: true,
     });
 
     const totalPages = Math.ceil(count / pageSize);
@@ -146,7 +152,7 @@ export const searchConcert = async (req: Request, res: Response) => {
  */
 export const searchCategoryArtist = async( req : Request, res : Response )=>{
   try{
-    const category_name = req.query.category_name as string | undefined;
+    const category_name = req.query.genre_name as string | undefined;
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
@@ -201,7 +207,7 @@ export const searchCategoryArtist = async( req : Request, res : Response )=>{
  */
 export const searchCategoryConcert = async( req : Request, res : Response )=>{
   try{
-    const category_name = req.query.category_name as string | undefined;
+    const category_name = req.query.genre_name as string | undefined;
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.limit as string) || 6;
         
@@ -228,7 +234,7 @@ export const searchCategoryConcert = async( req : Request, res : Response )=>{
         model: db.Artists,
         attributes: ['artist_name'],
       }],
-      attributes: ['concert_name', 'concert_num', 'concert_image', 'artist_genre'],
+      attributes: ['concert_title', 'concert_num', 'concert_image', 'concert_genre'],
       offset,
       limit: pageSize,
     });
@@ -478,6 +484,8 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
     const search = req.query.search as string;
     
+
+
     if (isNaN(page) || page < 1) {
       logger.error(' getSearchCommunityList - 400 ', req.query);
       return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });

@@ -62,7 +62,6 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     await db.SquadInfo.create({
       concert_num,
       opener_num : user_num,
-      member_num : 0,
       show_time: checkConcert.start_date
     },{transaction});
     
@@ -125,7 +124,7 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     });
     
     if (squadInfo) {
-      squadInfo.member_num = 0;
+      squadInfo.member_num = null;
       await squadInfo.save({ transaction });
     }
 
@@ -217,12 +216,12 @@ export const postJoinSquad = async (req: Request, res: Response) => {
     });
 
     if( checkEmpty?.member_num ){
-      logger.error(' postJoinSquad - 403');
+      logger.error(' postJoinSquad - 403 ');
       return res.status(403).json({ msg : '이미 가득 찬 스쿼드입니다.' });
     }
 
     const checkDouble = await db.SquadInfo.findOne({
-      where:{ member_num : user_num},
+      where:{ member_num : user_num  },
       attributes:['squad_num'],
       lock: Transaction.LOCK.UPDATE,
       transaction

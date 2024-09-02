@@ -10,6 +10,8 @@ router.post('/login', controller.postLogin);
 
 router.post('/logout', auth.authenticateUser, controller.postLogout);
 
+router.post('/pw', auth.authenticateUser, controller.patchPassword);
+
 // // router.post('/login/google', controller.postGoogleLogin);
 // router.get('/auth/google', controller.getCode);
 // router.get('/oauth2/redirect', controller.getRedirect);
