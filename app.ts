@@ -14,6 +14,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
+// app.use(cors({
+//   origin : ['http://ex.com', 'http://ex2.com'],
+//   methods: ['Get','Post'],
+//   allowedHeaders : ['Content-Type','Authorization']
+// }))
+
+
 const today = new Date()
 const expireDate = new Date()
 expireDate.setDate(today.getDate() + 1)
