@@ -89,16 +89,6 @@ export const getCommunityPost = async (req: Request, res: Response) => {
 
     const result = await db.Community.findOne({
       where: { activate: true, article_num: articleNum },
-      include: [{
-        model: db.Comment,
-        where: { activate: true },
-        required: false,
-        attributes: ['comment_num', 'user_num', 'comment_content', 'created_at'],
-        include: [{
-          model: db.User,
-          attributes: ['user_id', 'profile_img','activate'],
-        }],  
-      }],
       attributes: ['article_num', 'user_num', 'category', 'article_title', 'article_content', 'created_at', 'updated_at'],
     });
 
@@ -114,6 +104,54 @@ export const getCommunityPost = async (req: Request, res: Response) => {
     logger.error('getCommunityPost - 500 ');
     console.error('Community 게시글을 불러오는 중 오류 발생했습니다.', err);
     return res.status(500).json({ msg: 'Community 게시판에 게시글을 불러오는 중 오류가 발생했습니다.' });
+  }
+};
+
+export const getCommunityPostCommentList = async (req: Request, res: Response) => {
+  try {    
+    const articleNum = parseInt(req.query.article_num as string);
+    const page = parseInt(req.query.page as string) || 1;
+    const pageSize = parseInt(req.query.limit as string) || 6;
+
+    if (isNaN(articleNum)) {
+      logger.error('getCommunityPostCommentList - 400 ', req.body);
+      return res.status(400).json({ msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.' });
+    }
+    
+    if( !page || !pageSize){
+      logger.error('getCommunityPostCommentList - 400 ', req.body );
+      return res.status(400).json({ msg : '필수 값이 누락되었습니다.' })
+    }
+
+    const offset = pagination.offsetPagination(page, pageSize);
+
+    const { count, rows } = await db.Comment.findAndCountAll({
+      where: { article_num : articleNum ,activate: true },
+      attributes: ['article_num','comment_content','user_num', 'created_at'],
+      include: [{
+        model: db.User,
+        attributes: ['user_id', 'activate'],
+      }],
+      order: [['createdAt', 'DESC']],
+      offset,
+      limit: pageSize,
+    });
+
+    const totalPages = Math.ceil(count / pageSize);
+    if(page>totalPages){
+      logger.error('getCommunityPosts - 404 ');
+      return res.status(404).json({msg : '댓글이 존재하지 않는 페이지 입니다.'});
+    };
+
+    const result = pagination.responsePagination(rows, count, page, pageSize, 'comments');
+
+    logger.info('getCommunityPostCommentList - 200 ');
+    return res.status(200).json({ msg: '댓글 목록을 성공적으로 불러왔습니다.', data : result });
+
+  } catch (err) {
+    logger.error('getCommunityPostCommentList - 500 ');
+    console.error('Community 게시글에서 댓글 목록을 불러오는 중 오류 발생했습니다.', err);
+    return res.status(500).json({ msg: 'Community 게시글에서 댓글 목록을 불러오는 중 오류가 발생했습니다.' });
   }
 };
 
@@ -361,24 +399,24 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
     
     if (!target) {
       logger.error('patchCommunityComment - 404 ');
-      return res.status(404).json({ msg : '게시글이 이미 삭제되었거나 존재하지 않습니다.' });
+      return res.status(404).json({ msg : '댓글이 이미 삭제되었거나 존재하지 않습니다.' });
     }
     
     if (target.user_num !== user_num) { //target.user_num : 수정 대상의 작성자, user_num : 현재 접속자
       logger.error('patchCommunityComment - 403 ');
-      return res.status(403).json({ msg : '게시글 수정 권한이 없습니다.' });
+      return res.status(403).json({ msg : '댓글 수정 권한이 없습니다.' });
     }
 
     const updateTarget: UpdateTargetComment = {
       comment_content: comment_content,
     };
 
-    const result = await db.Comment.update(updateTarget, {
+    await db.Comment.update(updateTarget, {
       where: { comment_num, activate: true }
     });
 
     logger.info('patchCommunityComment - 201 ');
-    return res.status(201).json({ msg : '게시글이 성공적으로 수정되었습니다.' });
+    return res.status(201).json({ msg : '댓글이 성공적으로 수정되었습니다.' });
 
   } catch (err) {
     console.error('Community 댓글 수정 중 오류가 발생했습니다. :', err);
@@ -399,7 +437,7 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
     const comment_num = req.body?.comment_num || undefined;
     const user_num = getUserNum(req);
 
-    if(!comment_num || user_num){
+    if(!comment_num || !user_num){
       logger.error('deleteCommunityComment - 400 ', req.body);
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다. ' });  
     }

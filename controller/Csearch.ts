@@ -377,6 +377,12 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
     }
     const result = await db.Artists.findOne({
       where:{ artist_num },
+      include: [{
+        model: db.ConcertInfo,
+        attributes: ['concert_num', 'concert_title', 'start_date', 'concert_image'],
+        required: false,  // LEFT OUTER JOIN
+      }],
+      order: [[db.ConcertInfo, 'start_date', 'DESC']],
     });
 
     logger.info(' getDetailArtist - 201 ');
@@ -575,7 +581,7 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
         model: db.User,
         attributes: ['user_id', 'activate'],
       }],
-      attributes: ['article_num', 'article_title', 'user_num', 'created_at'],
+      attributes: ['article_num', 'article_title', 'user_num', 'created_at', 'category'],
       offset,
       limit: pageSize,
     });
@@ -617,7 +623,8 @@ export const getSearchMain = async (req: Request, res: Response) => {
       where: {
         show_time: {
           [Op.gt]: currentDate
-        }
+        },
+        member_num : null,
       },
       order: db.sequelize.random(),
       limit: 10

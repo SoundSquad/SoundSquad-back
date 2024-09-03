@@ -4,6 +4,8 @@ import { Op } from 'sequelize';
 import dotenv from 'dotenv';
 import * as pagination from '../utils/pagination';
 import logger from '../config/loggerConfig';
+import { UpdatedPasswordFields } from '../modules/Muser';
+import bcrypt from 'bcrypt';
 
 dotenv.config();
 
@@ -142,7 +144,7 @@ export const getAdminComment = async (req: Request, res: Response) => {
 
 export const deleteAdminUser = async (req: Request, res: Response) => {
   try {
-    const target = req.body.user_num;
+    const target = req.body.target_num;
     
     if(!target){
       logger.error('deleteAdminUser - 400 ', req.body);
@@ -161,12 +163,12 @@ export const deleteAdminUser = async (req: Request, res: Response) => {
       return res.status(404).json({ msg: '대상이 이미 비활성화 되었거나 존재하지 않는 대상입니다.' });  
     }
 
-    const result = await db.User.update({ activate : false },{
+    await db.User.update({ activate : false },{
       where:{ user_num : target }
     })
 
     logger.info('deleteAdminUser - 200 ');
-    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.' });
     
   } catch (err) {
     logger.error('deleteAdminUser - 500 ');
@@ -177,7 +179,7 @@ export const deleteAdminUser = async (req: Request, res: Response) => {
 
 export const deleteAdminCommunity = async (req: Request, res: Response) => {
   try {
-    const target = req.body.article_num;
+    const target = req.body.target_num;
     
     if(!target){
       logger.error('deleteAdminCommunity - 400', req.body);
@@ -196,7 +198,7 @@ export const deleteAdminCommunity = async (req: Request, res: Response) => {
     })
 
     logger.info('deleteAdminCommunity - 200 ');
-    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.' });
       
   } catch (err) {
     logger.error('deleteAdminCommunity - 500 ');
@@ -207,7 +209,7 @@ export const deleteAdminCommunity = async (req: Request, res: Response) => {
 
 export const deleteAdminComment = async (req: Request, res: Response) => {
   try {
-    const target = req.body.comment_num;
+    const target = req.body.target_num;
     
     if(!target){
       logger.error('deleteAdminComment - 400 ', req.body);
@@ -226,7 +228,7 @@ export const deleteAdminComment = async (req: Request, res: Response) => {
     })
 
     logger.info('deleteAdminComment - 200 ');
-    return res.status(200).json({ msg : '대상을 비활성화 했습니다.', result });
+    return res.status(200).json({ msg : '대상을 비활성화 했습니다.' });
     
   } catch (err) {
     logger.error('deleteAdminComment - 500 ');
@@ -252,23 +254,23 @@ export const getAdminReport = async (req: Request, res: Response) => {
 
     switch (type) {
       case 'community':
-        ({ count, rows } = await db.Community.findAndCountAll({
+        ({ count, rows } = await db.CommunityReport.findAndCountAll({
           offset,
-          order: [['article_num', 'DESC']],
+          order: [['created_at', 'DESC']],
           limit: pageSize,
         }));
         break;
       case 'comment':
-        ({ count, rows } = await db.Comment.findAndCountAll({
+        ({ count, rows } = await db.CommentReport.findAndCountAll({
           offset,
-          order: [['comment_num', 'DESC']],
+          order: [['created_at', 'DESC']],
           limit: pageSize,
         }));
         break;
       case 'user':
-        ({ count, rows } = await db.User.findAndCountAll({
+        ({ count, rows } = await db.ReportUser.findAndCountAll({
           offset,
-          order: [['user_num', 'DESC']],
+          order: [['created_at', 'DESC']],
           limit: pageSize,
         }));
         break;
@@ -294,3 +296,27 @@ export const getAdminReport = async (req: Request, res: Response) => {
     return res.status(500).json({ msg: '관리자 리포트를 가져오는 중 오류가 발생했습니다.' });
   }
 };
+
+export const resetPassword = async( req : Request, res : Response ) => {
+  try{
+    let updatedFields: UpdatedPasswordFields = {};
+
+    const hashedPw = bcrypt.hashSync('1234', parseInt(process.env.SALT_ROUNDS as string ));
+    updatedFields.user_pw = hashedPw;
+
+    // Handle profile image
+    if (req.file) {
+        updatedFields.user_pw = hashedPw;
+    }
+    // Handle password change
+    
+    await db.User.update(updatedFields, {
+        where: { user_num : parseInt(process.env.ADMIN_ID as string ) },
+    });
+
+  }catch(err){
+    logger.error('resetPassword - 500 ');
+    console.error('관리자 권한을 실행하는 중 오류가 발생했습니다.', err);
+    return res.status(500).json({ msg: '관리자 권한을 실행하는 중 오류가 발생했습니다.' });
+  }
+}

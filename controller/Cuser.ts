@@ -16,7 +16,6 @@ const saltRounds = parseInt(process.env.SALT_ROUNDS as string) || 10 ; // salt f
 // 회원가입
 export const postUser = async (req: Request, res: Response) => {
     try {
-        console.log(saltRounds);
         
         const { user_id, user_pw, user_gender, user_bd } = req.body;
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
@@ -24,7 +23,10 @@ export const postUser = async (req: Request, res: Response) => {
 
         if(!user_id||!user_pw||!user_gender||!user_bd){
             logger.error(' postUser - 400 ', req.body );
-            return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+            return res.status(400).json({  
+                flag: false, 
+                msg : '필수 정보가 누락되었습니다.' 
+            });
         }
 
         const userInfo = await db.User.findOne({
@@ -38,7 +40,6 @@ export const postUser = async (req: Request, res: Response) => {
                 msg: 'ID already exists' 
             });
         }      
-        console.log('1');
         
         const newUser = await db.User.create({
             user_id,
@@ -49,12 +50,12 @@ export const postUser = async (req: Request, res: Response) => {
         });
 
         logger.info(' postUser - 201');
-        return res.status(201).json({ flag: true, newUser });
+        return res.status(201).json({ msg : 'success', flag: true });
     
     } catch (err) {
         logger.error(' postUser - 500');
         console.error(err);
-        return res.status(500).send('Internal Server Error');
+        return res.status(500).json({ msg :'Internal Server Error'});
     }
 };
 
@@ -124,7 +125,7 @@ export const postLogin = async (req: Request, res: Response) => {
             return res.json({
                 flag: true,
                 msg: "success",
-                squadReviewInfo
+                count : squadReviewInfo
             });
         }
         
@@ -155,6 +156,7 @@ const findSqaudInfo = async (user_num:number) => {
         // 참여한 squad가 없을 때
         if (!squad) {
             result.msg = "no squad";
+            result.userReviewList.push();
             return result;
         }
 
@@ -172,7 +174,7 @@ const findSqaudInfo = async (user_num:number) => {
         // squad에 참여했지만 review를 하나도 작성하지 않았을 때
         if (!userReview) {
             result.msg = "no reviews";
-            return result;
+            return 0;
         }
 
         userReview.forEach((review) => {
@@ -196,7 +198,7 @@ const findSqaudInfo = async (user_num:number) => {
             result.userReviewList.push(userReview);
         })
         logger.error(' findSqaudInfo - 404');
-        return result;
+        return result.userReviewList.length;
 
     } catch (err) {
         console.error(err);
@@ -206,21 +208,19 @@ const findSqaudInfo = async (user_num:number) => {
 // 로그아웃
 export const postLogout = async (req: Request, res: Response) => {
     try {
-        // delete session
         req.session.destroy(err => {
             if (err) {
                 console.error(err);
-                logger.error(' postLogout - 500');
+                logger.error('postLogout - 500');
                 return res.status(500).json({ msg: 'fail' });
-            } else {
-                res.json({ msg: 'success' });
             }
-            res.clearCookie('connect.sid'); 
+            
+            res.clearCookie('connect.sid');
+            logger.info('postLogout - 200');
+            return res.status(200).json({ msg: 'success' });
         });
-        
-        logger.info(' postLogout - 204');
     } catch (err) {
-        logger.error(' postLogout - 500');
+        logger.error('postLogout - 500');
         console.error(err);
         res.status(500).json({ msg: 'fail' });
     }
@@ -242,7 +242,7 @@ export const deleteUser = async (req: Request, res: Response) => {
             return res.status(403).json({ msg: 'can not delete user' });    
         }
 
-        if (user_num !== (req.session as any).user?.user_id) {
+        if (user_num !== (req.session as any).user?.user_num) {
             logger.error(' deleteUser - 403');
             return res.status(403).json({ msg: 'Unauthorized' });
         }
@@ -285,11 +285,10 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(401).json({ msg: "Not logged in" });
         }
 
-        const { user_id, prefer_genre, mbti } = req.body;
+        const { user_num, prefer_genre, mbti, introduce } = req.body;
     
         const user = await db.User.findOne({
-            where: { user_id },
-            attributes: ['user_pw', 'profile_img']
+            where: { user_num },
         });
 
         if (!user) {
@@ -297,25 +296,16 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(404).json({ msg: "User not found" });
         }
 
-        let updatedFields: UpdatedUserFields = {};
+        let updatedFields: UpdatedUserFields = {
+            prefer_genre : prefer_genre || user.prefer_genre,
+            mbti : mbti || user.mbti,
+            introduce : introduce || user.introduce
+        };
 
         // Handle profile image
-        if (req.file) {
-            updatedFields.profile_img = req.file.path;
-        }
-
-        // Handle prefer_genre update
-        if (prefer_genre) {
-            updatedFields.prefer_genre = prefer_genre;
-        }
-
-        // Handle mbti update
-        if (mbti) {
-            updatedFields.mbti = mbti;
-        }
 
         const [updateCount] = await db.User.update(updatedFields, {
-            where: { user_id }
+            where: { user_num }
         });
 
         if (updateCount > 0) {
@@ -362,7 +352,7 @@ export const patchPassword= async (req: Request, res: Response) => {
         if (new_pw && old_pw) {
             const isPwCorrect = bcrypt.compareSync(old_pw, user.user_pw);
             if (isPwCorrect) {
-                const hashedPw = bcrypt.hashSync(new_pw, 10);
+                const hashedPw = bcrypt.hashSync(new_pw, parseInt(process.env.SALT_ROUNDS as string ));
                 updatedFields.user_pw = hashedPw;
             } else {
                 logger.error(' patchUser - 400');

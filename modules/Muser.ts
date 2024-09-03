@@ -30,9 +30,10 @@ export interface postUserFields{
 }
 
 export interface UpdatedUserFields {
-  profile_img?: string;
-  prefer_genre?: string;
-  mbti?: string;
+  profile_img?: string | null;
+  prefer_genre?: string | null;
+  mbti?: string | null;
+  introduce? : string | null;
 }
 
 export interface UpdatedPasswordFields{

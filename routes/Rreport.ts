@@ -7,12 +7,12 @@ const router: Router = express.Router();
 //공연 상세정보
 
 // community 게시글 신고
-router.post('/community', controller.postReportCommunity);
+router.post('/community', auth.authenticateUser, controller.postReportCommunity);
 
 // comment 신고
-router.post('/comment', controller.postReportComment);
+router.post('/comment', auth.authenticateUser, controller.postReportComment);
 
 // user 신고 at profile page
-router.post('/user', controller.postReportUser);
+router.post('/user', auth.authenticateUser, controller.postReportUser);
 
 export default router;

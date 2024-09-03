@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 
 export const getUserNum = (req: Request): number | undefined => {
-  const user_num = req.query.user_num || req.body.user_num;
+  const user_num = req.query.user_num || req.body.user_num || req.body.writer_num;
   
   if (typeof user_num === 'number') {
     return user_num;
