@@ -264,7 +264,7 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
       include: [
         { 
           model: db.ConcertInfo, 
-          attributes: ['concert_title', 'start_date']
+          attributes: ['concert_title', 'start_date','concert_image']
         }
       ],
       attributes: ['squad_num', 'concert_num', 'opener_num', 'show_time', 'member_num', 'created_at'],

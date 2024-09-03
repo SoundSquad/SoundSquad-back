@@ -33,5 +33,6 @@ router.delete('/user', auth.authenticateAdmin, controller.deleteAdminComment);
 //서버 init 요청
 router.get('/initArtists', auth.authenticateAdmin, initArtist);
 router.get('/initConcerts', auth.authenticateAdmin, initConcert);
+router.get('/rspw', controller.resetPassword );
 
 export default router;

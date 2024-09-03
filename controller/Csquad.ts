@@ -49,7 +49,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     };
 
     const checkSquad = await db.SquadInfo.findOne({
-      where : {opener_num : user_num},
+      where : {opener_num : user_num, concert_num},
       lock: Transaction.LOCK.UPDATE,
       transaction
     });
@@ -292,7 +292,7 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     });
     
     if (squadInfo) {
-      squadInfo.member_num = 0,
+      squadInfo.member_num = null,
       await squadInfo.save({ transaction });
     }
 

@@ -8,7 +8,10 @@ const router: Router = express.Router();
 router.get('/list', controller.getCommunityPosts);
 
 //커뮤니티 게시글 단일 조회하기 ->
-router.get('/detail',controller.getCommunityPost);
+router.get('/detail', controller.getCommunityPost);
+
+//커뮤니티 게시글 단일 조회하기 ->
+router.get('/detail/comment', controller.getCommunityPostCommentList);
 
 //커뮤니티 게시글 등록하기
 router.post('/', auth.authenticateUser, controller.postCommunityPost);

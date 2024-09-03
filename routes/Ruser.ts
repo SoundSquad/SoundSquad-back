@@ -10,11 +10,13 @@ router.post('/login', controller.postLogin);
 
 router.post('/logout', auth.authenticateUser, controller.postLogout);
 
-router.post('/pw', auth.authenticateUser, controller.patchPassword);
+router.patch('/pw', auth.authenticateUser, controller.patchPassword);
 
 // // router.post('/login/google', controller.postGoogleLogin);
 // router.get('/auth/google', controller.getCode);
 // router.get('/oauth2/redirect', controller.getRedirect);
+
+router.delete('/signout', auth.authenticateUser, controller.deleteUser);
 
 // 회원정보 수정
 router.patch('/mypage', controller.patchUser);

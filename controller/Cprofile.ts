@@ -18,15 +18,16 @@ export const testApi = async (req: Request, res: Response) => {
 
 export const getProfileData = async (req: Request, res: Response) => {
   try {
-    const user_num = parseInt(req.body.user_num as string);
+    const user_num = parseInt(req.query.user_num as string);
 
     if (isNaN(user_num) || user_num <= 0) {
       logger.error(' getProfileData - 400 ', req.body);
-      return res.status(400).json({ msg: '유효한 아티스트 번호를 입력해주세요' });
+      return res.status(400).json({ msg: '유효한 대상을 입력해주세요' });
     }
 
     const user = await db.User.findOne({
-      where:{ user_num, activate : true }
+      where:{ user_num, activate : true },
+      attributes:['user_num','user_id','user_gender','user_bd','introduce','profile_img','prefer_genre','mbti','user_rating']
     });
 
     if(!user){
