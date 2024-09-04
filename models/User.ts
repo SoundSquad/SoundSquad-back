@@ -4,8 +4,8 @@ class User extends Model<UserAttributes, UserCreationAttributes> implements User
   public user_num!: number;
   public user_id!: string;
   public user_pw!: string;
-  public user_gender!: number;
-  public user_bd!: Date;
+  public user_gender!: string;
+  public user_bd!: string;
   public introduce!: string | null;
   public profile_img!: string | null;
   public token!: string | null;
@@ -99,11 +99,11 @@ export default (sequelize: Sequelize) => {
         allowNull: false,
       },
       user_gender: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING(10),
         allowNull: false,
       },
       user_bd: {
-        type: DataTypes.DATE,
+        type: DataTypes.STRING(10),
         allowNull: false,
       },
       introduce: {
