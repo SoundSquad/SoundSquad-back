@@ -125,6 +125,7 @@ export const postLogin = async (req: Request, res: Response) => {
             return res.json({
                 flag: true,
                 msg: "success",
+                user_num,
                 count : squadReviewInfo
             });
         }
