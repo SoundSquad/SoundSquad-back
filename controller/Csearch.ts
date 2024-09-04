@@ -48,18 +48,18 @@ export const searchArtist = async (req: Request, res: Response) => {
           [Op.like]: `%${artist_name}%`
         }
       },
-      include: [{
-        model: db.ConcertInfo,
-        attributes: ['concert_num', 'concert_title', 'start_date'],
-        required: false,  // LEFT OUTER JOIN
-      }],
+      // include: [{
+      //   model: db.ConcertInfo,
+      //   attributes: ['concert_num', 'concert_title', 'start_date'],
+      //   required: false,  // LEFT OUTER JOIN
+      // }],
       attributes: [
         'artist_name',
         'artist_num', 
         'artist_profile', 
         'artist_genre'
       ],
-      order: [[db.ConcertInfo, 'start_date', 'DESC']],
+      order: [[ 'artist_name', 'DESC' ]],
       offset,
       limit: pageSize,
       subQuery: false,
