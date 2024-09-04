@@ -36,4 +36,7 @@ router.get('/genre/concert', controller.searchCategoryConcert);
 
 router.get('/main',controller.getSearchMain);
 
+router.get('/genre',controller.getGenreList);
+
+
 export default router;

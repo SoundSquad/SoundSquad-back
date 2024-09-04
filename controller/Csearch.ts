@@ -639,3 +639,19 @@ export const getSearchMain = async (req: Request, res: Response) => {
     return res.status(500).json({ msg: '목록을 불러오는 중 오류가 발생했습니다.' });
   }
 };
+
+export const getGenreList = async (req: Request, res: Response) => {
+  try {
+    const genreList =  [
+      'Alternative','Ballads-Romantic','Blues','Chanson Francaise','Childrens Music',
+      'Classical','Country','Dance-Electronic','Folk', 'Hip-Hop-Rap','Holiday','Jazz',
+      'Latin','Metal','New Age','Other','Pop','R&B','Reggae','Religious','Rock', 'Undefined','World'
+    ]
+    return res.status(201).json({ msg : '장르 목록을 불러왔습니다.', genreList })
+
+  } catch (err) {
+    logger.info(' getGenreList - 500 ');
+    console.error('목록을 불러오는 중 오류 발생:', err);
+    return res.status(500).json({ msg: '목록을 불러오는 중 오류가 발생했습니다.' });
+  }
+};
