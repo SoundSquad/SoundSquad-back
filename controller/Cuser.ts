@@ -285,7 +285,7 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(401).json({ msg: "Not logged in" });
         }
 
-        const { user_num, prefer_genre, mbti, introduce } = req.body;
+        const { user_num, prefer_genre, mbti, introduce, gender, age } = req.body;
     
         const user = await db.User.findOne({
             where: { user_num },

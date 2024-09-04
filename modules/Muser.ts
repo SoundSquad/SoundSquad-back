@@ -4,8 +4,8 @@ export interface UserAttributes {
   user_num: number;
   user_id: string;
   user_pw: string;
-  user_gender: number;
-  user_bd: Date;
+  user_gender: string;
+  user_bd: string;
   introduce?: string | null;
   profile_img: string | null;
   token?: string | null;
@@ -22,8 +22,8 @@ export interface UserCreationAttributes extends Optional<UserAttributes, 'user_n
 export interface postUserFields{
   user_id: string;
   user_pw: string;
-  user_gender: number;
-  user_bd: Date;
+  user_gender: string;
+  user_bd: string;
   introduce?: string | null;
   profile_img?: string | 'default';
   activate? : boolean;

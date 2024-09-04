@@ -266,6 +266,7 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
 
   try {
     const { squad_num, user_num } = req.body;
+
     if (!user_num || !squad_num ) {
       logger.error(' deleteLeaveSquad - 400', req.body);
       return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
