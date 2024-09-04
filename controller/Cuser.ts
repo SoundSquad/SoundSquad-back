@@ -285,7 +285,7 @@ export const patchUser = async (req: Request, res: Response) => {
             return res.status(401).json({ msg: "Not logged in" });
         }
 
-        const { user_num, prefer_genre, mbti, introduce, gender, age } = req.body;
+        const { user_num, prefer_genre, mbti, introduce, user_gender, user_bd } = req.body;
     
         const user = await db.User.findOne({
             where: { user_num },
@@ -299,7 +299,9 @@ export const patchUser = async (req: Request, res: Response) => {
         let updatedFields: UpdatedUserFields = {
             prefer_genre : prefer_genre || user.prefer_genre,
             mbti : mbti || user.mbti,
-            introduce : introduce || user.introduce
+            introduce : introduce || user.introduce,
+            user_gender : user_gender || user.user_gender,
+            user_bd : user_bd || user.user_bd
         };
 
         // Handle profile image
