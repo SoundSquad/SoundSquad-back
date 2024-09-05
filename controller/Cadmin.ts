@@ -27,7 +27,7 @@ export const getAdminUser = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
-      logger.error('getAdminUser - 400 '+ req.query);
+      logger.error('getAdminUser - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false
@@ -81,7 +81,7 @@ export const getAdminCommunity = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
-      logger.error('getAdminCommunity - 400 '+ req.query);
+      logger.error('getAdminCommunity - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -135,7 +135,7 @@ export const getAdminComment = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
     
     if (!search || !page ) {
-      logger.error('getAdminComment - 400 '+ req.query);
+      logger.error('getAdminComment - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -186,7 +186,7 @@ export const deleteAdminUser = async (req: Request, res: Response) => {
     const target = req.body.target_num;
     
     if(!target){
-      logger.error('deleteAdminUser - 400 '+ req.body);
+      logger.error('deleteAdminUser - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false
@@ -236,7 +236,7 @@ export const deleteAdminCommunity = async (req: Request, res: Response) => {
     const target = req.body.target_num;
     
     if(!target){
-      logger.error('deleteAdminCommunity - 400'+ req.body);
+      logger.error('deleteAdminCommunity - 400');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -278,7 +278,7 @@ export const deleteAdminComment = async (req: Request, res: Response) => {
     const target = req.body.target_num;
     
     if(!target){
-      logger.error('deleteAdminComment - 400 '+ req.body);
+      logger.error('deleteAdminComment - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -323,7 +323,7 @@ export const getAdminReport = async (req: Request, res: Response) => {
     const offset = pagination.offsetPagination(page, pageSize);
 
     if (!type || !page) {
-      logger.error('getAdminReport - 400 '+ req.query);
+      logger.error('getAdminReport - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -356,7 +356,7 @@ export const getAdminReport = async (req: Request, res: Response) => {
         }));
         break;
       default:
-        logger.error('getAdminReport - 400 ' + req.query );
+        logger.error('getAdminReport - 400 '  );
         return res.status(400).json({ 
           msg: '입력 형식에 오류가 있습니다.',
           flag: false 

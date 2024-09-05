@@ -33,7 +33,7 @@ export const searchArtist = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
         
     if (!artist_name || typeof artist_name !== 'string' || artist_name.trim() === '') {
-      logger.error(' searchArtist - 400 '+ req.query);
+      logger.error(' searchArtist - 400 ');
       return res.status(400).json({ 
         msg: '유효한 아티스트 이름을 입력해주세요',
         flag: false
@@ -114,7 +114,7 @@ export const searchConcert = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if (!concert_title || typeof concert_title !== 'string' || concert_title.trim() === '') {
-      logger.error(' searchConcert - 400 '+ req.query);
+      logger.error(' searchConcert - 400 ');
       return res.status(400).json({ 
         msg: '유효한 공연 제목을 입력해주세요',
         flag: false
@@ -189,7 +189,7 @@ export const searchCategoryArtist = async( req : Request, res : Response )=>{
     const pageSize = parseInt(req.query.limit as string) || 6;
         
     if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
-      logger.error(' searchCategoryArtist - 400 '+ req.query);
+      logger.error(' searchCategoryArtist - 400 ');
       return res.status(400).json({ 
         msg: '유효한 카테고리 이름을 입력해주세요',
         flag: false 
@@ -261,7 +261,7 @@ export const searchCategoryConcert = async( req : Request, res : Response )=>{
         
     if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
       
-      logger.error(' searchCategoryConcert - 400 '+ req.query);
+      logger.error(' searchCategoryConcert - 400 ');
       return res.status(400).json({ 
         msg: '유효한 카테고리 이름을 입력해주세요',
         flag: false 
@@ -333,7 +333,7 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
     const concert_num = parseInt(req.query.concert_num as string) || undefined;
     
     if(!concert_num){
-      logger.error(' getDetailConcert - 400 '+ req.query );
+      logger.error(' getDetailConcert - 400 ' );
       return res.status(400).json({ 
         msg: '요청 대상이 잘못되었습니다.',
         flag: false 
@@ -390,7 +390,7 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(concert_num) || concert_num <= 0) {
-      logger.error(' getDetailConcertSquad - 400 '+ req.query);
+      logger.error(' getDetailConcertSquad - 400 ');
       return res.status(400).json({ 
         msg: '유효한 공연 번호를 입력해주세요',
         flag: false 
@@ -457,7 +457,7 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
     const artist_num = parseInt(req.query.artist_num as string);
 
     if (isNaN(artist_num) || artist_num <= 0) {
-      logger.error(' getDetailArtist - 400 '+ req.query );
+      logger.error(' getDetailArtist - 400 ' );
       return res.status(400).json({ 
         msg: '유효한 아티스트 번호를 입력해주세요',
         flag: false 
@@ -523,7 +523,7 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(artist_num) || artist_num <= 0) {
-      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      logger.error(' getDetailArtistReview - 400 ');
       return res.status(400).json({ 
         msg: '유효한 아티스트 번호를 입력해주세요',
         flag: false 
@@ -531,7 +531,7 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
     }
     
     if (isNaN(page) || page < 1 || ! pageSize ) {
-      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      logger.error(' getDetailArtistReview - 400 ');
       return res.status(400).json({ 
         msg: '유효한 페이지 번호를 입력해주세요',
         flag: false 
@@ -539,7 +539,7 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
     }
     
     if (!Number.isInteger(artist_num)) {
-      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      logger.error(' getDetailArtistReview - 400 ');
       return res.status(400).json({ 
         msg: '아티스트 번호는 정수여야 합니다',
         flag: false 
@@ -615,7 +615,7 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
 
 
     if (isNaN(page) || page < 1) {
-      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      logger.error(' getSearchCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 페이지 번호를 입력해주세요',
         flag: false 
@@ -623,7 +623,7 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
     }
     
     if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
-      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      logger.error(' getSearchCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 페이지 크기를 입력해주세요 (1-100)',
         flag: false 
@@ -631,7 +631,7 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
     }
     
     if (!search || typeof search !== 'string' || search.trim() === '') {
-      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      logger.error(' getSearchCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 검색어를 입력해주세요',
         flag: false 
@@ -694,7 +694,7 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(page) || page < 1) {
-      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      logger.error(' getCategoryCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 페이지 번호를 입력해주세요',
         flag: false 
@@ -702,7 +702,7 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
     }
     
     if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
-      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      logger.error(' getCategoryCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 페이지 크기를 입력해주세요 (1-100)',
         flag: false 
@@ -710,7 +710,7 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
     }
     
     if (!category || typeof category !== 'string' || category.trim() === '') {
-      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      logger.error(' getCategoryCommunityList - 400 ');
       return res.status(400).json({ 
         msg: '유효한 카테고리를 입력해주세요',
         flag: false 

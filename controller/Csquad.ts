@@ -31,7 +31,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     let status : number = 0;
 
     if (!user_num || !concert_num ) {
-      logger.error(' postOpenSquad - 400 '+ req.body);
+      logger.error(' postOpenSquad - 400 ');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -116,7 +116,7 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     const { squad_num, user_num } = req.body;
     
     if (!user_num || !squad_num ) {
-      logger.error(' patchOpenSquad - 400'+ req.body );
+      logger.error(' patchOpenSquad - 400' );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -183,7 +183,7 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     const { squad_num, user_num } = req.body;
     
     if (!user_num || !squad_num ) {
-      logger.error(' deleteOpenSquad - 400'+ req.body );
+      logger.error(' deleteOpenSquad - 400' );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -243,7 +243,7 @@ export const postJoinSquad = async (req: Request, res: Response) => {
   try {
     const { squad_num, user_num } = req.body;
     if (!user_num || !squad_num ) {
-      logger.error(' postJoinSquad - 400'+ req.body );
+      logger.error(' postJoinSquad - 400' );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -324,7 +324,7 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     const { squad_num, user_num } = req.body;
 
     if (!user_num || !squad_num ) {
-      logger.error(' deleteLeaveSquad - 400'+ req.body);
+      logger.error(' deleteLeaveSquad - 400');
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -391,7 +391,7 @@ export const postSquadReview = async (req: Request, res: Response) => {
     const { squad_num, user_num, rating } = req.body;
 
     if (!squad_num || !user_num || !rating) {
-      logger.error(' postSquadReview - 400'+ req.body );
+      logger.error(' postSquadReview - 400' );
       return res.status(400).json({ 
         msg: '필수 정보가 입력되지 않았습니다.',
         flag: false
