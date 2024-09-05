@@ -25,7 +25,10 @@ export const postReportUser = async (req: Request, res: Response) => {
     
     if( !writer || !target ){
       logger.error(' postRepostUser - 400 ');
-      return res.status(400).json({ msg : ' 필수 정보가 누락되었습니다 . ' });
+      return res.status(400).json({ 
+        msg : ' 필수 정보가 누락되었습니다 . ',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -39,7 +42,10 @@ export const postReportUser = async (req: Request, res: Response) => {
     if(!checkStatus){
       if (transaction) await transaction.rollback();
       logger.error(' postRepostUser - 404 ');
-      return res.status(404).json({ msg : '대상을 찾을 수 없습니다.' });
+      return res.status(404).json({ 
+        msg : '대상을 찾을 수 없습니다.',
+        flag: false 
+      });
     }
 
     await db.ReportUser.create({
@@ -50,13 +56,19 @@ export const postReportUser = async (req: Request, res: Response) => {
     await transaction.commit();
 
     logger.info(' postRepostUser - 201 ');
-    return res.status(201).json({ msg : '신고 내역을 기록했습니다.' });
+    return res.status(201).json({ 
+      msg : '신고 내역을 기록했습니다.',
+      flag: false 
+    });
 
   } catch (err) {
     logger.error(' postRepostUser - 500 ');
     if (transaction) await transaction.rollback();
     console.error('user 에 대한 신고 내역을 기록하는 중 오류가 발생했습니다.', err);
-    return res.status(500).json({ msg: '신고 내역을 기록하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '신고 내역을 기록하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -68,7 +80,10 @@ export const postReportCommunity = async (req: Request, res: Response) => {
 
     if(!writer || !target){
       logger.error(' postReportCommunity - 400 ');
-      return res.status(400).json({ msg : ' 필수 정보가 누락되었습니다. ' });
+      return res.status(400).json({ 
+        msg : ' 필수 정보가 누락되었습니다. ',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -82,7 +97,10 @@ export const postReportCommunity = async (req: Request, res: Response) => {
     if(!checkStatus){
       if (transaction) await transaction.rollback();
       logger.error(' postReportCommunity - 404 ');
-      return res.status(404).json({ msg : '대상을 찾을 수 없습니다.' });
+      return res.status(404).json({ 
+        msg : '대상을 찾을 수 없습니다.',
+        flag: false 
+      });
     }
 
     await db.CommunityReport.create({
@@ -93,13 +111,19 @@ export const postReportCommunity = async (req: Request, res: Response) => {
     await transaction.commit();
     
     logger.info(' postReportCommunity - 400 ');
-    return res.status(201).json({ msg : '신고 내용을 기록했습니다. '});
+    return res.status(201).json({ 
+      msg : '신고 내용을 기록했습니다. ',
+      flag: false
+    });
   
   } catch (err) {
     logger.error(' postReportCommunity - 500 ');
     if (transaction) await transaction.rollback();
     console.error('community 에 대한 신고 내역을 기록하는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: '신고 내역을 기록하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '신고 내역을 기록하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -111,7 +135,10 @@ export const postReportComment = async (req: Request, res: Response) => {
 
     if( !writer || !target ){
       logger.error(' postReportComment - 400 ');
-      return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg : '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -125,7 +152,10 @@ export const postReportComment = async (req: Request, res: Response) => {
     if(!checkStatus){
       if (transaction) await transaction.rollback();
       logger.error(' postReportComment - 404 ');
-      return res.status(404).json({ msg : '대상을 찾을 수 없습니다.' });
+      return res.status(404).json({ 
+        msg : '대상을 찾을 수 없습니다.',
+        flag: false 
+      });
     }
 
     await db.CommentReport.create({
@@ -136,12 +166,18 @@ export const postReportComment = async (req: Request, res: Response) => {
     await transaction.commit();
     
     logger.info(' postReportComment - 201 ');
-    return res.status(201).json({ msg : '신고 내용을 기록했습니다.' });
+    return res.status(201).json({ 
+      msg : '신고 내용을 기록했습니다.',
+      flag: false 
+    });
 
   } catch (err) {
     logger.error(' postReportComment - 500 ');
     if (transaction) await transaction.rollback();
     console.error('comment 에 대한 신고 내역을 기록하는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: '신고 내역을 기록하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '신고 내역을 기록하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };

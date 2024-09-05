@@ -32,7 +32,10 @@ export const postOpenSquad = async (req: Request, res: Response) => {
 
     if (!user_num || !concert_num ) {
       logger.error(' postOpenSquad - 400 ', req.body);
-      return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -45,7 +48,10 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     
     if (!checkConcert) {
       logger.error(' postOpenSquad - 404 ');
-      return res.status(404).json({ msg: '공연 정보를 찾을 수 없습니다.' });  
+      return res.status(404).json({ 
+        msg: '공연 정보를 찾을 수 없습니다.',
+        flag: false 
+      });  
     };
 
     const checkSquad = await db.SquadInfo.findOne({
@@ -56,7 +62,10 @@ export const postOpenSquad = async (req: Request, res: Response) => {
 
     if (checkSquad) {
       logger.error(' postOpenSquad - 400, 이미 생성된 스쿼드가 있습니다.' );
-      return res.status(400).json({ msg: '이미 생성된 스쿼드가 있습니다.' });  
+      return res.status(400).json({ 
+        msg: '이미 생성된 스쿼드가 있습니다.',
+        flag: false 
+      });  
     };
 
     await db.SquadInfo.create({
@@ -78,12 +87,20 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     await transaction.commit();
 
     logger.info(' postOpenSquad - 201');
-    return res.status(201).json({ msg: '작업이 성공적으로 진행되었습니다.', status, desc :'status 가 1 : 자기소개, mbti, prefer_genre 셋다 등록하지 않은 상태 , 0: 셋중 하나라도 등록한 상태' });
+    return res.status(201).json({ 
+      msg: '작업이 성공적으로 진행되었습니다.', 
+      status, 
+      desc :'status 가 1 : 자기소개, mbti, prefer_genre 셋다 등록하지 않은 상태 , 0: 셋중 하나라도 등록한 상태',
+      flag: false 
+    });
   } catch (err) {
     logger.error(' postOpenSquad - 500' );
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드를 여는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드를 여는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Squad 스쿼드를 여는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 /** 멤버를 추방 하려는 요청 대한 함수
@@ -100,7 +117,10 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     
     if (!user_num || !squad_num ) {
       logger.error(' patchOpenSquad - 400', req.body );
-      return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -114,7 +134,10 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     
     if(user_num !== tempData?.opener_num){
       logger.error(' patchOpenSquad - 403' );
-      return res.status(403).json({msg : '권한이 없는 요청입니다.'});
+      return res.status(403).json({
+        msg : '권한이 없는 요청입니다.',
+        flag: false
+      });
     }    
 
     const squadInfo = await db.SquadInfo.findOne({
@@ -131,13 +154,19 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     await transaction.commit();
     
     logger.info(' patchOpenSquad - 201' );
-    return res.status(201).json({msg: '작업이 성공적으로 진행되었습니다.' });
+    return res.status(201).json({
+      msg: '작업이 성공적으로 진행되었습니다.',
+      flag: false 
+    });
 
   } catch (err) {
     logger.error(' patchOpenSquad - 500' );
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드멤버를 추방하는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드를 추방하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Squad 스쿼드를 추방하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -155,7 +184,10 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     
     if (!user_num || !squad_num ) {
       logger.error(' deleteOpenSquad - 400', req.body );
-      return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
     
     transaction = await db.sequelize.transaction();
@@ -169,7 +201,10 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     
     if(user_num !== tempData?.opener_num){
       logger.error(' deleteOpenSquad - 403' );
-      return res.status(403).json({msg : '권한이 없는 요청입니다.'});
+      return res.status(403).json({
+        msg : '권한이 없는 요청입니다.',
+        flag: false
+      });
     }
 
     await db.SquadInfo.destroy({
@@ -180,13 +215,19 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     await transaction.commit();
     
     logger.info(' deleteOpenSquad - 201' );
-    return res.status(201).json({msg: '작업이 성공적으로 진행되었습니다.' });
+    return res.status(201).json({
+      msg: '작업이 성공적으로 진행되었습니다.',
+      flag: false 
+    });
 
   } catch (err) {
     logger.error(' deleteOpenSquad - 500' );
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드를 닫는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드를 닫는 중 오류가 발생했습니다.' });
+    return res.status(500).json({
+      msg: 'Squad 스쿼드를 닫는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -203,7 +244,10 @@ export const postJoinSquad = async (req: Request, res: Response) => {
     const { squad_num, user_num } = req.body;
     if (!user_num || !squad_num ) {
       logger.error(' postJoinSquad - 400', req.body );
-      return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
     
     transaction = await db.sequelize.transaction();
@@ -217,7 +261,10 @@ export const postJoinSquad = async (req: Request, res: Response) => {
 
     if( checkEmpty?.member_num ){
       logger.error(' postJoinSquad - 403 ');
-      return res.status(403).json({ msg : '이미 가득 찬 스쿼드입니다.' });
+      return res.status(403).json({ 
+        msg : '이미 가득 찬 스쿼드입니다.',
+        flag: false 
+      });
     }
 
     const checkDouble = await db.SquadInfo.findOne({
@@ -229,7 +276,10 @@ export const postJoinSquad = async (req: Request, res: Response) => {
 
     if( checkDouble?.member_num ){
       logger.error(' postJoinSquad - 403');
-      return res.status(403).json({ msg : '이미 가입한 스쿼드가 있습니다.' });
+      return res.status(403).json({ 
+        msg : '이미 가입한 스쿼드가 있습니다.',
+        flag: false
+      });
     }
 
     const squadInfo = await db.SquadInfo.findOne({
@@ -246,12 +296,18 @@ export const postJoinSquad = async (req: Request, res: Response) => {
     await transaction.commit();
 
     logger.info(' postJoinSquad - 201');
-    return res.status(201).json({msg : 'squad 에 참여하는 데 성공했습니다.' });
+    return res.status(201).json({
+      msg : 'squad 에 참여하는 데 성공했습니다.',
+      flag: false 
+    });
 
   } catch (err) {
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드에 참여하는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드에 참여하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Squad 스쿼드에 참여하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -269,7 +325,10 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
 
     if (!user_num || !squad_num ) {
       logger.error(' deleteLeaveSquad - 400', req.body);
-      return res.status(400).json({ msg: '필수 정보가 누락되었습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -283,7 +342,10 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     
     if( tempData?.member_num !== user_num ){
       logger.error(' deleteLeaveSquad - 403');
-      return res.status(403).json({ msg : '권한이 없는 접근입니다.' });
+      return res.status(403).json({ 
+        msg : '권한이 없는 접근입니다.',
+        flag: false 
+      });
     }
 
     const squadInfo = await db.SquadInfo.findOne({
@@ -300,13 +362,19 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     await transaction.commit();
 
     logger.info(' deleteLeaveSquad - 201');
-    return res.status(201).json({ msg: 'Squad 스쿼드를 떠나는 데 성공했습니다.' }); 
+    return res.status(201).json({ 
+      msg: 'Squad 스쿼드를 떠나는 데 성공했습니다.',
+      flag: false 
+    }); 
     
   } catch (err) {
     logger.error(' deleteLeaveSquad - 500');
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드를 떠나는 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드를 떠나는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Squad 스쿼드를 떠나는 중 오류가 발생했습니다.',
+      flag: false
+    });
   }
 };
 
@@ -324,7 +392,10 @@ export const postSquadReview = async (req: Request, res: Response) => {
 
     if (!squad_num || !user_num || !rating) {
       logger.error(' postSquadReview - 400', req.body );
-      return res.status(400).json({ msg: '필수 정보가 입력되지 않았습니다.' });
+      return res.status(400).json({ 
+        msg: '필수 정보가 입력되지 않았습니다.',
+        flag: false
+      });
     }
 
     transaction = await db.sequelize.transaction();
@@ -338,7 +409,10 @@ export const postSquadReview = async (req: Request, res: Response) => {
     if (!checkSquad || (checkSquad.opener_num !== user_num && checkSquad.member_num !== user_num)) {
       await transaction.rollback();
       logger.error(' postSquadReview - 403' );
-      return res.status(403).json({ msg: '권한이 없는 접근입니다.' });  
+      return res.status(403).json({ 
+        msg: '권한이 없는 접근입니다.',
+        flag: false 
+      });  
     }
 
     const isOpener = checkSquad.opener_num === user_num;
@@ -347,7 +421,10 @@ export const postSquadReview = async (req: Request, res: Response) => {
     if (!targetUser) {
       await transaction.rollback();
       logger.error(' postSquadReview - 404' );
-      return res.status(404).json({ msg: '참여한 스쿼드를 찾을 수 없습니다.' });
+      return res.status(404).json({
+        msg: '참여한 스쿼드를 찾을 수 없습니다.',
+        flag: false 
+      });
     }
 
     await db.UserReview.create({
@@ -382,11 +459,17 @@ export const postSquadReview = async (req: Request, res: Response) => {
     await transaction.commit();
     
     logger.info(' postSquadReview - 201' );
-    return res.status(201).json({ msg: '작업이 성공적으로 종료되었습니다.' });
+    return res.status(201).json({ 
+      msg: '작업이 성공적으로 종료되었습니다.',
+      flag: false 
+    });
   } catch (err) {
     logger.error(' postSquadReview - 500' );
     if (transaction) await transaction.rollback();
     console.error('Squad 스쿼드를 평가하던 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Squad 스쿼드를 평가하던 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Squad 스쿼드를 평가하던 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };

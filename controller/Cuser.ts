@@ -20,7 +20,13 @@ export const postUser = async (req: Request, res: Response) => {
         const { user_id, user_pw, user_gender, user_bd } = req.body;
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
         let profile_img : string = '';
-
+        console.log('user_id',user_id);
+        console.log('user_pw',user_pw);
+        console.log('user_gender',user_gender);
+        console.log('user_bd', user_bd);
+                
+        
+        
         if(!user_id||!user_pw||!user_gender||!user_bd){
             logger.error(' postUser - 400 ', req.body );
             return res.status(400).json({  
@@ -67,7 +73,7 @@ export const postLogin = async (req: Request, res: Response) => {
             logger.info(' postLogin - 400', req.body);
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
-        
+
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
@@ -90,8 +96,8 @@ export const postLogin = async (req: Request, res: Response) => {
                 flag: false,
                 msg: "PW is not correct"
             });
-        } 
-        
+        }
+
         if (!user.activate) {
             logger.error(' postUser - 401');
             return res.status(401).json({
@@ -214,17 +220,26 @@ export const postLogout = async (req: Request, res: Response) => {
             if (err) {
                 console.error(err);
                 logger.error('postLogout - 500');
-                return res.status(500).json({ msg: 'fail' });
+                return res.status(500).json({ 
+                    msg: 'fail',
+                    flag: false
+                });
             }
             
             res.clearCookie('connect.sid');
             logger.info('postLogout - 200');
-            return res.status(200).json({ msg: 'success' });
+            return res.status(200).json({ 
+                msg: 'success',
+                flag: false
+            });
         });
     } catch (err) {
         logger.error('postLogout - 500');
         console.error(err);
-        res.status(500).json({ msg: 'fail' });
+        res.status(500).json({ 
+            msg: 'fail',
+            flag: false 
+        });
     }
 }
 
@@ -236,17 +251,26 @@ export const deleteUser = async (req: Request, res: Response) => {
 
         if(!user_num){
             logger.error(' deleteUser - 204', req.body );
-            return res.status(400).json({ msg : ' 필수 정보가 누락되었습니다. ' });
+            return res.status(400).json({ 
+                msg : ' 필수 정보가 누락되었습니다. ',
+                flag: false 
+            });
         }
 
         if(user_num === parseInt(process.env.ADMIN_ID as string)){
             logger.error(' deleteUser - 403');
-            return res.status(403).json({ msg: 'can not delete user' });    
+            return res.status(403).json({ 
+                msg: 'can not delete user',
+                flag: false 
+            });    
         }
 
         if (user_num !== (req.session as any).user?.user_num) {
             logger.error(' deleteUser - 403');
-            return res.status(403).json({ msg: 'Unauthorized' });
+            return res.status(403).json({ 
+                msg: 'Unauthorized',
+                flag: false 
+            });
         }
 
         const [updatedRows] = await db.User.update(
@@ -256,24 +280,36 @@ export const deleteUser = async (req: Request, res: Response) => {
 
         if (!updatedRows) {
             logger.error(' deleteUser - 404');
-            return res.status(404).json({ msg: 'User not found' });
+            return res.status(404).json({ 
+                msg: 'User not found',
+                flag: false 
+            });
         }
 
         req.session.destroy((err) => {
             if (err) {
                 console.error('Session destruction error:', err);
                 logger.error(' deleteUser - 500');
-                return res.status(500).json({ msg: 'Internal server error' });
+                return res.status(500).json({ 
+                    msg: 'Internal server error',
+                    flag: false 
+                });
             }
             res.clearCookie('connect.sid');
             logger.info(' deleteUser - 204');
-            res.json({ msg: 'User deactivated successfully' });
+            res.json({ 
+                msg: 'User deactivated successfully',
+                flag: false 
+            });
         });
 
     } catch (err) {
         logger.error(' deleteUser - 500');
         console.error('User deletion error:', err);
-        return res.status(500).json({ msg: 'Internal server error' });
+        return res.status(500).json({ 
+            msg: 'Internal server error',
+            flag: false 
+        });
     }
 };
 
@@ -284,7 +320,10 @@ export const patchUser = async (req: Request, res: Response) => {
         
         if (!isLogin) {
             logger.error(' patchUser - 401 ', req.session );
-            return res.status(401).json({ msg: "Not logged in" });
+            return res.status(401).json({ 
+                msg: "Not logged in",
+                flag: false 
+            });
         }
 
         const { user_num, prefer_genre, mbti, introduce, user_gender, user_bd } = req.body;
@@ -295,7 +334,10 @@ export const patchUser = async (req: Request, res: Response) => {
 
         if (!user) {
             logger.error(' patchUser - 404');
-            return res.status(404).json({ msg: "User not found" });
+            return res.status(404).json({ 
+                msg: "User not found",
+                flag: false 
+            });
         }
 
         let updatedFields: UpdatedUserFields = {
@@ -314,16 +356,25 @@ export const patchUser = async (req: Request, res: Response) => {
 
         if (updateCount > 0) {
             logger.info(' patchUser - 201');
-            return res.json({ msg: "success" });
+            return res.json({ 
+                msg: "success",
+                flag: false 
+            });
         } else {
             logger.error(' patchUser - 400');
-            return res.status(400).json({ msg: "No changes made" });
+            return res.status(400).json({
+                msg: "No changes made",
+                flag: false 
+            });
         }
             
     } catch (err) {
         logger.error(' patchUser - 500');
         console.error(err);
-        res.status(500).json({ msg: "Internal server error" });
+        res.status(500).json({ 
+            msg: "Internal server error",
+            flag: false 
+        });
     }
 };
 
@@ -337,12 +388,18 @@ export const patchPassword= async (req: Request, res: Response) => {
 
         if(!user){
             logger.info('patchPassword - 404' );
-            return res.status(404).json({ msg : '대상을 찾을 수 없습니다.' });    
+            return res.status(404).json({ 
+                msg : '대상을 찾을 수 없습니다.',
+                flag: false 
+            });    
         }
 
         if(!old_pw || !new_pw ){
             logger.info('patchPassword - 400', req.body );
-            return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+            return res.status(400).json({ 
+                msg : '필수 정보가 누락되었습니다.',
+                flag: false 
+            });
         }
 
         let updatedFields: UpdatedPasswordFields = {};
@@ -372,12 +429,18 @@ export const patchPassword= async (req: Request, res: Response) => {
         });
         
         logger.info(' patchUser - 201');
-        return res.status(201).json({ msg: "success" });
+        return res.status(201).json({ 
+            msg: "success",
+            flag: false 
+        });
 
     } catch (err) {
         logger.error(' patchPassword - 500');
         console.error(err);
-        res.status(500).json({ msg: "Internal server error" });
+        res.status(500).json({ 
+            msg: "Internal server error",
+            flag: false 
+        });
     }
 }
 
