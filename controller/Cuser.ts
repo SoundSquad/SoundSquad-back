@@ -86,6 +86,11 @@ export const postLogin = async (req: Request, res: Response) => {
         const user_num = user.user_num;
 
         const isPwCorrect = bcrypt.compareSync(user_pw, user.user_pw);
+        console.log('isPwCorrect >>>>', isPwCorrect);
+        console.log( user.user_pw);
+        
+        
+        
         if (!isPwCorrect) {
             logger.error(' postUser - 401');
             return res.status(401).json({
