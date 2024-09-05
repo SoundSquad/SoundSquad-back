@@ -3,7 +3,7 @@ import logger from './config/loggerConfig';
 
 import sequelize  from './models';
 import cors from 'cors';
-import session from 'express-session';
+import session,{ MemoryStore } from 'express-session';
 import router from './routes/Rindex';
 
 import app from './config/winstonConfig';
@@ -28,36 +28,35 @@ app.use(cors({
 const today = new Date()
 const expireDate = new Date()
 expireDate.setDate(today.getDate() + 1)
+const sessionStore = new MemoryStore();
 
 app.use(session({
     secret : process.env.COOKIE_SECRET || 'default_secret_session_key ' , 
     resave : false, 
     saveUninitialized : false, 
     cookie : {
-      httpOnly :true,
-      secure : false,
-      expires : expireDate
+        httpOnly :true,
+        secure : false,
+        expires : expireDate
     }    
 }));
 
-
-const sessionLoggingMiddleware = (req : Request, res :Response, next : NextFunction ) => {
-    logger.info('Session Data:', {
-        sessionID: req.sessionID,
-        sessionData: req.session,
-        user: (req.session as any).user || null,
-        url: req.url,
-        method: req.method
-    });
+app.use((req, res, next) => {
+    if (req.sessionStore && typeof req.sessionStore.all === 'function') {
+        req.sessionStore.all((err, sessions) => {
+            if (err) {
+                logger.error('세션 조회 중 오류 발생:', err);
+                console.error('세션 조회 중 오류 발생:', err);
+            } else {
+                console.log('전체 세션 데이터:', sessions);
+                console.log('활성 세션 수:', Object.keys(sessions || {}).length);
+            }
+            next();
+        });
+    } else {
         next();
-    };
-    
-    app.use(sessionLoggingMiddleware);
-
-app.get('/',(req,res)=>{
-    logger.info('홈 페이지 방문');
-    res.send('hello');
-})
+    }
+});
 
 router(app);
 

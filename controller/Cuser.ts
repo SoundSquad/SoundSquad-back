@@ -28,7 +28,7 @@ export const postUser = async (req: Request, res: Response) => {
         
         
         if(!user_id||!user_pw||!user_gender||!user_bd){
-            logger.error(' postUser - 400 '+ req.body );
+            logger.error(' postUser - 400 ' );
             return res.status(400).json({  
                 flag: false, 
                 msg : '필수 정보가 누락되었습니다.' 
@@ -73,7 +73,7 @@ export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
         if( !user_id || !user_pw ){
-            logger.info(' postLogin - 400'+ req.body);
+            logger.info(' postLogin - 400');
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
 
@@ -253,7 +253,7 @@ export const deleteUser = async (req: Request, res: Response) => {
         const { user_num } = req.body;
 
         if(!user_num){
-            logger.error(' deleteUser - 400'+ req.body );
+            logger.error(' deleteUser - 400' );
             return res.status(400).json({ 
                 msg : ' 필수 정보가 누락되었습니다. ',
                 flag: false 
@@ -398,7 +398,7 @@ export const patchPassword= async (req: Request, res: Response) => {
         }
 
         if(!old_pw || !new_pw ){
-            logger.info('patchPassword - 400'+ req.body );
+            logger.info('patchPassword - 400' );
             return res.status(400).json({ 
                 msg : '필수 정보가 누락되었습니다.',
                 flag: false 

@@ -21,7 +21,7 @@ export const getProfileData = async (req: Request, res: Response) => {
     const user_num = parseInt(req.query.user_num as string);
 
     if (isNaN(user_num) || user_num <= 0) {
-      logger.error(' getProfileData - 400 '+ req.body);
+      logger.error(' getProfileData - 400 ');
       return res.status(400).json({ 
         msg: '유효한 대상을 입력해주세요',
         flag: false

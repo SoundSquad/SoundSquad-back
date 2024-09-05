@@ -33,7 +33,7 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
     
 
     if(!targetUserNum){
-      logger.error(' getMypageUserInfo - 400 '+ req.query +'//now User :'+ nowUser );
+      logger.error(' getMypageUserInfo - 400 ' );
       return res.status(400).json({ 
         msg : '필수 정보가 누락되었습니다. ',
         flag: false 
@@ -93,7 +93,7 @@ export const getMypagePost = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypagePost - 400 '+ req.query);
+      logger.error(' getMypagePost - 400 ');
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false 
@@ -164,7 +164,7 @@ export const getMypageComment = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypageComment - 400 '+ req.query);
+      logger.error(' getMypageComment - 400 ');
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false 
@@ -233,7 +233,7 @@ export const getMyPageReview = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypageReview - 400 '+ req.query);
+      logger.error(' getMypageReview - 400 ');
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false
@@ -311,7 +311,7 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
     const currentDate = new Date();
 
     if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
-      logger.error(' getMypageOpenSquad - 400 '+ req.query );
+      logger.error(' getMypageOpenSquad - 400 ' );
       return res.status(400).json({ 
         msg: '유효하지 않은 입력값입니다.',
         flag: false 
@@ -400,7 +400,7 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
     const currentDate = new Date();
 
     if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
-      logger.error(' getMypageJoinSquad - 400 '+ req.query);
+      logger.error(' getMypageJoinSquad - 400 ');
       return res.status(400).json({ 
         msg: '유효하지 않은 입력값입니다.' 
       });

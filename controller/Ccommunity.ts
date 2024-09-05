@@ -32,7 +32,7 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if( !page || !pageSize){
-      logger.error('getCommunityPosts - 400 '+ req.body );
+      logger.error('getCommunityPosts - 400 ' );
       return res.status(400).json({ msg : '필수 값이 누락되었습니다.' })
     }
 
@@ -93,7 +93,7 @@ export const getCommunityPost = async (req: Request, res: Response) => {
     const articleNum = parseInt(req.query.article_num as string);
 
     if (isNaN(articleNum)) {
-      logger.error('getCommunityPost - 400 '+ req.body);
+      logger.error('getCommunityPost - 400 ');
       return res.status(400).json({ 
         msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.',
         flag: false 
@@ -137,7 +137,7 @@ export const getCommunityPostCommentList = async (req: Request, res: Response) =
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if (isNaN(articleNum)) {
-      logger.error('getCommunityPostCommentList - 400 '+ req.body);
+      logger.error('getCommunityPostCommentList - 400 ');
       return res.status(400).json({ 
         msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.',
         flag: false 
@@ -145,7 +145,7 @@ export const getCommunityPostCommentList = async (req: Request, res: Response) =
     }
     
     if( !page || !pageSize){
-      logger.error('getCommunityPostCommentList - 400 '+ req.body );
+      logger.error('getCommunityPostCommentList - 400 ' );
       return res.status(400).json({ 
         msg : '필수 값이 누락되었습니다.',
         flag: false 
@@ -216,7 +216,7 @@ export const postCommunityPost = async( req:Request, res:Response )=>{
     }
 
     if (!user_num || !category || !article_title || !article_content) {
-      logger.error('postCommunityPost - 400 '+ req.body);
+      logger.error('postCommunityPost - 400 ');
       return res.status(400).json({ 
         msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.',
         flag: false
@@ -262,7 +262,7 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
     const user_num = getUserNum(req);
 
     if (!user_num || !article_num || !category || !article_title || !article_content) {
-      logger.error('patchCommunityPost - 400 '+ req.body);
+      logger.error('patchCommunityPost - 400 ');
       return res.status(400).json({ 
         msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.',
         flag: false
@@ -340,7 +340,7 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
     const article_num = req.body.article_num|| undefined;
 
     if(!user_num || !article_num ){
-      logger.error('deleteCommunityPost - 400 '+ req.body);
+      logger.error('deleteCommunityPost - 400 ');
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
     }
 
@@ -407,7 +407,7 @@ export const postCommunityComment = async (req: Request, res: Response) => {
     }
 
     if (!article_num || !comment_content) {
-      logger.error('postCommunityComment - 400 '+ req.body);
+      logger.error('postCommunityComment - 400 ');
       return res.status(400).json({ 
         msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.',
         flag: false 
@@ -477,7 +477,7 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
     const comment_num = req.body?.comment_num || undefined;
     
     if (!user_num || !comment_num || !comment_content ) {
-      logger.error('patchCommunityComment - 400 '+ req.body);
+      logger.error('patchCommunityComment - 400 ');
       return res.status(400).json({ 
         msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.',
         flag: false 
@@ -542,7 +542,7 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
     const user_num = getUserNum(req);
 
     if(!comment_num || !user_num){
-      logger.error('deleteCommunityComment - 400 '+ req.body);
+      logger.error('deleteCommunityComment - 400 ');
       return res.status(400).json({ 
         msg : '필수 정보가 누락되었습니다. ',
         flag: false 
