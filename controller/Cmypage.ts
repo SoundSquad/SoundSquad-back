@@ -33,7 +33,7 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
     
 
     if(!targetUserNum){
-      logger.error(' getMypageUserInfo - 400 ', req.query, nowUser );
+      logger.error(' getMypageUserInfo - 400 '+ req.query +'//now User :'+ nowUser );
       return res.status(400).json({ 
         msg : '필수 정보가 누락되었습니다. ',
         flag: false 
@@ -65,7 +65,9 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
     return res.status(200).json({ 
       msg : '정보를 성공적으로 조회했습니다.',
       data : result,
-      flag: false });
+      flag: true 
+    });
+
   } catch (err) {
     logger.error(' getMypageUserInfo - 500 ');
     console.error('Mypage 유저 정보를 불러오는 중 오류 발생했습니다.', err);
@@ -91,7 +93,7 @@ export const getMypagePost = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypagePost - 400 ', req.query);
+      logger.error(' getMypagePost - 400 '+ req.query);
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false 
@@ -134,7 +136,7 @@ export const getMypagePost = async (req: Request, res: Response) => {
     return res.status(200).json({
       msg : '게시글 목록을 성공적으로 불러왔습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -162,7 +164,7 @@ export const getMypageComment = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypageComment - 400 ', req.query);
+      logger.error(' getMypageComment - 400 '+ req.query);
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false 
@@ -203,7 +205,8 @@ export const getMypageComment = async (req: Request, res: Response) => {
     logger.info(' getMypageComment - 200 ');
     return res.status(200).json({
       msg : '댓글 목록을 성공적으로 불러왔습니다.', 
-      data : result 
+      data : result,
+      flag : true 
     });
 
   } catch (err) {
@@ -230,7 +233,7 @@ export const getMyPageReview = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if(!targetUserNum || !page || !pageSize ){
-      logger.error(' getMypageReview - 400 ', req.query);
+      logger.error(' getMypageReview - 400 '+ req.query);
       return res.status(400).json({ 
         msg : '누락된 필수 항목이 있습니다.',
         flag: false
@@ -279,7 +282,7 @@ export const getMyPageReview = async (req: Request, res: Response) => {
     return res.status(200).json({
       msg : '리뷰 목록을 성공적으로 불러왔습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -368,7 +371,7 @@ export const getMypageOpenSquad = async (req: Request, res: Response) => {
     logger.info(' getMypageOpenSquad - 200 ');
     return res.status(200).json({ 
       msg: '목록을 성공적으로 불러왔습니다.', 
-      data: result 
+      data: true 
     });
 
   } catch (err) {
@@ -397,7 +400,7 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
     const currentDate = new Date();
 
     if (isNaN(targetUserNum) || isNaN(page) || isNaN(pageSize) || targetUserNum <= 0 || page <= 0 || pageSize <= 0) {
-      logger.error(' getMypageJoinSquad - 400 ', req.query);
+      logger.error(' getMypageJoinSquad - 400 '+ req.query);
       return res.status(400).json({ 
         msg: '유효하지 않은 입력값입니다.' 
       });
@@ -456,7 +459,7 @@ export const getMypageJoinSquad = async (req: Request, res: Response) => {
     return res.status(200).json({ 
       msg: '목록을 성공적으로 불러왔습니다.', 
       data: result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {

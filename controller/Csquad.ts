@@ -31,7 +31,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
     let status : number = 0;
 
     if (!user_num || !concert_num ) {
-      logger.error(' postOpenSquad - 400 ', req.body);
+      logger.error(' postOpenSquad - 400 '+ req.body);
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -91,7 +91,7 @@ export const postOpenSquad = async (req: Request, res: Response) => {
       msg: '작업이 성공적으로 진행되었습니다.', 
       status, 
       desc :'status 가 1 : 자기소개, mbti, prefer_genre 셋다 등록하지 않은 상태 , 0: 셋중 하나라도 등록한 상태',
-      flag: false 
+      flag: true 
     });
   } catch (err) {
     logger.error(' postOpenSquad - 500' );
@@ -116,7 +116,7 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     const { squad_num, user_num } = req.body;
     
     if (!user_num || !squad_num ) {
-      logger.error(' patchOpenSquad - 400', req.body );
+      logger.error(' patchOpenSquad - 400'+ req.body );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -156,7 +156,7 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
     logger.info(' patchOpenSquad - 201' );
     return res.status(201).json({
       msg: '작업이 성공적으로 진행되었습니다.',
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -183,7 +183,7 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     const { squad_num, user_num } = req.body;
     
     if (!user_num || !squad_num ) {
-      logger.error(' deleteOpenSquad - 400', req.body );
+      logger.error(' deleteOpenSquad - 400'+ req.body );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -217,7 +217,7 @@ export const deleteOpenSquad = async (req: Request, res: Response) => {let trans
     logger.info(' deleteOpenSquad - 201' );
     return res.status(201).json({
       msg: '작업이 성공적으로 진행되었습니다.',
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -243,7 +243,7 @@ export const postJoinSquad = async (req: Request, res: Response) => {
   try {
     const { squad_num, user_num } = req.body;
     if (!user_num || !squad_num ) {
-      logger.error(' postJoinSquad - 400', req.body );
+      logger.error(' postJoinSquad - 400'+ req.body );
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -298,7 +298,7 @@ export const postJoinSquad = async (req: Request, res: Response) => {
     logger.info(' postJoinSquad - 201');
     return res.status(201).json({
       msg : 'squad 에 참여하는 데 성공했습니다.',
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -324,7 +324,7 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     const { squad_num, user_num } = req.body;
 
     if (!user_num || !squad_num ) {
-      logger.error(' deleteLeaveSquad - 400', req.body);
+      logger.error(' deleteLeaveSquad - 400'+ req.body);
       return res.status(400).json({ 
         msg: '필수 정보가 누락되었습니다.',
         flag: false 
@@ -364,7 +364,7 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
     logger.info(' deleteLeaveSquad - 201');
     return res.status(201).json({ 
       msg: 'Squad 스쿼드를 떠나는 데 성공했습니다.',
-      flag: false 
+      flag: true 
     }); 
     
   } catch (err) {
@@ -391,7 +391,7 @@ export const postSquadReview = async (req: Request, res: Response) => {
     const { squad_num, user_num, rating } = req.body;
 
     if (!squad_num || !user_num || !rating) {
-      logger.error(' postSquadReview - 400', req.body );
+      logger.error(' postSquadReview - 400'+ req.body );
       return res.status(400).json({ 
         msg: '필수 정보가 입력되지 않았습니다.',
         flag: false
@@ -461,7 +461,7 @@ export const postSquadReview = async (req: Request, res: Response) => {
     logger.info(' postSquadReview - 201' );
     return res.status(201).json({ 
       msg: '작업이 성공적으로 종료되었습니다.',
-      flag: false 
+      flag: true 
     });
   } catch (err) {
     logger.error(' postSquadReview - 500' );

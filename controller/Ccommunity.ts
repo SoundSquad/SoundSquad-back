@@ -32,7 +32,7 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if( !page || !pageSize){
-      logger.error('getCommunityPosts - 400 ', req.body );
+      logger.error('getCommunityPosts - 400 '+ req.body );
       return res.status(400).json({ msg : '필수 값이 누락되었습니다.' })
     }
 
@@ -64,7 +64,7 @@ export const getCommunityPosts = async ( req: Request, res: Response ) => {
     return res.status(200).json({
       msg : '게시글 목록을 성공적으로 불러왔습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -93,7 +93,7 @@ export const getCommunityPost = async (req: Request, res: Response) => {
     const articleNum = parseInt(req.query.article_num as string);
 
     if (isNaN(articleNum)) {
-      logger.error('getCommunityPost - 400 ', req.body);
+      logger.error('getCommunityPost - 400 '+ req.body);
       return res.status(400).json({ 
         msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.',
         flag: false 
@@ -117,7 +117,7 @@ export const getCommunityPost = async (req: Request, res: Response) => {
     return res.status(200).json({ 
       msg: '게시글을 성공적으로 불러왔습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -137,7 +137,7 @@ export const getCommunityPostCommentList = async (req: Request, res: Response) =
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if (isNaN(articleNum)) {
-      logger.error('getCommunityPostCommentList - 400 ', req.body);
+      logger.error('getCommunityPostCommentList - 400 '+ req.body);
       return res.status(400).json({ 
         msg: '조회할 게시글의 유효한 식별번호를 입력해야 합니다.',
         flag: false 
@@ -145,7 +145,7 @@ export const getCommunityPostCommentList = async (req: Request, res: Response) =
     }
     
     if( !page || !pageSize){
-      logger.error('getCommunityPostCommentList - 400 ', req.body );
+      logger.error('getCommunityPostCommentList - 400 '+ req.body );
       return res.status(400).json({ 
         msg : '필수 값이 누락되었습니다.',
         flag: false 
@@ -181,7 +181,7 @@ export const getCommunityPostCommentList = async (req: Request, res: Response) =
     return res.status(200).json({ 
       msg: '댓글 목록을 성공적으로 불러왔습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -216,7 +216,7 @@ export const postCommunityPost = async( req:Request, res:Response )=>{
     }
 
     if (!user_num || !category || !article_title || !article_content) {
-      logger.error('postCommunityPost - 400 ', req.body);
+      logger.error('postCommunityPost - 400 '+ req.body);
       return res.status(400).json({ 
         msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.',
         flag: false
@@ -234,7 +234,7 @@ export const postCommunityPost = async( req:Request, res:Response )=>{
     logger.info('postCommunityPost - 201 ');
     return res.status(201).json({
       msg : '게시글을 성공적으로 작성했습니다.',
-      flag: false
+      flag: true
     });
   }catch(err){
     logger.error('postCommunityPost - 500 ');
@@ -262,7 +262,7 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
     const user_num = getUserNum(req);
 
     if (!user_num || !article_num || !category || !article_title || !article_content) {
-      logger.error('patchCommunityPost - 400 ', req.body);
+      logger.error('patchCommunityPost - 400 '+ req.body);
       return res.status(400).json({ 
         msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.',
         flag: false
@@ -311,7 +311,7 @@ export const patchCommunityPost = async (req: Request, res: Response) => {
     logger.info('patchCommunityPost - 201 ');  
     return res.status(201).json({ 
       msg : '게시글이 성공적으로 수정되었습니다.',
-      flag: false
+      flag: true
     });
 
   } catch (err) {
@@ -340,7 +340,7 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
     const article_num = req.body.article_num|| undefined;
 
     if(!user_num || !article_num ){
-      logger.error('deleteCommunityPost - 400 ',req.body);
+      logger.error('deleteCommunityPost - 400 '+ req.body);
       return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
     }
 
@@ -373,7 +373,9 @@ export const deleteCommunityPost = async( req : Request, res: Response )=>{
     }
 
     logger.info('deleteCommunityPost - 201 ');
-    return res.status(201).json({ msg : '게시글이 성공적으로 삭제되었습니다.' });
+    return res.status(201).json({ 
+      msg : '게시글이 성공적으로 삭제되었습니다.'
+    });
 
   } catch (err) {
     logger.error('deleteCommunityPost - 500 ');
@@ -398,12 +400,18 @@ export const postCommunityComment = async (req: Request, res: Response) => {
 
     if (!user_num) {
       logger.error('postCommunityComment - 403 ');
-      return res.status(403).json({ msg: '댓글 작성 권한이 없습니다.' });
+      return res.status(403).json({ 
+        msg: '댓글 작성 권한이 없습니다.',
+        flag: false
+    });
     }
 
     if (!article_num || !comment_content) {
-      logger.error('postCommunityComment - 400 ', req.body);
-      return res.status(400).json({ msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.' });
+      logger.error('postCommunityComment - 400 '+ req.body);
+      return res.status(400).json({ 
+        msg: '필수 데이터 중 입력되지 않은 데이터가 있습니다.',
+        flag: false 
+      });
     }
 
     // 사용자 존재 여부 확인
@@ -413,7 +421,10 @@ export const postCommunityComment = async (req: Request, res: Response) => {
 
     if (!user) {
       logger.error('postCommunityComment - 404 ');
-      return res.status(404).json({ msg: '해당 사용자가 존재하지 않습니다.' });
+      return res.status(404).json({ 
+        msg: '해당 사용자가 존재하지 않습니다.',
+        flag: false 
+      });
     }
 
     // 게시글 존재 여부 확인
@@ -422,7 +433,10 @@ export const postCommunityComment = async (req: Request, res: Response) => {
     });
     if (!article) {
       logger.error('postCommunityComment - 404 ');
-      return res.status(404).json({ msg: '해당 게시글이 존재하지 않습니다.' });
+      return res.status(404).json({ 
+        msg: '해당 게시글이 존재하지 않습니다.',
+        flag: false 
+      });
     }
 
     await db.Comment.create({
@@ -433,11 +447,17 @@ export const postCommunityComment = async (req: Request, res: Response) => {
     });
 
     logger.info('postCommunityComment - 201 ');
-    return res.status(201).json({ msg: '댓글을 성공적으로 작성했습니다.' });
+    return res.status(201).json({ 
+      msg: '댓글을 성공적으로 작성했습니다.',
+      flag: true 
+    });
   } catch (err) {
     logger.error('postCommunityComment - 500 ');
     console.error('Community 댓글 작성 중 오류가 발생했습니다. :', err);
-    return res.status(500).json({ msg: 'Community 댓글 작성 중 오류가 발생했습니다.' });
+    return res.status(500).json({
+      msg: 'Community 댓글 작성 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -457,8 +477,11 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
     const comment_num = req.body?.comment_num || undefined;
     
     if (!user_num || !comment_num || !comment_content ) {
-      logger.error('patchCommunityComment - 400 ', req.body);
-      return res.status(400).json({ msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.' });
+      logger.error('patchCommunityComment - 400 '+ req.body);
+      return res.status(400).json({ 
+        msg: '필수 데이터 중 전송되지 않은 데이터가 있습니다.',
+        flag: false 
+      });
     }
     
     const target = await db.Comment.findOne({
@@ -468,12 +491,18 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
     
     if (!target) {
       logger.error('patchCommunityComment - 404 ');
-      return res.status(404).json({ msg : '댓글이 이미 삭제되었거나 존재하지 않습니다.' });
+      return res.status(404).json({ 
+        msg : '댓글이 이미 삭제되었거나 존재하지 않습니다.',
+        flag: false 
+      });
     }
     
     if (target.user_num !== user_num) { //target.user_num : 수정 대상의 작성자, user_num : 현재 접속자
       logger.error('patchCommunityComment - 403 ');
-      return res.status(403).json({ msg : '댓글 수정 권한이 없습니다.' });
+      return res.status(403).json({ 
+        msg : '댓글 수정 권한이 없습니다.',
+        flag: false 
+      });
     }
 
     const updateTarget: UpdateTargetComment = {
@@ -485,11 +514,17 @@ export const patchCommunityComment = async( req:Request, res:Response )=>{
     });
 
     logger.info('patchCommunityComment - 201 ');
-    return res.status(201).json({ msg : '댓글이 성공적으로 수정되었습니다.' });
+    return res.status(201).json({ 
+      msg : '댓글이 성공적으로 수정되었습니다.',
+      flag: true 
+    });
 
   } catch (err) {
     console.error('Community 댓글 수정 중 오류가 발생했습니다. :', err);
-    return res.status(500).json({ msg : 'Community 댓글 수정 중 오류가 발생했습니다.' });    
+    return res.status(500).json({ 
+      msg : 'Community 댓글 수정 중 오류가 발생했습니다.',
+      flag: false 
+    });    
   }
 };
 
@@ -507,8 +542,11 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
     const user_num = getUserNum(req);
 
     if(!comment_num || !user_num){
-      logger.error('deleteCommunityComment - 400 ', req.body);
-      return res.status(400).json({ msg : '필수 정보가 누락되었습니다. ' });  
+      logger.error('deleteCommunityComment - 400 '+ req.body);
+      return res.status(400).json({ 
+        msg : '필수 정보가 누락되었습니다. ',
+        flag: false 
+      });  
     }
     
     const target = await db.Comment.findOne({
@@ -518,12 +556,18 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
       
     if (!target) {
       logger.error('deleteCommunityComment - 404 ');
-      return res.status(404).json({ msg : '댓글이 이미 삭제되었거나 존재하지 않습니다.' });
+      return res.status(404).json({ 
+        msg : '댓글이 이미 삭제되었거나 존재하지 않습니다.',
+        flag: false 
+      });
     }
     
     if (target.user_num !== user_num) {
       logger.error('deleteCommunityComment - 403 ');
-      return res.status(403).json({ msg : '댓글 삭제 권한이 없습니다.' });
+      return res.status(403).json({
+        msg : '댓글 삭제 권한이 없습니다.',
+        flag: false 
+      });
     }
 
     const deleteTarget: DeleteTarget = {
@@ -535,11 +579,17 @@ export const deleteCommunityComment = async( req : Request, res: Response )=>{
     });
 
     logger.info('deleteCommunityComment - 201 ');
-    return res.status(201).json({ msg : '댓글이 성공적으로 삭제되었습니다.' });
+    return res.status(201).json({ 
+      msg : '댓글이 성공적으로 삭제되었습니다.',
+      flag: true 
+    });
 
   } catch (err) {
     logger.error('deleteCommunityComment - 500 ');
     console.error('Community 댓글 삭제 중 오류가 발생했습니다. :', err);
-    return res.status(500).json({ msg : 'Community 게시판에 댓글을 삭제하는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg : 'Community 게시판에 댓글을 삭제하는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   } 
 };

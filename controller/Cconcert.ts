@@ -28,7 +28,7 @@ export const postConcertReview = async (req: Request, res: Response) => {
     const {user_num, concert_num, creview_content } = req.body;
     
     if(!user_num || !concert_num || !creview_content ){
-      logger.error(' postConcertReview - 400 ', req.body );
+      logger.error(' postConcertReview - 400 '+ req.body );
       return res.status(400).json({ 
         msg : '필수 정보가 누락되었습니다.',
         flag: false 
@@ -60,7 +60,7 @@ export const postConcertReview = async (req: Request, res: Response) => {
     return res.status(201).json({ 
       msg : '리뷰를 성공적으로 작성했습니다.', 
       data : result,
-      flag: false 
+      flag: true 
     });
   } catch (err) {
     logger.error(' postConcertReview - 500 ');    

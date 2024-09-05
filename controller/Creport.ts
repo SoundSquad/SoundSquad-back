@@ -58,7 +58,7 @@ export const postReportUser = async (req: Request, res: Response) => {
     logger.info(' postRepostUser - 201 ');
     return res.status(201).json({ 
       msg : '신고 내역을 기록했습니다.',
-      flag: false 
+      flag: true 
     });
 
   } catch (err) {
@@ -112,8 +112,8 @@ export const postReportCommunity = async (req: Request, res: Response) => {
     
     logger.info(' postReportCommunity - 400 ');
     return res.status(201).json({ 
-      msg : '신고 내용을 기록했습니다. ',
-      flag: false
+      msg : '신고 내역을 기록했습니다. ',
+      flag: true
     });
   
   } catch (err) {
@@ -167,8 +167,8 @@ export const postReportComment = async (req: Request, res: Response) => {
     
     logger.info(' postReportComment - 201 ');
     return res.status(201).json({ 
-      msg : '신고 내용을 기록했습니다.',
-      flag: false 
+      msg : '신고 내역을 기록했습니다.',
+      flag: true 
     });
 
   } catch (err) {
