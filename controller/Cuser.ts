@@ -68,9 +68,6 @@ export const postLogin = async (req: Request, res: Response) => {
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
         
-        console.log('user_id >>>>', user_id);
-        console.log('user_pw >>>>', user_pw);
-
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
@@ -86,10 +83,6 @@ export const postLogin = async (req: Request, res: Response) => {
         const user_num = user.user_num;
 
         const isPwCorrect = bcrypt.compareSync(user_pw, user.user_pw);
-        console.log('isPwCorrect >>>>', isPwCorrect);
-        console.log( user.user_pw);
-        
-        
         
         if (!isPwCorrect) {
             logger.error(' postUser - 401');
