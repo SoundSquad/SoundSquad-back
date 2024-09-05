@@ -33,12 +33,18 @@ export const searchArtist = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
         
     if (!artist_name || typeof artist_name !== 'string' || artist_name.trim() === '') {
-      logger.error(' searchArtist - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 아티스트 이름을 입력해주세요' });
+      logger.error(' searchArtist - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 아티스트 이름을 입력해주세요',
+        flag: false
+      });
     }
     if (isNaN(page) || page < 1 || !pageSize) {
       logger.error(' searchArtist - 400 ');
-      return res.status(400).json({ msg: '유효한 페이지 정보를 입력해주세요' });
+      return res.status(400).json({ 
+        msg: '유효한 페이지 정보를 입력해주세요',
+        flag: false 
+      });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -69,18 +75,28 @@ export const searchArtist = async (req: Request, res: Response) => {
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
       logger.error(' searchArtist - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false
+      });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'artists');
 
     logger.info(' searchArtist - 200 ');
-    return res.status(200).json({ msg: 'artist 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: 'artist 목록을 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true 
+    });
 
   } catch (err) {
     logger.error(' searchArtist - 500 ');
     console.error('artist 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'artist 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'artist 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -98,13 +114,19 @@ export const searchConcert = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
 
     if (!concert_title || typeof concert_title !== 'string' || concert_title.trim() === '') {
-      logger.error(' searchConcert - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 공연 제목을 입력해주세요' });
+      logger.error(' searchConcert - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 공연 제목을 입력해주세요',
+        flag: false
+      });
     }
     
     if (isNaN(page) || page < 1 || !pageSize ) {
       logger.error(' searchConcert - 400 ');
-      return res.status(400).json({ msg: '유효한 페이지 정보를 입력해주세요' });
+      return res.status(400).json({ 
+        msg: '유효한 페이지 정보를 입력해주세요',
+        flag: false 
+      });
     }
     
     const offset = pagination.offsetPagination(page, pageSize);
@@ -129,18 +151,28 @@ export const searchConcert = async (req: Request, res: Response) => {
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
       logger.error(' searchConcert - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false 
+      });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'concerts');
 
     logger.info(' searchConcert - 200 ');
-    return res.status(200).json({ msg: 'concert 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: 'concert 목록을 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true 
+    });
 
   } catch (err) {
     logger.error(' searchConcert - 500 ');
     console.error('artist 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'concert 검색 중 오류가 발생했습니다.',
+      flag: false
+    });
   }
 };
 
@@ -157,13 +189,19 @@ export const searchCategoryArtist = async( req : Request, res : Response )=>{
     const pageSize = parseInt(req.query.limit as string) || 6;
         
     if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
-      logger.error(' searchCategoryArtist - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 카테고리 이름을 입력해주세요' });
+      logger.error(' searchCategoryArtist - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 카테고리 이름을 입력해주세요',
+        flag: false 
+      });
     }
     
     if (isNaN(page) || page < 1 || !pageSize) {
       logger.error(' searchCategoryArtist - 400 ');
-      return res.status(400).json({ msg: '유효한 페이지 정보를 입력해주세요' });
+      return res.status(400).json({ 
+        msg: '유효한 페이지 정보를 입력해주세요',
+        flag: false 
+      });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -184,18 +222,28 @@ export const searchCategoryArtist = async( req : Request, res : Response )=>{
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
       logger.error(' searchCategoryArtist - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false 
+      });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'artists');
 
     logger.info(' searchCategoryArtist - 200 ');
-    return res.status(200).json({ msg: 'artist 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: 'artist 목록을 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true 
+    });
 
   }catch(err){
     logger.error(' searchCategoryArtist - 500 ');
     console.error('category 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'category 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'category 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 }
 /** 검색 4 . 카테고리로 공연 검색
@@ -213,13 +261,19 @@ export const searchCategoryConcert = async( req : Request, res : Response )=>{
         
     if (!category_name || typeof category_name !== 'string' || category_name.trim() === '') {
       
-      logger.error(' searchCategoryConcert - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 카테고리 이름을 입력해주세요' });
+      logger.error(' searchCategoryConcert - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 카테고리 이름을 입력해주세요',
+        flag: false 
+      });
     }
 
     if (isNaN(page) || page < 1 || !pageSize ) {
       logger.error(' searchCategoryConcert - 400 ');
-      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+      return res.status(400).json({ 
+        msg: '유효한 페이지 번호를 입력해주세요',
+        flag: false 
+      });
     }
     const vCategory = category_name.replace(/[%_\\]/g, '\\$&');
 
@@ -242,18 +296,28 @@ export const searchCategoryConcert = async( req : Request, res : Response )=>{
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
       logger.error(' searchCategoryConcert - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false 
+      });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'concerts');
 
     logger.info(' searchCategoryConcert - 200 ');
-    return res.status(200).json({ msg: 'concert 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: 'concert 목록을 성공적으로 불러왔습니다.',
+      data: result,
+      flag: true 
+    });
 
   }catch(err){
     logger.error(' searchCategoryConcert - 500 ');
     console.error('concert 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'concert 목록 검색 중 오류가 발생했습니다.',
+      flag: false
+    });
   }
 }
 
@@ -269,8 +333,11 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
     const concert_num = parseInt(req.query.concert_num as string) || undefined;
     
     if(!concert_num){
-      logger.error(' getDetailConcert - 400 ', req.query );
-      return res.status(400).json({ msg: '요청 대상이 잘못되었습니다.' });
+      logger.error(' getDetailConcert - 400 '+ req.query );
+      return res.status(400).json({ 
+        msg: '요청 대상이 잘못되었습니다.',
+        flag: false 
+      });
     }
 
     const result = await db.ConcertInfo.findOne({
@@ -282,7 +349,11 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
     });
 
     logger.info(' getDetailConcert - 201 ');
-    res.status(201).json({ msg : '데이터를 성공적으로 불러왔습니다.', data: result});
+    res.status(201).json({ 
+      msg : '데이터를 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true
+    });
     
     // 응답 이후 조회수 증가
     const newCount = (result?.info_click ?? 0) + 1;
@@ -298,7 +369,10 @@ export const getDetailConcert = async ( req : Request, res : Response )=>{
   }catch (err) {
     logger.error(' getDetailConcert - 500 ');
     console.error('concert 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'concert 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 }
 
@@ -316,13 +390,19 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(concert_num) || concert_num <= 0) {
-      logger.error(' getDetailConcertSquad - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 공연 번호를 입력해주세요' });
+      logger.error(' getDetailConcertSquad - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 공연 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (isNaN(page) || page < 1 || !pageSize) {
       logger.error(' getDetailConcertSquad - 400 ');
-      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+      return res.status(400).json({ 
+        msg: '유효한 페이지 번호를 입력해주세요',
+        flag: false 
+      });
     }
 
     const offset = pagination.offsetPagination(page, pageSize);
@@ -340,18 +420,28 @@ export const getDetailConcertSquad = async ( req : Request, res : Response )=>{
     const totalPages = Math.ceil(count / pageSize);
     if (page > totalPages) {
       logger.error(' getDetailConcertSquad - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false 
+      });
     }
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'squads');
 
     logger.info(' getDetailConcertSquad - 200 ');
-    return res.status(200).json({ msg: 'squad 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: 'squad 목록을 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true
+    });
   
   }catch (err) {
     logger.error(' getDetailConcertSquad - 500 ');
     console.error('squad 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'squad 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'squad 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 }
 
@@ -367,13 +457,19 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
     const artist_num = parseInt(req.query.artist_num as string);
 
     if (isNaN(artist_num) || artist_num <= 0) {
-      logger.error(' getDetailArtist - 400 ');
-      return res.status(400).json({ msg: '유효한 아티스트 번호를 입력해주세요' });
+      logger.error(' getDetailArtist - 400 '+ req.query );
+      return res.status(400).json({ 
+        msg: '유효한 아티스트 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (!Number.isInteger(artist_num)) {
       logger.error(' getDetailArtist - 400 ');
-      return res.status(400).json({ msg: '아티스트 번호는 정수여야 합니다' });
+      return res.status(400).json({ 
+        msg: '아티스트 번호는 정수여야 합니다',
+        flag: false 
+      });
     }
     const result = await db.Artists.findOne({
       where:{ artist_num },
@@ -386,7 +482,11 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
     });
 
     logger.info(' getDetailArtist - 201 ');
-    res.status(201).json({ msg : '데이터를 성공적으로 불러왔습니다.', data: result});
+    res.status(201).json({ 
+      msg : '데이터를 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true
+    });
     
     // 응답 이후 조회수 증가
     const newCount = (result?.profile_click ?? 0) + 1;
@@ -402,7 +502,10 @@ export const getDetailArtist = async ( req : Request, res : Response )=>{
   }catch (err) {
     logger.error(' getDetailArtist -500 ');
     console.error('concert 목록 검색 중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'concert 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'concert 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 }
 
@@ -420,18 +523,27 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(artist_num) || artist_num <= 0) {
-      logger.error(' getDetailArtistReview - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 아티스트 번호를 입력해주세요' });
+      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 아티스트 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (isNaN(page) || page < 1 || ! pageSize ) {
-      logger.error(' getDetailArtistReview - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 페이지 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (!Number.isInteger(artist_num)) {
-      logger.error(' getDetailArtistReview - 400 ', req.query);
-      return res.status(400).json({ msg: '아티스트 번호는 정수여야 합니다' });
+      logger.error(' getDetailArtistReview - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '아티스트 번호는 정수여야 합니다',
+        flag: false 
+      });
     }
 
     const totalCount = await db.ConcertReview.count({
@@ -464,18 +576,28 @@ export const getDetailArtistReview = async (req: Request, res: Response) => {
     const totalPages = Math.ceil(totalCount / pageSize);
     if (page > totalPages) {
       logger.error(' getDetailArtistReview - 404 ');
-      return res.status(404).json({ msg: '결과가 존재하지 않는 페이지입니다.' });
+      return res.status(404).json({ 
+        msg: '결과가 존재하지 않는 페이지입니다.',
+        flag: false 
+      });
     }
 
     const result = pagination.responsePagination(reviews, totalCount, page, pageSize, 'reviews');
 
     logger.info(' getDetailArtistReview - 200 ');
-    return res.status(200).json({ msg: '리뷰 목록을 성공적으로 불러왔습니다.', data: result });
+    return res.status(200).json({ 
+      msg: '리뷰 목록을 성공적으로 불러왔습니다.', 
+      data: result,
+      flag: true
+    });
     
   } catch (err) {
     logger.error(' getDetailArtistReview - 500 ');
     console.error('아티스트 공연 리뷰 목록 검색 중 오류 발생:', err);
-    return res.status(500).json({ msg: '아티스트 공연 리뷰 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '아티스트 공연 리뷰 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -493,18 +615,27 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
 
 
     if (isNaN(page) || page < 1) {
-      logger.error(' getSearchCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 페이지 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
-      logger.error(' getSearchCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 페이지 크기를 입력해주세요 (1-100)',
+        flag: false 
+      });
     }
     
     if (!search || typeof search !== 'string' || search.trim() === '') {
-      logger.error(' getSearchCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 검색어를 입력해주세요' });
+      logger.error(' getSearchCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 검색어를 입력해주세요',
+        flag: false 
+      });
     }
     
     // SQL 인젝션 방지를 위한 검색어 sanitize
@@ -531,18 +662,28 @@ export const getSearchCommunityList= async (req: Request, res: Response) => {
     const totalPages = Math.ceil(count / pageSize);
     if(page>totalPages){
       logger.error(' getSearchCommunityList - 404 ');
-      return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
+      return res.status(404).json({
+        msg : '게시글이 존재하지 않는 페이지 입니다.',
+        flag: false
+      });
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
 
     logger.info(' getSearchCommunityList - 200 ');
-    return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
+    return res.status(200).json({
+      msg : '게시글 목록을 성공적으로 불러왔습니다.', 
+      data : result,
+      flag: true 
+    });
   
   } catch (err) {
     logger.error(' getSearchCommunityList - 500 ');
     console.error('Community 게시글 목록 검색 중 오류 발생:', err);
-    return res.status(500).json({ msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -553,18 +694,27 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
     const pageSize = parseInt(req.query.limit as string) || 6;
     
     if (isNaN(page) || page < 1) {
-      logger.error(' getCategoryCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 페이지 번호를 입력해주세요' });
+      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 페이지 번호를 입력해주세요',
+        flag: false 
+      });
     }
     
     if (isNaN(pageSize) || pageSize < 1 || pageSize > 100) {
-      logger.error(' getCategoryCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 페이지 크기를 입력해주세요 (1-100)' });
+      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 페이지 크기를 입력해주세요 (1-100)',
+        flag: false 
+      });
     }
     
     if (!category || typeof category !== 'string' || category.trim() === '') {
-      logger.error(' getCategoryCommunityList - 400 ', req.query);
-      return res.status(400).json({ msg: '유효한 카테고리를 입력해주세요' });
+      logger.error(' getCategoryCommunityList - 400 '+ req.query);
+      return res.status(400).json({ 
+        msg: '유효한 카테고리를 입력해주세요',
+        flag: false 
+      });
     }
     
     const offset = pagination.offsetPagination(page, pageSize);
@@ -589,18 +739,28 @@ export const getCategoryCommunityList = async (req: Request, res: Response) => {
     const totalPages = Math.ceil(count / pageSize);
     if(page>totalPages){
       logger.error(' getCategoryCommunityList - 404 ');
-      return res.status(404).json({msg : '게시글이 존재하지 않는 페이지 입니다.'});
+      return res.status(404).json({
+        msg : '게시글이 존재하지 않는 페이지 입니다.',
+        flag: false
+      });
     };
 
     const result = pagination.responsePagination(rows, count, page, pageSize, 'posts');
 
     logger.info(' getCategoryCommunityList - 200 ');
-    return res.status(200).json({msg : '게시글 목록을 성공적으로 불러왔습니다.', data : result });
+    return res.status(200).json({
+      msg : '게시글 목록을 성공적으로 불러왔습니다.', 
+      data : result,
+      flag: true 
+    });
 
   } catch (err) {
     logger.error(' getCategoryCommunityList - 500 ');
     console.error('Community 게시글 목록 검색 중 오류 발생:', err);
-    return res.status(500).json({ msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Community 게시글 목록 검색 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
@@ -631,12 +791,21 @@ export const getSearchMain = async (req: Request, res: Response) => {
     });
 
     logger.info(' getSearchMain - 200 ');
-    return res.status(200).json({ msg: 'Sound_Squad 에 어서오세요!', artistResult, squadResult, currentDate });
+    return res.status(200).json({ 
+      msg: 'Sound_Squad 에 어서오세요!',
+      flag: true, 
+      artistResult, 
+      squadResult, 
+      currentDate 
+    });
   
   } catch (err) {
     logger.info(' getSearchMain - 500 ');
     console.error('목록을 불러오는 중 오류 발생:', err);
-    return res.status(500).json({ msg: '목록을 불러오는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '목록을 불러오는 중 오류가 발생했습니다.',
+      flag: false
+    });
   }
 };
 
@@ -647,11 +816,18 @@ export const getGenreList = async (req: Request, res: Response) => {
       'Classical','Country','Dance-Electronic','Folk', 'Hip-Hop-Rap','Holiday','Jazz',
       'Latin','Metal','New Age','Other','Pop','R&B','Reggae','Religious','Rock', 'Undefined','World'
     ]
-    return res.status(201).json({ msg : '장르 목록을 불러왔습니다.', genreList })
+    return res.status(201).json({ 
+      msg : '장르 목록을 불러왔습니다.', 
+      genreList,
+      flag: true 
+    })
 
   } catch (err) {
     logger.info(' getGenreList - 500 ');
     console.error('목록을 불러오는 중 오류 발생:', err);
-    return res.status(500).json({ msg: '목록을 불러오는 중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: '목록을 불러오는 중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };

@@ -28,8 +28,11 @@ export const postConcertReview = async (req: Request, res: Response) => {
     const {user_num, concert_num, creview_content } = req.body;
     
     if(!user_num || !concert_num || !creview_content ){
-      logger.error(' postConcertReview - 400 ', req.body );
-      return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
+      logger.error(' postConcertReview - 400 '+ req.body );
+      return res.status(400).json({ 
+        msg : '필수 정보가 누락되었습니다.',
+        flag: false 
+      });
     }
     
     const user = await db.User.findOne({
@@ -39,7 +42,10 @@ export const postConcertReview = async (req: Request, res: Response) => {
 
     if (!user || !concert) {
       logger.error(' postConcertReview - 404 ');
-      res.status(404).json({ msg: '존재하지 않는 대상에 대한 접근입니다.' });
+      res.status(404).json({ 
+        msg: '존재하지 않는 대상에 대한 접근입니다.',
+        flag: false
+      });
       return;
     }
 
@@ -51,11 +57,18 @@ export const postConcertReview = async (req: Request, res: Response) => {
     });
 
     logger.info(' postConcertReview - 201 ');
-    return res.status(201).json({ msg : '리뷰를 성공적으로 작성했습니다.', data : result });
+    return res.status(201).json({ 
+      msg : '리뷰를 성공적으로 작성했습니다.', 
+      data : result,
+      flag: true 
+    });
   } catch (err) {
     logger.error(' postConcertReview - 500 ');    
     console.error('Concert 리뷰 작성중 오류 발생했습니다.', err);
-    return res.status(500).json({ msg: 'Concert 리뷰 작성중 오류가 발생했습니다.' });
+    return res.status(500).json({ 
+      msg: 'Concert 리뷰 작성중 오류가 발생했습니다.',
+      flag: false 
+    });
   }
 };
 
