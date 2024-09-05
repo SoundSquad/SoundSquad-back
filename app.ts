@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from 'express';
+import express, { Express, NextFunction, Request, Response } from 'express';
 import logger from './config/loggerConfig';
 
 import sequelize  from './models';
@@ -24,7 +24,6 @@ app.use(cors({
 //   allowedHeaders : ['Content-Type','Authorization']
 // }))
 
-
 const today = new Date()
 const expireDate = new Date()
 expireDate.setDate(today.getDate() + 1)
@@ -39,6 +38,20 @@ app.use(session({
       expires : expireDate
     }    
 }));
+
+
+const sessionLoggingMiddleware = (req : Request, res :Response, next : NextFunction ) => {
+    logger.info('Session Data:', {
+        sessionID: req.sessionID,
+        sessionData: req.session,
+        user: (req.session as any).user || null,
+        url: req.url,
+        method: req.method
+    });
+        next();
+    };
+    
+    app.use(sessionLoggingMiddleware);
 
 app.get('/',(req,res)=>{
     logger.info('홈 페이지 방문');
