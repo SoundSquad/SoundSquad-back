@@ -12,7 +12,11 @@ const PORT: string | number = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+
+app.use(cors({
+    origin: 'http://localhost:3000', // 클라이언트 주소
+    credentials: true
+  }));
 
 // app.use(cors({
 //   origin : ['http://ex.com', 'http://ex2.com'],
