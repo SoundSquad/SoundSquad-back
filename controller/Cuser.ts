@@ -68,6 +68,9 @@ export const postLogin = async (req: Request, res: Response) => {
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
         }
         
+        console.log('user_id >>>>', user_id);
+        console.log('user_pw >>>>', user_pw);
+
         const user = await db.User.findOne({
             where: { user_id },
             attributes: ['user_pw', 'user_id', 'activate', 'user_num']
@@ -133,7 +136,7 @@ export const postLogin = async (req: Request, res: Response) => {
     } catch (err) {
         logger.error(' postUser - 500');
         console.error(err);
-        res.status(500).send('Internal Server Error');
+        res.status(500).json({msg : 'Internal Server Error'});
     }
 };
 
