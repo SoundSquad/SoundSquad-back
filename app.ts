@@ -17,7 +17,7 @@ app.use(cors({
     origin: 'http://localhost:3000',   
     methods: ['Get','Post','Delete','Patch'],
     credentials: true
-  }));
+}));
 
 // app.use(cors({
 //   origin : ['http://ex.com', 'http://ex2.com'],
@@ -44,6 +44,9 @@ app.use(session({
 app.use((req, res, next) => {
     if (req.sessionStore && typeof req.sessionStore.all === 'function') {
         req.sessionStore.all((err, sessions) => {
+            const sessionUserNum = ( req.session as any ).user?.user_num;
+            console.log('sessionUserNum >>>> ', sessionUserNum);
+            
             if (err) {
                 logger.error('세션 조회 중 오류 발생:', err);
                 console.error('세션 조회 중 오류 발생:', err);
