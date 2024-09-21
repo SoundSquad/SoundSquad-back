@@ -177,7 +177,8 @@ export const patchOpenSquad = async (req: Request, res: Response) => {
  * @param res 
  * @returns 
  */
-export const deleteOpenSquad = async (req: Request, res: Response) => {let transaction: Transaction | null = null;
+export const deleteOpenSquad = async (req: Request, res: Response) => {
+  let transaction: Transaction | null = null;
   
   try {
     const { squad_num, user_num } = req.body;
@@ -333,36 +334,37 @@ export const deleteLeaveSquad = async (req: Request, res: Response) => {
 
     transaction = await db.sequelize.transaction();
     
-    const tempData = await db.SquadInfo.findOne({
-      where:{ squad_num},
-      attributes:['member_num'],
+    const squadInfo = await db.SquadInfo.findOne({
+      where: { squad_num },
       lock: Transaction.LOCK.UPDATE,
       transaction
     });
-    
-    if( tempData?.member_num !== user_num ){
+
+    if( squadInfo?.member_num !== user_num || squadInfo?.member_num === null){
+      await transaction.rollback();
       logger.error(' deleteLeaveSquad - 403');
       return res.status(403).json({ 
         msg : '권한이 없는 접근입니다.',
         flag: false 
       });
     }
-
-    const squadInfo = await db.SquadInfo.findOne({
-      where: { squad_num },
-      lock: Transaction.LOCK.UPDATE,
-      transaction
-    });
     
-    if (squadInfo) {
+    if( squadInfo ) {
       squadInfo.member_num = null,
       await squadInfo.save({ transaction });
+    }else{
+      await transaction.rollback();
+      logger.error(' deleteLeaveSquad - 404');
+      return res.status(404).json({ 
+        msg : '존재하지 않는 스쿼드에 대한 접근입니다.',
+        flag: false 
+      });
     }
 
     await transaction.commit();
 
-    logger.info(' deleteLeaveSquad - 201');
-    return res.status(201).json({ 
+    logger.info(' deleteLeaveSquad - 200');
+    return res.status(200).json({ 
       msg: 'Squad 스쿼드를 떠나는 데 성공했습니다.',
       flag: true 
     }); 
