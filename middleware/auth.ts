@@ -5,9 +5,6 @@ import logger from '../config/loggerConfig';
 export const authenticateUser = ( req: Request, res: Response, next: NextFunction ) => {
   const sessionUserNum = ( req.session as any ).user?.user_num;
   const requestUserNum = getUserNum(req);
-  
-  console.log(sessionUserNum);
-  console.log(requestUserNum);
 
   if (sessionUserNum === undefined) {
     logger.info('authenticateUser - 401 ', sessionUserNum );
@@ -28,9 +25,6 @@ export const authenticateAdmin = ( req: Request, res: Response, next: NextFuncti
   const adminlevel = (req.session as any).user?.admin;
 
   const requestUserNum = getUserNum(req) || sessionUserNum;
-  console.log(sessionUserNum);
-  console.log(requestUserNum);
-  ;
   if ( sessionUserNum === undefined ) {
     logger.info('authenticateAdmin - 401 ', sessionUserNum );
     return res.status(401).json({ message: "접속 상태가 아닙니다. - auth" });

@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import url from 'url';
 import { UpdatedUserFields, UpdatedPasswordFields ,findSquadInfoReturn, userReviewObj , postUserFields } from '../modules/Muser';
 import logger from '../config/loggerConfig';
+import { log } from 'console';
 
 
 dotenv.config();
@@ -20,12 +21,6 @@ export const postUser = async (req: Request, res: Response) => {
         const { user_id, user_pw, user_gender, user_bd } = req.body;
         const hashedPw = bcrypt.hashSync(user_pw, saltRounds);
         let profile_img : string = '';
-        console.log('user_id',user_id);
-        console.log('user_pw',user_pw);
-        console.log('user_gender',user_gender);
-        console.log('user_bd', user_bd);
-                
-        
         
         if(!user_id||!user_pw||!user_gender||!user_bd){
             logger.error(' postUser - 400 ' );
@@ -72,6 +67,7 @@ export const postUser = async (req: Request, res: Response) => {
 export const postLogin = async (req: Request, res: Response) => {
     try {
         const { user_id, user_pw } = req.body;
+        
         if( !user_id || !user_pw ){
             logger.info(' postLogin - 400');
             return res.status(400).json({ msg : '필수 정보가 누락되었습니다.' });
