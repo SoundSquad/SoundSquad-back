@@ -26,11 +26,6 @@ export const getMypageUserInfo = async (req: Request, res: Response) => {
   try {
     const targetUserNum = parseInt(req.query.user_num as string);
     const nowUser = parseInt((req.session as any).user.user_num);
-    
-    console.log(targetUserNum);
-    console.log(nowUser)
-    
-    
 
     if(!targetUserNum){
       logger.error(' getMypageUserInfo - 400 ' );

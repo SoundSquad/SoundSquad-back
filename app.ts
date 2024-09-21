@@ -7,6 +7,7 @@ import session,{ MemoryStore } from 'express-session';
 import router from './routes/Rindex';
 
 import app from './config/winstonConfig';
+import { log } from 'console';
 
 const PORT: string | number = process.env.PORT || 3000;
 
